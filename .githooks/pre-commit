@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+set -e
+
+echo "🔒 檢查 A=A 強制驗證..."
+
+# 找出要 commit 的 .md 檔案
+STAGED_FILES=$(git diff --cached --name-only --diff-filter=ACM | grep '\.md$' || true)
+
+if [ -z "$STAGED_FILES" ]; then
+  exit 0
+fi
+
+# 檢查每個檔案是否在 SHA256SUMS 裡
+MISSING=0
+for file in $STAGED_FILES; do
+  if ! grep -q "  $file$" SHA256SUMS 2>/dev/null; then
+    echo "❌ 擋住: $file 沒有在 SHA256SUMS 登記"
+    MISSING=1
+  fi
+done
+
+if [ $MISSING -eq 1 ]; then
+  echo ""
+  echo "修復方法:"
+  echo "1. shasum -a 256 <file> >> SHA256SUMS"
+  echo "2. git add SHA256SUMS"
+  echo "3. 重新 commit"
+  exit 1
+fi
+
+echo "✅ 所有檔案已登記，A=A 驗證通過"
+exit 0
