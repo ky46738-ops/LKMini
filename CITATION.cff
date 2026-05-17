@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: LKMini
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: Yang
+    given-names: Kevin
+    alias: ky46738-ops
+    country: TW
+version: seed_v0
+date-released: 2026-05-17
+license: MIT
+repository-code: https://github.com/ky46738-ops/LKMini
+abstract: "LKMini is the minimal public seed of the LK System (老K系統). A=A."

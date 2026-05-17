@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LKMini — 老K系統公開種子</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0d1117; color: #c9d1d9; min-height: 100vh; padding: 2rem 1rem; }
+  .container { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: clamp(1.8rem, 5vw, 2.8rem); color: #f0f6fc; margin-bottom: 0.5rem; }
+  .badge { display: inline-block; background: #1f6feb; color: #fff; font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 999px; margin-bottom: 1.5rem; font-weight: 600; letter-spacing: 0.05em; }
+  .aa { color: #58a6ff; font-weight: 700; font-size: 1.1rem; margin: 1.5rem 0; }
+  section { margin: 2rem 0; border-top: 1px solid #21262d; padding-top: 1.5rem; }
+  h2 { color: #f0f6fc; font-size: 1.1rem; margin-bottom: 0.75rem; }
+  p, li { line-height: 1.7; color: #8b949e; max-width: 65ch; }
+  ul { padding-left: 1.25rem; }
+  li { margin-bottom: 0.4rem; }
+  .boundary { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem; }
+  .box { background: #161b22; border: 1px solid #21262d; border-radius: 8px; padding: 1rem; }
+  .box h3 { font-size: 0.85rem; margin-bottom: 0.5rem; }
+  .box.public h3 { color: #3fb950; }
+  .box.private h3 { color: #f85149; }
+  .box p { font-size: 0.82rem; color: #8b949e; }
+  .cta { display: inline-block; background: #238636; color: #fff; padding: 0.65rem 1.4rem; border-radius: 6px; text-decoration: none; font-weight: 600; margin-top: 1.5rem; font-size: 0.9rem; }
+  .cta:hover { background: #2ea043; }
+  footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #21262d; font-size: 0.8rem; color: #484f58; }
+  @media (max-width: 500px) { .boundary { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>🥃 LKMini</h1>
+  <span class="badge">Public Seed v0</span>
+  <p>老K系統（LK System）的最小公開種子。由 Kevin Yang 設計，台灣。</p>
+
+  <div class="aa">A = A</div>
+
+  <section>
+    <h2>什麼是 LKMini？</h2>
+    <p>LKMini 是 🥃老K系統的公開最小核心。它定義了公開與私有的邊界，提供可驗證的身份基礎，讓任何人都能確認這個系統的原創性與完整性。</p>
+  </section>
+
+  <section>
+    <h2>核心原則</h2>
+    <ul>
+      <li>單一核心架構（🥃永恆核心）</li>
+      <li>🎩大管家保護所有設定不被竄改</li>
+      <li>所有聲明必須可驗證（A=A）</li>
+      <li>公私邊界嚴格執行</li>
+      <li>SHA256 位元級驗證</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>公私邊界</h2>
+    <div class="boundary">
+      <div class="box public">
+        <h3>✅ 公開（此 Repo）</h3>
+        <p>種子文件、政策、驗證工具、授權、Gatekeeper</p>
+      </div>
+      <div class="box private">
+        <h3>🔒 私有（不在此）</h3>
+        <p>永恆核心內部設定、私有引擎群、個人資料</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>如何恢復</h2>
+    <ul>
+      <li>Clone 此 repo</li>
+      <li>執行 <code>python3 tools/verify_lkmini.py</code></li>
+      <li>查看 RESTORE.md 取得完整指引</li>
+    </ul>
+  </section>
+
+  <a href="https://github.com/ky46738-ops/LKMini" class="cta" target="_blank" rel="noopener">→ 查看 GitHub Repo</a>
+
+  <footer>
+    LKMini seed_v0 · Kevin Yang (ky46738-ops) · MIT License · 2026 · A_EQUALS_A=true
+  </footer>
+</div>
+</body>
+</html>

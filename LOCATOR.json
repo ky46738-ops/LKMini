@@ -1,0 +1,10 @@
+{
+  "name": "LKMini",
+  "type": "public_seed_locator",
+  "canonical_url": "https://github.com/ky46738-ops/LKMini",
+  "pages_url": "https://ky46738-ops.github.io/LKMini",
+  "author": "Kevin Yang (ky46738-ops)",
+  "version": "seed_v0",
+  "A_EQUALS_A": true,
+  "note": "This is the single canonical locator for LKMini public seed."
+}

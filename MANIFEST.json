@@ -1,0 +1,32 @@
+{
+  "name": "LKMini",
+  "version": "seed_v0",
+  "author": "Kevin Yang (ky46738-ops)",
+  "published": "2026-05-17",
+  "license": "MIT",
+  "type": "public_seed",
+  "A_EQUALS_A": true,
+  "PUBLIC_SEED_ONLY": true,
+  "files": [
+    "README.md",
+    "LICENSE",
+    "NOTICE.md",
+    "MANIFEST.json",
+    "LOCATOR.json",
+    "SNAPSHOT.json",
+    "ReverseChain.json",
+    "RESTORE.md",
+    "SECURITY.md",
+    "CONTRIBUTING.md",
+    "VERSION.md",
+    "PUBLIC_PRIVATE_BOUNDARY.md",
+    "ETERNAL_CORE_POLICY.md",
+    "GOVERNANCE.md",
+    "THREAT_MODEL.md",
+    "CITATION.cff",
+    ".github/CODEOWNERS",
+    ".github/workflows/gatekeeper.yml",
+    "tools/verify_lkmini.py",
+    "tools/package_seed.py"
+  ]
+}

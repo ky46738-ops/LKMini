@@ -1,0 +1,16 @@
+{
+  "snapshot_id": "seed_v0",
+  "timestamp": "2026-05-17T10:00:00Z",
+  "author": "Kevin Yang (ky46738-ops)",
+  "repo": "ky46738-ops/LKMini",
+  "status": {
+    "PUBLIC_REPO": true,
+    "GATEKEEPER_DEPLOYED": true,
+    "PUBLIC_PRIVATE_BOUNDARY_DEFINED": true,
+    "SHA256SUMS_STATUS": "PLACEHOLDER",
+    "SEED_TAG_CREATED": true,
+    "A_EQUALS_A": true,
+    "CORE_DIRECTION_CORRECT": true,
+    "FULL_IMMUTABLE_RUNTIME_NOT_FINISHED": true
+  }
+}
