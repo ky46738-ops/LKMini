@@ -5,41 +5,29 @@
 
 ---
 
-## Attribution
-
-- **Original Author:** ky46738-ops
-- **System Name:** 🥃老K系統 (LK System)
-- **Public Seed Name:** LKMini
-- **First Published:** 2026-05-17
-- **License:** MIT
-
----
-
 ## What is LKMini?
 
-LKMini is the minimal public seed of the LK System architecture.  
-It defines the boundary between public-facing components and private engine internals.  
-All modules, roles, engines, and UI must mount to the single 🥃永恆核心 (Eternal Core).  
-No parallel cores. No bypassing the core. No overwriting protected settings.
-
----
-
-## Core Principles
+LKMini is the **minimal** public seed of the LK System architecture.  
+It defines the boundary between public-facing components and private engine internals.
 
 - Single core architecture (🥃永恆核心)
 - Gatekeeper role (🎩大管家) protects all settings
 - Public/Private boundary enforced at repo level
 - All claims must be verifiable and traceable
-- A_EQUALS_A=true
+- **A_EQUALS_A=true**
 
----
+## Files in this seed
 
-## Verification
-
-This repository is protected by the Gatekeeper workflow.  
-All required files are hash-verified via SHA256SUMS on every push.
-
----
+| File | Purpose |
+|------|----------|
+| README.md | This file |
+| LICENSE | MIT open source license |
+| NOTICE.md | Authorship attribution |
+| LKMini.svg | Official logo |
+| PUBLIC_PRIVATE_BOUNDARY.md | Public/private boundary definition |
+| .github/workflows/gatekeeper.yml | CI integrity check |
+| tools/verify_lkmini.py | Verification tool |
+| SHA256SUMS | Hash verification |
 
 ## License
 

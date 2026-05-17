@@ -6,14 +6,14 @@ This document defines the boundary between public (LKMini) and private (🥃老K
 
 ## ✅ Public (This Repo — LKMini)
 
-- README.md — Project overview
-- LICENSE — MIT open source license
-- NOTICE — Authorship attribution
-- MANIFEST — File registry
-- PUBLIC_PRIVATE_BOUNDARY.md — This file
-- SHA256SUMS — Hash verification
-- .github/workflows/gatekeeper.yml — CI integrity check
-- Any files explicitly marked as PUBLIC
+- README.md
+- LICENSE
+- NOTICE.md
+- LKMini.svg
+- PUBLIC_PRIVATE_BOUNDARY.md
+- SHA256SUMS
+- .github/workflows/gatekeeper.yml
+- tools/verify_lkmini.py
 
 ---
 
@@ -21,20 +21,12 @@ This document defines the boundary between public (LKMini) and private (🥃老K
 
 - 🥃永恆核心 (Eternal Core) internal configuration
 - 🎩大管家 (Gatekeeper) role logic and rules
-- PRIVATE_ENGINE_FLEET — Private engine registry
-- ENGINE_ANCHOR_TEMPLATE — Internal engine templates
-- ENGINE_REGISTRY_PRIVATE — Private module registry
+- PRIVATE_ENGINE_FLEET
+- ENGINE_REGISTRY_PRIVATE
 - Any personal data, API keys, tokens, or credentials
 - Internal system automation (Shortcuts, URL Schemes)
 
 ---
 
-## Enforcement
-
-The Gatekeeper workflow will FAIL if any private markers  
-(`PRIVATE_ENGINE`, `ENGINE_REGISTRY_PRIVATE`) are detected in public files.
-
----
-
-A_EQUALS_A=true  
+A_EQUALS_A=true
 BOUNDARY_VERSION=seed_v0
