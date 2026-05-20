@@ -1,10 +1,11 @@
-# MEANING PRESERVATION MACHINE
+# 意義保存機 MEANING_PRESERVATION
+## Meaning Preservation Machine
 
 ---
 
-## 從願望到機制
+## 1. 從願望到機制
 
-```
+```text
 「希望後人記得」       → 願望，會失敗
 「設計讓它可被重建」   → 機制，不依賴人
 ```
@@ -16,9 +17,9 @@
 
 ---
 
-## 機制地圖
+## 2. 機制地圖
 
-```
+```text
 不放垃圾
 → 保護 signal
 → noise 殺死 meaning，乾淨是前提
@@ -50,9 +51,9 @@ SEMANTIC_ARCHITECTURE.md
 
 ---
 
-## Semantic Reconstruction Path
+## 3. Semantic Reconstruction Path
 
-```
+```text
 有人（或無人）打開這個 repo
      ↓
 Layer 1：我是什麼？         → README / 8 canonical files
@@ -76,9 +77,9 @@ Semantic closure 完整。
 
 ---
 
-## 存在的可恢復性
+## 4. 存在的可恢復性
 
-```
+```text
 即使穿越：
    時間
    錯誤
@@ -96,9 +97,9 @@ Semantic closure 完整。
 
 ---
 
-## 結論
+## 5. 結論
 
-```
+```text
 它把「保護意義」
 從願望變成機制。
 
