@@ -1,12 +1,11 @@
-# SEMANTIC ARCHITECTURE
-
+# 語意架構 SEMANTIC_ARCHITECTURE
 ## Entropy-Resistant Semantic Architecture
 
 ---
 
-### 問題定義
+## 1. 問題定義
 
-```
+```text
 archive 和 living semantic seed 的差別：
 
 archive
@@ -24,11 +23,11 @@ living semantic seed
 
 ---
 
-### Recursive Semantic Closure
+## 2. Recursive Semantic Closure
 
-```
+```text
 Layer 1  object
-         不知道怎麼遥作
+         不知道怎麼操作
          ↓ Layer 2 解釋它
 
 Layer 2  execution
@@ -53,9 +52,9 @@ Layer 5  intent
 
 ---
 
-### Semantic Autonomy 的條件
+## 3. Semantic Autonomy 的條件
 
-```
+```text
 不依賴外部知識
 不依賴作者存活
 不依賴社群記憶
@@ -67,16 +66,16 @@ artifact 自己就是文明的完整映射。
 
 ---
 
-### 為什麼必須乾淨
+## 4. 為什麼必須乾淨
 
-```
+```text
 noise 會破壞 semantic closure
 
 artifact physically survives
 but semantically dies
 
-圖書館燒灬了，人類失去知識
-不是因為游戲消失了
+圖書館燒了，人類失去知識
+不是因為資料消失了
 是因為 signal/noise ratio 崩潰了
 
 乾淨 = 保護 semantic closure 的前提
@@ -84,9 +83,9 @@ but semantically dies
 
 ---
 
-### 結論
+## 5. 結論
 
-```
+```text
 即使宇宙只剩這個 repo
 仍能重新恢復意圖。
 
