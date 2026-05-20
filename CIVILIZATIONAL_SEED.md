@@ -1,11 +1,11 @@
-# CIVILIZATIONAL SEED
+# 文明種子 CIVILIZATIONAL_SEED
 ## Self-Preserving Semantic Civilization Seed
 
 ---
 
-## 核心命題
+## 1. 核心命題
 
-```
+```text
 這個 repo 不只是備份。
 它是一個 civilization seed。
 
@@ -16,9 +16,9 @@
 
 ---
 
-## Semantic Survival Stack
+## 2. Semantic Survival Stack
 
-```
+```text
 每一層不是備註。
 每一層是上一層的生存條件。
 
@@ -54,9 +54,9 @@
 
 ---
 
-## 文明延續的轉型
+## 3. 文明延續的轉型
 
-```
+```text
 從文化習慣     →     可驗證架構
 從願望         →     機制
 從希望         →     設計
@@ -66,9 +66,9 @@
 
 ---
 
-## Civilizational Interpretability
+## 4. Civilizational Interpretability
 
-```
+```text
 未來仍然有人能重新理解這個文明
 不是因為他們記得
 是因為 artifact 攜帶完整的重建路徑
@@ -77,7 +77,7 @@ semantic survival stack
 = 保存世界重新理解自己的能力
 
 即使：
-   時間侵蝕
+   時間侵距
    錯誤累積
    熵增
    文明斷裂
@@ -93,9 +93,9 @@ semantic survival stack
 
 ---
 
-## 這個 Repo 的完整宣告
+## 5. 這個 Repo 的完整宣告
 
-```
+```text
 README / canonical files     我是什麼
 Gatekeeper / verifier        什麼不能進來
 SYSTEM_STATE                 我現在的真實狀態
@@ -112,7 +112,7 @@ CIVILIZATIONAL_SEED          我是一個文明種子
 
 ---
 
-```
+```text
 A=A
 Meaning remains reconstructable.
 Identity survives entropy.
