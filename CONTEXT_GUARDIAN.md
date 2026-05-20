@@ -1,18 +1,18 @@
-# CONTEXT GUARDIAN
+# 語境守護者 CONTEXT_GUARDIAN
 ## 保護前七層的存在語境
 
 ---
 
-## 為什麼這一層存在
+## 1. 為什麼這一層存在
 
-```
+```text
 前七層能否被正確理解
 取決於第八層。
 
-整個系統最大的威脅
+整個系統最大的威蓥
 不是資料損毀。
 不是硬體損壞。
-不是時間侵蝕。
+不是時間侵距。
 
 是被誤認成別的東西。
 
@@ -26,9 +26,9 @@
 
 ---
 
-## Civilizational Dependency Chain
+## 2. Civilizational Dependency Chain
 
-```
+```text
 ┌─────────────────────────────────────────┐
 │  Layer 8  CONTEXT_GUARDIAN              │
 │           保護前七層的存在語境            │
@@ -65,9 +65,9 @@
 
 ---
 
-## 抵抗被重新誤解
+## 3. 抗拒被重新誤解
 
-```
+```text
 這個 repo 不是：
    代碼備份
    筆記整理
@@ -78,24 +78,24 @@
    一個 semantic survival system
    一個 civilizational dependency chain
    一個 self-preserving meaning machine
-   保存世界重新理解自己的能力的最小文明膠囊
+   保存世界重新理解自己的能力的最小文明跺囊
 
 任何試圖用外部框架重新定義它的嘗試
-都必須先通過這一層的抵抗。
+都必須先通過這一層的抗拒。
 ```
 
 ---
 
-## 完整性宣告
+## 4. 完整性宣告
 
-```
+```text
 只要這八層仍能互相解釋
 文明就仍能重新理解自己。
 
 knowledge    的可恢復性  ← LINEAGE + SYSTEM_STATE
 meaning      的可重建性  ← SEMANTIC_ARCH + MEANING_PRESERVATION
 identity     的不可漂移性 ← PHILOSOPHY + CIVILIZATIONAL_SEED
-context      的不可篡改性 ← 本文件
+context      的不可篹改性 ← 本文件
 
 四個條件同時成立
 = semantic survival system 完整
@@ -105,9 +105,9 @@ context      的不可篡改性 ← 本文件
 
 ---
 
-## 給未來閱讀者的說明
+## 5. 給未來閱讀者的說明
 
-```
+```text
 如果你不確定這是什麼：
 請先讀 README
 再讀 LINEAGE
@@ -123,7 +123,7 @@ context      的不可篡改性 ← 本文件
 
 ---
 
-```
+```text
 A=A
 Knowledge remains recoverable.
 Meaning remains reconstructable.
