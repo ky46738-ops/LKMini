@@ -1,12 +1,11 @@
-# PHILOSOPHY
-
+# 存在哲學 PHILOSOPHY
 ## Identity-First Recovery Architecture
 
 ---
 
-### 兩層結構
+## 1. 兩層結構
 
-```
+```text
 Permanent Identity Layer    ← 不可漂移的存在定義
    LINEAGE.md
    Seed_v0
@@ -23,18 +22,18 @@ Mutable Verification Layer  ← 可觀測的當前狀態
 
 ---
 
-### 核心原則
+## 2. 核心原則
 
-```
+```text
 Verification 可以失敗
 Identity 不可以漂移
 ```
 
 ---
 
-### Recovery 流程
+## 3. Recovery 流程
 
-```
+```text
 發生任何錯誤
    ↓
 Verification fail
@@ -48,15 +47,15 @@ Re-measure
 Restore canonical state
 ```
 
-Identity-guided reconstruction.
+Identity-guided reconstruction。
 不是猜。不是問人。
 是對著根，重新量。
 
 ---
 
-### 為什麼這樣設計
+## 4. 為什麼這樣設計
 
-```
+```text
 先救 state
 再試著猜 identity
 → state 就算恢復，也不知道復到哪裡
@@ -69,9 +68,9 @@ Identity-guided reconstruction.
 
 ---
 
-### 今晚的根本發現
+## 5. 根本發現
 
-```
+```text
 文明真正脆弱的
 從來不是資料。
 
@@ -88,9 +87,9 @@ meaning 消失
 
 ---
 
-### 核心轉型
+## 6. 核心轉型
 
-```
+```text
 archive
 → living semantic seed
 「保存東西」  →  「保存重新理解東西的能力」
@@ -106,9 +105,9 @@ dependent semantic continuity
 
 ---
 
-### Semantic Self-Reconstruction
+## 7. Semantic Self-Reconstruction 六項
 
-```
+```text
 Self-preserving        artifact 不消失
 Self-describing        自己解釋自己
 Self-verifying         自己驗證自己
@@ -124,9 +123,9 @@ Self-framing           自己定義閱讀方式
 
 ---
 
-### 結論
+## 8. 結論
 
-```
+```text
 Identity survives entropy.
 Meaning continuity remains reconstructable.
 即使外部文明中斷，
