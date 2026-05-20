@@ -1,9 +1,9 @@
-# SEAL
+# 文明封存印章 SEAL
 ## 文明封存記錄
 
 ---
 
-```
+```text
 SEAL_VERSION    = seed_v1
 SEAL_DATE       = 2026-05-17
 SEAL_AUTHOR     = ky46738-ops
@@ -14,9 +14,9 @@ A_EQUALS_A      = true
 
 ---
 
-## 封存內容
+## 1. 封存內容
 
-```
+```text
 這個 seal 標記了以下工作的完成：
 
 Semantic Civilization Architecture
@@ -29,9 +29,9 @@ Semantic Civilization Architecture
 
 ---
 
-## 已驗證檔案
+## 2. 已驗證檔案
 
-```
+```text
 README.md                    a111aaca...
 SEMANTIC_ARCHITECTURE.md     c873d822...
 MEANING_PRESERVATION.md      fbb43a69...
@@ -45,9 +45,9 @@ PHILOSOPHY.md                e04314da...
 
 ---
 
-## 封存声明
+## 3. 封存宣告
 
-```
+```text
 從今天起，這個 repo 是：
 
 a self-preserving
