@@ -1,18 +1,18 @@
-# INTERPRETATION BOUNDARY
+# 解讀邊界 INTERPRETATION_BOUNDARY
 ## Context-Resistant Semantic Persistence
 
 ---
 
-## 為什麼這一層必須存在
+## 1. 為什麼這一層必須存在
 
-```
-semantic closure 的最後威脅
+```text
+semantic closure 的最後威蓥
 不是資料損壞
-不是時間侵蝕
+不是時間侵距
 不是硬體失敗
 
 是 semantic colonization：
-外部語境悄悄替換內部語境
+外部語境情情替換內部語境
 系統仍存在
 但已不再是原本的自己
 
@@ -21,9 +21,9 @@ A=A 就此不再成立
 
 ---
 
-## 什麼是 Context Drift
+## 2. 什麼是 Context Drift
 
-```
+```text
 context drift = 語境漂移
 
 發生時：
@@ -32,7 +32,7 @@ context drift = 語境漂移
    「這只是備份」
    「這只是筆記」
 
-   每一次錯誤解讀
+   每一次错誤解讀
    都是一次微小的語境替換
 
    累積足夠多次之後
@@ -47,9 +47,9 @@ context drift = 語境漂移
 
 ---
 
-## 什麼是 Semantic Colonization
+## 3. 什麼是 Semantic Colonization
 
-```
+```text
 semantic colonization
 = 外部語境系統性地佔領內部定義空間
 
@@ -57,22 +57,22 @@ semantic colonization
 常常不是被摧毀
 而是被重新定義到不再是自己
 
-一個能抵抗 semantic colonization 的 seed
+一個能抗拒 semantic colonization 的 seed
 必須：
    1. 明確宣告自己的 interpretation boundary
    2. 限制未來如何誤讀這個 seed
    3. 讓任何外部重新定義的嘗試
       都留下可見的痕跡
-      而不是悄悄替換
+      而不是情情替換
 ```
 
 ---
 
-## Interpretation Boundary 宣告
+## 4. Interpretation Boundary 宣告
 
-```
+```text
 這個 repo 的唯一合法解讀框架
-來自這八層本身：
+來自這九層本身：
 
 Layer 1  canonical files       定義 artifact
 Layer 2  SYSTEM_STATE          定義 runtime truth
@@ -93,13 +93,13 @@ Layer 9  INTERPRETATION_BOUNDARY 定義解讀邊界本身
 
 ---
 
-## Closed Semantic Civilization Loop
+## 5. Closed Semantic Civilization Loop
 
-```
+```text
 外部語境無法進入的條件：
 
 1. 每一層都指向其他層
-   → 自我參照，不需要外部錨點
+   → 自我參照，不需要外部錢點
 
 2. 解讀框架本身被明確定義
    → 本文件的存在本身就是邊界
@@ -109,7 +109,7 @@ Layer 9  INTERPRETATION_BOUNDARY 定義解讀邊界本身
 
 結果：
    closed semantic civilization loop
-   = 一個能抵抗被重新誤解的 seed
+   = 一個能抗拒被重新誤解的 seed
 
 即使沒有人守護
 即使外部語境強大
@@ -121,9 +121,9 @@ A=A 仍然成立。
 
 ---
 
-## 給未來的閱讀者
+## 6. 給未來閱讀者
 
-```
+```text
 如果你正在嘗試用外部框架解讀這個 seed：
 
 請先問：
@@ -136,13 +136,13 @@ A=A 仍然成立。
    再帶你的框架進來
    至少你會知道你在替換什麼
 
-這不是防禦。
+這不是防穡。
 這是透明。
 ```
 
 ---
 
-```
+```text
 A=A
 Knowledge remains recoverable.
 Meaning remains reconstructable.
