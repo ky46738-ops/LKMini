@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="mathBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf8f0"/>
+      <stop offset="100%" stop-color="#fef9f2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#mathBg)"/>
+  <g stroke="#e8d8c0" stroke-width="0.8" opacity="0.6">
+    <line x1="0" y1="42" x2="1200" y2="42"/><line x1="0" y1="84" x2="1200" y2="84"/>
+    <line x1="0" y1="126" x2="1200" y2="126"/><line x1="0" y1="168" x2="1200" y2="168"/>
+    <line x1="0" y1="210" x2="1200" y2="210"/><line x1="0" y1="252" x2="1200" y2="252"/>
+    <line x1="0" y1="294" x2="1200" y2="294"/><line x1="0" y1="336" x2="1200" y2="336"/>
+    <line x1="0" y1="378" x2="1200" y2="378"/><line x1="0" y1="420" x2="1200" y2="420"/>
+    <line x1="0" y1="462" x2="1200" y2="462"/><line x1="0" y1="504" x2="1200" y2="504"/>
+    <line x1="0" y1="546" x2="1200" y2="546"/>
+    <line x1="42" y1="0" x2="42" y2="630"/><line x1="126" y1="0" x2="126" y2="630"/>
+    <line x1="210" y1="0" x2="210" y2="630"/><line x1="294" y1="0" x2="294" y2="630"/>
+    <line x1="378" y1="0" x2="378" y2="630"/><line x1="462" y1="0" x2="462" y2="630"/>
+    <line x1="546" y1="0" x2="546" y2="630"/><line x1="630" y1="0" x2="630" y2="630"/>
+    <line x1="714" y1="0" x2="714" y2="630"/><line x1="798" y1="0" x2="798" y2="630"/>
+    <line x1="882" y1="0" x2="882" y2="630"/><line x1="966" y1="0" x2="966" y2="630"/>
+    <line x1="1050" y1="0" x2="1050" y2="630"/><line x1="1134" y1="0" x2="1134" y2="630"/>
+  </g>
+  <text x="72" y="120" font-family="serif" font-size="72" fill="#e8a0a0" opacity="0.7" transform="rotate(-10,72,120)">ㄅ</text>
+  <text x="1050" y="140" font-family="serif" font-size="80" fill="#a0c8e8" opacity="0.7" transform="rotate(8,1050,140)">夕</text>
+  <text x="500" y="100" font-family="serif" font-size="40" fill="#f0b830" opacity="0.8">★</text>
+  <text x="1080" y="350" font-family="serif" font-size="50" fill="#f0b830" opacity="0.6" font-weight="bold">+</text>
+  <text x="450" y="560" font-family="serif" font-size="40" fill="#e8a0a0" opacity="0.6">－</text>
+  <text x="720" y="570" font-family="serif" font-size="40" fill="#e080a0" opacity="0.6">×</text>
+  <text x="950" y="590" font-family="serif" font-size="70" fill="#80c880" opacity="0.6">ㄇ</text>
+  <text x="1120" y="130" font-family="serif" font-size="45" fill="#9090e0" opacity="0.6">÷</text>
+  <rect x="55" y="200" width="18" height="120" rx="4" fill="#5090e0" transform="rotate(-15,64,260)"/>
+  <polygon points="55,320 73,320 64,345" fill="#f0d0a0" transform="rotate(-15,64,260)"/>
+  <rect x="60" y="370" width="100" height="120" rx="6" fill="#f5e8c8" stroke="#d0b880" stroke-width="2"/>
+  <line x1="85" y1="370" x2="85" y2="490" stroke="#d0b880" stroke-width="2"/>
+  <text x="120" y="430" text-anchor="middle" font-family="serif" font-size="18" fill="#806040">2+3=5</text>
+  <rect x="220" y="160" width="760" height="280" rx="20" fill="none" stroke="#d4a870" stroke-width="2.5"/>
+  <text x="260" y="240" font-family="Arial, sans-serif" font-size="52" font-weight="900" fill="#4a90d0">M</text>
+  <text x="300" y="240" font-family="Arial, sans-serif" font-size="52" font-weight="900" fill="#e87060">i</text>
+  <text x="325" y="240" font-family="Arial, sans-serif" font-size="52" font-weight="900" fill="#50b870">n</text>
+  <text x="368" y="240" font-family="Arial, sans-serif" font-size="52" font-weight="900" fill="#e0a030">i</text>
+  <text x="600" y="310" text-anchor="middle" font-family="'Microsoft JhengHei', 'PingFang TC', sans-serif" font-size="88" font-weight="900" fill="#2c1a0e" letter-spacing="4">注音數學講義</text>
+  <text x="600" y="390" text-anchor="middle" font-family="'Microsoft JhengHei', 'PingFang TC', sans-serif" font-size="36" fill="#4a3828" letter-spacing="2">看題目、讀注音、會算式</text>
+  <rect x="270" y="398" width="120" height="4" rx="2" fill="#4a90d0"/>
+  <rect x="420" y="398" width="120" height="4" rx="2" fill="#50b870"/>
+  <rect x="570" y="398" width="120" height="4" rx="2" fill="#e87060"/>
+  <rect x="720" y="398" width="120" height="4" rx="2" fill="#e0a030"/>
+  <g transform="translate(1050, 550)">
+    <rect x="-48" y="-36" width="96" height="42" rx="8" fill="none" stroke="#4a90d0" stroke-width="2"/>
+    <text x="0" y="-8" text-anchor="middle" font-size="22" font-family="Arial, sans-serif" font-weight="bold" fill="#4a90d0">mini</text>
+  </g>
+</svg>
