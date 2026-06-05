@@ -22,13 +22,7 @@
   --radius:14px;
   --shadow:0 2px 12px rgba(100,60,0,.10);
 }
-html,body{height:100%;}
-body{
-  font-family:var(--font-body);
-  background:var(--bg);
-  color:var(--text);
-  line-height:1.6;
-}
+body{font-family:var(--font-body);background:var(--bg);color:var(--text);line-height:1.6;min-height:100dvh;}
 header{
   position:sticky;top:0;z-index:10;
   background:rgba(253,249,240,.93);
@@ -36,83 +30,97 @@ header{
   border-bottom:1px solid var(--border);
   padding:10px 16px;
 }
-.hrow{display:flex;align-items:center;gap:12px;max-width:860px;margin:0 auto;}
-h1{font-family:var(--font-serif);font-size:18px;font-weight:900;color:var(--accent);}
+.hrow{display:flex;align-items:center;gap:10px;max-width:900px;margin:0 auto;flex-wrap:wrap;}
+h1{font-family:var(--font-serif);font-size:18px;font-weight:900;color:var(--accent);flex:1;min-width:160px;}
 .badge{font-size:11px;background:var(--accent);color:#fff;padding:2px 9px;border-radius:999px;}
-main{max-width:860px;margin:0 auto;padding:20px 16px 80px;}
-.card{
-  background:var(--surface);
-  border:1px solid var(--border);
-  border-radius:var(--radius);
-  padding:16px;
-  margin-bottom:16px;
-  box-shadow:var(--shadow);
+.ctrl-bar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;}
+.btn{
+  padding:7px 16px;border-radius:999px;border:1px solid var(--border);
+  background:var(--surface);font-family:var(--font-body);font-size:13px;
+  cursor:pointer;color:var(--muted);transition:all .18s ease;
+  display:flex;align-items:center;gap:5px;
 }
-.meta{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:12px;}
+.btn:hover{background:var(--accent);color:#fff;border-color:var(--accent);}
+.btn.primary{background:var(--accent);color:#fff;border-color:var(--accent);}
+.btn.primary:hover{background:#a05a08;}
+.btn.green{background:var(--accent2);color:#fff;border-color:var(--accent2);}
+.btn.green:hover{background:#3e6a28;}
+select{
+  padding:6px 12px;border-radius:999px;border:1px solid var(--border);
+  background:var(--surface);font-family:var(--font-body);font-size:13px;color:var(--text);cursor:pointer;
+}
+main{max-width:900px;margin:0 auto;padding:20px 16px 100px;}
+.back-link{display:inline-block;margin-bottom:16px;font-size:13px;color:var(--muted);text-decoration:none;}
+.back-link:hover{color:var(--accent);}
+#stage{min-height:320px;}
+.card{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius);padding:20px 22px;width:100%;
+  box-shadow:var(--shadow);animation:fadeIn .3s ease;
+}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.meta{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:16px;}
 .qno{font-family:var(--font-serif);font-weight:900;font-size:22px;color:var(--accent);}
 .tags{font-size:12px;color:var(--muted);}
 
-/* ── 課本直排注音 ── */
+/* 直排題目 */
 .vertical{
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-  font-family: var(--font-serif);
-  font-size: 24px;
-  line-height: 2.2;
-  letter-spacing: .06em;
-  color: var(--text);
-  min-height: 60px;
-  padding: 8px 0;
-}
-.vertical ruby{ ruby-position: inter-character; }
-.vertical rt{
-  font-size: 13px;
-  font-family: var(--font-serif);
-  color: #8a6030;
-  letter-spacing: .04em;
-}
-@supports not (ruby-position: inter-character){
-  .vertical ruby{ ruby-position: over; }
-}
-
-.answer{
-  margin-top:14px;
-  padding:10px 14px;
-  background:#f0f8e8;
-  border-radius:10px;
-  border:1px solid #c8e0a8;
-  font-size:18px;
+  writing-mode:vertical-rl;
+  text-orientation:mixed;
   font-family:var(--font-serif);
-  color:var(--accent2);
+  font-size:26px;
+  line-height:2.6;
+  letter-spacing:.08em;
+  color:var(--text);
+  min-height:100px;
+  padding:8px 4px;
+}
+/* 注音在字右邊 */
+.vertical ruby{ruby-position:inter-character;}
+.vertical rt{
+  font-size:12px;
+  font-family:var(--font-serif);
+  color:#8a6030;
+  letter-spacing:.02em;
+}
+@supports not (ruby-position:inter-character){
+  .vertical ruby{ruby-position:over;}
+}
+/* 數字橫向嵌入直排 */
+.vertical .num{
+  text-combine-upright:all;
+  -webkit-text-combine:horizontal;
+  font-size:0.75em;
+  letter-spacing:0;
+  font-family:var(--font-body);
+}
+/* 朗讀高亮 */
+.speaking{border-color:var(--accent)!important;box-shadow:0 0 0 2px rgba(192,112,16,.2)!important;}
+.speaking .vertical{color:var(--accent);}
+/* 答案區 → 強制橫排 */
+.answer{
+  margin-top:18px;padding:12px 16px;
+  background:#f0f8e8;border-radius:10px;border:1px solid #c8e0a8;
+  writing-mode:horizontal-tb;
+  text-orientation:mixed;
+  font-size:19px;font-family:var(--font-serif);color:var(--accent2);
 }
 .answer .label{font-weight:700;margin-right:6px;}
 .hidden{display:none!important}
-.toggle-btn{
-  margin-top:12px;
-  padding:7px 18px;
-  border-radius:999px;
-  border:1px solid var(--border);
-  background:var(--surface);
-  font-family:var(--font-body);
-  font-size:13px;
-  cursor:pointer;
-  color:var(--muted);
-  transition:all .18s ease;
+.card-btns{margin-top:14px;display:flex;gap:8px;flex-wrap:wrap;}
+.progress{font-size:12px;color:var(--muted);margin-bottom:14px;}
+.progress strong{color:var(--accent);}
+.empty-state{padding:60px 20px;text-align:center;color:var(--muted);font-size:15px;}
+@media(max-width:480px){
+  .vertical{font-size:21px;line-height:2.3;}
+  .qno{font-size:18px;}
 }
-.toggle-btn:hover{background:var(--accent);color:#fff;border-color:var(--accent);}
-.back-link{
-  display:inline-block;
-  margin-bottom:16px;
-  font-size:13px;
-  color:var(--muted);
-  text-decoration:none;
-}
-.back-link:hover{color:var(--accent);}
 @media print{
   header{position:static;border-bottom:none;}
-  .toggle-btn,.answer,.back-link{display:none!important;}
+  .ctrl-bar,.card-btns,.back-link{display:none!important;}
   body{background:#fff;color:#000;}
   .card{box-shadow:none;border-color:#ccc;break-inside:avoid;}
+  .answer{display:none!important;}
 }
 </style>
 </head>
@@ -121,60 +129,167 @@ main{max-width:860px;margin:0 auto;padding:20px 16px 80px;}
   <div class="hrow">
     <h1>📖 注音數學題庫</h1>
     <span class="badge">課本直排版</span>
+    <div class="ctrl-bar">
+      <select id="gradeFilter" aria-label="年級篩選">
+        <option value="all">全部年級</option>
+        <option value="低">低年級</option>
+        <option value="中">中年級</option>
+        <option value="高">高年級</option>
+      </select>
+      <button class="btn primary" id="btnRandom">🎲 換一題</button>
+      <button class="btn green"   id="btnSpeak">🔊 朗讀</button>
+    </div>
   </div>
 </header>
 <main>
-<a class="back-link" href="../index.html">← 回 LKMini 首頁</a>
-
-<div class="card">
-  <div class="meta">
-    <span class="qno">Q001</span>
-    <span class="tags">低年級 · 除法／平均分</span>
-  </div>
-  <div class="qtext vertical">
-    <ruby>小<rt>ㄒㄧㄠˇ</rt></ruby><ruby>明<rt>ㄇㄧㄥˊ</rt></ruby><ruby>有<rt>ㄧㄡˇ</rt></ruby> 12 <ruby>顆<rt>ㄎㄜ</rt></ruby><ruby>蘋<rt>ㄆㄧㄥˊ</rt></ruby><ruby>果<rt>ㄍㄨㄛˇ</rt></ruby>，<br>
-    <ruby>分<rt>ㄈㄣ</rt></ruby><ruby>給<rt>ㄍㄟˇ</rt></ruby> 3 <ruby>個<rt>ㄍㄜˋ</rt></ruby><ruby>朋<rt>ㄆㄥˊ</rt></ruby><ruby>友<rt>ㄧㄡˇ</rt></ruby>，<br>
-    <ruby>每<rt>ㄇㄟˇ</rt></ruby><ruby>人<rt>ㄖㄣˊ</rt></ruby><ruby>幾<rt>ㄐㄧˇ</rt></ruby><ruby>顆<rt>ㄎㄜ</rt></ruby>？
-  </div>
-  <div class="answer hidden"><span class="label">答：</span>12 ÷ 3 = 4（顆）</div>
-  <button class="toggle-btn" onclick="toggleAnswer(this)">顯示答案</button>
-</div>
-
-<div class="card">
-  <div class="meta">
-    <span class="qno">Q002</span>
-    <span class="tags">低年級 · 加法／找總數</span>
-  </div>
-  <div class="qtext vertical">
-    <ruby>書<rt>ㄕㄨ</rt></ruby><ruby>桌<rt>ㄓㄨㄛ</rt></ruby><ruby>上<rt>ㄕㄤˋ</rt></ruby><ruby>有<rt>ㄧㄡˇ</rt></ruby> 8 <ruby>本<rt>ㄅㄣˇ</rt></ruby><ruby>書<rt>ㄕㄨ</rt></ruby>，<br>
-    <ruby>又<rt>ㄧㄡˋ</rt></ruby><ruby>放<rt>ㄈㄤˋ</rt></ruby><ruby>上<rt>ㄕㄤˋ</rt></ruby> 5 <ruby>本<rt>ㄅㄣˇ</rt></ruby>，<br>
-    <ruby>現<rt>ㄒㄧㄢˋ</rt></ruby><ruby>在<rt>ㄗㄞˋ</rt></ruby><ruby>共<rt>ㄍㄨㄥˋ</rt></ruby><ruby>有<rt>ㄧㄡˇ</rt></ruby><ruby>幾<rt>ㄐㄧˇ</rt></ruby><ruby>本<rt>ㄅㄣˇ</rt></ruby>？
-  </div>
-  <div class="answer hidden"><span class="label">答：</span>8 + 5 = 13（本）</div>
-  <button class="toggle-btn" onclick="toggleAnswer(this)">顯示答案</button>
-</div>
-
-<div class="card">
-  <div class="meta">
-    <span class="qno">Q003</span>
-    <span class="tags">高年級也可用 · 乘法／倍數</span>
-  </div>
-  <div class="qtext vertical">
-    <ruby>每<rt>ㄇㄟˇ</rt></ruby><ruby>盒<rt>ㄏㄜˊ</rt></ruby><ruby>彩<rt>ㄘㄞˇ</rt></ruby><ruby>色<rt>ㄙㄜˋ</rt></ruby><ruby>筆<rt>ㄅㄧˇ</rt></ruby><ruby>有<rt>ㄧㄡˇ</rt></ruby> 6 <ruby>枝<rt>ㄓ</rt></ruby>，<br>
-    <ruby>買<rt>ㄇㄞˇ</rt></ruby> 4 <ruby>盒<rt>ㄏㄜˊ</rt></ruby><ruby>共<rt>ㄍㄨㄥˋ</rt></ruby><ruby>有<rt>ㄧㄡˇ</rt></ruby><ruby>幾<rt>ㄐㄧˇ</rt></ruby><ruby>枝<rt>ㄓ</rt></ruby>？
-  </div>
-  <div class="answer hidden"><span class="label">答：</span>6 × 4 = 24（枝）</div>
-  <button class="toggle-btn" onclick="toggleAnswer(this)">顯示答案</button>
-</div>
-
+  <a class="back-link" href="../index.html">← 回 LKMini 首頁</a>
+  <div class="progress" id="progress"></div>
+  <div id="stage"><div class="empty-state">載入中…</div></div>
 </main>
+
 <script>
-function toggleAnswer(btn){
-  const card = btn.closest('.card');
-  const ans  = card.querySelector('.answer');
-  const show = ans.classList.toggle('hidden');
-  btn.textContent = show ? '顯示答案' : '隱藏答案';
+const DATA = [
+  {
+    id:"Q001", grade:"低年級", topic:"除法／平均分",
+    text:"小明有 12 顆蘋果，分給 3 個朋友，每人幾顆？",
+    answer:"12 ÷ 3 = 4（顆）",
+    tokens:[
+      {ch:"小",z:"ㄒㄧㄠˇ"},{ch:"明",z:"ㄇㄧㄥˊ"},{ch:"有",z:"ㄧㄡˇ"},
+      {num:"12"},{ch:"顆",z:"ㄎㄜ"},{ch:"蘋",z:"ㄆㄧㄥˊ"},{ch:"果",z:"ㄍㄨㄛˇ"},{raw:"，"},
+      {ch:"分",z:"ㄈㄣ"},{ch:"給",z:"ㄍㄟˇ"},{num:"3"},{ch:"個",z:"ㄍㄜˋ"},
+      {ch:"朋",z:"ㄆㄥˊ"},{ch:"友",z:"ㄧㄡˇ"},{raw:"，"},
+      {ch:"每",z:"ㄇㄟˇ"},{ch:"人",z:"ㄖㄣˊ"},{ch:"幾",z:"ㄐㄧˇ"},{ch:"顆",z:"ㄎㄜ"},{raw:"？"}
+    ]
+  },
+  {
+    id:"Q002", grade:"低年級", topic:"加法／找總數",
+    text:"書桌上有 8 本書，又放上 5 本，現在共有幾本？",
+    answer:"8 + 5 = 13（本）",
+    tokens:[
+      {ch:"書",z:"ㄕㄨ"},{ch:"桌",z:"ㄓㄨㄛ"},{ch:"上",z:"ㄕㄤˋ"},{ch:"有",z:"ㄧㄡˇ"},
+      {num:"8"},{ch:"本",z:"ㄅㄣˇ"},{ch:"書",z:"ㄕㄨ"},{raw:"，"},
+      {ch:"又",z:"ㄧㄡˋ"},{ch:"放",z:"ㄈㄤˋ"},{ch:"上",z:"ㄕㄤˋ"},{num:"5"},{ch:"本",z:"ㄅㄣˇ"},{raw:"，"},
+      {ch:"現",z:"ㄒㄧㄢˋ"},{ch:"在",z:"ㄗㄞˋ"},{ch:"共",z:"ㄍㄨㄥˋ"},{ch:"有",z:"ㄧㄡˇ"},
+      {ch:"幾",z:"ㄐㄧˇ"},{ch:"本",z:"ㄅㄣˇ"},{raw:"？"}
+    ]
+  },
+  {
+    id:"Q003", grade:"高年級", topic:"乘法／倍數",
+    text:"每盒彩色筆有 6 枝，買 4 盒共有幾枝？",
+    answer:"6 × 4 = 24（枝）",
+    tokens:[
+      {ch:"每",z:"ㄇㄟˇ"},{ch:"盒",z:"ㄏㄜˊ"},{ch:"彩",z:"ㄘㄞˇ"},{ch:"色",z:"ㄙㄜˋ"},
+      {ch:"筆",z:"ㄅㄧˇ"},{ch:"有",z:"ㄧㄡˇ"},{num:"6"},{ch:"枝",z:"ㄓ"},{raw:"，"},
+      {ch:"買",z:"ㄇㄞˇ"},{num:"4"},{ch:"盒",z:"ㄏㄜˊ"},{ch:"共",z:"ㄍㄨㄥˋ"},
+      {ch:"有",z:"ㄧㄡˇ"},{ch:"幾",z:"ㄐㄧˇ"},{ch:"枝",z:"ㄓ"},{raw:"？"}
+    ]
+  },
+  {
+    id:"Q004", grade:"中年級", topic:"減法／剩餘",
+    text:"班上有 35 個同學，今天缺席 4 人，到校幾人？",
+    answer:"35 − 4 = 31（人）",
+    tokens:[
+      {ch:"班",z:"ㄅㄢ"},{ch:"上",z:"ㄕㄤˋ"},{ch:"有",z:"ㄧㄡˇ"},{num:"35"},
+      {ch:"個",z:"ㄍㄜˋ"},{ch:"同",z:"ㄊㄨㄥˊ"},{ch:"學",z:"ㄒㄩㄝˊ"},{raw:"，"},
+      {ch:"今",z:"ㄐㄧㄣ"},{ch:"天",z:"ㄊㄧㄢ"},{ch:"缺",z:"ㄑㄩㄝ"},{ch:"席",z:"ㄒㄧˊ"},
+      {num:"4"},{ch:"人",z:"ㄖㄣˊ"},{raw:"，"},
+      {ch:"到",z:"ㄉㄠˋ"},{ch:"校",z:"ㄒㄧㄠˋ"},{ch:"幾",z:"ㄐㄧˇ"},{ch:"人",z:"ㄖㄣˊ"},{raw:"？"}
+    ]
+  },
+  {
+    id:"Q005", grade:"中年級", topic:"除法／餘數",
+    text:"有 17 顆糖，每 5 顆裝一袋，可裝幾袋，剩幾顆？",
+    answer:"17 ÷ 5 = 3 袋……餘 2 顆",
+    tokens:[
+      {ch:"有",z:"ㄧㄡˇ"},{num:"17"},{ch:"顆",z:"ㄎㄜ"},{ch:"糖",z:"ㄊㄤˊ"},{raw:"，"},
+      {ch:"每",z:"ㄇㄟˇ"},{num:"5"},{ch:"顆",z:"ㄎㄜ"},{ch:"裝",z:"ㄓㄨㄤ"},
+      {ch:"一",z:"ㄧ"},{ch:"袋",z:"ㄉㄞˋ"},{raw:"，"},
+      {ch:"可",z:"ㄎㄜˇ"},{ch:"裝",z:"ㄓㄨㄤ"},{ch:"幾",z:"ㄐㄧˇ"},{ch:"袋",z:"ㄉㄞˋ"},{raw:"，"},
+      {ch:"剩",z:"ㄕㄥˋ"},{ch:"幾",z:"ㄐㄧˇ"},{ch:"顆",z:"ㄎㄜ"},{raw:"？"}
+    ]
+  }
+];
+
+let currentQ=null,history=[],answerShown=false,isSpeaking=false;
+const stage=document.getElementById('stage');
+const progress=document.getElementById('progress');
+const btnRandom=document.getElementById('btnRandom');
+const btnSpeak=document.getElementById('btnSpeak');
+const gradeFilter=document.getElementById('gradeFilter');
+
+function getPool(){
+  const g=gradeFilter.value;
+  return g==='all'?DATA:DATA.filter(q=>q.grade.includes(g));
 }
+function pickRandom(){
+  stopSpeak();
+  const pool=getPool();
+  if(!pool.length){renderEmpty();return;}
+  let c=pool.filter(q=>!history.includes(q.id));
+  if(!c.length){history=[];c=pool;}
+  const q=c[Math.floor(Math.random()*c.length)];
+  history.push(q.id);
+  currentQ=q;answerShown=false;
+  renderQuestion(q);updateProgress();
+}
+function buildVertical(tokens){
+  return tokens.map(t=>{
+    if(t.num!==undefined) return `<span class="num">${t.num}</span>`;
+    if(t.raw!==undefined) return t.raw;
+    return t.z?`<ruby>${t.ch}<rt>${t.z}</rt></ruby>`:t.ch;
+  }).join('');
+}
+function renderQuestion(q){
+  stage.innerHTML=`
+    <div class="card" id="qcard">
+      <div class="meta">
+        <span class="qno">${q.id}</span>
+        <span class="tags">${q.grade} · ${q.topic}</span>
+      </div>
+      <div class="vertical">${buildVertical(q.tokens)}</div>
+      <div class="answer hidden" id="qans"><span class="label">答：</span>${q.answer}</div>
+      <div class="card-btns">
+        <button class="btn" id="btnShowAns" onclick="toggleAnswer()">顯示答案</button>
+      </div>
+    </div>`;
+}
+function renderEmpty(){
+  stage.innerHTML='<div class="empty-state">這個年級目前沒有題目 🥲<br>請換個年級試試！</div>';
+  updateProgress();
+}
+function updateProgress(){
+  const p=getPool();
+  progress.innerHTML=p.length?`共 <strong>${p.length}</strong> 題 · 本輪已出 <strong>${history.length}</strong> 題`:'';
+}
+function toggleAnswer(){
+  const ans=document.getElementById('qans');
+  const btn=document.getElementById('btnShowAns');
+  if(!ans||!btn)return;
+  answerShown=!answerShown;
+  ans.classList.toggle('hidden',!answerShown);
+  btn.textContent=answerShown?'隱藏答案':'顯示答案';
+}
+function speak(text){
+  if(!('speechSynthesis' in window)){alert('你的瀏覽器不支援朗讀功能 😢');return;}
+  stopSpeak();
+  const u=new SpeechSynthesisUtterance(text);
+  u.lang='zh-TW';u.rate=0.85;u.pitch=1.1;
+  u.onstart=()=>{isSpeaking=true;syncBtn();hCard(true);};
+  u.onend=()=>{isSpeaking=false;syncBtn();hCard(false);};
+  u.onerror=()=>{isSpeaking=false;syncBtn();hCard(false);};
+  window.speechSynthesis.speak(u);
+}
+function stopSpeak(){
+  if('speechSynthesis' in window)window.speechSynthesis.cancel();
+  isSpeaking=false;syncBtn();hCard(false);
+}
+function syncBtn(){btnSpeak.textContent=isSpeaking?'⏹ 停止':'🔊 朗讀';}
+function hCard(on){const c=document.getElementById('qcard');if(c)c.classList.toggle('speaking',on);}
+
+btnRandom.addEventListener('click',pickRandom);
+btnSpeak.addEventListener('click',()=>{isSpeaking?stopSpeak():(currentQ&&speak(currentQ.text));});
+gradeFilter.addEventListener('change',()=>{history=[];pickRandom();});
+pickRandom();
 </script>
 </body>
 </html>
