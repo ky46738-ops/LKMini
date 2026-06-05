@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>注音數學題庫 — 課本直排版</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700;900&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --font-body:'Noto Sans TC',sans-serif;
+  --font-serif:'Noto Serif TC',serif;
+  --bg:#fdf9f0;
+  --surface:#fffdf7;
+  --border:#e8e0cc;
+  --accent:#c07010;
+  --accent2:#5a8a3c;
+  --text:#2c1f0e;
+  --muted:#7a6a50;
+  --radius:14px;
+  --shadow:0 2px 12px rgba(100,60,0,.10);
+}
+html,body{height:100%;}
+body{
+  font-family:var(--font-body);
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.6;
+}
+header{
+  position:sticky;top:0;z-index:10;
+  background:rgba(253,249,240,.93);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--border);
+  padding:10px 16px;
+}
+.hrow{display:flex;align-items:center;gap:12px;max-width:860px;margin:0 auto;}
+h1{font-family:var(--font-serif);font-size:18px;font-weight:900;color:var(--accent);}
+.badge{font-size:11px;background:var(--accent);color:#fff;padding:2px 9px;border-radius:999px;}
+main{max-width:860px;margin:0 auto;padding:20px 16px 80px;}
+.card{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  padding:16px;
+  margin-bottom:16px;
+  box-shadow:var(--shadow);
+}
+.meta{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:12px;}
+.qno{font-family:var(--font-serif);font-weight:900;font-size:22px;color:var(--accent);}
+.tags{font-size:12px;color:var(--muted);}
+
+/* ── 課本直排注音 ── */
+.vertical{
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-family: var(--font-serif);
+  font-size: 24px;
+  line-height: 2.2;
+  letter-spacing: .06em;
+  color: var(--text);
+  min-height: 60px;
+  padding: 8px 0;
+}
+.vertical ruby{ ruby-position: inter-character; }
+.vertical rt{
+  font-size: 13px;
+  font-family: var(--font-serif);
+  color: #8a6030;
+  letter-spacing: .04em;
+}
+@supports not (ruby-position: inter-character){
+  .vertical ruby{ ruby-position: over; }
+}
+
+.answer{
+  margin-top:14px;
+  padding:10px 14px;
+  background:#f0f8e8;
+  border-radius:10px;
+  border:1px solid #c8e0a8;
+  font-size:18px;
+  font-family:var(--font-serif);
+  color:var(--accent2);
+}
+.answer .label{font-weight:700;margin-right:6px;}
+.hidden{display:none!important}
+.toggle-btn{
+  margin-top:12px;
+  padding:7px 18px;
+  border-radius:999px;
+  border:1px solid var(--border);
+  background:var(--surface);
+  font-family:var(--font-body);
+  font-size:13px;
+  cursor:pointer;
+  color:var(--muted);
+  transition:all .18s ease;
+}
+.toggle-btn:hover{background:var(--accent);color:#fff;border-color:var(--accent);}
+.back-link{
+  display:inline-block;
+  margin-bottom:16px;
+  font-size:13px;
+  color:var(--muted);
+  text-decoration:none;
+}
+.back-link:hover{color:var(--accent);}
+@media print{
+  header{position:static;border-bottom:none;}
+  .toggle-btn,.answer,.back-link{display:none!important;}
+  body{background:#fff;color:#000;}
+  .card{box-shadow:none;border-color:#ccc;break-inside:avoid;}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="hrow">
+    <h1>📖 注音數學題庫</h1>
+    <span class="badge">課本直排版</span>
+  </div>
+</header>
+<main>
+<a class="back-link" href="../index.html">← 回 LKMini 首頁</a>
+
+<div class="card">
+  <div class="meta">
+    <span class="qno">Q001</span>
+    <span class="tags">低年級 · 除法／平均分</span>
+  </div>
+  <div class="qtext vertical">
+    <ruby>小<rt>ㄒㄧㄠˇ</rt></ruby><ruby>明<rt>ㄇㄧㄥˊ</rt></ruby><ruby>有<rt>ㄧㄡˇ</rt></ruby> 12 <ruby>顆<rt>ㄎㄜ</rt></ruby><ruby>蘋<rt>ㄆㄧㄥˊ</rt></ruby><ruby>果<rt>ㄍㄨㄛˇ</rt></ruby>，<br>
+    <ruby>分<rt>ㄈㄣ</rt></ruby><ruby>給<rt>ㄍㄟˇ</rt></ruby> 3 <ruby>個<rt>ㄍㄜˋ</rt></ruby><ruby>朋<rt>ㄆㄥˊ</rt></ruby><ruby>友<rt>ㄧㄡˇ</rt></ruby>，<br>
+    <ruby>每<rt>ㄇㄟˇ</rt></ruby><ruby>人<rt>ㄖㄣˊ</rt></ruby><ruby>幾<rt>ㄐㄧˇ</rt></ruby><ruby>顆<rt>ㄎㄜ</rt></ruby>？
+  </div>
+  <div class="answer hidden"><span class="label">答：</span>12 ÷ 3 = 4（顆）</div>
+  <button class="toggle-btn" onclick="toggleAnswer(this)">顯示答案</button>
+</div>
+
+<div class="card">
+  <div class="meta">
+    <span class="qno">Q002</span>
+    <span class="tags">低年級 · 加法／找總數</span>
+  </div>
+  <div class="qtext vertical">
+    <ruby>書<rt>ㄕㄨ</rt></ruby><ruby>桌<rt>ㄓㄨㄛ</rt></ruby><ruby>上<rt>ㄕㄤˋ</rt></ruby><ruby>有<rt>ㄧㄡˇ</rt></ruby> 8 <ruby>本<rt>ㄅㄣˇ</rt></ruby><ruby>書<rt>ㄕㄨ</rt></ruby>，<br>
+    <ruby>又<rt>ㄧㄡˋ</rt></ruby><ruby>放<rt>ㄈㄤˋ</rt></ruby><ruby>上<rt>ㄕㄤˋ</rt></ruby> 5 <ruby>本<rt>ㄅㄣˇ</rt></ruby>，<br>
+    <ruby>現<rt>ㄒㄧㄢˋ</rt></ruby><ruby>在<rt>ㄗㄞˋ</rt></ruby><ruby>共<rt>ㄍㄨㄥˋ</rt></ruby><ruby>有<rt>ㄧㄡˇ</rt></ruby><ruby>幾<rt>ㄐㄧˇ</rt></ruby><ruby>本<rt>ㄅㄣˇ</rt></ruby>？
+  </div>
+  <div class="answer hidden"><span class="label">答：</span>8 + 5 = 13（本）</div>
+  <button class="toggle-btn" onclick="toggleAnswer(this)">顯示答案</button>
+</div>
+
+<div class="card">
+  <div class="meta">
+    <span class="qno">Q003</span>
+    <span class="tags">高年級也可用 · 乘法／倍數</span>
+  </div>
+  <div class="qtext vertical">
+    <ruby>每<rt>ㄇㄟˇ</rt></ruby><ruby>盒<rt>ㄏㄜˊ</rt></ruby><ruby>彩<rt>ㄘㄞˇ</rt></ruby><ruby>色<rt>ㄙㄜˋ</rt></ruby><ruby>筆<rt>ㄅㄧˇ</rt></ruby><ruby>有<rt>ㄧㄡˇ</rt></ruby> 6 <ruby>枝<rt>ㄓ</rt></ruby>，<br>
+    <ruby>買<rt>ㄇㄞˇ</rt></ruby> 4 <ruby>盒<rt>ㄏㄜˊ</rt></ruby><ruby>共<rt>ㄍㄨㄥˋ</rt></ruby><ruby>有<rt>ㄧㄡˇ</rt></ruby><ruby>幾<rt>ㄐㄧˇ</rt></ruby><ruby>枝<rt>ㄓ</rt></ruby>？
+  </div>
+  <div class="answer hidden"><span class="label">答：</span>6 × 4 = 24（枝）</div>
+  <button class="toggle-btn" onclick="toggleAnswer(this)">顯示答案</button>
+</div>
+
+</main>
+<script>
+function toggleAnswer(btn){
+  const card = btn.closest('.card');
+  const ans  = card.querySelector('.answer');
+  const show = ans.classList.toggle('hidden');
+  btn.textContent = show ? '顯示答案' : '隱藏答案';
+}
+</script>
+</body>
+</html>
