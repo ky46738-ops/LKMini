@@ -1,0 +1,76 @@
+name: 🧭Markdown標題改名器｜MarkdownH1RenameWorkflow
+
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: Target folder to scan for Markdown files
+        required: true
+        default: .
+      mode:
+        description: dry-run or apply
+        required: true
+        default: apply
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/rename-md-h1.yml
+
+permissions:
+  contents: write
+
+env:
+  A_EQUALS_A: "true"
+  NO_FAKE_RESULT: "true"
+
+jobs:
+  rename-md-by-h1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥取回Repo｜Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🧰設定Git身份｜ConfigureGit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: 🔬確認工具存在｜VerifyTool
+        run: |
+          test -f tools/rename_md_by_h1.py
+          python3 --version
+          git status --short
+
+      - name: 🧭執行Markdown H1改名｜RunRenameTool
+        run: |
+          TARGET="${{ github.event.inputs.target || '.' }}"
+          MODE="${{ github.event.inputs.mode || 'apply' }}"
+          if [ "$MODE" = "dry-run" ]; then
+            python3 tools/rename_md_by_h1.py --target "$TARGET" --dry-run
+          else
+            python3 tools/rename_md_by_h1.py --target "$TARGET" --apply
+          fi
+
+      - name: 📋顯示變更｜ShowChanges
+        run: |
+          git status --short
+          git diff --stat || true
+
+      - name: 🔐提交改名結果｜CommitRenameResults
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "NO_CHANGES: Markdown filenames and references are already aligned."
+            exit 0
+          fi
+          git add -A
+          git commit -m "Apply Markdown H1 filename normalization"
+          git push
+
+      - name: 🧾工作流回執｜Receipt
+        run: |
+          echo "DONE: Markdown H1 rename workflow finished."
+          echo "OUTPUT_DIR: 09_🧾清單_MANIFEST_📤輸出_OUTPUT/🧭Markdown標題改名器｜MarkdownH1RenameTool/"
