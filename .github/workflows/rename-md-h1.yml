@@ -1,5 +1,7 @@
 name: 🧭Markdown標題改名器｜MarkdownH1RenameWorkflow
 
+# trigger: 2026-06-19T00:00:00Z
+
 on:
   workflow_dispatch:
     inputs:
