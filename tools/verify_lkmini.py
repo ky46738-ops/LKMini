@@ -22,11 +22,13 @@ REQUIRED_FILES = [
 PRIVATE_MARKERS = ["PRIVATE_ENGINE", "ENGINE_REGISTRY_PRIVATE"]
 
 # Files that legitimately document private boundary definitions — excluded from leak check
-LEAK_CHECK_EXCLUDES = [
-    "./PUBLIC_PRIVATE_BOUNDARY.md",
-    "./SECURITY.md",
-    "./GOVERNANCE.md",
-]
+LEAK_CHECK_EXCLUDES = {
+    os.path.normpath(p) for p in [
+        "./PUBLIC_PRIVATE_BOUNDARY.md",
+        "./SECURITY.md",
+        "./GOVERNANCE.md",
+    ]
+}
 
 def sha256_file(path):
     h = hashlib.sha256()
@@ -84,7 +86,7 @@ def check_no_private_leak():
         for fname in files:
             if fname.endswith((".md", ".json", ".txt")):
                 fpath = os.path.join(root, fname)
-                if fpath in LEAK_CHECK_EXCLUDES:
+                if os.path.normpath(fpath) in LEAK_CHECK_EXCLUDES:
                     continue
                 with open(fpath, "r", errors="ignore") as f:
                     content = f.read()
