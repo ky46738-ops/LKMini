@@ -27,21 +27,30 @@ metadata_sha256：6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf
 9. 🔄同步
 10. ♾️循環重建
 
-S0至S10只作施工與驗收流程，不升格為正式動作命名架構。
+S0至S10只作施工與驗收流程，位置為「施工驗收流程」，不屬於正式動作容器。
 
 ## 唯一接線
 
 🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A
 
-## 本回合正式膠囊
+## 本回合正式十動作膠囊
 
-Google Drive 同一 FileID：`1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF`
-正式檔名：`🪞幻影膠囊.zip`
-位元組數：`33154127`
-SHA256：`7767563f64068ee4390acf7e66fac988313e3af8086951b2962b226d238c670d`
-成員數：`82`
+檔名：`🪞幻影膠囊｜十動作正式更新｜20260810.zip`
+位元組數：`33173899`
+SHA256：`377b556ef403e389bb5bab8e039850f203d4c5bddc12b5ed91a10802ab56608d`
+成員數：`101`
+正式動作：`10`
+S0至S10位於正式動作容器底下：`0`
+控制資料：`7`
 CRC：全部通過
-Drive 同一物件讀回：完成
+
+## Google Drive同一正式物件
+
+FileID：`1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF`
+目前RevisionID：`0B0rZjEvqIMWsZ2tnN1J0blZZenE5WlFVc0FRL0g0TEVpaTQwPQ`
+目前位元組數：`33154127`
+目前SHA256：`7767563f64068ee4390acf7e66fac988313e3af8086951b2962b226d238c670d`
+正式檔名：`🪞幻影膠囊.zip`
 
 第二根：0
 第二正式容器：0
