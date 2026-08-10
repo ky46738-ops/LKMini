@@ -1,13 +1,33 @@
 {
   "EnglishKey": "Package",
   "正式名稱": "封裝資料",
-  "封裝檔名": "🪞幻影膠囊｜本回合更新.zip",
+  "Identity": "LKMINI://",
+  "正式路徑": "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
+  "DriveFileID": "1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF",
+  "DriveParent": "1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX",
+  "CurrentRevisionID": "0B0rZjEvqIMWscVpBYitndnZ1YWo0TDcxYXp2K292dnJ5TGpBPQ",
+  "PreviousRevisionID": "0B0rZjEvqIMWsaG5paW9OM0tKMW90Z0RjNHdBblNUMmpxRHI4PQ",
+  "封裝檔名": "🪞幻影膠囊",
   "封裝格式": "ZIP",
-  "位元組數": 33154127,
-  "SHA256": "7767563f64068ee4390acf7e66fac988313e3af8086951b2962b226d238c670d",
-  "成員數": 82,
-  "正式成員前綴": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/",
-  "動作容器數": 11,
+  "位元組數": 2354293,
+  "SHA256": "decf750b2ddc7fb9cd3556c61f11581cd5e4c651d4cdfabbf2972423a06fce74",
+  "成員數": 44,
+  "ZIP_CRC": "全部通過",
+  "MagicBytes": "504b0304",
+  "副檔名實證": {
+    "FormatIdentityRecords": 53,
+    "正規化副檔名種類": 16,
+    "無副檔名": 1,
+    "隱藏檔": 1,
+    "UTType": "本回合無Apple resolver，不冒充"
+  },
+  "架構裁決": "不改寫既有current包內架構；正式核心動作以🧚全域中文接線精靈｜正式動作容器.json為準；S0至S10僅施工REFERENCE_ONLY",
+  "歷史REFERENCE_ONLY": [
+    {
+      "DriveFileID": "1rZAESqIPtuhowZ3OM5XrlIGgVXI2VvzG",
+      "處置": "本回合誤寫Revision保留為歷史證據；current已沿同FileID回退；永久刪除0"
+    }
+  ],
   "永久刪除數": 0,
   "回指": "🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A"
 }
