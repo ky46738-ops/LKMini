@@ -61,15 +61,17 @@
   },
   {
     "path": "動作容器/🔁ExternalSync.json",
-    "bytes": 2133,
-    "sha256": "8dcc4e26fd0b1b92af13858e8287ce626cefc5b3c44e1d6d24fb33dd6e31f536",
-    "GitBlob": "4c8be15f3c955b53f9c4629c9b8807d8bb4367f7",
-    "驗證狀態": "本回合同路徑讀回"
+    "bytes": 1841,
+    "sha256": "7ce7c31c7901c91004b0e84c15b3687cd2298af4cbd5cad39d32de0c78574d58",
+    "GitBlob": "0610a18699b1efcf2b8c346d5fc7a5b5a0f0463b",
+    "驗證狀態": "2026-08-10T18:51:25+08:00 同路徑讀回"
   },
   {
     "path": "動作容器/🔁GitHubSync.json",
-    "bytes": 5243,
-    "sha256": "b65d0e6d8df6db0d9c07fab19941843dad99f3af2b093205246b6ed2c01d5293"
+    "bytes": 1960,
+    "sha256": "ad39a0c319d66497a626a030034b7a700a4eb33baa97d8d97a6aa840444b9a30",
+    "GitBlob": "fbf75b79513eb17b9d6234a040cec7d04d1f0796",
+    "驗證狀態": "2026-08-10T18:51:25+08:00 同路徑讀回"
   },
   {
     "path": "動作容器/🖥️CapsuleAction.html",
@@ -101,10 +103,10 @@
   },
   {
     "path": "動作容器/🧚全域中文接線精靈｜正式動作容器.json",
-    "bytes": 5302,
-    "sha256": "4a2abf47709fc797b80833eb5fa82da4f551042d2526363a79b614d05ca4904e",
-    "GitBlob": "290b97b393b02f06551be5dbb61d2331a6fcfb1a",
-    "驗證狀態": "本回合同路徑讀回"
+    "bytes": 2896,
+    "sha256": "f70a788c6184bbae32e9ad61660e86624b99645b225b40697ebee3ea108e3a16",
+    "GitBlob": "bc4302bb09b88b94691e951e359f361dc264c90a",
+    "驗證狀態": "2026-08-10T18:51:25+08:00 同路徑讀回"
   },
   {
     "path": "LKMINI://🧩LKMINI/🪞幻影膠囊/🪞幻影膠囊｜PhantomCapsule.zip",
@@ -116,6 +118,24 @@
     "檔案數": 27,
     "ZIP成員數含目錄": 39,
     "ZIP_CRC": "全部通過",
+    "狀態": "REFERENCE_ONLY",
+    "裁決": "SameIdentityHistoricalRevision"
+  },
+  {
+    "path": "LKMINI://🥃老K系統/🧩LKMINI/🪞幻影膠囊",
+    "bytes": 2367218,
+    "sha256": "bbcc5e80053ac30fa3a23b009fc2db1b6de2d0b278d97f7d8d61291104e1b61e",
+    "ObjectID": "1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF",
+    "RevisionID": "0B0rZjEvqIMWsdTRyZWVLZStlR0taVHNsRWhVSGRlOG93bE0wPQ",
+    "PreviousRevisionID": "0B0rZjEvqIMWsdFZ3dGlNZ3NpVFJiNHBmNG45dDc2Q3ROa000PQ",
+    "Parent": "1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX",
+    "MagicBytes": "504b0304",
+    "檔案數": 36,
+    "ZIP成員數": 36,
+    "ZIP_CRC": "全部通過",
+    "GmailMessageID": "19feb4c7959a71aa",
+    "GmailThreadID": "19feb4c7959a71aa",
+    "驗證時間_台北": "2026-08-10T18:51:25+08:00",
     "狀態": "正式Identity"
   }
 ]
