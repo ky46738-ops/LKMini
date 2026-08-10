@@ -1,92 +1,13 @@
 [
-  {
-    "path": "動作容器/⛓️ReverseChain.json",
-    "bytes": 325,
-    "sha256": "bda0d1e0a3483a876e654d4842f76bc9bcc8c0810626f875555450224f1fae60"
-  },
-  {
-    "path": "動作容器/🎞️CapsuleMotion.gif",
-    "bytes": 9999,
-    "sha256": "bb08b9a8ccb39be6074406513a24863324e699ea81ec42dbf0fb887111b77445"
-  },
-  {
-    "path": "動作容器/🎬CapsuleMotion.mp4",
-    "bytes": 6592,
-    "sha256": "82014bdbebb1b907f786b3b3fc66f2f2fed1ab97e84bfb4d04245aaaf2dc2402"
-  },
-  {
-    "path": "動作容器/🎴EmbeddedVisual.svg",
-    "bytes": 2046,
-    "sha256": "34f297359b5eadab7a02952444e76ae65c39f89def3cf59dfe2ecd09aac027df"
-  },
-  {
-    "path": "動作容器/📄Manifest.csv",
-    "bytes": 2299,
-    "sha256": "e1aa169f0e9dfb547740da06ac5c3d8df7f06ee7fdad398d8cba3f2f23279349"
-  },
-  {
-    "path": "動作容器/📄Manifest.tsv",
-    "bytes": 2299,
-    "sha256": "79e372c3ce977a022c64dd3dedcb8145dd9372230323cb495e6c1a8b6921e255"
-  },
-  {
-    "path": "動作容器/📄Snapshot.pdf",
-    "bytes": 46064,
-    "sha256": "f54194456b00a83b393cb5b57a98505b69e773e774d6bb55b25ea12aefc1afa3"
-  },
-  {
-    "path": "動作容器/📊AuthorLayer.xlsx",
-    "bytes": 6485,
-    "sha256": "ac0783bffb6d11fc7243a613b487633bf9defaf07ec2ee222ad76421879713ff"
-  },
-  {
-    "path": "動作容器/📍Locator.json",
-    "bytes": 4803,
-    "sha256": "d5bf9d25474916911514d15e3ceae7754749537b159aa3a5767ffffea8ecb9a5"
-  },
-  {
-    "path": "動作容器/📘MarkdownSeed.md",
-    "bytes": 106,
-    "sha256": "6f04ed58a266c08b57d6cb2c1f955628acd17a8e1c2dcaa8eeeb734612850f28"
-  },
-  {
-    "path": "動作容器/📦Package.json",
-    "bytes": 148,
-    "sha256": "ac3aa7aaf56297b75e5eef2914d81cdc7f687f09afd9395251047a623fa248ee"
-  },
-  {
-    "path": "動作容器/📸Snapshot.json",
-    "bytes": 4612,
-    "sha256": "0d1fe086f3a4c6a1a3f27ff2dc95ccbeb362da4724ae8766ab73fb434a7818d6"
-  },
-  {
-    "path": "動作容器/🔁GitHubSync.json",
-    "bytes": 5243,
-    "sha256": "b65d0e6d8df6db0d9c07fab19941843dad99f3af2b093205246b6ed2c01d5293"
-  },
-  {
-    "path": "動作容器/🖥️CapsuleAction.html",
-    "bytes": 5348,
-    "sha256": "3819e18210330f573159b65526114d735318753cca42e4454670563ca5e4e058"
-  },
-  {
-    "path": "動作容器/🖼️Snapshot.png",
-    "bytes": 7952,
-    "sha256": "d2a8e44d2f2d7d40a1643228b318004d98b76eaf464a1abe093a49642e476b61"
-  },
-  {
-    "path": "動作容器/🖼️Snapshot.webp",
-    "bytes": 4426,
-    "sha256": "c37fd8eb291e967968945caef6f12abdb1934439c8cb2307749e3da31d9f85da"
-  },
-  {
-    "path": "動作容器/🧾Canonical.json",
-    "bytes": 819,
-    "sha256": "e3091999c8d74556f00240670144e306ddde2a81fe2084ad3b6892c4b1105d8d"
-  },
-  {
-    "path": "🪞幻影膠囊.zip",
-    "bytes": 52895,
-    "sha256": "c1e26ce9138f7d553f4d3abbd8cfcc638a290820859aeed948be7eaab86bc51c"
-  }
+  {"path":"README.md","bytes":1535,"sha256":"3d465b3b00c0b1ed8f0ae63050f3317abe6b02f34435f434af886a40fdeeca5f"},
+  {"path":"MarkdownSeed.md","bytes":1535,"sha256":"3d465b3b00c0b1ed8f0ae63050f3317abe6b02f34435f434af886a40fdeeca5f"},
+  {"path":"01｜🥳歡迎光臨唯一路口/S0-S10施工鏈.md","bytes":1040,"sha256":"b95b674dd01fb4f62d34a7fa739cb3e8f08dda77aa23744c9d8e4d3c4da45c1b"},
+  {"path":"02｜⚙️ENGINE｜引擎庫與Runtime/🧬全副檔名位元可逆轉換器.py","bytes":2789,"sha256":"45bd5436f836e01853cbb1dd7c98ec940d8249e088e8a4b73e4b22f78a3cbbf8"},
+  {"path":"03｜🧠知識庫｜🔬VERIFY/全副檔名可逆轉換完整手冊.md","bytes":1690,"sha256":"e0a11cbba416f692bdc03e88317c4c8df94af749574cfff374c6c4a324931cfb"},
+  {"path":"04｜🧩零件/全副檔名FormatRegistry.json","bytes":783,"sha256":"121a6fead6da4e1f4a00665809d70b15e2acb90ea8609b77ba1801bf849fd877"},
+  {"path":"05｜👘樣式庫與內部顯影/🪞幻影膠囊.html","bytes":2766,"sha256":"054d77b1d5b1e0ac1b8cde6cb69d311c7af604b74e98ec3fd0132c9a616c3443"},
+  {"path":"05｜👘樣式庫與內部顯影/🪞幻影膠囊架構.svg","bytes":3459,"sha256":"6efdffa8e4b73ef73bce8accaead17e8aaa8524eef7dcef3f2d26e958fa90a6d"},
+  {"path":"05｜👘樣式庫與內部顯影/EmbeddedVisual.png","bytes":97673,"sha256":"e56ceeea60401e8ece739ed586eb59a6e0eb11b8610ffa1138e29df2823e37ae"},
+  {"path":"07｜📸SNAPSHOT/🪞幻影膠囊.pdf","bytes":3120,"sha256":"7833f93f0897e9bc1ad2a383a56d87b1f498f3c8d8544b26b5525739caa15b92"},
+  {"path":"📒任務筆記本｜TaskNotebook.xlsx","bytes":9026,"sha256":"9dd66bf9f43a6bd692eff231f34084d44c81cb40a56ecc5ed38358ba6f16ebba"}
 ]
