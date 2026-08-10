@@ -13,7 +13,7 @@
   "正式十動作": ["📘閱讀","⚡啟動","🔗掛載","🔬驗證","📝更新","📢廣播","🧬融合","📸快照","🔄同步","♾️循環重建"],
   "施工驗收流程": {"S0至S10":"REFERENCE_ONLY","正式動作容器底下數量":0},
   "本回合Current": {
-    "時間_台北": "2026-08-10T19:48:00+08:00",
+    "時間_台北": "2026-08-10T19:55:00+08:00",
     "GoogleDrive": {
       "FileID": "1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF",
       "Parent": "1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX",
@@ -27,42 +27,24 @@
       "ZIP_CRC": "全部通過",
       "同FileID讀回": true
     },
-    "副檔名實證": {
-      "FormatIdentityRecords": 49,
-      "正規化副檔名種類": 16,
-      "無副檔名": 1,
-      "隱藏檔": 1,
-      "UTType": "本回合執行環境未暴露Apple UTType resolver"
-    },
-    "Goodnotes指定來源": {
-      "DriveControlObjectID": "1vpCZpR-W2j6jUIZjF-CVHAENOp1D3xuLn3ikkx5rZcc",
-      "DriveRevisionID": "AIroW352D7N4eSEZHSInnc-NsCoT-B7laL5JgVegXG5tDr8g30egjlsZIULPMuuXvcEm8i_XVBbxmIQj7la9dfFmQhSA8eXlWNuFEYRTrTo",
-      "Drive全文讀回": true,
-      "NativeGoodnotesExistingRead": "本回合Goodnotes連接器未暴露既有內容讀取端點"
-    },
+    "副檔名實證": {"FormatIdentityRecords":49,"正規化副檔名種類":16,"無副檔名":1,"隱藏檔":1,"UTType":"本回合執行環境未暴露Apple UTType resolver"},
+    "Goodnotes指定來源": {"DriveControlObjectID":"1vpCZpR-W2j6jUIZjF-CVHAENOp1D3xuLn3ikkx5rZcc","DriveRevisionID":"AIroW352D7N4eSEZHSInnc-NsCoT-B7laL5JgVegXG5tDr8g30egjlsZIULPMuuXvcEm8i_XVBbxmIQj7la9dfFmQhSA8eXlWNuFEYRTrTo","Drive全文讀回":true,"NativeGoodnotesExistingRead":"本回合Goodnotes連接器未暴露既有內容讀取端點"},
     "GitHub": {
       "Repository": "ky46738-ops/LKMini",
       "Branch": "seed_v0",
       "FormalPath": "🥃老K系統/🧩LKMINI/🪞幻影膠囊",
-      "ActionJSON": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🧚全域中文接線精靈｜正式動作容器.json",
-      "ActionHTML": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🖥️CapsuleAction.html"
+      "ActionJSONFirstCommit": "7379fa99cdd5eae0412ce2ead442dcf6b885e33e",
+      "ActionHTMLCommit": "3a87aba78be2c9ee5f22c09b491458d78af66bfe",
+      "ExternalSyncCommit": "cf2b93926086b3d55a1a8b041ffa6d4032f9ebe3",
+      "GitHubSyncCommit": "32301fb7367fb8e9f26d30bad89ab0062f07334d"
     },
-    "Drive包內控制資料裁決": {
-      "已驗證": "包內所有必備格式存在且CRC通過",
-      "舊GitHub座標": "視為歷史控制投影；GitHub正式根LOCATOR與本動作容器為current外部座標",
-      "候選修復包SHA256": "14bd43c609a87f55fdd5c2ffaaa7f08acf97eb70fecd92464560e20d89ef3460",
-      "候選修復包ByteSize": 2587808,
-      "候選修復包寫入": "本回合Drive連接器未接受裸本地file reference，因此未用候選位元覆寫current"
-    }
+    "Gmail": {"From":"ky46738@gmail.com","To":"ky46738@gmail.com","Subject":"🥃老K系統｜本回合正式完成回執｜A=A","MessageID":"19feb85058e85aa2","ThreadID":"19feb85058e85aa2","ReadBack":true},
+    "候選修復包": {"ByteSize":2587808,"SHA256":"14bd43c609a87f55fdd5c2ffaaa7f08acf97eb70fecd92464560e20d89ef3460","Drive寫入":false,"原因":"Drive連接器未接受裸本地file reference","裁決":"REFERENCE_ONLY"}
   },
   "歷史REFERENCE_ONLY": [
     {"DriveRevisionID":"0B0rZjEvqIMWsVkZzdkFaT3VIMG9oZkE3TVNjWGtIaUplQUhFPQ","裁決":"PreviousRevision"},
-    {"GitHubCommit":"a7bb860b016ba24ec6a2270154c305ad985710d7","裁決":"前一動作HTMLRevision"}
+    {"GitHubCommit":"a7bb860b016ba24ec6a2270154c305ad985710d7","裁決":"前一ActionHTMLRevision"}
   ],
   "唯一接線":"🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A",
-  "第二根":0,
-  "第二正式容器":0,
-  "平行正式Identity":0,
-  "英文平行正式路徑":0,
-  "永久刪除":0
+  "第二根":0,"第二正式容器":0,"平行正式Identity":0,"英文平行正式路徑":0,"永久刪除":0
 }
