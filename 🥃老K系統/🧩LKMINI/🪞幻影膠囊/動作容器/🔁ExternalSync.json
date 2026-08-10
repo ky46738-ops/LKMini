@@ -1,56 +1,52 @@
 {
-  "時間_台北": "2026-08-10T17:46:40+08:00",
-  "狀態": "本回合已同步並讀回",
+  "時間_台北": "2026-08-10T18:30:11+08:00",
+  "狀態": "本回合GitHub／Drive／Gmail已真實寫入並讀回",
+  "Identity": "LKMINI://",
   "正式路徑": "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
   "GoogleDrive": {
     "FileID": "1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF",
-    "RevisionID": "0B0rZjEvqIMWsaG5paW9OM0tKMW90Z0RjNHdBblNUMmpxRHI4PQ",
-    "PreviousRevisionID": "0B0rZjEvqIMWsMTJneFhBaEVRN2U3RWl2cGpQcjhqaUdaSUJnPQ",
+    "RevisionID": "0B0rZjEvqIMWscVpBYitndnZ1YWo0TDcxYXp2K292dnJ5TGpBPQ",
+    "PreviousRevisionID": "0B0rZjEvqIMWsaG5paW9OM0tKMW90Z0RjNHdBblNUMmpxRHI4PQ",
     "Parent": "1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX",
-    "ByteSize": 161917,
-    "SHA256": "74009d28ceea9e4e4802e8eca7392354f0115b513c04d1bd693383e0b34752be",
+    "Name": "🪞幻影膠囊",
+    "ByteSize": 2354293,
+    "SHA256": "decf750b2ddc7fb9cd3556c61f11581cd5e4c651d4cdfabbf2972423a06fce74",
     "MagicBytes": "504b0304",
-    "檔案數": 27,
-    "ZIP成員數含目錄": 39,
+    "ZIPMembers": 44,
     "ZIP_CRC": "全部通過",
-    "逐位元讀回相同": true,
-    "URL": "https://drive.google.com/file/d/1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF/view"
+    "同FileID讀回": true,
+    "內容Revision": "rename metadata後保持同一current content Revision"
   },
   "GitHub": {
     "Repository": "ky46738-ops/LKMini",
     "Branch": "seed_v0",
+    "正式根路徑": "🥃老K系統/🧩LKMINI/🪞幻影膠囊",
     "正式動作容器": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🧚全域中文接線精靈｜正式動作容器.json",
-    "Commit": "63f838e987e2c04168cb0ed3835a2d8d581be775",
-    "Blob": "290b97b393b02f06551be5dbb61d2331a6fcfb1a"
+    "封裝資料Commit": "3901c519cfe3135e60e2ea4bcf82b2e98957d11e",
+    "正式投影Commit": "9ce9f6cc4234536e81e808226a0259ed106765d3"
   },
   "Gmail": {
     "寄件者": "ky46738@gmail.com",
     "收件者": "ky46738@gmail.com",
     "主旨": "🥃老K系統｜本回合正式完成回執｜A=A",
-    "MessageID": "19feb1a78df5cb69",
-    "ThreadID": "19feb1a78df5cb69",
+    "MessageID": "19feb3908eb4384f",
+    "ThreadID": "19feb3908eb4384f",
     "完整讀回": true
   },
-  "Goodnotes": {
-    "控制卡DocumentID": "1vpCZpR-W2j6jUIZjF-CVHAENOp1D3xuLn3ikkx5rZcc",
-    "裁決": "REFERENCE_ONLY",
-    "說明": "控制卡不是 Goodnotes 原始正文"
+  "副檔名實證": {
+    "FormatIdentityRecords": 53,
+    "正規化副檔名種類": 16,
+    "無副檔名": 1,
+    "隱藏檔": 1,
+    "UTType": "本回合無Apple resolver，不冒充"
   },
-  "REFERENCE_ONLY": [
-    {
-      "FileID": "1XkvDzyxxtM6yy1gew6j5fHbEshFnfzgY",
-      "ByteSize": 53717,
-      "SHA256": "bfddfdb3947734e50d2805b1a8945b1c2bf08afb8dd25b5719dc3e631bc801e2"
-    },
+  "歷史REFERENCE_ONLY": [
     {
       "FileID": "1rZAESqIPtuhowZ3OM5XrlIGgVXI2VvzG",
-      "ByteSize": 57999334,
-      "理由": "歷史投影；本回合未逐位元下載"
+      "處置": "本回合誤寫Revision保留為歷史證據；current已同FileID回退；永久刪除0"
     }
   ],
-  "Library": {
-    "狀態": "歷史ID僅作線索；本回合未重新列舉，故不計同步完成"
-  },
+  "S0至S10": "施工與驗收REFERENCE_ONLY；正式十動作命名以正式動作容器為準",
   "唯一回指": "🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A",
   "永久刪除": 0
 }
