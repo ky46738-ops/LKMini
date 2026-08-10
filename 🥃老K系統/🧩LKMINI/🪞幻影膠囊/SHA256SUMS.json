@@ -61,8 +61,10 @@
   },
   {
     "path": "動作容器/🔁ExternalSync.json",
-    "bytes": 1383,
-    "sha256": "49a0ea26838afb9f02ee76c102c11668f71a4b47d31ec1dcfc303b4c070b7a22"
+    "bytes": 2133,
+    "sha256": "8dcc4e26fd0b1b92af13858e8287ce626cefc5b3c44e1d6d24fb33dd6e31f536",
+    "GitBlob": "4c8be15f3c955b53f9c4629c9b8807d8bb4367f7",
+    "驗證狀態": "本回合同路徑讀回"
   },
   {
     "path": "動作容器/🔁GitHubSync.json",
@@ -92,6 +94,28 @@
   {
     "path": "🪞幻影膠囊.zip",
     "bytes": 53717,
-    "sha256": "bfddfdb3947734e50d2805b1a8945b1c2bf08afb8dd25b5719dc3e631bc801e2"
+    "sha256": "bfddfdb3947734e50d2805b1a8945b1c2bf08afb8dd25b5719dc3e631bc801e2",
+    "狀態": "REFERENCE_ONLY",
+    "Drive候選FileID": "1XkvDzyxxtM6yy1gew6j5fHbEshFnfzgY",
+    "驗證狀態": "Drive逐位元與CRC通過；目前GitHub相對路徑404，不作正式Identity"
+  },
+  {
+    "path": "動作容器/🧚全域中文接線精靈｜正式動作容器.json",
+    "bytes": 5302,
+    "sha256": "4a2abf47709fc797b80833eb5fa82da4f551042d2526363a79b614d05ca4904e",
+    "GitBlob": "290b97b393b02f06551be5dbb61d2331a6fcfb1a",
+    "驗證狀態": "本回合同路徑讀回"
+  },
+  {
+    "path": "LKMINI://🧩LKMINI/🪞幻影膠囊/🪞幻影膠囊｜PhantomCapsule.zip",
+    "bytes": 161917,
+    "sha256": "74009d28ceea9e4e4802e8eca7392354f0115b513c04d1bd693383e0b34752be",
+    "ObjectID": "1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF",
+    "RevisionID": "0B0rZjEvqIMWsaG5paW9OM0tKMW90Z0RjNHdBblNUMmpxRHI4PQ",
+    "MagicBytes": "504b0304",
+    "檔案數": 27,
+    "ZIP成員數含目錄": 39,
+    "ZIP_CRC": "全部通過",
+    "狀態": "正式Identity"
   }
 ]
