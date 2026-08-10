@@ -1,0 +1,78 @@
+{
+  "round": "UI-ROUND33",
+  "title": "🚪一體雙門顯影",
+  "root": "🧩LKMINI",
+  "metadata_sha256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
+  "formal_identity": "🪞幻影膠囊",
+  "github": {
+    "repository": "ky46738-ops/LKMini",
+    "repository_id": 1241379512,
+    "branch": "seed_v0",
+    "readme_commit": "845be8c22aa97403eb858ec8567008017ece74ca",
+    "state_commit": "c030509d11c11c3c0238acc15363ca9581167717",
+    "package_sha_commit": "4a8084f369fecd07e2190696e984a45cbf9d458c",
+    "same_path_readback": "完成"
+  },
+  "drive": {
+    "ui_master": {
+      "document_id": "1KREBvL3JswXJIAouEJBjULzXdWhztxxiZD9BpeEJ1Zs",
+      "revision": "AIroW37Y8lvoiyK5u67mfVy9ltlh3I0LVxqUeLaSk33MhNMYOmPr1HimSUqrI2sUQzfcKpOtdgin0qh24yGkVgkkm-lM1i-9zMN2WORU9gs",
+      "marker_readback": "完成"
+    },
+    "task_notebook": {
+      "object_id": "1oDPWM3M3tdJGXSujwAwLj_4Nf8yyGIn5e8PXrAp7Kpc",
+      "revision": "AIroW37m-_Z8DlcqXukJojs7x6HJmsS7Gwkt8kCRyUnNvq14ikwvDc4ILcsX4shs4l0ozTBFeqAnXekDvTU7ZdU85Eyn421nZM4IHEzKTfU",
+      "marker_readback": "完成"
+    },
+    "formal_capsule": {
+      "file_id": "1rZAESqIPtuhowZ3OM5XrlIGgVXI2VvzG",
+      "provider_metadata_bytes": 57999334,
+      "provider_modified_time": "2026-08-10T06:51:02.416Z",
+      "binary_absorb": "錯誤",
+      "failure_type": "CONNECTOR_FILE_REFERENCE_UNAVAILABLE",
+      "original_preserved": true
+    },
+    "ranking": {
+      "spreadsheet_id": "1u-kL6czUNDKCQv7bjwtFADqNaLTztRqoI0uo-be9woQ",
+      "metadata_probe": "404",
+      "second_ranking": 0
+    }
+  },
+  "gmail": {
+    "message_id": "19feb0fa8e105728",
+    "thread_id": "19feb0fa8e105728",
+    "same_message_readback": "完成"
+  },
+  "goodnotes": {
+    "round33_projection": "完成",
+    "designated_source_body_readback": "錯誤",
+    "failure_type": "SOURCE_READ_TOOL_UNAVAILABLE"
+  },
+  "projection_package": {
+    "bytes": 919808,
+    "sha256": "4a16355c705a4d5425695a3d3a880557e87b72f53444407d68f4e6d6e810e270",
+    "members": 32,
+    "zip": "完成",
+    "sha256sum_mismatches": 0
+  },
+  "same_identity_candidate": {
+    "bytes": 59847315,
+    "sha256": "673790599876447d36e1d1a42d16ca693052d791b696256ae2b67a0c52c972fa",
+    "members": 620,
+    "zip": "完成",
+    "core_sha256_mismatches": 0,
+    "lost_original_members": 0,
+    "embedded_round33_members": 33
+  },
+  "ui": {
+    "cross_device": "10/10 PASS",
+    "horizontal_overflow": 0,
+    "minimum_control_px": 48,
+    "external_requests": 0,
+    "direction_receipt_identity_fixed": true
+  },
+  "second_root": 0,
+  "second_formal_container": 0,
+  "parallel_formal_identity": 0,
+  "permanent_delete": 0
+}
