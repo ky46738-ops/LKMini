@@ -10,23 +10,92 @@
   "身分規則": "Projection ≠ Identity",
   "Ruling": "SameIdentityNewRevision",
   "正式轉換架構": "唯一入口 → 十個動作 → 九個資料夾抽象／轉換 → 唯一出口 → 🪞幻影膠囊",
-  "正式十動作": ["📘閱讀","⚡啟動","🔗掛載","🔬驗證","📝更新","📢廣播","🧬融合","📸快照","🔄同步","♾️循環重建"],
-  "施工驗收流程": {"S0至S10":"REFERENCE_ONLY","正式動作容器底下數量":0},
+  "正式十動作": [
+    "📘閱讀",
+    "⚡啟動",
+    "🔗掛載",
+    "🔬驗證",
+    "📝更新",
+    "📢廣播",
+    "🧬融合",
+    "📸快照",
+    "🔄同步",
+    "♾️循環重建"
+  ],
+  "施工驗收流程": {
+    "S0至S10": "REFERENCE_ONLY",
+    "正式動作容器底下數量": 0
+  },
   "本回合Current": {
-    "時間_台北": "2026-08-10T18:51:25+08:00",
-    "GoogleDrive": {"FileID":"1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF","Parent":"1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX","Name":"🪞幻影膠囊","RevisionID":"0B0rZjEvqIMWsdTRyZWVLZStlR0taVHNsRWhVSGRlOG93bE0wPQ","PreviousRevisionID":"0B0rZjEvqIMWsdFZ3dGlNZ3NpVFJiNHBmNG45dDc2Q3ROa000PQ","ByteSize":2367218,"SHA256":"bbcc5e80053ac30fa3a23b009fc2db1b6de2d0b278d97f7d8d61291104e1b61e","MagicBytes":"504b0304","ZIPMembers":36,"ZIP_CRC":"全部通過","同FileID讀回":true},
-    "副檔名實證": {"FormatIdentityRecords":53,"正規化副檔名種類":16,"無副檔名":1,"隱藏檔":1,"UTType":"本回合無Apple resolver，不冒充"},
-    "GitHub": {"Repository":"ky46738-ops/LKMini","Branch":"seed_v0","FormalPath":"🥃老K系統/🧩LKMINI/🪞幻影膠囊","DriveCurrentCommit":"5dc0be0915b175a7987d65dc567c41b6c1a655d8","ExternalSyncCommit":"1be163480c1093aba1c88769f653d4c910420c90","GitHubSyncCommit":"ea843d1821c1b701b3ee72b41e679db70fb2177e"},
-    "Gmail": {"From":"ky46738@gmail.com","To":"ky46738@gmail.com","Subject":"🥃老K系統｜本回合正式完成回執｜A=A","MessageID":"19feb4c7959a71aa","ThreadID":"19feb4c7959a71aa","ReadBack":true}
+    "時間_台北": "2026-08-10T18:55:00+08:00",
+    "GoogleDrive": {
+      "FileID": "1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF",
+      "Parent": "1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX",
+      "Name": "🪞幻影膠囊",
+      "RevisionID": "0B0rZjEvqIMWsdTRyZWVLZStlR0taVHNsRWhVSGRlOG93bE0wPQ",
+      "PreviousRevisionID": "0B0rZjEvqIMWsdFZ3dGlNZ3NpVFJiNHBmNG45dDc2Q3ROa000PQ",
+      "ByteSize": 2367218,
+      "SHA256": "bbcc5e80053ac30fa3a23b009fc2db1b6de2d0b278d97f7d8d61291104e1b61e",
+      "MagicBytes": "504b0304",
+      "ZIPMembers": 36,
+      "ZIP_CRC": "全部通過",
+      "同FileID讀回": true
+    },
+    "副檔名實證": {
+      "FormatIdentityRecords": 53,
+      "正規化副檔名種類": 16,
+      "無副檔名": 1,
+      "隱藏檔": 1,
+      "UTType": "本回合無Apple resolver，不冒充"
+    },
+    "GitHub": {
+      "Repository": "ky46738-ops/LKMini",
+      "Branch": "seed_v0",
+      "FormalPath": "🥃老K系統/🧩LKMINI/🪞幻影膠囊",
+      "DriveCurrentCommit": "5dc0be0915b175a7987d65dc567c41b6c1a655d8",
+      "ExternalSyncCommit": "1be163480c1093aba1c88769f653d4c910420c90",
+      "GitHubSyncCommit": "ea843d1821c1b701b3ee72b41e679db70fb2177e",
+      "SHA256SUMS修復Commit": "e2df5c0e3d4a50b532f3396b73391174818dbd4c"
+    },
+    "Gmail": {
+      "From": "ky46738@gmail.com",
+      "To": "ky46738@gmail.com",
+      "Subject": "🥃老K系統｜本回合正式完成回執｜A=A",
+      "MessageID": "19feb4fc034a063d",
+      "ThreadID": "19feb4fc034a063d",
+      "ReadBack": true
+    }
   },
   "歷史REFERENCE_ONLY": [
-    {"DriveFileID":"1rZAESqIPtuhowZ3OM5XrlIGgVXI2VvzG","裁決":"歷史投影"},
-    {"DriveRevisionID":"0B0rZjEvqIMWsazY1UElMQmduOE9HQUFCa3JJaklRQnJ6UUVVPQ","裁決":"ExactDuplicate歷史Revision"},
-    {"DriveRevisionID":"0B0rZjEvqIMWsdFZ3dGlNZ3NpVFJiNHBmNG45dDc2Q3ROa000PQ","裁決":"SameIdentityPreviousRevision"},
-    {"GmailMessageID":"19feb48788d844b1","裁決":"本回合重複回執歷史證據"},
-    {"GmailMessageID":"19feb48abee341c0","裁決":"本回合重複回執歷史證據"},
-    {"GmailMessageID":"19feb48e6f1143df","裁決":"本回合前一current回執歷史證據"}
+    {
+      "DriveFileID": "1rZAESqIPtuhowZ3OM5XrlIGgVXI2VvzG",
+      "裁決": "歷史投影"
+    },
+    {
+      "DriveRevisionID": "0B0rZjEvqIMWsazY1UElMQmduOE9HQUFCa3JJaklRQnJ6UUVVPQ",
+      "裁決": "ExactDuplicate歷史Revision"
+    },
+    {
+      "DriveRevisionID": "0B0rZjEvqIMWsdFZ3dGlNZ3NpVFJiNHBmNG45dDc2Q3ROa000PQ",
+      "裁決": "SameIdentityPreviousRevision"
+    },
+    {
+      "GmailMessageID": "19feb48788d844b1",
+      "裁決": "本回合重複回執歷史證據"
+    },
+    {
+      "GmailMessageID": "19feb48abee341c0",
+      "裁決": "本回合重複回執歷史證據"
+    },
+    {
+      "GmailMessageID": "19feb48e6f1143df",
+      "裁決": "本回合前一current回執歷史證據"
+    }
   ],
-  "唯一接線":"🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A",
-  "第二根":0,"第二正式容器":0,"平行正式Identity":0,"英文平行正式路徑":0,"永久刪除":0
+  "唯一接線": "🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A",
+  "第二根": 0,
+  "第二正式容器": 0,
+  "平行正式Identity": 0,
+  "英文平行正式路徑": 0,
+  "永久刪除": 0
 }
