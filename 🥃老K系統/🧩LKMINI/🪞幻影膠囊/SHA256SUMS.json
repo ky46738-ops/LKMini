@@ -66,8 +66,8 @@
   },
   {
     "path": "動作容器/🔁ExternalSync.json",
-    "bytes": 1383,
-    "sha256": "49a0ea26838afb9f02ee76c102c11668f71a4b47d31ec1dcfc303b4c070b7a22"
+    "bytes": 1823,
+    "sha256": "7faf2328ddefa53a48e71371502380ea50324d27906413a7f6202eecc345b9d2"
   },
   {
     "path": "動作容器/🔁GitHubSync.json",
@@ -101,7 +101,7 @@
   },
   {
     "path": "🪞幻影膠囊.zip",
-    "bytes": 56279,
-    "sha256": "ce9e6a60df60fd1aeb2faca408ecb2deb3513a80fba60b136030e6d287f9c6fa"
+    "bytes": 56391,
+    "sha256": "14e7d1a17c3025136b77e9bf835dba2e820a3e9c2ded54e86257e389210c3e31"
   }
 ]
