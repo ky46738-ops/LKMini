@@ -15,21 +15,147 @@
   "永久刪除": 0,
   "唯一接線": "🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A",
   "動作容器": [
-    {"階段":"S0","中文正式名稱":"搜尋與去重","EnglishKey":"SearchAndDeduplicate"},
-    {"階段":"S1","中文正式名稱":"完整讀取","EnglishKey":"FullRead"},
-    {"階段":"S2","中文正式名稱":"掛載","EnglishKey":"Mount"},
-    {"階段":"S3","中文正式名稱":"驗證","EnglishKey":"Verify"},
-    {"階段":"S4","中文正式名稱":"修復","EnglishKey":"Repair"},
-    {"階段":"S5","中文正式名稱":"顯影","EnglishKey":"Render"},
-    {"階段":"S6","中文正式名稱":"融合","EnglishKey":"Merge"},
-    {"階段":"S7","中文正式名稱":"快照","EnglishKey":"Snapshot"},
-    {"階段":"S8","中文正式名稱":"同步與Gmail","EnglishKey":"SynchronizeAndGmail"},
-    {"階段":"S9","中文正式名稱":"可逆回推","EnglishKey":"ReverseTrace"},
-    {"階段":"S10","中文正式名稱":"禁令查核","EnglishKey":"ProhibitionAudit"}
+    {
+      "階段": "S0",
+      "中文正式名稱": "搜尋與去重",
+      "EnglishKey": "SearchAndDeduplicate"
+    },
+    {
+      "階段": "S1",
+      "中文正式名稱": "完整讀取",
+      "EnglishKey": "FullRead"
+    },
+    {
+      "階段": "S2",
+      "中文正式名稱": "掛載",
+      "EnglishKey": "Mount"
+    },
+    {
+      "階段": "S3",
+      "中文正式名稱": "驗證",
+      "EnglishKey": "Verify"
+    },
+    {
+      "階段": "S4",
+      "中文正式名稱": "修復",
+      "EnglishKey": "Repair"
+    },
+    {
+      "階段": "S5",
+      "中文正式名稱": "顯影",
+      "EnglishKey": "Render"
+    },
+    {
+      "階段": "S6",
+      "中文正式名稱": "融合",
+      "EnglishKey": "Merge"
+    },
+    {
+      "階段": "S7",
+      "中文正式名稱": "快照",
+      "EnglishKey": "Snapshot"
+    },
+    {
+      "階段": "S8",
+      "中文正式名稱": "同步與Gmail",
+      "EnglishKey": "SynchronizeAndGmail"
+    },
+    {
+      "階段": "S9",
+      "中文正式名稱": "可逆回推",
+      "EnglishKey": "ReverseTrace"
+    },
+    {
+      "階段": "S10",
+      "中文正式名稱": "禁令查核",
+      "EnglishKey": "ProhibitionAudit"
+    }
   ],
   "EnglishKey規則": "只供機器欄位使用，不作正式檔名、正式路徑或平行身分。",
-  "本回合膠囊": {"檔名":"🪞幻影膠囊｜本回合更新.zip","位元組數":33154127,"SHA256":"7767563f64068ee4390acf7e66fac988313e3af8086951b2962b226d238c670d","成員數":82},
-  "本對話可列舉來源檔案數": 19,
-  "GitHub": {"儲存庫":"ky46738-ops/LKMini","分支":"seed_v0"},
-  "GoogleDrive": {"FileID":"1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF"}
+  "本回合修復": {
+    "時間": "2026-08-10T17:46:40+08:00",
+    "裁決": "更新同一 Drive ObjectID 與同一 GitHub 正式動作容器",
+    "修改前快照": {
+      "DriveObjectID": "1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF",
+      "RevisionID": "0B0rZjEvqIMWsMTJneFhBaEVRN2U3RWl2cGpQcjhqaUdaSUJnPQ",
+      "Parent": "1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX",
+      "ByteSize": 154771,
+      "SHA256": "ca5c6e2ec6cc703284f51d79ba04d266b1affad597342ed2a434e865b2ea9489"
+    },
+    "GoogleDrive讀回": {
+      "FileID": "1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF",
+      "RevisionID": "0B0rZjEvqIMWsaG5paW9OM0tKMW90Z0RjNHdBblNUMmpxRHI4PQ",
+      "PreviousRevisionID": "0B0rZjEvqIMWsMTJneFhBaEVRN2U3RWl2cGpQcjhqaUdaSUJnPQ",
+      "Parent": "1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX",
+      "ByteSize": 161917,
+      "SHA256": "74009d28ceea9e4e4802e8eca7392354f0115b513c04d1bd693383e0b34752be",
+      "MagicBytes": "504b0304",
+      "檔案數": 27,
+      "ZIP成員數含目錄": 39,
+      "ZIP_CRC": "全部通過",
+      "逐位元讀回相同": true
+    }
+  },
+  "格式驗證": {
+    "Conversation": true,
+    "MarkdownSeed": true,
+    "SVG": true,
+    "WebP": true,
+    "GIF": true,
+    "MP4": true,
+    "HTML": true,
+    "Excel": true,
+    "TSV": true,
+    "CSV": true,
+    "JSON": true,
+    "PDF": true,
+    "EmbeddedVisual": true,
+    "SHA256Identity": true,
+    "Manifest": true,
+    "Locator": true,
+    "Snapshot": true,
+    "ReverseChain": true,
+    "Package": true
+  },
+  "去重裁決": [
+    {
+      "候選": "1XkvDzyxxtM6yy1gew6j5fHbEshFnfzgY",
+      "分類": "FolderDuplicate／NameCollision",
+      "裁決": "REFERENCE_ONLY",
+      "永久刪除": 0
+    },
+    {
+      "候選": "1rZAESqIPtuhowZ3OM5XrlIGgVXI2VvzG",
+      "分類": "SameIdentityHistoricalProjection",
+      "裁決": "REFERENCE_ONLY",
+      "永久刪除": 0
+    }
+  ],
+  "Goodnotes": {
+    "控制卡DocumentID": "1vpCZpR-W2j6jUIZjF-CVHAENOp1D3xuLn3ikkx5rZcc",
+    "裁決": "REFERENCE_ONLY",
+    "驗證": "控制卡不是 Goodnotes 原始正文；未取得原始正文時不冒充已讀"
+  },
+  "GitHub": {
+    "儲存庫": "ky46738-ops/LKMini",
+    "分支": "seed_v0",
+    "正式動作容器": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🧚全域中文接線精靈｜正式動作容器.json",
+    "狀態": "同一路徑更新"
+  },
+  "Gmail": {
+    "狀態": "本次 GitHub 修復 commit 後寄送並讀回"
+  },
+  "階段狀態": {
+    "S0": "完成",
+    "S1": "完成",
+    "S2": "完成",
+    "S3": "完成",
+    "S4": "完成",
+    "S5": "完成",
+    "S6": "完成",
+    "S7": "完成",
+    "S8": "執行中",
+    "S9": "待S8",
+    "S10": "待S9"
+  }
 }
