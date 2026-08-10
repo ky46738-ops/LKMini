@@ -61,17 +61,19 @@
   },
   {
     "path": "動作容器/🔁ExternalSync.json",
-    "bytes": 2116,
-    "sha256": "59e52a72e137141375fe99e2f65ea6082f1bb6f743de234cfd6228d6a2079ff0",
-    "GitBlob": "c29e5a1e1dfdf13f5fc76da8b066949bfe72d38d",
-    "驗證狀態": "2026-08-10T18:55:00+08:00 同路徑讀回"
+    "bytes": 2033,
+    "sha256": "3c720b212795b99c023d29a0d4ae33336257947ad2bca81dc9ded60fa60351e3",
+    "GitBlob": "cce675158da9a8690be1179e9666d5cf72a30006",
+    "驗證狀態": "2026-08-10T19:57:52+08:00 同路徑讀回；Drive Revision與Gmail回執存在",
+    "commit": "4a4327fd83b0226f7054b097ca5bad67648f0aab"
   },
   {
     "path": "動作容器/🔁GitHubSync.json",
-    "bytes": 1960,
-    "sha256": "ad39a0c319d66497a626a030034b7a700a4eb33baa97d8d97a6aa840444b9a30",
-    "GitBlob": "fbf75b79513eb17b9d6234a040cec7d04d1f0796",
-    "驗證狀態": "2026-08-10T18:51:25+08:00 同路徑讀回"
+    "bytes": 2238,
+    "sha256": "bc236b2648b2b1aa684b72113f4144704ff368ceae8a8d0f076d6d8c7d03508c",
+    "GitBlob": "d0614da4aaefd51be3f47bd447a18cd61dbd8597",
+    "驗證狀態": "2026-08-10T19:57:52+08:00 同路徑讀回；Drive Revision與Gmail回執存在",
+    "commit": "a856d7118ee2c1940c09f1bd410fe2b10122a3fd"
   },
   {
     "path": "動作容器/🖥️CapsuleAction.html",
@@ -103,10 +105,11 @@
   },
   {
     "path": "動作容器/🧚全域中文接線精靈｜正式動作容器.json",
-    "bytes": 3428,
-    "sha256": "0582eb450b76f119c073e8aecd9a11a2c63a70ada6bdcafc7cad21f1a9f4fb6e",
-    "GitBlob": "81e6856bd20b09b1614d6c662ea8226d362c01cf",
-    "驗證狀態": "2026-08-10T18:55:00+08:00 同路徑讀回"
+    "bytes": 3033,
+    "sha256": "36e123215cc7a4cbd6ae275d811a803755d4c1dc7005874b4e67094f2cf7d97b",
+    "GitBlob": "59a2dfe347b0250da19dfad7689c1fbd0d01d3ea",
+    "驗證狀態": "2026-08-10T19:57:52+08:00 同路徑讀回；Drive Revision與Gmail回執存在",
+    "commit": "6e9991629f7d253ac33d0de91006dec6f005a8c3"
   },
   {
     "path": "LKMINI://🧩LKMINI/🪞幻影膠囊/🪞幻影膠囊｜PhantomCapsule.zip",
@@ -136,6 +139,26 @@
     "GmailMessageID": "19feb4fc034a063d",
     "GmailThreadID": "19feb4fc034a063d",
     "驗證時間_台北": "2026-08-10T18:55:00+08:00",
-    "狀態": "正式Identity"
+    "狀態": "REFERENCE_ONLY",
+    "裁決": "SameIdentityHistoricalRevision"
+  },
+  {
+    "path": "LKMINI://🥃老K系統/🧩LKMINI/🪞幻影膠囊",
+    "bytes": 2584641,
+    "sha256": "e40e83d9662a4de3ce7af7acf1e53e30086772d5d48fe335d03d4c7491ff2ba8",
+    "ObjectID": "1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF",
+    "RevisionID": "0B0rZjEvqIMWsZlJFaFN3WmJMcy95UDdyN0RoeUFKZDBobkk0PQ",
+    "PreviousRevisionID": "0B0rZjEvqIMWsSmFJZGFxdml5a25pcmptT2oxR3ZpTmg1L2ZRPQ",
+    "Parent": "1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX",
+    "MagicBytes": "504b0304",
+    "檔案數": 40,
+    "ZIP成員數": 40,
+    "ZIP_CRC": "全部通過",
+    "GmailMessageID": "19feb894fa4a6060",
+    "GmailThreadID": "19feb894fa4a6060",
+    "驗證時間_台北": "2026-08-10T19:57:52+08:00",
+    "狀態": "正式Identity",
+    "裁決": "SameIdentityNewRevision／ABSORB",
+    "永久刪除": 0
   }
 ]
