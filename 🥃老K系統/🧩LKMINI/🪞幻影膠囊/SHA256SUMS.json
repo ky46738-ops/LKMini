@@ -60,6 +60,11 @@
     "sha256": "0d1fe086f3a4c6a1a3f27ff2dc95ccbeb362da4724ae8766ab73fb434a7818d6"
   },
   {
+    "path": "動作容器/🔁GitHubSync.json",
+    "bytes": 5243,
+    "sha256": "b65d0e6d8df6db0d9c07fab19941843dad99f3af2b093205246b6ed2c01d5293"
+  },
+  {
     "path": "動作容器/🖥️CapsuleAction.html",
     "bytes": 5348,
     "sha256": "3819e18210330f573159b65526114d735318753cca42e4454670563ca5e4e058"
@@ -81,7 +86,7 @@
   },
   {
     "path": "🪞幻影膠囊.zip",
-    "bytes": 51630,
-    "sha256": "bc3803d98ac2335698f812a58e9ec3c060bc3c0758004cdc86981a1d2f418180"
+    "bytes": 52895,
+    "sha256": "c1e26ce9138f7d553f4d3abbd8cfcc638a290820859aeed948be7eaab86bc51c"
   }
 ]
