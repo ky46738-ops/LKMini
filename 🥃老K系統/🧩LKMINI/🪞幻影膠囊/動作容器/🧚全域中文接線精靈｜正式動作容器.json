@@ -10,72 +10,32 @@
   "身分規則": "Projection ≠ Identity",
   "Ruling": "SameIdentityNewRevision",
   "正式轉換架構": "唯一入口 → 十個動作 → 九個資料夾抽象／轉換 → 唯一出口 → 🪞幻影膠囊",
-  "正式十動作": [
-    {"序號": 1, "中文正式名稱": "📘閱讀", "EnglishKey": "Read", "核心意義": "感知啟動"},
-    {"序號": 2, "中文正式名稱": "⚡啟動", "EnglishKey": "Boot", "核心意義": "意識甦醒"},
-    {"序號": 3, "中文正式名稱": "🔗掛載", "EnglishKey": "Mount", "核心意義": "環境連接"},
-    {"序號": 4, "中文正式名稱": "🔬驗證", "EnglishKey": "Verify", "核心意義": "狀態確認"},
-    {"序號": 5, "中文正式名稱": "📝更新", "EnglishKey": "Update", "核心意義": "狀態維護"},
-    {"序號": 6, "中文正式名稱": "📢廣播", "EnglishKey": "Broadcast", "核心意義": "存在宣告"},
-    {"序號": 7, "中文正式名稱": "🧬融合", "EnglishKey": "Fusion", "核心意義": "知識整合"},
-    {"序號": 8, "中文正式名稱": "📸快照", "EnglishKey": "Snapshot", "核心意義": "狀態保存"},
-    {"序號": 9, "中文正式名稱": "🔄同步", "EnglishKey": "Sync", "核心意義": "協調統一"},
-    {"序號": 10, "中文正式名稱": "♾️循環重建", "EnglishKey": "LoopAndRestore", "核心意義": "永續運行"}
-  ],
-  "施工驗收流程": {
-    "S0至S10": "REFERENCE_ONLY",
-    "位置": "施工驗收流程",
-    "正式動作容器底下數量": 0
-  },
+  "正式十動作": ["📘閱讀","⚡啟動","🔗掛載","🔬驗證","📝更新","📢廣播","🧬融合","📸快照","🔄同步","♾️循環重建"],
+  "施工驗收流程": {"S0至S10":"REFERENCE_ONLY","正式動作容器底下數量":0},
   "本回合Current": {
-    "時間_台北": "2026-08-10T18:47:31+08:00",
+    "時間_台北": "2026-08-10T18:50:00+08:00",
     "GoogleDrive": {
       "FileID": "1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF",
       "Parent": "1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX",
       "Name": "🪞幻影膠囊",
-      "RevisionID": "0B0rZjEvqIMWsdFZ3dGlNZ3NpVFJiNHBmNG45dDc2Q3ROa000PQ",
-      "PreviousRevisionID": "0B0rZjEvqIMWsazY1UElMQmduOE9HQUFCa3JJaklRQnJ6UUVVPQ",
-      "ByteSize": 2365088,
-      "SHA256": "6234ff215024f229bcc8f3aa299f1d0ae4cd92fe7a89c2b75031f1dbb8f63e59",
+      "RevisionID": "0B0rZjEvqIMWsdTRyZWVLZStlR0taVHNsRWhVSGRlOG93bE0wPQ",
+      "PreviousRevisionID": "0B0rZjEvqIMWsdFZ3dGlNZ3NpVFJiNHBmNG45dDc2Q3ROa000PQ",
+      "ByteSize": 2367218,
+      "SHA256": "bbcc5e80053ac30fa3a23b009fc2db1b6de2d0b278d97f7d8d61291104e1b61e",
       "MagicBytes": "504b0304",
-      "ZIPMembers": 46,
+      "ZIPMembers": 36,
       "ZIP_CRC": "全部通過",
       "同FileID讀回": true
     },
-    "副檔名實證": {
-      "FormatIdentityRecords": 53,
-      "正規化副檔名種類": 16,
-      "無副檔名": 1,
-      "隱藏檔": 1,
-      "UTType": "本回合無Apple resolver，不冒充"
-    },
-    "GitHub": {
-      "Repository": "ky46738-ops/LKMini",
-      "Branch": "seed_v0",
-      "FormalPath": "🥃老K系統/🧩LKMINI/🪞幻影膠囊",
-      "動作容器第一階段Commit": "b69bd3530c6154b0830f9f21890bf7f9ce363c68",
-      "ExternalSyncCommit": "80d76b0c7e11739895ecbbd5073703077c1d6521",
-      "GitHubSyncCommit": "0592ec6253977f7ba77a72770b5cac32358b7c3b"
-    },
-    "Gmail": {
-      "From": "ky46738@gmail.com",
-      "To": "ky46738@gmail.com",
-      "Subject": "🥃老K系統｜本回合正式完成回執｜A=A",
-      "MessageID": "19feb48e6f1143df",
-      "ThreadID": "19feb48e6f1143df",
-      "ReadBack": true
-    }
+    "副檔名實證": {"FormatIdentityRecords":53,"正規化副檔名種類":16,"無副檔名":1,"隱藏檔":1,"UTType":"本回合無Apple resolver，不冒充"},
+    "GitHub": {"Repository":"ky46738-ops/LKMini","Branch":"seed_v0","FormalPath":"🥃老K系統/🧩LKMINI/🪞幻影膠囊","狀態":"同一路徑更新"},
+    "Gmail": {"From":"ky46738@gmail.com","To":"ky46738@gmail.com","Subject":"🥃老K系統｜本回合正式完成回執｜A=A","狀態":"待最新current最終MessageID"}
   },
   "歷史REFERENCE_ONLY": [
-    {"DriveFileID": "1rZAESqIPtuhowZ3OM5XrlIGgVXI2VvzG", "處置": "歷史Revision保留；current已回退；永久刪除0"},
-    {"DriveRevisionID": "0B0rZjEvqIMWsazY1UElMQmduOE9HQUFCa3JJaklRQnJ6UUVVPQ", "裁決": "ExactDuplicate／SameIdentityNewRevision；保留歷史證據"},
-    {"GmailMessageID": "19feb48788d844b1", "裁決": "本回合重複回執；保留歷史證據"},
-    {"GmailMessageID": "19feb48abee341c0", "裁決": "本回合重複回執；保留歷史證據"}
+    {"DriveFileID":"1rZAESqIPtuhowZ3OM5XrlIGgVXI2VvzG","裁決":"歷史投影"},
+    {"DriveRevisionID":"0B0rZjEvqIMWsazY1UElMQmduOE9HQUFCa3JJaklRQnJ6UUVVPQ","裁決":"ExactDuplicate歷史Revision"},
+    {"DriveRevisionID":"0B0rZjEvqIMWsdFZ3dGlNZ3NpVFJiNHBmNG45dDc2Q3ROa000PQ","裁決":"SameIdentityPreviousRevision"}
   ],
-  "唯一接線": "🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A",
-  "第二根": 0,
-  "第二正式容器": 0,
-  "平行正式Identity": 0,
-  "英文平行正式路徑": 0,
-  "永久刪除": 0
+  "唯一接線":"🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A",
+  "第二根":0,"第二正式容器":0,"平行正式Identity":0,"英文平行正式路徑":0,"永久刪除":0
 }
