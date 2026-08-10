@@ -1,0 +1,87 @@
+[
+  {
+    "path": "動作容器/⛓️ReverseChain.json",
+    "bytes": 325,
+    "sha256": "bda0d1e0a3483a876e654d4842f76bc9bcc8c0810626f875555450224f1fae60"
+  },
+  {
+    "path": "動作容器/🎞️CapsuleMotion.gif",
+    "bytes": 9999,
+    "sha256": "bb08b9a8ccb39be6074406513a24863324e699ea81ec42dbf0fb887111b77445"
+  },
+  {
+    "path": "動作容器/🎬CapsuleMotion.mp4",
+    "bytes": 6592,
+    "sha256": "82014bdbebb1b907f786b3b3fc66f2f2fed1ab97e84bfb4d04245aaaf2dc2402"
+  },
+  {
+    "path": "動作容器/🎴EmbeddedVisual.svg",
+    "bytes": 2046,
+    "sha256": "34f297359b5eadab7a02952444e76ae65c39f89def3cf59dfe2ecd09aac027df"
+  },
+  {
+    "path": "動作容器/📄Manifest.csv",
+    "bytes": 2299,
+    "sha256": "e1aa169f0e9dfb547740da06ac5c3d8df7f06ee7fdad398d8cba3f2f23279349"
+  },
+  {
+    "path": "動作容器/📄Manifest.tsv",
+    "bytes": 2299,
+    "sha256": "79e372c3ce977a022c64dd3dedcb8145dd9372230323cb495e6c1a8b6921e255"
+  },
+  {
+    "path": "動作容器/📄Snapshot.pdf",
+    "bytes": 46064,
+    "sha256": "f54194456b00a83b393cb5b57a98505b69e773e774d6bb55b25ea12aefc1afa3"
+  },
+  {
+    "path": "動作容器/📊AuthorLayer.xlsx",
+    "bytes": 6485,
+    "sha256": "ac0783bffb6d11fc7243a613b487633bf9defaf07ec2ee222ad76421879713ff"
+  },
+  {
+    "path": "動作容器/📍Locator.json",
+    "bytes": 4803,
+    "sha256": "d5bf9d25474916911514d15e3ceae7754749537b159aa3a5767ffffea8ecb9a5"
+  },
+  {
+    "path": "動作容器/📘MarkdownSeed.md",
+    "bytes": 106,
+    "sha256": "6f04ed58a266c08b57d6cb2c1f955628acd17a8e1c2dcaa8eeeb734612850f28"
+  },
+  {
+    "path": "動作容器/📦Package.json",
+    "bytes": 148,
+    "sha256": "ac3aa7aaf56297b75e5eef2914d81cdc7f687f09afd9395251047a623fa248ee"
+  },
+  {
+    "path": "動作容器/📸Snapshot.json",
+    "bytes": 4612,
+    "sha256": "0d1fe086f3a4c6a1a3f27ff2dc95ccbeb362da4724ae8766ab73fb434a7818d6"
+  },
+  {
+    "path": "動作容器/🖥️CapsuleAction.html",
+    "bytes": 5348,
+    "sha256": "3819e18210330f573159b65526114d735318753cca42e4454670563ca5e4e058"
+  },
+  {
+    "path": "動作容器/🖼️Snapshot.png",
+    "bytes": 7952,
+    "sha256": "d2a8e44d2f2d7d40a1643228b318004d98b76eaf464a1abe093a49642e476b61"
+  },
+  {
+    "path": "動作容器/🖼️Snapshot.webp",
+    "bytes": 4426,
+    "sha256": "c37fd8eb291e967968945caef6f12abdb1934439c8cb2307749e3da31d9f85da"
+  },
+  {
+    "path": "動作容器/🧾Canonical.json",
+    "bytes": 819,
+    "sha256": "e3091999c8d74556f00240670144e306ddde2a81fe2084ad3b6892c4b1105d8d"
+  },
+  {
+    "path": "🪞幻影膠囊.zip",
+    "bytes": 51630,
+    "sha256": "bc3803d98ac2335698f812a58e9ec3c060bc3c0758004cdc86981a1d2f418180"
+  }
+]
