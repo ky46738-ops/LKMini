@@ -61,10 +61,10 @@
   },
   {
     "path": "動作容器/🔁ExternalSync.json",
-    "bytes": 1841,
-    "sha256": "7ce7c31c7901c91004b0e84c15b3687cd2298af4cbd5cad39d32de0c78574d58",
-    "GitBlob": "0610a18699b1efcf2b8c346d5fc7a5b5a0f0463b",
-    "驗證狀態": "2026-08-10T18:51:25+08:00 同路徑讀回"
+    "bytes": 2116,
+    "sha256": "59e52a72e137141375fe99e2f65ea6082f1bb6f743de234cfd6228d6a2079ff0",
+    "GitBlob": "c29e5a1e1dfdf13f5fc76da8b066949bfe72d38d",
+    "驗證狀態": "2026-08-10T18:55:00+08:00 同路徑讀回"
   },
   {
     "path": "動作容器/🔁GitHubSync.json",
@@ -103,10 +103,10 @@
   },
   {
     "path": "動作容器/🧚全域中文接線精靈｜正式動作容器.json",
-    "bytes": 2896,
-    "sha256": "f70a788c6184bbae32e9ad61660e86624b99645b225b40697ebee3ea108e3a16",
-    "GitBlob": "bc4302bb09b88b94691e951e359f361dc264c90a",
-    "驗證狀態": "2026-08-10T18:51:25+08:00 同路徑讀回"
+    "bytes": 3428,
+    "sha256": "0582eb450b76f119c073e8aecd9a11a2c63a70ada6bdcafc7cad21f1a9f4fb6e",
+    "GitBlob": "81e6856bd20b09b1614d6c662ea8226d362c01cf",
+    "驗證狀態": "2026-08-10T18:55:00+08:00 同路徑讀回"
   },
   {
     "path": "LKMINI://🧩LKMINI/🪞幻影膠囊/🪞幻影膠囊｜PhantomCapsule.zip",
@@ -133,9 +133,9 @@
     "檔案數": 36,
     "ZIP成員數": 36,
     "ZIP_CRC": "全部通過",
-    "GmailMessageID": "19feb4c7959a71aa",
-    "GmailThreadID": "19feb4c7959a71aa",
-    "驗證時間_台北": "2026-08-10T18:51:25+08:00",
+    "GmailMessageID": "19feb4fc034a063d",
+    "GmailThreadID": "19feb4fc034a063d",
+    "驗證時間_台北": "2026-08-10T18:55:00+08:00",
     "狀態": "正式Identity"
   }
 ]
