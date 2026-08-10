@@ -1,88 +1,12 @@
 {
-  "timestamp_utc": "2026-08-10T09:37:13Z",
+  "timestamp": "2026-08-10T17:52:00+08:00",
   "repository": "ky46738-ops/LKMini",
   "branch": "seed_v0",
-  "formal_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器",
-  "status": "完成",
-  "text_projection_count": 11,
-  "binary_projection_note": "二進位 Projection 保存在同一膠囊 ZIP 與持久檔案；GitHub 端以 SHA256SUMS 回指。",
-  "readback": [
-    {
-      "path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/README.md",
-      "ok": true,
-      "sha": "6ddd43c32bf869ade149fd36160394dcdb750e8e",
-      "display_url": "https://github.com/ky46738-ops/LKMini/blob/seed_v0/%F0%9F%A5%83%E8%80%81K%E7%B3%BB%E7%B5%B1/%F0%9F%A7%A9LKMINI/%F0%9F%AA%9E%E5%B9%BB%E5%BD%B1%E8%86%A0%E5%9B%8A/%E5%8B%95%E4%BD%9C%E5%AE%B9%E5%99%A8/README.md",
-      "chars": 62
-    },
-    {
-      "path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🖥️CapsuleAction.html",
-      "ok": true,
-      "sha": "52701fbcca13acff38b57fd1c207f08c156f9350",
-      "display_url": "https://github.com/ky46738-ops/LKMini/blob/seed_v0/%F0%9F%A5%83%E8%80%81K%E7%B3%BB%E7%B5%B1/%F0%9F%A7%A9LKMINI/%F0%9F%AA%9E%E5%B9%BB%E5%BD%B1%E8%86%A0%E5%9B%8A/%E5%8B%95%E4%BD%9C%E5%AE%B9%E5%99%A8/%F0%9F%96%A5%EF%B8%8FCapsuleAction.html",
-      "chars": 5038
-    },
-    {
-      "path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🧾Canonical.json",
-      "ok": true,
-      "sha": "b4c65f81a2906e1af20795f9cdd50f22bc1e951d",
-      "display_url": "https://github.com/ky46738-ops/LKMini/blob/seed_v0/%F0%9F%A5%83%E8%80%81K%E7%B3%BB%E7%B5%B1/%F0%9F%A7%A9LKMINI/%F0%9F%AA%9E%E5%B9%BB%E5%BD%B1%E8%86%A0%E5%9B%8A/%E5%8B%95%E4%BD%9C%E5%AE%B9%E5%99%A8/%F0%9F%A7%BECanonical.json",
-      "chars": 745
-    },
-    {
-      "path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🎴EmbeddedVisual.svg",
-      "ok": true,
-      "sha": "a91e85836cea2cdcc4e000b17c76e652e44d5c2b",
-      "display_url": "https://github.com/ky46738-ops/LKMini/blob/seed_v0/%F0%9F%A5%83%E8%80%81K%E7%B3%BB%E7%B5%B1/%F0%9F%A7%A9LKMINI/%F0%9F%AA%9E%E5%B9%BB%E5%BD%B1%E8%86%A0%E5%9B%8A/%E5%8B%95%E4%BD%9C%E5%AE%B9%E5%99%A8/%F0%9F%8E%B4EmbeddedVisual.svg",
-      "chars": 1886
-    },
-    {
-      "path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/📄Manifest.csv",
-      "ok": true,
-      "sha": "7349e82a08a67c1af4fbc4636278c80c3ffe3786",
-      "display_url": "https://github.com/ky46738-ops/LKMini/blob/seed_v0/%F0%9F%A5%83%E8%80%81K%E7%B3%BB%E7%B5%B1/%F0%9F%A7%A9LKMINI/%F0%9F%AA%9E%E5%B9%BB%E5%BD%B1%E8%86%A0%E5%9B%8A/%E5%8B%95%E4%BD%9C%E5%AE%B9%E5%99%A8/%F0%9F%93%84Manifest.csv",
-      "chars": 1974
-    },
-    {
-      "path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/📄Manifest.tsv",
-      "ok": true,
-      "sha": "08fc9c98bba27f507d5da55e5651b44ab6c97c17",
-      "display_url": "https://github.com/ky46738-ops/LKMini/blob/seed_v0/%F0%9F%A5%83%E8%80%81K%E7%B3%BB%E7%B5%B1/%F0%9F%A7%A9LKMINI/%F0%9F%AA%9E%E5%B9%BB%E5%BD%B1%E8%86%A0%E5%9B%8A/%E5%8B%95%E4%BD%9C%E5%AE%B9%E5%99%A8/%F0%9F%93%84Manifest.tsv",
-      "chars": 1974
-    },
-    {
-      "path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/📍Locator.json",
-      "ok": true,
-      "sha": "2238d8d5b31b2c256e4c7aa1a1816b92edbb1c01",
-      "display_url": "https://github.com/ky46738-ops/LKMini/blob/seed_v0/%F0%9F%A5%83%E8%80%81K%E7%B3%BB%E7%B5%B1/%F0%9F%A7%A9LKMINI/%F0%9F%AA%9E%E5%B9%BB%E5%BD%B1%E8%86%A0%E5%9B%8A/%E5%8B%95%E4%BD%9C%E5%AE%B9%E5%99%A8/%F0%9F%93%8DLocator.json",
-      "chars": 4447
-    },
-    {
-      "path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/📸Snapshot.json",
-      "ok": true,
-      "sha": "6df8ceb4fe8fc202dea78856d6396989b3418293",
-      "display_url": "https://github.com/ky46738-ops/LKMini/blob/seed_v0/%F0%9F%A5%83%E8%80%81K%E7%B3%BB%E7%B5%B1/%F0%9F%A7%A9LKMINI/%F0%9F%AA%9E%E5%B9%BB%E5%BD%B1%E8%86%A0%E5%9B%8A/%E5%8B%95%E4%BD%9C%E5%AE%B9%E5%99%A8/%F0%9F%93%B8Snapshot.json",
-      "chars": 4292
-    },
-    {
-      "path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/⛓️ReverseChain.json",
-      "ok": true,
-      "sha": "6e2ebbe88ca4b923ea4026d894fa0051dca74deb",
-      "display_url": "https://github.com/ky46738-ops/LKMini/blob/seed_v0/%F0%9F%A5%83%E8%80%81K%E7%B3%BB%E7%B5%B1/%F0%9F%A7%A9LKMINI/%F0%9F%AA%9E%E5%B9%BB%E5%BD%B1%E8%86%A0%E5%9B%8A/%E5%8B%95%E4%BD%9C%E5%AE%B9%E5%99%A8/%E2%9B%93%EF%B8%8FReverseChain.json",
-      "chars": 261
-    },
-    {
-      "path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/📦Package.json",
-      "ok": true,
-      "sha": "0b5d919e4b9294d019a0ae27cac10ba425f05e9e",
-      "display_url": "https://github.com/ky46738-ops/LKMini/blob/seed_v0/%F0%9F%A5%83%E8%80%81K%E7%B3%BB%E7%B5%B1/%F0%9F%A7%A9LKMINI/%F0%9F%AA%9E%E5%B9%BB%E5%BD%B1%E8%86%A0%E5%9B%8A/%E5%8B%95%E4%BD%9C%E5%AE%B9%E5%99%A8/%F0%9F%93%A6Package.json",
-      "chars": 138
-    },
-    {
-      "path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/SHA256SUMS.json",
-      "ok": true,
-      "sha": "98009ae598f37ca229544c7db3cd36f0896bcdb6",
-      "display_url": "https://github.com/ky46738-ops/LKMini/blob/seed_v0/%F0%9F%A5%83%E8%80%81K%E7%B3%BB%E7%B5%B1/%F0%9F%A7%A9LKMINI/%F0%9F%AA%9E%E5%B9%BB%E5%BD%B1%E8%86%A0%E5%9B%8A/SHA256SUMS.json",
-      "chars": 2481
-    }
-  ]
+  "歷史路徑": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器",
+  "現行功能路徑": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/06_🧬融合｜Fusion",
+  "路徑角色": "歷史Projection保留；現行更新改由功能命名路徑承接",
+  "唯一根": "🧩LKMINI",
+  "正式容器": "🪞幻影膠囊",
+  "A=A": true,
+  "永久刪除": 0
 }
