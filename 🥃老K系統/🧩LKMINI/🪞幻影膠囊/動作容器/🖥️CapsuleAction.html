@@ -3,80 +3,69 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>🥃老K系統／🧩LKMINI／🪞幻影膠囊</title>
+  <title>🥃老K系統／🧩LKMINI／🪞幻影膠囊｜正式十動作轉換</title>
   <style>
-    :root { color-scheme: light; --ink:#111; --line:#d6d6cf; --gold:#fff1b8; --green:#e9f8ef; --amber:#fff7db; }
-    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color:var(--ink); background:#f7f7f3; }
+    :root { color-scheme: light; --ink:#111; --line:#d6d6cf; --gold:#fff1b8; --green:#e9f8ef; --paper:#f7f7f3; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color:var(--ink); background:var(--paper); }
     header { padding:24px 18px; background:#111; color:white; }
     main { max-width:1040px; margin:0 auto; padding:18px; }
     h1 { margin:0 0 8px; font-size:clamp(24px,4vw,40px); }
     .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; margin:16px 0; }
-    .tile { border:1px solid var(--line); border-radius:8px; background:white; padding:14px; }
+    .tile { border:1px solid var(--line); border-radius:10px; background:white; padding:14px; }
     .ok { background:var(--green); }
-    button { border:1px solid #111; border-radius:8px; background:#fff; padding:10px 12px; font-weight:700; cursor:pointer; }
-    table { width:100%; border-collapse:collapse; background:white; border:1px solid var(--line); }
-    th,td { padding:10px; border-bottom:1px solid var(--line); text-align:left; vertical-align:top; word-break:break-word; }
-    code { font-size:12px; }
-    .flow { display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
-    .flow span { padding:8px 10px; border-radius:999px; background:var(--gold); border:1px solid #111; }
-    .status { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:8px; }
-    .status div { padding:10px; border:1px solid var(--line); border-radius:8px; background:white; }
+    .flow { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:8px; margin-top:10px; }
+    .flow div { padding:10px; border-radius:10px; background:var(--gold); border:1px solid #111; }
+    .small { font-size:13px; line-height:1.5; }
+    code { font-size:12px; word-break:break-all; }
   </style>
 </head>
 <body>
-  <header>
-    <h1>🥃老K系統／🧩LKMINI／🪞幻影膠囊</h1>
-    <div>唯一本體：🧩LKMINI ｜ 主權持有人：Kevin Yang／老K ｜ 最高公理：A=A</div>
-  </header>
-  <main>
-    <section class="grid">
-      <div class="tile ok"><strong>身份鎖</strong><br>SystemCount=1<br>RootCount=1<br>FormalContainerTypeCount=1</div>
-      <div class="tile ok"><strong>容器鎖</strong><br>唯一正式容器：🪞幻影膠囊<br>Projection ≠ Identity</div>
-      <div class="tile ok"><strong>同步目標</strong><br>Repository：ky46738-ops/LKMini<br>Branch：seed_v0<br>同一正式Path更新</div>
-      <div class="tile"><strong>本回合時間切片</strong><br>TaskID：<code>LKMINI://Task/20260810T1821+0800</code><br>2026-08-10 18:21 Asia/Taipei<br>metadata_sha256：<code>6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34</code></div>
-    </section>
-    <section class="tile">
-      <strong>膠囊動作｜本回合同一Identity接續</strong>
-      <div class="flow">
-        <span>S0 搜尋／去重</span><span>S1 完整讀取</span><span>S2 掛載</span><span>S3 驗證</span><span>S4 修復</span><span>S5 顯影</span><span>S6 融合</span><span>S7 快照</span><span>S8 GitHub同步</span><span>S9 回推</span><span>S10 禁令查核</span>
-      </div>
-      <p><button onclick="document.getElementById('round').scrollIntoView()">查看本回合施工狀態</button> <button onclick="document.getElementById('proof').scrollIntoView()">查看Projection驗證資料</button></p>
-    </section>
-    <section id="round" class="tile">
-      <h2>本回合施工狀態</h2>
-      <div class="status">
-        <div><strong>S0</strong><br>GitHub／Drive／Files Library／背景自動化已搜尋。</div>
-        <div><strong>S1</strong><br>正式README、Manifest、Locator、Snapshot、SHA256SUMS、Canonical、Package、ReverseChain及既有動作容器已讀取。</div>
-        <div><strong>S2–S4</strong><br>維持同一Identity與正式Path；控制資料版本差異納入同一Revision鏈修復。</div>
-        <div><strong>S5–S7</strong><br>既有Projection清單保留；本動作容器以SameIdentityNewRevision更新，不建立第二容器。</div>
-        <div><strong>S8</strong><br>GitHub正式同步：本檔更新後以Commit／Blob／Path讀回驗證。</div>
-        <div><strong>S9–S10</strong><br>ReverseChain：🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A；永久刪除=0。</div>
-      </div>
-      <p><strong>背景模式：</strong>沿既有Automation ID接續，不建立平行排程。現行全系統可逆修復協作精靈已在既有背景模式中啟用。</p>
-      <p><strong>完整性閘門：</strong>搜尋或歷史宣告只作來源線索；未取得本回合寫入與讀回證據者不計正式完成。Goodnotes讀取端點、全部二進位格式逐位元重驗與其他不可存取平台保持待驗證。</p>
-    </section>
-    <section id="proof">
-      <h2>Projection 檔案｜現行SHA256SUMS投影</h2>
-      <table><thead><tr><th>類型</th><th>名稱</th><th>SHA256</th><th>Bytes</th></tr></thead><tbody>
-<tr><td>⛓</td><td>⛓️ReverseChain.json</td><td><code>bda0d1e0a3483a876e654d4842f76bc9bcc8c0810626f875555450224f1fae60</code></td><td>325</td></tr>
-<tr><td>🎞</td><td>🎞️CapsuleMotion.gif</td><td><code>bb08b9a8ccb39be6074406513a24863324e699ea81ec42dbf0fb887111b77445</code></td><td>9999</td></tr>
-<tr><td>🎬</td><td>🎬CapsuleMotion.mp4</td><td><code>82014bdbebb1b907f786b3b3fc66f2f2fed1ab97e84bfb4d04245aaaf2dc2402</code></td><td>6592</td></tr>
-<tr><td>🎴</td><td>🎴EmbeddedVisual.svg</td><td><code>34f297359b5eadab7a02952444e76ae65c39f89def3cf59dfe2ecd09aac027df</code></td><td>2046</td></tr>
-<tr><td>📄</td><td>📄Manifest.csv</td><td><code>e1aa169f0e9dfb547740da06ac5c3d8df7f06ee7fdad398d8cba3f2f23279349</code></td><td>2299</td></tr>
-<tr><td>📄</td><td>📄Manifest.tsv</td><td><code>79e372c3ce977a022c64dd3dedcb8145dd9372230323cb495e6c1a8b6921e255</code></td><td>2299</td></tr>
-<tr><td>📄</td><td>📄Snapshot.pdf</td><td><code>f54194456b00a83b393cb5b57a98505b69e773e774d6bb55b25ea12aefc1afa3</code></td><td>46064</td></tr>
-<tr><td>📊</td><td>📊AuthorLayer.xlsx</td><td><code>ac0783bffb6d11fc7243a613b487633bf9defaf07ec2ee222ad76421879713ff</code></td><td>6485</td></tr>
-<tr><td>📍</td><td>📍Locator.json</td><td><code>d5bf9d25474916911514d15e3ceae7754749537b159aa3a5767ffffea8ecb9a5</code></td><td>4803</td></tr>
-<tr><td>📘</td><td>📘MarkdownSeed.md</td><td><code>6f04ed58a266c08b57d6cb2c1f955628acd17a8e1c2dcaa8eeeb734612850f28</code></td><td>106</td></tr>
-<tr><td>📦</td><td>📦Package.json</td><td><code>ac3aa7aaf56297b75e5eef2914d81cdc7f687f09afd9395251047a623fa248ee</code></td><td>148</td></tr>
-<tr><td>📸</td><td>📸Snapshot.json</td><td><code>0d1fe086f3a4c6a1a3f27ff2dc95ccbeb362da4724ae8766ab73fb434a7818d6</code></td><td>4612</td></tr>
-<tr><td>🖥</td><td>🖥️CapsuleAction.html</td><td><code>本回合提交後讀回計算</code></td><td>本回合提交後讀回計算</td></tr>
-<tr><td>🖼</td><td>🖼️Snapshot.png</td><td><code>d2a8e44d2f2d7d40a1643228b318004d98b76eaf464a1abe093a49642e476b61</code></td><td>7952</td></tr>
-<tr><td>🖼</td><td>🖼️Snapshot.webp</td><td><code>c37fd8eb291e967968945caef6f12abdb1934439c8cb2307749e3da31d9f85da</code></td><td>4426</td></tr>
-<tr><td>🧾</td><td>🧾Canonical.json</td><td><code>e3091999c8d74556f00240670144e306ddde2a81fe2084ad3b6892c4b1105d8d</code></td><td>819</td></tr>
-</tbody></table>
-      <p>正式根鏈：🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A</p>
-    </section>
-  </main>
+<header>
+  <h1>🪞幻影膠囊｜正式十動作轉換</h1>
+  <div>主權持有人：Kevin Yang／老K ｜ 唯一根：🧩LKMINI ｜ A=A</div>
+</header>
+<main>
+  <section class="grid">
+    <div class="tile ok"><strong>固定公式</strong><br>唯一入口 → 十個動作 → 九個資料夾抽象／轉換 → 唯一出口 → 🪞幻影膠囊</div>
+    <div class="tile ok"><strong>Identity</strong><br>Projection ≠ Identity<br>SecondRoot=0<br>PermanentDelete=0</div>
+    <div class="tile"><strong>GitHub</strong><br>ky46738-ops/LKMini<br>branch：seed_v0<br>SameIdentityNewRevision</div>
+    <div class="tile"><strong>metadata_sha256</strong><br><code>6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34</code></div>
+  </section>
+
+  <section class="tile">
+    <h2>正式十動作轉換</h2>
+    <div class="flow">
+      <div><strong>0 📘閱讀</strong><br>Read<br>系統張眼｜感知啟動</div>
+      <div><strong>1 ⚡啟動</strong><br>Boot<br>生命點火｜意識甦醒</div>
+      <div><strong>2 🔗掛載</strong><br>Mount<br>世界成形｜環境連接</div>
+      <div><strong>3 🔬驗證</strong><br>Verify<br>自我檢查｜狀態確認</div>
+      <div><strong>4 📝更新</strong><br>Update<br>狀態呼吸｜狀態維護</div>
+      <div><strong>5 📢廣播</strong><br>Broadcast<br>世界呼喊｜存在宣告</div>
+      <div><strong>6 🧬融合</strong><br>Fusion<br>文明代謝｜知識整合</div>
+      <div><strong>7 📸快照</strong><br>Snapshot<br>凍結時間｜狀態保存</div>
+      <div><strong>8 🔄同步</strong><br>Sync<br>世界對齊｜協調統一</div>
+      <div><strong>9 ♾️循環重建</strong><br>Loop &amp; Restore<br>重生｜永續運行</div>
+    </div>
+  </section>
+
+  <section class="tile">
+    <h2>九個資料夾抽象／轉換</h2>
+    <p class="small">01🥳歡迎光臨唯一路口 → 02⚙️ENGINE／Runtime → 03🧠知識庫／🔬VERIFY → 04🧩零件 → 05👘樣式庫與內部顯影 → 06⭐️素材庫／🧬融合引擎／唯一出口 → 07📸SNAPSHOT → 08自動化小精靈 → 09⭕️唯一真相／Package／Rollback</p>
+    <p class="small">00｜CORE核心為核心；10｜👉不好意思右邊請為工程規則區；不計入九個資料夾抽象／轉換。</p>
+  </section>
+
+  <section class="tile">
+    <h2>施工流程邊界</h2>
+    <p class="small"><strong>S0–S10 只屬施工／驗收／修復流程，不是正式十動作名稱。</strong></p>
+    <p class="small">搜尋與去重 → 完整讀取 → 掛載 → 驗證 → 修復 → 顯影 → 融合 → 快照 → 同步 → 可逆回推 → 禁令查核。</p>
+    <p class="small">「膠囊動作容器／正式動作容器」不作現行正式轉換架構名稱；既有同名 Git 路徑僅作歷史 Locator。</p>
+  </section>
+
+  <section class="tile">
+    <h2>可逆鏈</h2>
+    <p class="small">來源原件 → ORIGINAL → MagicBytes／MIME／Identity → MOUNT → 解析／零件化 → Projection → SNAPSHOT_ZIP → SHA256 → MANIFEST → LOCATOR → ReverseChain → 06融合唯一出口 → ReadBack → A=A</p>
+    <p><strong>🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A</strong></p>
+  </section>
+</main>
 </body>
 </html>
