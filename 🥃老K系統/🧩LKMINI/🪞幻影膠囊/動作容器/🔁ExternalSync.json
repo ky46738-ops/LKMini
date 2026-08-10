@@ -1,6 +1,7 @@
 {
   "TaskID": "LKMINI://Task/20260810T194637+0800",
-  "時間_台北": "2026-08-10T19:54:12+08:00",
+  "時間_台北": "2026-08-10T19:57:52+08:00",
+  "狀態": "Drive／GitHub第一階段／Gmail已真實讀回",
   "Identity": "LKMINI://",
   "正式路徑": "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
   "GoogleDrive": {
@@ -15,27 +16,35 @@
     "Files": 40,
     "ZIPMembers": 40,
     "ZIP_CRC": "全部通過",
-    "同FileID逐位元讀回": true
+    "同FileID原始位元讀回": true
   },
-  "Goodnotes指定來源": {
-    "DriveControlObjectID": "1vpCZpR-W2j6jUIZjF-CVHAENOp1D3xuLn3ikkx5rZcc",
-    "Drive全文讀回": true,
-    "NativeGoodnotes端": "錯誤／REFERENCE_ONLY：無原生內容端點"
-  },
-  "唯一回指": "🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A",
-  "永久刪除": 0,
-  "狀態": "Drive正式版本已讀回；GitHub第一階段同步；Gmail待自寄讀回",
   "GitHub": {
     "Repository": "ky46738-ops/LKMini",
     "Branch": "seed_v0",
     "正式根路徑": "🥃老K系統/🧩LKMINI/🪞幻影膠囊",
-    "ActionJSONCommit": "b3dc86899c2ad333d0805782d3b71c276d8da3bc",
-    "ActionJSONBlob": "bfcbbb680fa05dbc218d92b948903889fd57d006"
+    "第一階段": {
+      "ActionJSONCommit": "b3dc86899c2ad333d0805782d3b71c276d8da3bc",
+      "ActionJSONBlob": "bfcbbb680fa05dbc218d92b948903889fd57d006",
+      "ExternalSyncCommit": "3c0081d5b67e3ac6077d2fc0ead6875730876c04",
+      "ExternalSyncBlob": "78f35f2898a5c6fcd27864f47403fbb9f5a9ca4c",
+      "GitHubSyncCommit": "7058be6645ba2331d04bce76ef42f648282ffbdc",
+      "GitHubSyncBlob": "984ae013fcf566bc65306a2b4c3712145e4bdf24"
+    }
   },
   "Gmail": {
     "From": "ky46738@gmail.com",
     "To": "ky46738@gmail.com",
     "Subject": "🥃老K系統｜本回合正式完成回執｜A=A",
-    "狀態": "待自寄讀回"
-  }
+    "MessageID": "19feb894fa4a6060",
+    "ThreadID": "19feb894fa4a6060",
+    "ReadBack": true
+  },
+  "Goodnotes指定來源": {
+    "DriveControlObjectID": "1vpCZpR-W2j6jUIZjF-CVHAENOp1D3xuLn3ikkx5rZcc",
+    "ByteSize": 1896,
+    "Drive全文讀回": true,
+    "NativeGoodnotesExistingRead": "錯誤／REFERENCE_ONLY：本回合未暴露原生內容端點"
+  },
+  "唯一回指": "🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A",
+  "永久刪除": 0
 }
