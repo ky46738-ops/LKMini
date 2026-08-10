@@ -1,14 +1,51 @@
 {
-  "時間_台北": "2026-08-10T18:51:25+08:00",
+  "時間_台北": "2026-08-10T18:55:00+08:00",
   "狀態": "本回合最新current GitHub／Drive／Gmail已真實寫入並讀回",
   "Identity": "LKMINI://",
   "正式路徑": "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
-  "GoogleDrive": {"FileID":"1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF","RevisionID":"0B0rZjEvqIMWsdTRyZWVLZStlR0taVHNsRWhVSGRlOG93bE0wPQ","PreviousRevisionID":"0B0rZjEvqIMWsdFZ3dGlNZ3NpVFJiNHBmNG45dDc2Q3ROa000PQ","Parent":"1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX","Name":"🪞幻影膠囊","ByteSize":2367218,"SHA256":"bbcc5e80053ac30fa3a23b009fc2db1b6de2d0b278d97f7d8d61291104e1b61e","MagicBytes":"504b0304","ZIPMembers":36,"ZIP_CRC":"全部通過","同FileID讀回":true},
-  "GitHub": {"Repository":"ky46738-ops/LKMini","Branch":"seed_v0","正式根路徑":"🥃老K系統/🧩LKMINI/🪞幻影膠囊","正式動作容器":"🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🧚全域中文接線精靈｜正式動作容器.json","動作容器Commit":"5dc0be0915b175a7987d65dc567c41b6c1a655d8","動作容器Blob":"7673ce533bb958ac799ef9c18ab48c3094806a61"},
-  "Gmail": {"寄件者":"ky46738@gmail.com","收件者":"ky46738@gmail.com","主旨":"🥃老K系統｜本回合正式完成回執｜A=A","MessageID":"19feb4c7959a71aa","ThreadID":"19feb4c7959a71aa","完整讀回":true},
-  "副檔名實證": {"FormatIdentityRecords":53,"正規化副檔名種類":16,"無副檔名":1,"隱藏檔":1,"UTType":"本回合無Apple resolver，不冒充"},
-  "歷史REFERENCE_ONLY": ["1rZAESqIPtuhowZ3OM5XrlIGgVXI2VvzG","0B0rZjEvqIMWsazY1UElMQmduOE9HQUFCa3JJaklRQnJ6UUVVPQ","0B0rZjEvqIMWsdFZ3dGlNZ3NpVFJiNHBmNG45dDc2Q3ROa000PQ"],
-  "S0至S10":"施工與驗收REFERENCE_ONLY；正式十動作命名以正式動作容器為準",
-  "唯一回指":"🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A",
-  "永久刪除":0
+  "GoogleDrive": {
+    "FileID": "1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF",
+    "RevisionID": "0B0rZjEvqIMWsdTRyZWVLZStlR0taVHNsRWhVSGRlOG93bE0wPQ",
+    "PreviousRevisionID": "0B0rZjEvqIMWsdFZ3dGlNZ3NpVFJiNHBmNG45dDc2Q3ROa000PQ",
+    "Parent": "1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX",
+    "Name": "🪞幻影膠囊",
+    "ByteSize": 2367218,
+    "SHA256": "bbcc5e80053ac30fa3a23b009fc2db1b6de2d0b278d97f7d8d61291104e1b61e",
+    "MagicBytes": "504b0304",
+    "ZIPMembers": 36,
+    "ZIP_CRC": "全部通過",
+    "同FileID讀回": true
+  },
+  "GitHub": {
+    "Repository": "ky46738-ops/LKMini",
+    "Branch": "seed_v0",
+    "正式根路徑": "🥃老K系統/🧩LKMINI/🪞幻影膠囊",
+    "正式動作容器": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🧚全域中文接線精靈｜正式動作容器.json",
+    "動作容器Commit": "5dc0be0915b175a7987d65dc567c41b6c1a655d8",
+    "動作容器Blob": "7673ce533bb958ac799ef9c18ab48c3094806a61",
+    "SHA256SUMS修復Commit": "e2df5c0e3d4a50b532f3396b73391174818dbd4c"
+  },
+  "Gmail": {
+    "寄件者": "ky46738@gmail.com",
+    "收件者": "ky46738@gmail.com",
+    "主旨": "🥃老K系統｜本回合正式完成回執｜A=A",
+    "MessageID": "19feb4fc034a063d",
+    "ThreadID": "19feb4fc034a063d",
+    "完整讀回": true
+  },
+  "副檔名實證": {
+    "FormatIdentityRecords": 53,
+    "正規化副檔名種類": 16,
+    "無副檔名": 1,
+    "隱藏檔": 1,
+    "UTType": "本回合無Apple resolver，不冒充"
+  },
+  "歷史REFERENCE_ONLY": [
+    "1rZAESqIPtuhowZ3OM5XrlIGgVXI2VvzG",
+    "0B0rZjEvqIMWsazY1UElMQmduOE9HQUFCa3JJaklRQnJ6UUVVPQ",
+    "0B0rZjEvqIMWsdFZ3dGlNZ3NpVFJiNHBmNG45dDc2Q3ROa000PQ"
+  ],
+  "S0至S10": "施工與驗收REFERENCE_ONLY；正式十動作命名以正式動作容器為準",
+  "唯一回指": "🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A",
+  "永久刪除": 0
 }
