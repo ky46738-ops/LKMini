@@ -61,19 +61,19 @@
   },
   {
     "path": "動作容器/🔁ExternalSync.json",
-    "bytes": 2033,
-    "sha256": "3c720b212795b99c023d29a0d4ae33336257947ad2bca81dc9ded60fa60351e3",
-    "GitBlob": "cce675158da9a8690be1179e9666d5cf72a30006",
-    "驗證狀態": "2026-08-10T19:57:52+08:00 同路徑讀回；Drive Revision與Gmail回執存在",
-    "commit": "4a4327fd83b0226f7054b097ca5bad67648f0aab"
+    "bytes": 2139,
+    "sha256": "9287ca2f3e323ab60a5932e9b4abdfc802ba9b8e64f95b12208b1ca05b5cdf4e",
+    "GitBlob": "8f0286a238259be822178e1ee5355309e6652f52",
+    "驗證狀態": "2026-08-10T20:06:57+08:00 同路徑讀回；current Revision與最新Gmail存在",
+    "commit": "76755c674bba4f4fe0e1f7306fbfeb825ac6ef45"
   },
   {
     "path": "動作容器/🔁GitHubSync.json",
-    "bytes": 2238,
-    "sha256": "bc236b2648b2b1aa684b72113f4144704ff368ceae8a8d0f076d6d8c7d03508c",
-    "GitBlob": "d0614da4aaefd51be3f47bd447a18cd61dbd8597",
-    "驗證狀態": "2026-08-10T19:57:52+08:00 同路徑讀回；Drive Revision與Gmail回執存在",
-    "commit": "a856d7118ee2c1940c09f1bd410fe2b10122a3fd"
+    "bytes": 2323,
+    "sha256": "88b9c1bf872b16e0544bf3e904ad1a0c13e107af6143307361b8b9b9be547aec",
+    "GitBlob": "9b8077ef40fcbaaa540d54e662c7c602db5c2da3",
+    "驗證狀態": "2026-08-10T20:06:57+08:00 同路徑讀回；current Revision與最新Gmail存在",
+    "commit": "01009adc7cd3290cf49ec72b74d8bd963d94b74d"
   },
   {
     "path": "動作容器/🖥️CapsuleAction.html",
@@ -105,11 +105,11 @@
   },
   {
     "path": "動作容器/🧚全域中文接線精靈｜正式動作容器.json",
-    "bytes": 3033,
-    "sha256": "36e123215cc7a4cbd6ae275d811a803755d4c1dc7005874b4e67094f2cf7d97b",
-    "GitBlob": "59a2dfe347b0250da19dfad7689c1fbd0d01d3ea",
-    "驗證狀態": "2026-08-10T19:57:52+08:00 同路徑讀回；Drive Revision與Gmail回執存在",
-    "commit": "6e9991629f7d253ac33d0de91006dec6f005a8c3"
+    "bytes": 2692,
+    "sha256": "747c9151be170e16d12fa66fb33a0638ac09f2677ef8dbce15aba39296e0ddac",
+    "GitBlob": "21bc38face49aa2ddbe44871731beb7312cd7c92",
+    "驗證狀態": "2026-08-10T20:06:57+08:00 同路徑讀回；current Revision與最新Gmail存在",
+    "commit": "505440573af69a0b2f6ef77fab659a530737e4d8"
   },
   {
     "path": "LKMINI://🧩LKMINI/🪞幻影膠囊/🪞幻影膠囊｜PhantomCapsule.zip",
@@ -157,8 +157,28 @@
     "GmailMessageID": "19feb894fa4a6060",
     "GmailThreadID": "19feb894fa4a6060",
     "驗證時間_台北": "2026-08-10T19:57:52+08:00",
+    "狀態": "REFERENCE_ONLY",
+    "裁決": "SameIdentityHistoricalRevision／ExactDuplicatePrevious",
+    "永久刪除": 0
+  },
+  {
+    "path": "LKMINI://🥃老K系統/🧩LKMINI/🪞幻影膠囊",
+    "bytes": 2584641,
+    "sha256": "e40e83d9662a4de3ce7af7acf1e53e30086772d5d48fe335d03d4c7491ff2ba8",
+    "ObjectID": "1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF",
+    "RevisionID": "0B0rZjEvqIMWsdURob1VWMDlobEY2NlQreEc5NEhlL1RicDVVPQ",
+    "PreviousRevisionID": "0B0rZjEvqIMWsZlJFaFN3WmJMcy95UDdyN0RoeUFKZDBobkk0PQ",
+    "Parent": "1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX",
+    "MagicBytes": "504b0304",
+    "檔案數": 40,
+    "ZIP成員數含目錄": 50,
+    "ZIP_CRC": "全部通過",
+    "與Previous逐位元相同": true,
+    "GmailMessageID": "19feb91a11179929",
+    "GmailThreadID": "19feb91a11179929",
+    "驗證時間_台北": "2026-08-10T20:06:57+08:00",
     "狀態": "正式Identity",
-    "裁決": "SameIdentityNewRevision／ABSORB",
+    "裁決": "ExactDuplicate／SameIdentityNewRevision／ABSORB",
     "永久刪除": 0
   }
 ]
