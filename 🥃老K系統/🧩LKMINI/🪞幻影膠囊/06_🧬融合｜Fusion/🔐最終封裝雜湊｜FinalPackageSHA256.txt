@@ -1,0 +1,5 @@
+e5590b97ed98248119ac42e6a7c709769045889c85b14f66e79f163e9f7d7fe4  📦膠囊完整封裝｜CapsulePackage.zip
+ByteSize=71647359
+ZIP成員數=24
+ZIP驗證=完成
+A=A
