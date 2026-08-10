@@ -1,39 +1,43 @@
 {
-  "時間_台北": "2026-08-10T19:54:00+08:00",
-  "狀態": "GitHub正式動作容器、Drive current與本回合Gmail已收斂並讀回",
+  "TaskID": "LKMINI://Task/20260810T194637+0800",
+  "時間_台北": "2026-08-10T19:54:12+08:00",
   "Identity": "LKMINI://",
-  "repository": "ky46738-ops/LKMini",
-  "branch": "seed_v0",
   "正式路徑": "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
-  "GitHub正式根": "🥃老K系統/🧩LKMINI/🪞幻影膠囊",
-  "正式十動作": ["📘閱讀","⚡啟動","🔗掛載","🔬驗證","📝更新","📢廣播","🧬融合","📸快照","🔄同步","♾️循環重建"],
-  "S0至S10": "施工與驗收REFERENCE_ONLY，不作正式十動作命名",
-  "本回合GitHub": {
-    "ActionJSONCommit": "7379fa99cdd5eae0412ce2ead442dcf6b885e33e",
-    "ActionJSONBlob": "a5c93d858ef39e10af1fc4cfa8054fe45ce66ec8",
-    "ActionHTMLCommit": "3a87aba78be2c9ee5f22c09b491458d78af66bfe",
-    "ActionHTMLBlob": "01559d9254efee15c6d1d27b1b1e329a37aeb2e8",
-    "ExternalSyncCommit": "cf2b93926086b3d55a1a8b041ffa6d4032f9ebe3",
-    "ExternalSyncBlob": "2f4a932f95106781638ace43403cd34369139548",
-    "GitHubSyncFirstPassCommit": "57a77f136b2df2be32c4efa8b897f06e3d32ac1f"
-  },
-  "GoogleDriveCurrent": {
+  "GoogleDrive": {
     "FileID": "1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF",
+    "RevisionID": "0B0rZjEvqIMWsZlJFaFN3WmJMcy95UDdyN0RoeUFKZDBobkk0PQ",
+    "PreviousRevisionID": "0B0rZjEvqIMWsSmFJZGFxdml5a25pcmptT2oxR3ZpTmg1L2ZRPQ",
     "Parent": "1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX",
     "Name": "🪞幻影膠囊",
-    "RevisionID": "0B0rZjEvqIMWsSmFJZGFxdml5a25pcmptT2oxR3ZpTmg1L2ZRPQ",
-    "PreviousRevisionID": "0B0rZjEvqIMWsVkZzdkFaT3VIMG9oZkE3TVNjWGtIaUplQUhFPQ",
-    "ByteSize": 2586839,
-    "SHA256": "4d1b1ba2a27d95cc6ae3a59c73cc54dafa758738a37f178a973f07058c496f0a",
+    "ByteSize": 2584641,
+    "SHA256": "e40e83d9662a4de3ce7af7acf1e53e30086772d5d48fe335d03d4c7491ff2ba8",
     "MagicBytes": "504b0304",
+    "Files": 40,
     "ZIPMembers": 40,
-    "ZIP_CRC": "全部通過"
+    "ZIP_CRC": "全部通過",
+    "同FileID逐位元讀回": true
   },
-  "副檔名實證": {"FormatIdentityRecords":49,"正規化副檔名種類":16,"無副檔名":1,"隱藏檔":1},
-  "Goodnotes指定來源": {"ObjectID":"1vpCZpR-W2j6jUIZjF-CVHAENOp1D3xuLn3ikkx5rZcc","Drive全文讀回":true},
-  "Gmail": {"From":"ky46738@gmail.com","To":"ky46738@gmail.com","Subject":"🥃老K系統｜本回合正式完成回執｜A=A","MessageID":"19feb85058e85aa2","ThreadID":"19feb85058e85aa2","ReadBack":true},
-  "候選修復包": {"ByteSize":2587808,"SHA256":"14bd43c609a87f55fdd5c2ffaaa7f08acf97eb70fecd92464560e20d89ef3460","Drive寫入":false,"裁決":"REFERENCE_ONLY"},
+  "Goodnotes指定來源": {
+    "DriveControlObjectID": "1vpCZpR-W2j6jUIZjF-CVHAENOp1D3xuLn3ikkx5rZcc",
+    "Drive全文讀回": true,
+    "NativeGoodnotes端": "錯誤／REFERENCE_ONLY：無原生內容端點"
+  },
+  "唯一回指": "🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A",
+  "永久刪除": 0,
+  "狀態": "Drive同FileID讀回完成；GitHub控制檔第一階段更新",
+  "repository": "ky46738-ops/LKMini",
+  "branch": "seed_v0",
+  "GitHub正式根": "🥃老K系統/🧩LKMINI/🪞幻影膠囊",
+  "本回合GitHub": {
+    "ActionJSONCommit": "b3dc86899c2ad333d0805782d3b71c276d8da3bc",
+    "ActionJSONBlob": "bfcbbb680fa05dbc218d92b948903889fd57d006"
+  },
+  "Gmail": {
+    "From": "ky46738@gmail.com",
+    "To": "ky46738@gmail.com",
+    "Subject": "🥃老K系統｜本回合正式完成回執｜A=A",
+    "狀態": "待自寄讀回"
+  },
   "ProjectionIsIdentity": false,
-  "PermanentDeleteCount": 0,
-  "回指": "🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A"
+  "PermanentDeleteCount": 0
 }
