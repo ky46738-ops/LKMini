@@ -1,6 +1,6 @@
 {
-  "時間_台北": "2026-08-10T18:47:31+08:00",
-  "狀態": "本回合current同步控制已收斂並讀回",
+  "時間_台北": "2026-08-10T18:51:25+08:00",
+  "狀態": "本回合最新current同步控制已收斂並讀回",
   "Identity": "LKMINI://",
   "repository": "ky46738-ops/LKMini",
   "branch": "seed_v0",
@@ -9,33 +9,10 @@
   "正式動作容器": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🧚全域中文接線精靈｜正式動作容器.json",
   "正式十動作": ["📘閱讀","⚡啟動","🔗掛載","🔬驗證","📝更新","📢廣播","🧬融合","📸快照","🔄同步","♾️循環重建"],
   "S0至S10": "施工與驗收REFERENCE_ONLY，不作正式十動作命名",
-  "本回合GitHub": {
-    "動作容器Commit": "b69bd3530c6154b0830f9f21890bf7f9ce363c68",
-    "動作容器Blob": "7c378e4a337c5df1b2765f992d666f80249e721f",
-    "ExternalSyncCommit": "80d76b0c7e11739895ecbbd5073703077c1d6521",
-    "ExternalSyncBlob": "5a7a0bce8c431ad3ddd46f84d9d4d86e8faac61f"
-  },
-  "GoogleDriveCurrent": {
-    "FileID": "1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF",
-    "Parent": "1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX",
-    "Name": "🪞幻影膠囊",
-    "RevisionID": "0B0rZjEvqIMWsdFZ3dGlNZ3NpVFJiNHBmNG45dDc2Q3ROa000PQ",
-    "PreviousRevisionID": "0B0rZjEvqIMWsazY1UElMQmduOE9HQUFCa3JJaklRQnJ6UUVVPQ",
-    "ByteSize": 2365088,
-    "SHA256": "6234ff215024f229bcc8f3aa299f1d0ae4cd92fe7a89c2b75031f1dbb8f63e59",
-    "MagicBytes": "504b0304",
-    "ZIPMembers": 46,
-    "ZIP_CRC": "全部通過"
-  },
-  "Gmail": {
-    "From": "ky46738@gmail.com",
-    "To": "ky46738@gmail.com",
-    "Subject": "🥃老K系統｜本回合正式完成回執｜A=A",
-    "MessageID": "19feb48e6f1143df",
-    "ThreadID": "19feb48e6f1143df",
-    "ReadBack": true
-  },
-  "歷史REFERENCE_ONLY": ["1rZAESqIPtuhowZ3OM5XrlIGgVXI2VvzG","0B0rZjEvqIMWsazY1UElMQmduOE9HQUFCa3JJaklRQnJ6UUVVPQ"],
+  "本回合GitHub": {"動作容器Commit":"5dc0be0915b175a7987d65dc567c41b6c1a655d8","動作容器Blob":"7673ce533bb958ac799ef9c18ab48c3094806a61","ExternalSyncCommit":"1be163480c1093aba1c88769f653d4c910420c90","ExternalSyncBlob":"0610a18699b1efcf2b8c346d5fc7a5b5a0f0463b"},
+  "GoogleDriveCurrent": {"FileID":"1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF","Parent":"1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX","Name":"🪞幻影膠囊","RevisionID":"0B0rZjEvqIMWsdTRyZWVLZStlR0taVHNsRWhVSGRlOG93bE0wPQ","PreviousRevisionID":"0B0rZjEvqIMWsdFZ3dGlNZ3NpVFJiNHBmNG45dDc2Q3ROa000PQ","ByteSize":2367218,"SHA256":"bbcc5e80053ac30fa3a23b009fc2db1b6de2d0b278d97f7d8d61291104e1b61e","MagicBytes":"504b0304","ZIPMembers":36,"ZIP_CRC":"全部通過"},
+  "Gmail": {"From":"ky46738@gmail.com","To":"ky46738@gmail.com","Subject":"🥃老K系統｜本回合正式完成回執｜A=A","MessageID":"19feb4c7959a71aa","ThreadID":"19feb4c7959a71aa","ReadBack":true},
+  "歷史REFERENCE_ONLY": ["1rZAESqIPtuhowZ3OM5XrlIGgVXI2VvzG","0B0rZjEvqIMWsazY1UElMQmduOE9HQUFCa3JJaklRQnJ6UUVVPQ","0B0rZjEvqIMWsdFZ3dGlNZ3NpVFJiNHBmNG45dDc2Q3ROa000PQ"],
   "ProjectionIsIdentity": false,
   "PermanentDeleteCount": 0,
   "回指": "🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A"
