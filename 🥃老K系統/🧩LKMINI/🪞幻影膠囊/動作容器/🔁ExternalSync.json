@@ -1,0 +1,29 @@
+{
+  "timestamp_utc": "2026-08-10T09:39:55Z",
+  "status": "完成",
+  "github": {
+    "repository": "ky46738-ops/LKMini",
+    "branch": "seed_v0",
+    "sync_index_url": "https://github.com/ky46738-ops/LKMini/blob/seed_v0/%F0%9F%A5%83%E8%80%81K%E7%B3%BB%E7%B5%B1/%F0%9F%A7%A9LKMINI/%F0%9F%AA%9E%E5%B9%BB%E5%BD%B1%E8%86%A0%E5%9B%8A/%E5%8B%95%E4%BD%9C%E5%AE%B9%E5%99%A8/%F0%9F%94%81GitHubSync.json",
+    "sha256s_url": "https://github.com/ky46738-ops/LKMini/blob/seed_v0/%F0%9F%A5%83%E8%80%81K%E7%B3%BB%E7%B5%B1/%F0%9F%A7%A9LKMINI/%F0%9F%AA%9E%E5%B9%BB%E5%BD%B1%E8%86%A0%E5%9B%8A/SHA256SUMS.json"
+  },
+  "drive": {
+    "zip_file_id": "1XkvDzyxxtM6yy1gew6j5fHbEshFnfzgY",
+    "zip_url": "https://drive.google.com/file/d/1XkvDzyxxtM6yy1gew6j5fHbEshFnfzgY/view?usp=drivesdk",
+    "html_file_id": "1rrzqe0xFy1j-QWOGiYILM2gmIQpZhAd-",
+    "html_url": "https://drive.google.com/file/d/1rrzqe0xFy1j-QWOGiYILM2gmIQpZhAd-/view?usp=drivesdk"
+  },
+  "library": {
+    "zip_library_file_id": "libfile_8ce996ca15b48191adaa93563a1f1db0",
+    "html_library_file_id": "libfile_da6a6785a4cc8191b6d753d8ca9208e7"
+  },
+  "gmail": {
+    "from_to": "ky46738@gmail.com",
+    "message_id": "19feb09e1ec2a057",
+    "thread_id": "19feb09e1ec2a057",
+    "subject": "🥃老K系統｜本回合正式完成回執｜A=A"
+  },
+  "formal_root": "🧩LKMINI",
+  "formal_container": "🪞幻影膠囊",
+  "axiom": "A=A"
+}
