@@ -38,18 +38,51 @@
     "用途": "本回合施工與驗收流程，不是正式十動作命名架構",
     "禁止升格為核心動作": true
   },
-  "本回合膠囊": {
-    "檔名": "🪞幻影膠囊｜十動作轉換架構修正｜20260810-1800-TPE.zip",
-    "ByteSize": 117644290,
-    "SHA256": "0558eb9db0783dbd1e6ee5adcfb909a8911c8b632aba26d4939552f949d3c12c",
-    "ZIPCRC": "完成",
-    "MemberCount": 673,
-    "TenActionMarkdownCount": 10,
-    "S0S10InCoreActionPathCount": 0,
-    "S0S10HistoricalEvidenceCount": 11
+  "本回合current": {
+    "時間_台北": "2026-08-10T18:30:11+08:00",
+    "GoogleDrive": {
+      "FileID": "1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF",
+      "Parent": "1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX",
+      "Name": "🪞幻影膠囊",
+      "RevisionID": "0B0rZjEvqIMWscVpBYitndnZ1YWo0TDcxYXp2K292dnJ5TGpBPQ",
+      "PreviousRevisionID": "0B0rZjEvqIMWsaG5paW9OM0tKMW90Z0RjNHdBblNUMmpxRHI4PQ",
+      "ByteSize": 2354293,
+      "SHA256": "decf750b2ddc7fb9cd3556c61f11581cd5e4c651d4cdfabbf2972423a06fce74",
+      "MagicBytes": "504b0304",
+      "ZIPMembers": 44,
+      "ZIP_CRC": "全部通過",
+      "同FileID讀回": true
+    },
+    "副檔名實證": {
+      "FormatIdentityRecords": 53,
+      "正規化副檔名種類": 16,
+      "無副檔名": 1,
+      "隱藏檔": 1,
+      "UTType": "本回合無Apple resolver，不冒充"
+    },
+    "GitHub": {
+      "Repository": "ky46738-ops/LKMini",
+      "Branch": "seed_v0",
+      "封裝資料Commit": "3901c519cfe3135e60e2ea4bcf82b2e98957d11e",
+      "正式投影Commit": "9ce9f6cc4234536e81e808226a0259ed106765d3",
+      "ExternalSyncCommit": "d779db1a33a7bc92b4ccacbaf3c81c4563d59d82",
+      "GitHubSyncCommit": "5407a40db0b749623d6bade971ca33359b85eb8d"
+    },
+    "Gmail": {
+      "寄件者": "ky46738@gmail.com",
+      "收件者": "ky46738@gmail.com",
+      "主旨": "🥃老K系統｜本回合正式完成回執｜A=A",
+      "MessageID": "19feb3908eb4384f",
+      "ThreadID": "19feb3908eb4384f",
+      "讀回": true
+    },
+    "歷史REFERENCE_ONLY": {
+      "DriveFileID": "1rZAESqIPtuhowZ3OM5XrlIGgVXI2VvzG",
+      "處置": "本回合誤寫Revision保留為歷史證據；current已沿同FileID回退；PermanentDeleteCount=0"
+    }
   },
   "唯一接線": "🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A",
-  "更新時間": "2026-08-10T18:00:00+08:00",
+  "更新時間": "2026-08-10T18:30:11+08:00",
   "GitHub": {
     "儲存庫": "ky46738-ops/LKMini",
     "分支": "seed_v0",
