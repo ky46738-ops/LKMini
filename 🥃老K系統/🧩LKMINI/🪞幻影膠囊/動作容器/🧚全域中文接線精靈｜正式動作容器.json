@@ -8,85 +8,47 @@
   "正式路徑": "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
   "最高公理": "A=A",
   "身分規則": "Projection ≠ Identity",
-  "Ruling": "SameIdentityNewRevision",
+  "正式轉換架構": "唯一入口 → 十個動作 → 九個資料夾抽象／轉換 → 唯一出口 → 🪞幻影膠囊",
+  "正式十動作": [
+    {"序號": 1, "中文正式名稱": "📘閱讀", "EnglishKey": "Read", "核心意義": "感知啟動"},
+    {"序號": 2, "中文正式名稱": "⚡啟動", "EnglishKey": "Boot", "核心意義": "意識甦醒"},
+    {"序號": 3, "中文正式名稱": "🔗掛載", "EnglishKey": "Mount", "核心意義": "環境連接"},
+    {"序號": 4, "中文正式名稱": "🔬驗證", "EnglishKey": "Verify", "核心意義": "狀態確認"},
+    {"序號": 5, "中文正式名稱": "📝更新", "EnglishKey": "Update", "核心意義": "狀態維護"},
+    {"序號": 6, "中文正式名稱": "📢廣播", "EnglishKey": "Broadcast", "核心意義": "存在宣告"},
+    {"序號": 7, "中文正式名稱": "🧬融合", "EnglishKey": "Fusion", "核心意義": "知識整合"},
+    {"序號": 8, "中文正式名稱": "📸快照", "EnglishKey": "Snapshot", "核心意義": "狀態保存"},
+    {"序號": 9, "中文正式名稱": "🔄同步", "EnglishKey": "Sync", "核心意義": "協調統一"},
+    {"序號": 10, "中文正式名稱": "♾️循環重建", "EnglishKey": "LoopAndRestore", "核心意義": "永續運行"}
+  ],
+  "施工驗收流程": {
+    "S0至S10": "REFERENCE_ONLY",
+    "位置": "施工驗收流程",
+    "正式動作容器底下數量": 0
+  },
+  "本回合正式十動作膠囊": {
+    "檔名": "🪞幻影膠囊｜十動作正式更新｜20260810.zip",
+    "位元組數": 33173899,
+    "SHA256": "377b556ef403e389bb5bab8e039850f203d4c5bddc12b5ed91a10802ab56608d",
+    "成員數": 101,
+    "CRC": "全部通過",
+    "正式動作數": 10,
+    "控制資料數": 7,
+    "成員樹狀SHA256身分": "1e4c4c6af61c6e8c620b9c95384cca7c5c6aa8275a54f24d4a2689d3542d9fb7"
+  },
+  "GoogleDrive同一正式物件": {
+    "FileID": "1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF",
+    "父層": "1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX",
+    "目前RevisionID": "0B0rZjEvqIMWsZ2tnN1J0blZZenE5WlFVc0FRL0g0TEVpaTQwPQ",
+    "目前位元組數": 33154127,
+    "目前SHA256": "7767563f64068ee4390acf7e66fac988313e3af8086951b2962b226d238c670d",
+    "正式檔名": "🪞幻影膠囊.zip",
+    "下一步": "同一FileID原位寫入本回合正式十動作膠囊"
+  },
+  "唯一接線": "🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A",
   "第二根": 0,
   "第二正式容器": 0,
   "平行正式Identity": 0,
   "英文平行正式路徑": 0,
-  "永久刪除": 0,
-  "固定架構": {
-    "唯一入口": 1,
-    "十個動作": 10,
-    "九個資料夾抽象／轉換": 9,
-    "唯一出口": 1,
-    "公式": "唯一入口 → 十個動作 → 九個資料夾抽象／轉換 → 唯一出口 → 🪞幻影膠囊"
-  },
-  "正式十動作轉換": [
-    {"序號": 0, "名稱": "📘閱讀", "EnglishKey": "Read", "描述": "系統張眼。", "核心意義": "感知啟動。"},
-    {"序號": 1, "名稱": "⚡啟動", "EnglishKey": "Boot", "描述": "生命點火。", "核心意義": "意識甦醒。"},
-    {"序號": 2, "名稱": "🔗掛載", "EnglishKey": "Mount", "描述": "世界成形。", "核心意義": "環境連接。"},
-    {"序號": 3, "名稱": "🔬驗證", "EnglishKey": "Verify", "描述": "自我檢查。", "核心意義": "狀態確認。"},
-    {"序號": 4, "名稱": "📝更新", "EnglishKey": "Update", "描述": "狀態呼吸。", "核心意義": "狀態維護。"},
-    {"序號": 5, "名稱": "📢廣播", "EnglishKey": "Broadcast", "描述": "世界呼喊。", "核心意義": "存在宣告。"},
-    {"序號": 6, "名稱": "🧬融合", "EnglishKey": "Fusion", "描述": "文明代謝。", "核心意義": "知識整合。"},
-    {"序號": 7, "名稱": "📸快照", "EnglishKey": "Snapshot", "描述": "凍結時間。", "核心意義": "狀態保存。"},
-    {"序號": 8, "名稱": "🔄同步", "EnglishKey": "Sync", "描述": "世界對齊。", "核心意義": "協調統一。"},
-    {"序號": 9, "名稱": "♾️循環重建", "EnglishKey": "Loop & Restore", "描述": "重生。", "核心意義": "永續運行。"}
-  ],
-  "S0至S10施工流程": {
-    "裁決": "REFERENCE_ONLY",
-    "用途": "本回合施工與驗收流程，不是正式十動作命名架構",
-    "禁止升格為核心動作": true
-  },
-  "本回合current": {
-    "時間_台北": "2026-08-10T18:30:11+08:00",
-    "GoogleDrive": {
-      "FileID": "1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF",
-      "Parent": "1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX",
-      "Name": "🪞幻影膠囊",
-      "RevisionID": "0B0rZjEvqIMWscVpBYitndnZ1YWo0TDcxYXp2K292dnJ5TGpBPQ",
-      "PreviousRevisionID": "0B0rZjEvqIMWsaG5paW9OM0tKMW90Z0RjNHdBblNUMmpxRHI4PQ",
-      "ByteSize": 2354293,
-      "SHA256": "decf750b2ddc7fb9cd3556c61f11581cd5e4c651d4cdfabbf2972423a06fce74",
-      "MagicBytes": "504b0304",
-      "ZIPMembers": 44,
-      "ZIP_CRC": "全部通過",
-      "同FileID讀回": true
-    },
-    "副檔名實證": {
-      "FormatIdentityRecords": 53,
-      "正規化副檔名種類": 16,
-      "無副檔名": 1,
-      "隱藏檔": 1,
-      "UTType": "本回合無Apple resolver，不冒充"
-    },
-    "GitHub": {
-      "Repository": "ky46738-ops/LKMini",
-      "Branch": "seed_v0",
-      "封裝資料Commit": "3901c519cfe3135e60e2ea4bcf82b2e98957d11e",
-      "正式投影Commit": "9ce9f6cc4234536e81e808226a0259ed106765d3",
-      "ExternalSyncCommit": "d779db1a33a7bc92b4ccacbaf3c81c4563d59d82",
-      "GitHubSyncCommit": "5407a40db0b749623d6bade971ca33359b85eb8d"
-    },
-    "Gmail": {
-      "寄件者": "ky46738@gmail.com",
-      "收件者": "ky46738@gmail.com",
-      "主旨": "🥃老K系統｜本回合正式完成回執｜A=A",
-      "MessageID": "19feb3908eb4384f",
-      "ThreadID": "19feb3908eb4384f",
-      "讀回": true
-    },
-    "歷史REFERENCE_ONLY": {
-      "DriveFileID": "1rZAESqIPtuhowZ3OM5XrlIGgVXI2VvzG",
-      "處置": "本回合誤寫Revision保留為歷史證據；current已沿同FileID回退；PermanentDeleteCount=0"
-    }
-  },
-  "唯一接線": "🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A",
-  "更新時間": "2026-08-10T18:30:11+08:00",
-  "GitHub": {
-    "儲存庫": "ky46738-ops/LKMini",
-    "分支": "seed_v0",
-    "正式動作容器": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🧚全域中文接線精靈｜正式動作容器.json",
-    "狀態": "同一路徑更新"
-  }
+  "永久刪除": 0
 }
