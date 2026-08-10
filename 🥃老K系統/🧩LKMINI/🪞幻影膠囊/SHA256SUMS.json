@@ -1,18 +1,18 @@
 [
   {
     "path": "動作容器/⛓️ReverseChain.json",
-    "bytes": 325,
-    "sha256": "bda0d1e0a3483a876e654d4842f76bc9bcc8c0810626f875555450224f1fae60"
+    "bytes": 193,
+    "sha256": "110a4a49b55ed10bc39d2d406cc6fce92c8170de16e7939b0187b5d02f8bac1b"
   },
   {
     "path": "動作容器/🎞️CapsuleMotion.gif",
-    "bytes": 9999,
-    "sha256": "bb08b9a8ccb39be6074406513a24863324e699ea81ec42dbf0fb887111b77445"
+    "bytes": 9301,
+    "sha256": "85dbf0b890744c10810bd7a6596e9c10b920cd40a6c41831d9182ad733c88195"
   },
   {
     "path": "動作容器/🎬CapsuleMotion.mp4",
-    "bytes": 6592,
-    "sha256": "82014bdbebb1b907f786b3b3fc66f2f2fed1ab97e84bfb4d04245aaaf2dc2402"
+    "bytes": 6956,
+    "sha256": "c6675251bd5da11fda56e2aaa64d44937ba2400b32297b579f361981ef97d7f4"
   },
   {
     "path": "動作容器/🎴EmbeddedVisual.svg",
@@ -21,33 +21,38 @@
   },
   {
     "path": "動作容器/📄Manifest.csv",
-    "bytes": 2299,
-    "sha256": "e1aa169f0e9dfb547740da06ac5c3d8df7f06ee7fdad398d8cba3f2f23279349"
+    "bytes": 2909,
+    "sha256": "411bb88149e7ecc844966fba0b59f651bad43a86397cdee3d8a0d4d2ee986fe3"
   },
   {
     "path": "動作容器/📄Manifest.tsv",
-    "bytes": 2299,
-    "sha256": "79e372c3ce977a022c64dd3dedcb8145dd9372230323cb495e6c1a8b6921e255"
+    "bytes": 2909,
+    "sha256": "343a5cbfcc61253cbb3ddf2871e802efb672db12cfd764f9d3287e202620739e"
   },
   {
     "path": "動作容器/📄Snapshot.pdf",
-    "bytes": 46064,
-    "sha256": "f54194456b00a83b393cb5b57a98505b69e773e774d6bb55b25ea12aefc1afa3"
+    "bytes": 42670,
+    "sha256": "f3aecdb6a09b24626bb0fd01049e8362508bc7498751cc1275edb017c71ce020"
   },
   {
     "path": "動作容器/📊AuthorLayer.xlsx",
-    "bytes": 6485,
-    "sha256": "ac0783bffb6d11fc7243a613b487633bf9defaf07ec2ee222ad76421879713ff"
+    "bytes": 6963,
+    "sha256": "f7e4122c6007eda694bb8e3f9924d0c9a45adea7e75d6d2baa49c8d87e41843a"
   },
   {
     "path": "動作容器/📍Locator.json",
-    "bytes": 4803,
-    "sha256": "d5bf9d25474916911514d15e3ceae7754749537b159aa3a5767ffffea8ecb9a5"
+    "bytes": 5860,
+    "sha256": "fb22654c9ca17a24b5986f595a1f983ab362c47e3286b774f50c9cedff584c21"
   },
   {
     "path": "動作容器/📘MarkdownSeed.md",
     "bytes": 106,
     "sha256": "6f04ed58a266c08b57d6cb2c1f955628acd17a8e1c2dcaa8eeeb734612850f28"
+  },
+  {
+    "path": "動作容器/📜GPT專屬指示永久凍結.md",
+    "bytes": 2241,
+    "sha256": "4ac3eba4c95fc34e8f1f80e465e57c814e0e36029c0d95bbefc78aa7ffa355d6"
   },
   {
     "path": "動作容器/📦Package.json",
@@ -56,39 +61,38 @@
   },
   {
     "path": "動作容器/📸Snapshot.json",
-    "bytes": 4612,
-    "sha256": "0d1fe086f3a4c6a1a3f27ff2dc95ccbeb362da4724ae8766ab73fb434a7818d6"
+    "bytes": 5881,
+    "sha256": "514c5141f147747f0619c37364c66f71a3ea1fc2feb9aa1c47b2ca4bdf1082a0"
   },
   {
     "path": "動作容器/🔁ExternalSync.json",
-    "bytes": 2139,
-    "sha256": "9287ca2f3e323ab60a5932e9b4abdfc802ba9b8e64f95b12208b1ca05b5cdf4e",
-    "GitBlob": "8f0286a238259be822178e1ee5355309e6652f52",
-    "驗證狀態": "2026-08-10T20:06:57+08:00 同路徑讀回；current Revision與最新Gmail存在",
-    "commit": "76755c674bba4f4fe0e1f7306fbfeb825ac6ef45"
+    "bytes": 1383,
+    "sha256": "49a0ea26838afb9f02ee76c102c11668f71a4b47d31ec1dcfc303b4c070b7a22"
   },
   {
     "path": "動作容器/🔁GitHubSync.json",
-    "bytes": 2323,
-    "sha256": "88b9c1bf872b16e0544bf3e904ad1a0c13e107af6143307361b8b9b9be547aec",
-    "GitBlob": "9b8077ef40fcbaaa540d54e662c7c602db5c2da3",
-    "驗證狀態": "2026-08-10T20:06:57+08:00 同路徑讀回；current Revision與最新Gmail存在",
-    "commit": "01009adc7cd3290cf49ec72b74d8bd963d94b74d"
+    "bytes": 5243,
+    "sha256": "b65d0e6d8df6db0d9c07fab19941843dad99f3af2b093205246b6ed2c01d5293"
   },
   {
     "path": "動作容器/🖥️CapsuleAction.html",
-    "bytes": 5348,
-    "sha256": "3819e18210330f573159b65526114d735318753cca42e4454670563ca5e4e058"
+    "bytes": 8282,
+    "sha256": "a819a5cdcba13031daa931553c09aec1107e0855ff10277b12acc4eb4e9f8c37"
   },
   {
     "path": "動作容器/🖼️Snapshot.png",
-    "bytes": 7952,
-    "sha256": "d2a8e44d2f2d7d40a1643228b318004d98b76eaf464a1abe093a49642e476b61"
+    "bytes": 7948,
+    "sha256": "b0ce3100c96d185ef38007a84853e39131e18c0e502fbf6954e7c2a7ea19a68c"
   },
   {
     "path": "動作容器/🖼️Snapshot.webp",
-    "bytes": 4426,
-    "sha256": "c37fd8eb291e967968945caef6f12abdb1934439c8cb2307749e3da31d9f85da"
+    "bytes": 4350,
+    "sha256": "49a8e5ca8fd8975b2c9f9c2c4268d38d3b0cde297df796a4184a5fffbc5a274f"
+  },
+  {
+    "path": "動作容器/🧊FrozenInstruction.json",
+    "bytes": 2657,
+    "sha256": "54973c1df702a219042a15ac414ffd586664e669c62037f737fda80d2ee5a772"
   },
   {
     "path": "動作容器/🧾Canonical.json",
@@ -97,88 +101,7 @@
   },
   {
     "path": "🪞幻影膠囊.zip",
-    "bytes": 53717,
-    "sha256": "bfddfdb3947734e50d2805b1a8945b1c2bf08afb8dd25b5719dc3e631bc801e2",
-    "狀態": "REFERENCE_ONLY",
-    "Drive候選FileID": "1XkvDzyxxtM6yy1gew6j5fHbEshFnfzgY",
-    "驗證狀態": "Drive逐位元與CRC通過；目前GitHub相對路徑404，不作正式Identity"
-  },
-  {
-    "path": "動作容器/🧚全域中文接線精靈｜正式動作容器.json",
-    "bytes": 2692,
-    "sha256": "747c9151be170e16d12fa66fb33a0638ac09f2677ef8dbce15aba39296e0ddac",
-    "GitBlob": "21bc38face49aa2ddbe44871731beb7312cd7c92",
-    "驗證狀態": "2026-08-10T20:06:57+08:00 同路徑讀回；current Revision與最新Gmail存在",
-    "commit": "505440573af69a0b2f6ef77fab659a530737e4d8"
-  },
-  {
-    "path": "LKMINI://🧩LKMINI/🪞幻影膠囊/🪞幻影膠囊｜PhantomCapsule.zip",
-    "bytes": 161917,
-    "sha256": "74009d28ceea9e4e4802e8eca7392354f0115b513c04d1bd693383e0b34752be",
-    "ObjectID": "1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF",
-    "RevisionID": "0B0rZjEvqIMWsaG5paW9OM0tKMW90Z0RjNHdBblNUMmpxRHI4PQ",
-    "MagicBytes": "504b0304",
-    "檔案數": 27,
-    "ZIP成員數含目錄": 39,
-    "ZIP_CRC": "全部通過",
-    "狀態": "REFERENCE_ONLY",
-    "裁決": "SameIdentityHistoricalRevision"
-  },
-  {
-    "path": "LKMINI://🥃老K系統/🧩LKMINI/🪞幻影膠囊",
-    "bytes": 2367218,
-    "sha256": "bbcc5e80053ac30fa3a23b009fc2db1b6de2d0b278d97f7d8d61291104e1b61e",
-    "ObjectID": "1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF",
-    "RevisionID": "0B0rZjEvqIMWsdTRyZWVLZStlR0taVHNsRWhVSGRlOG93bE0wPQ",
-    "PreviousRevisionID": "0B0rZjEvqIMWsdFZ3dGlNZ3NpVFJiNHBmNG45dDc2Q3ROa000PQ",
-    "Parent": "1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX",
-    "MagicBytes": "504b0304",
-    "檔案數": 36,
-    "ZIP成員數": 36,
-    "ZIP_CRC": "全部通過",
-    "GmailMessageID": "19feb4fc034a063d",
-    "GmailThreadID": "19feb4fc034a063d",
-    "驗證時間_台北": "2026-08-10T18:55:00+08:00",
-    "狀態": "REFERENCE_ONLY",
-    "裁決": "SameIdentityHistoricalRevision"
-  },
-  {
-    "path": "LKMINI://🥃老K系統/🧩LKMINI/🪞幻影膠囊",
-    "bytes": 2584641,
-    "sha256": "e40e83d9662a4de3ce7af7acf1e53e30086772d5d48fe335d03d4c7491ff2ba8",
-    "ObjectID": "1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF",
-    "RevisionID": "0B0rZjEvqIMWsZlJFaFN3WmJMcy95UDdyN0RoeUFKZDBobkk0PQ",
-    "PreviousRevisionID": "0B0rZjEvqIMWsSmFJZGFxdml5a25pcmptT2oxR3ZpTmg1L2ZRPQ",
-    "Parent": "1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX",
-    "MagicBytes": "504b0304",
-    "檔案數": 40,
-    "ZIP成員數": 40,
-    "ZIP_CRC": "全部通過",
-    "GmailMessageID": "19feb894fa4a6060",
-    "GmailThreadID": "19feb894fa4a6060",
-    "驗證時間_台北": "2026-08-10T19:57:52+08:00",
-    "狀態": "REFERENCE_ONLY",
-    "裁決": "SameIdentityHistoricalRevision／ExactDuplicatePrevious",
-    "永久刪除": 0
-  },
-  {
-    "path": "LKMINI://🥃老K系統/🧩LKMINI/🪞幻影膠囊",
-    "bytes": 2584641,
-    "sha256": "e40e83d9662a4de3ce7af7acf1e53e30086772d5d48fe335d03d4c7491ff2ba8",
-    "ObjectID": "1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF",
-    "RevisionID": "0B0rZjEvqIMWsdURob1VWMDlobEY2NlQreEc5NEhlL1RicDVVPQ",
-    "PreviousRevisionID": "0B0rZjEvqIMWsZlJFaFN3WmJMcy95UDdyN0RoeUFKZDBobkk0PQ",
-    "Parent": "1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX",
-    "MagicBytes": "504b0304",
-    "檔案數": 40,
-    "ZIP成員數含目錄": 50,
-    "ZIP_CRC": "全部通過",
-    "與Previous逐位元相同": true,
-    "GmailMessageID": "19feb91a11179929",
-    "GmailThreadID": "19feb91a11179929",
-    "驗證時間_台北": "2026-08-10T20:06:57+08:00",
-    "狀態": "正式Identity",
-    "裁決": "ExactDuplicate／SameIdentityNewRevision／ABSORB",
-    "永久刪除": 0
+    "bytes": 56279,
+    "sha256": "ce9e6a60df60fd1aeb2faca408ecb2deb3513a80fba60b136030e6d287f9c6fa"
   }
 ]
