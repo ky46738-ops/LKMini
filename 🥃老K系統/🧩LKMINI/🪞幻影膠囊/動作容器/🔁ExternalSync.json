@@ -1,29 +1,56 @@
 {
-  "timestamp_utc": "2026-08-10T09:39:55Z",
-  "status": "完成",
-  "github": {
-    "repository": "ky46738-ops/LKMini",
-    "branch": "seed_v0",
-    "sync_index_url": "https://github.com/ky46738-ops/LKMini/blob/seed_v0/%F0%9F%A5%83%E8%80%81K%E7%B3%BB%E7%B5%B1/%F0%9F%A7%A9LKMINI/%F0%9F%AA%9E%E5%B9%BB%E5%BD%B1%E8%86%A0%E5%9B%8A/%E5%8B%95%E4%BD%9C%E5%AE%B9%E5%99%A8/%F0%9F%94%81GitHubSync.json",
-    "sha256s_url": "https://github.com/ky46738-ops/LKMini/blob/seed_v0/%F0%9F%A5%83%E8%80%81K%E7%B3%BB%E7%B5%B1/%F0%9F%A7%A9LKMINI/%F0%9F%AA%9E%E5%B9%BB%E5%BD%B1%E8%86%A0%E5%9B%8A/SHA256SUMS.json"
+  "時間_台北": "2026-08-10T17:46:40+08:00",
+  "狀態": "本回合已同步並讀回",
+  "正式路徑": "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
+  "GoogleDrive": {
+    "FileID": "1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF",
+    "RevisionID": "0B0rZjEvqIMWsaG5paW9OM0tKMW90Z0RjNHdBblNUMmpxRHI4PQ",
+    "PreviousRevisionID": "0B0rZjEvqIMWsMTJneFhBaEVRN2U3RWl2cGpQcjhqaUdaSUJnPQ",
+    "Parent": "1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX",
+    "ByteSize": 161917,
+    "SHA256": "74009d28ceea9e4e4802e8eca7392354f0115b513c04d1bd693383e0b34752be",
+    "MagicBytes": "504b0304",
+    "檔案數": 27,
+    "ZIP成員數含目錄": 39,
+    "ZIP_CRC": "全部通過",
+    "逐位元讀回相同": true,
+    "URL": "https://drive.google.com/file/d/1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF/view"
   },
-  "drive": {
-    "zip_file_id": "1XkvDzyxxtM6yy1gew6j5fHbEshFnfzgY",
-    "zip_url": "https://drive.google.com/file/d/1XkvDzyxxtM6yy1gew6j5fHbEshFnfzgY/view?usp=drivesdk",
-    "html_file_id": "1rrzqe0xFy1j-QWOGiYILM2gmIQpZhAd-",
-    "html_url": "https://drive.google.com/file/d/1rrzqe0xFy1j-QWOGiYILM2gmIQpZhAd-/view?usp=drivesdk"
+  "GitHub": {
+    "Repository": "ky46738-ops/LKMini",
+    "Branch": "seed_v0",
+    "正式動作容器": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🧚全域中文接線精靈｜正式動作容器.json",
+    "Commit": "63f838e987e2c04168cb0ed3835a2d8d581be775",
+    "Blob": "290b97b393b02f06551be5dbb61d2331a6fcfb1a"
   },
-  "library": {
-    "zip_library_file_id": "libfile_8ce996ca15b48191adaa93563a1f1db0",
-    "html_library_file_id": "libfile_da6a6785a4cc8191b6d753d8ca9208e7"
+  "Gmail": {
+    "寄件者": "ky46738@gmail.com",
+    "收件者": "ky46738@gmail.com",
+    "主旨": "🥃老K系統｜本回合正式完成回執｜A=A",
+    "MessageID": "19feb1a78df5cb69",
+    "ThreadID": "19feb1a78df5cb69",
+    "完整讀回": true
   },
-  "gmail": {
-    "from_to": "ky46738@gmail.com",
-    "message_id": "19feb09e1ec2a057",
-    "thread_id": "19feb09e1ec2a057",
-    "subject": "🥃老K系統｜本回合正式完成回執｜A=A"
+  "Goodnotes": {
+    "控制卡DocumentID": "1vpCZpR-W2j6jUIZjF-CVHAENOp1D3xuLn3ikkx5rZcc",
+    "裁決": "REFERENCE_ONLY",
+    "說明": "控制卡不是 Goodnotes 原始正文"
   },
-  "formal_root": "🧩LKMINI",
-  "formal_container": "🪞幻影膠囊",
-  "axiom": "A=A"
+  "REFERENCE_ONLY": [
+    {
+      "FileID": "1XkvDzyxxtM6yy1gew6j5fHbEshFnfzgY",
+      "ByteSize": 53717,
+      "SHA256": "bfddfdb3947734e50d2805b1a8945b1c2bf08afb8dd25b5719dc3e631bc801e2"
+    },
+    {
+      "FileID": "1rZAESqIPtuhowZ3OM5XrlIGgVXI2VvzG",
+      "ByteSize": 57999334,
+      "理由": "歷史投影；本回合未逐位元下載"
+    }
+  ],
+  "Library": {
+    "狀態": "歷史ID僅作線索；本回合未重新列舉，故不計同步完成"
+  },
+  "唯一回指": "🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A",
+  "永久刪除": 0
 }
