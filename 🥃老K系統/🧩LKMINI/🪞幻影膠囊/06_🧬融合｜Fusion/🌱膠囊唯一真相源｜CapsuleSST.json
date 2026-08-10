@@ -1,0 +1,28 @@
+{
+  "名稱": "🪞更新膠囊",
+  "EnglishKey": "UpdatedCapsule",
+  "唯一根": "🧩LKMINI",
+  "根SHA256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
+  "正式容器": "🪞幻影膠囊",
+  "公理": "A=A",
+  "身分規則": "Projection ≠ Identity",
+  "轉換架構": [
+    "💬對話紀錄｜Conversation.md",
+    "🌱初始種子文件｜MarkdownSeed.md",
+    "🎨向量顯影｜VectorProjection.svg",
+    "🖼點陣顯影｜WebPProjection.webp",
+    "🎞動態顯影｜GIFProjection.gif",
+    "🎬影片顯影｜MP4Projection.mp4",
+    "🌐互動顯影｜HTMLProjection.html",
+    "📊智能表單｜ExcelProjection.xlsx",
+    "📄資料交換TSV｜TSVProjection.tsv",
+    "📄資料交換CSV｜CSVProjection.csv",
+    "🧬核心資料｜JSONProjection.json",
+    "📄正式說明｜PDFProjection.pdf",
+    "🖼嵌入顯影｜EmbeddedVisual.png"
+  ],
+  "來源保全": [
+    "📦全對話歷史總包｜ConversationTotalDelivery.zip",
+    "📦對話清空前索引｜ConversationPreClearArchive.zip"
+  ]
+}
