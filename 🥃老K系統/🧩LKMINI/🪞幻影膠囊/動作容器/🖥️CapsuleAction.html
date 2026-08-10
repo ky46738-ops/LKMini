@@ -17,6 +17,9 @@
     .flow div { padding:10px; border-radius:10px; background:var(--gold); border:1px solid #111; }
     .small { font-size:13px; line-height:1.5; }
     code { font-size:12px; word-break:break-all; }
+      button.sync-toggle { border:1px solid #111; background:#111; color:white; border-radius:9px; padding:10px 14px; font-weight:700; cursor:pointer; }
+    #sync-evidence[hidden] { display:none; }
+    #sync-evidence { margin-top:12px; padding:12px; border-left:4px solid #111; background:#fff; }
   </style>
 </head>
 <body>
@@ -77,6 +80,30 @@
     <p class="small">來源原件 → ORIGINAL → MagicBytes／MIME／Identity → MOUNT → 解析／零件化 → Projection → SNAPSHOT_ZIP → SHA256 → MANIFEST → LOCATOR → ReverseChain → 06融合唯一出口 → ReadBack → A=A</p>
     <p><strong>🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A</strong></p>
   </section>
+  <section class="tile ok" id="cloud-sync-20260810-1919">
+    <h2>本回合雲端同步｜同 Identity 前進</h2>
+    <p><strong>GitHub ActionContainer 已在同一路徑原位更新。</strong></p>
+    <p class="small">寫前 Blob：<code>3eb87cf035ad7d50df5450c31be3732727a52561</code></p>
+    <p class="small">Package 基準：171452 bytes ｜ SHA256：<code>a99aa8ab98ce22f2dfe8c290ff28d479f2de12a189c0a3b1aab6544699180953</code> ｜ CRC：PASS ｜ 19/19 PASS</p>
+    <p class="small">Drive 同一 ObjectID：<code>15KTsIo333E0HfEd4Mu7gLAVhnmpAKo_hioVSZVYdyZk</code></p>
+    <button class="sync-toggle" type="button" aria-expanded="false" aria-controls="sync-evidence">顯示雲端同步證據</button>
+    <div id="sync-evidence" hidden>
+      <p class="small">GitHub：ky46738-ops/LKMini@seed_v0／同一 ActionContainer Path。</p>
+      <p class="small">Drive：同一 FileID 原位追加並由雲端 Revision 讀回；最終 Revision 記錄於 Mirror Manifest。</p>
+      <p class="small">Gmail：Owner 固定主旨自寄與讀回結果記錄於 Mirror Manifest；不公開原始郵件識別碼。</p>
+      <p class="small">永久刪除：0｜第二根：0｜平行正式 Identity：0</p>
+    </div>
+  </section>
 </main>
+<script>
+  const toggle=document.querySelector('.sync-toggle');
+  const evidence=document.getElementById('sync-evidence');
+  toggle.addEventListener('click',()=>{
+    const open=toggle.getAttribute('aria-expanded')==='true';
+    toggle.setAttribute('aria-expanded',String(!open));
+    evidence.hidden=open;
+    toggle.textContent=open?'顯示雲端同步證據':'收合雲端同步證據';
+  });
+</script>
 </body>
 </html>
