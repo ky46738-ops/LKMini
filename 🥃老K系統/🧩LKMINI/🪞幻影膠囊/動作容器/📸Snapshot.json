@@ -1,7 +1,8 @@
 {
-  "timestamp_utc": "2026-08-10T09:34:11Z",
+  "timestamp_utc": "2026-08-10T17:46:50Z",
   "root": "🧩LKMINI",
   "container": "🪞幻影膠囊",
+  "frozen_instruction_sha256": "4ac3eba4c95fc34e8f1f80e465e57c814e0e36029c0d95bbefc78aa7ffa355d6",
   "items": [
     {
       "emoji": "⛓",
@@ -16,8 +17,8 @@
       "emoji": "🎞",
       "name": "🎞️CapsuleMotion.gif",
       "english": "GIF",
-      "sha256": "bb08b9a8ccb39be6074406513a24863324e699ea81ec42dbf0fb887111b77445",
-      "bytes": 9999,
+      "sha256": "85dbf0b890744c10810bd7a6596e9c10b920cd40a6c41831d9182ad733c88195",
+      "bytes": 9301,
       "locator": "動作容器/🎞️CapsuleMotion.gif",
       "status": "完成"
     },
@@ -25,8 +26,8 @@
       "emoji": "🎬",
       "name": "🎬CapsuleMotion.mp4",
       "english": "MP4",
-      "sha256": "82014bdbebb1b907f786b3b3fc66f2f2fed1ab97e84bfb4d04245aaaf2dc2402",
-      "bytes": 6592,
+      "sha256": "c6675251bd5da11fda56e2aaa64d44937ba2400b32297b579f361981ef97d7f4",
+      "bytes": 6956,
       "locator": "動作容器/🎬CapsuleMotion.mp4",
       "status": "完成"
     },
@@ -43,8 +44,8 @@
       "emoji": "📄",
       "name": "📄Manifest.csv",
       "english": "CSV",
-      "sha256": "3ea76ecd1b0ff820987e6bb9005cae80a33e6c8aae9661cc8a651a24f365e86f",
-      "bytes": 1180,
+      "sha256": "411bb88149e7ecc844966fba0b59f651bad43a86397cdee3d8a0d4d2ee986fe3",
+      "bytes": 2909,
       "locator": "動作容器/📄Manifest.csv",
       "status": "完成"
     },
@@ -52,8 +53,8 @@
       "emoji": "📄",
       "name": "📄Manifest.tsv",
       "english": "TSV",
-      "sha256": "36f39c72e808119d417bfd15825e37d4388bc84123fc88d587907e79673e92bf",
-      "bytes": 1180,
+      "sha256": "343a5cbfcc61253cbb3ddf2871e802efb672db12cfd764f9d3287e202620739e",
+      "bytes": 2909,
       "locator": "動作容器/📄Manifest.tsv",
       "status": "完成"
     },
@@ -61,8 +62,8 @@
       "emoji": "📄",
       "name": "📄Snapshot.pdf",
       "english": "PDF",
-      "sha256": "f54194456b00a83b393cb5b57a98505b69e773e774d6bb55b25ea12aefc1afa3",
-      "bytes": 46064,
+      "sha256": "f3aecdb6a09b24626bb0fd01049e8362508bc7498751cc1275edb017c71ce020",
+      "bytes": 42670,
       "locator": "動作容器/📄Snapshot.pdf",
       "status": "完成"
     },
@@ -70,8 +71,8 @@
       "emoji": "📊",
       "name": "📊AuthorLayer.xlsx",
       "english": "XLSX",
-      "sha256": "6eff3f7141d6511f215806e0dc79efdfd91f72fa63635150923e5b4917ff4023",
-      "bytes": 6279,
+      "sha256": "ac0783bffb6d11fc7243a613b487633bf9defaf07ec2ee222ad76421879713ff",
+      "bytes": 6485,
       "locator": "動作容器/📊AuthorLayer.xlsx",
       "status": "完成"
     },
@@ -79,8 +80,8 @@
       "emoji": "📍",
       "name": "📍Locator.json",
       "english": "JSON",
-      "sha256": "04ba4f414f2fedc702e6d6f2fd96310e594d80ea4e334980387c37da87de4ec0",
-      "bytes": 2564,
+      "sha256": "d5bf9d25474916911514d15e3ceae7754749537b159aa3a5767ffffea8ecb9a5",
+      "bytes": 4803,
       "locator": "動作容器/📍Locator.json",
       "status": "完成"
     },
@@ -91,6 +92,15 @@
       "sha256": "6f04ed58a266c08b57d6cb2c1f955628acd17a8e1c2dcaa8eeeb734612850f28",
       "bytes": 106,
       "locator": "動作容器/📘MarkdownSeed.md",
+      "status": "完成"
+    },
+    {
+      "emoji": "📜",
+      "name": "📜GPT專屬指示永久凍結.md",
+      "english": "MD",
+      "sha256": "4ac3eba4c95fc34e8f1f80e465e57c814e0e36029c0d95bbefc78aa7ffa355d6",
+      "bytes": 2241,
+      "locator": "動作容器/📜GPT專屬指示永久凍結.md",
       "status": "完成"
     },
     {
@@ -106,17 +116,35 @@
       "emoji": "📸",
       "name": "📸Snapshot.json",
       "english": "JSON",
-      "sha256": "3faac8c314a349ebe16f1cd254243024421da9ea037baf11096fe6b195db2f90",
-      "bytes": 2373,
+      "sha256": "0d1fe086f3a4c6a1a3f27ff2dc95ccbeb362da4724ae8766ab73fb434a7818d6",
+      "bytes": 4612,
       "locator": "動作容器/📸Snapshot.json",
+      "status": "完成"
+    },
+    {
+      "emoji": "🔁",
+      "name": "🔁ExternalSync.json",
+      "english": "JSON",
+      "sha256": "49a0ea26838afb9f02ee76c102c11668f71a4b47d31ec1dcfc303b4c070b7a22",
+      "bytes": 1383,
+      "locator": "動作容器/🔁ExternalSync.json",
+      "status": "完成"
+    },
+    {
+      "emoji": "🔁",
+      "name": "🔁GitHubSync.json",
+      "english": "JSON",
+      "sha256": "b65d0e6d8df6db0d9c07fab19941843dad99f3af2b093205246b6ed2c01d5293",
+      "bytes": 5243,
+      "locator": "動作容器/🔁GitHubSync.json",
       "status": "完成"
     },
     {
       "emoji": "🖥",
       "name": "🖥️CapsuleAction.html",
       "english": "HTML",
-      "sha256": "3e000dc6abe82a688369424f15d3ff35410bc91324d601f7803a75d156ea0819",
-      "bytes": 5190,
+      "sha256": "3819e18210330f573159b65526114d735318753cca42e4454670563ca5e4e058",
+      "bytes": 5348,
       "locator": "動作容器/🖥️CapsuleAction.html",
       "status": "完成"
     },
@@ -124,8 +152,8 @@
       "emoji": "🖼",
       "name": "🖼️Snapshot.png",
       "english": "PNG",
-      "sha256": "d2a8e44d2f2d7d40a1643228b318004d98b76eaf464a1abe093a49642e476b61",
-      "bytes": 7952,
+      "sha256": "b0ce3100c96d185ef38007a84853e39131e18c0e502fbf6954e7c2a7ea19a68c",
+      "bytes": 7948,
       "locator": "動作容器/🖼️Snapshot.png",
       "status": "完成"
     },
@@ -133,9 +161,18 @@
       "emoji": "🖼",
       "name": "🖼️Snapshot.webp",
       "english": "WEBP",
-      "sha256": "c37fd8eb291e967968945caef6f12abdb1934439c8cb2307749e3da31d9f85da",
-      "bytes": 4426,
+      "sha256": "49a8e5ca8fd8975b2c9f9c2c4268d38d3b0cde297df796a4184a5fffbc5a274f",
+      "bytes": 4350,
       "locator": "動作容器/🖼️Snapshot.webp",
+      "status": "完成"
+    },
+    {
+      "emoji": "🧊",
+      "name": "🧊FrozenInstruction.json",
+      "english": "JSON",
+      "sha256": "54973c1df702a219042a15ac414ffd586664e669c62037f737fda80d2ee5a772",
+      "bytes": 2657,
+      "locator": "動作容器/🧊FrozenInstruction.json",
       "status": "完成"
     },
     {
