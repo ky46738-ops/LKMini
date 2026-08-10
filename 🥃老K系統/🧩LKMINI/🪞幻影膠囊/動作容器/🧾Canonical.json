@@ -1,0 +1,26 @@
+{
+  "owner": "Kevin Yang／老K",
+  "system": "🥃老K系統",
+  "root_node": "🧩LKMINI",
+  "formal_container": "🪞幻影膠囊",
+  "formal_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊",
+  "axiom": "A=A",
+  "projection_rule": "Projection ≠ Identity",
+  "metadata_sha256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
+  "locks": {
+    "SystemCount": 1,
+    "RootCount": 1,
+    "FormalContainerTypeCount": 1,
+    "SecondRootCount": 0,
+    "SecondFormalContainerCount": 0,
+    "ParallelIdentityCount": 0,
+    "EnglishParallelFormalPathCount": 0,
+    "PermanentDeleteCount": 0
+  },
+  "github_target": {
+    "repository": "ky46738-ops/LKMini",
+    "branch": "seed_v0",
+    "path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/"
+  },
+  "timestamp_utc": "2026-08-10T09:34:11Z"
+}
