@@ -1,0 +1,151 @@
+{
+  "timestamp_utc": "2026-08-10T09:34:11Z",
+  "root": "🧩LKMINI",
+  "container": "🪞幻影膠囊",
+  "items": [
+    {
+      "emoji": "⛓",
+      "name": "⛓️ReverseChain.json",
+      "english": "JSON",
+      "sha256": "bda0d1e0a3483a876e654d4842f76bc9bcc8c0810626f875555450224f1fae60",
+      "bytes": 325,
+      "locator": "動作容器/⛓️ReverseChain.json",
+      "status": "完成"
+    },
+    {
+      "emoji": "🎞",
+      "name": "🎞️CapsuleMotion.gif",
+      "english": "GIF",
+      "sha256": "bb08b9a8ccb39be6074406513a24863324e699ea81ec42dbf0fb887111b77445",
+      "bytes": 9999,
+      "locator": "動作容器/🎞️CapsuleMotion.gif",
+      "status": "完成"
+    },
+    {
+      "emoji": "🎬",
+      "name": "🎬CapsuleMotion.mp4",
+      "english": "MP4",
+      "sha256": "82014bdbebb1b907f786b3b3fc66f2f2fed1ab97e84bfb4d04245aaaf2dc2402",
+      "bytes": 6592,
+      "locator": "動作容器/🎬CapsuleMotion.mp4",
+      "status": "完成"
+    },
+    {
+      "emoji": "🎴",
+      "name": "🎴EmbeddedVisual.svg",
+      "english": "SVG",
+      "sha256": "34f297359b5eadab7a02952444e76ae65c39f89def3cf59dfe2ecd09aac027df",
+      "bytes": 2046,
+      "locator": "動作容器/🎴EmbeddedVisual.svg",
+      "status": "完成"
+    },
+    {
+      "emoji": "📄",
+      "name": "📄Manifest.csv",
+      "english": "CSV",
+      "sha256": "3ea76ecd1b0ff820987e6bb9005cae80a33e6c8aae9661cc8a651a24f365e86f",
+      "bytes": 1180,
+      "locator": "動作容器/📄Manifest.csv",
+      "status": "完成"
+    },
+    {
+      "emoji": "📄",
+      "name": "📄Manifest.tsv",
+      "english": "TSV",
+      "sha256": "36f39c72e808119d417bfd15825e37d4388bc84123fc88d587907e79673e92bf",
+      "bytes": 1180,
+      "locator": "動作容器/📄Manifest.tsv",
+      "status": "完成"
+    },
+    {
+      "emoji": "📄",
+      "name": "📄Snapshot.pdf",
+      "english": "PDF",
+      "sha256": "f54194456b00a83b393cb5b57a98505b69e773e774d6bb55b25ea12aefc1afa3",
+      "bytes": 46064,
+      "locator": "動作容器/📄Snapshot.pdf",
+      "status": "完成"
+    },
+    {
+      "emoji": "📊",
+      "name": "📊AuthorLayer.xlsx",
+      "english": "XLSX",
+      "sha256": "6eff3f7141d6511f215806e0dc79efdfd91f72fa63635150923e5b4917ff4023",
+      "bytes": 6279,
+      "locator": "動作容器/📊AuthorLayer.xlsx",
+      "status": "完成"
+    },
+    {
+      "emoji": "📍",
+      "name": "📍Locator.json",
+      "english": "JSON",
+      "sha256": "04ba4f414f2fedc702e6d6f2fd96310e594d80ea4e334980387c37da87de4ec0",
+      "bytes": 2564,
+      "locator": "動作容器/📍Locator.json",
+      "status": "完成"
+    },
+    {
+      "emoji": "📘",
+      "name": "📘MarkdownSeed.md",
+      "english": "MD",
+      "sha256": "6f04ed58a266c08b57d6cb2c1f955628acd17a8e1c2dcaa8eeeb734612850f28",
+      "bytes": 106,
+      "locator": "動作容器/📘MarkdownSeed.md",
+      "status": "完成"
+    },
+    {
+      "emoji": "📦",
+      "name": "📦Package.json",
+      "english": "JSON",
+      "sha256": "ac3aa7aaf56297b75e5eef2914d81cdc7f687f09afd9395251047a623fa248ee",
+      "bytes": 148,
+      "locator": "動作容器/📦Package.json",
+      "status": "完成"
+    },
+    {
+      "emoji": "📸",
+      "name": "📸Snapshot.json",
+      "english": "JSON",
+      "sha256": "3faac8c314a349ebe16f1cd254243024421da9ea037baf11096fe6b195db2f90",
+      "bytes": 2373,
+      "locator": "動作容器/📸Snapshot.json",
+      "status": "完成"
+    },
+    {
+      "emoji": "🖥",
+      "name": "🖥️CapsuleAction.html",
+      "english": "HTML",
+      "sha256": "3e000dc6abe82a688369424f15d3ff35410bc91324d601f7803a75d156ea0819",
+      "bytes": 5190,
+      "locator": "動作容器/🖥️CapsuleAction.html",
+      "status": "完成"
+    },
+    {
+      "emoji": "🖼",
+      "name": "🖼️Snapshot.png",
+      "english": "PNG",
+      "sha256": "d2a8e44d2f2d7d40a1643228b318004d98b76eaf464a1abe093a49642e476b61",
+      "bytes": 7952,
+      "locator": "動作容器/🖼️Snapshot.png",
+      "status": "完成"
+    },
+    {
+      "emoji": "🖼",
+      "name": "🖼️Snapshot.webp",
+      "english": "WEBP",
+      "sha256": "c37fd8eb291e967968945caef6f12abdb1934439c8cb2307749e3da31d9f85da",
+      "bytes": 4426,
+      "locator": "動作容器/🖼️Snapshot.webp",
+      "status": "完成"
+    },
+    {
+      "emoji": "🧾",
+      "name": "🧾Canonical.json",
+      "english": "JSON",
+      "sha256": "e3091999c8d74556f00240670144e306ddde2a81fe2084ad3b6892c4b1105d8d",
+      "bytes": 819,
+      "locator": "動作容器/🧾Canonical.json",
+      "status": "完成"
+    }
+  ]
+}
