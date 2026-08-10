@@ -1,36 +1,35 @@
 {
-  "時間_台北": "2026-08-10T18:30:11+08:00",
+  "時間_台北": "2026-08-10T18:47:31+08:00",
   "狀態": "本回合GitHub／Drive／Gmail已真實寫入並讀回",
   "Identity": "LKMINI://",
   "正式路徑": "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
   "GoogleDrive": {
     "FileID": "1YenuRt7vnksIrrm_cFBx89-GDrA3RTxF",
-    "RevisionID": "0B0rZjEvqIMWscVpBYitndnZ1YWo0TDcxYXp2K292dnJ5TGpBPQ",
-    "PreviousRevisionID": "0B0rZjEvqIMWsaG5paW9OM0tKMW90Z0RjNHdBblNUMmpxRHI4PQ",
+    "RevisionID": "0B0rZjEvqIMWsdFZ3dGlNZ3NpVFJiNHBmNG45dDc2Q3ROa000PQ",
+    "PreviousRevisionID": "0B0rZjEvqIMWsazY1UElMQmduOE9HQUFCa3JJaklRQnJ6UUVVPQ",
     "Parent": "1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX",
     "Name": "🪞幻影膠囊",
-    "ByteSize": 2354293,
-    "SHA256": "decf750b2ddc7fb9cd3556c61f11581cd5e4c651d4cdfabbf2972423a06fce74",
+    "ByteSize": 2365088,
+    "SHA256": "6234ff215024f229bcc8f3aa299f1d0ae4cd92fe7a89c2b75031f1dbb8f63e59",
     "MagicBytes": "504b0304",
-    "ZIPMembers": 44,
+    "ZIPMembers": 46,
     "ZIP_CRC": "全部通過",
-    "同FileID讀回": true,
-    "內容Revision": "rename metadata後保持同一current content Revision"
+    "同FileID讀回": true
   },
   "GitHub": {
     "Repository": "ky46738-ops/LKMini",
     "Branch": "seed_v0",
     "正式根路徑": "🥃老K系統/🧩LKMINI/🪞幻影膠囊",
     "正式動作容器": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🧚全域中文接線精靈｜正式動作容器.json",
-    "封裝資料Commit": "3901c519cfe3135e60e2ea4bcf82b2e98957d11e",
-    "正式投影Commit": "9ce9f6cc4234536e81e808226a0259ed106765d3"
+    "動作容器Commit": "b69bd3530c6154b0830f9f21890bf7f9ce363c68",
+    "動作容器Blob": "7c378e4a337c5df1b2765f992d666f80249e721f"
   },
   "Gmail": {
     "寄件者": "ky46738@gmail.com",
     "收件者": "ky46738@gmail.com",
     "主旨": "🥃老K系統｜本回合正式完成回執｜A=A",
-    "MessageID": "19feb3908eb4384f",
-    "ThreadID": "19feb3908eb4384f",
+    "MessageID": "19feb48e6f1143df",
+    "ThreadID": "19feb48e6f1143df",
     "完整讀回": true
   },
   "副檔名實證": {
@@ -41,10 +40,8 @@
     "UTType": "本回合無Apple resolver，不冒充"
   },
   "歷史REFERENCE_ONLY": [
-    {
-      "FileID": "1rZAESqIPtuhowZ3OM5XrlIGgVXI2VvzG",
-      "處置": "本回合誤寫Revision保留為歷史證據；current已同FileID回退；永久刪除0"
-    }
+    {"FileID": "1rZAESqIPtuhowZ3OM5XrlIGgVXI2VvzG", "處置": "歷史Revision保留；current已回退；永久刪除0"},
+    {"RevisionID": "0B0rZjEvqIMWsazY1UElMQmduOE9HQUFCa3JJaklRQnJ6UUVVPQ", "處置": "同位元重複Revision保留為歷史證據"}
   ],
   "S0至S10": "施工與驗收REFERENCE_ONLY；正式十動作命名以正式動作容器為準",
   "唯一回指": "🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A",
