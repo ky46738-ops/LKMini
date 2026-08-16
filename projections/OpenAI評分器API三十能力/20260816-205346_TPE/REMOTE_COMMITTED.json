@@ -1,44 +1,51 @@
 {
-  "State": "COMMITTED_AND_READ_BACK_VERIFIED",
-  "TimestampAsiaTaipei": "2026-08-16T21:01:48+08:00",
+  "State": "COMMITTED_AND_READ_BACK_VERIFIED_CORRECTED",
+  "TimestampAsiaTaipei": "2026-08-16T21:05:37+08:00",
   "Identity": "LKMINI://",
   "from": "CapabilityExclusionLedger1333",
   "to": "CapabilityExclusionLedger1363",
-  "FormalSHA256": "c64a50dc5bf35a11d964fc631ddd29d303cee889baffddc1f9fea3500de6eaae",
+  "FormalSHA256": "2ada34b9fd9ff530480acf588d21438d635441af62664f01ae9474efdce1e974",
+  "FormalByteSize": 11348523,
   "GitHub": {
-    "CurrentCommit": "08cabc7bab922641516ccb07049cca5dd0682130",
-    "CurrentBlob": "29276bda381f76930bb2d0388310dbf41678dbe7",
+    "CorrectedCurrentCommit": "258ef5f1ea23e0ac47d9e71b0ef88fbb4e848c4d",
+    "CorrectedCurrentBlob": "d935fbc1df4efeefac7deee11df5811633295055",
     "CurrentReadBack": "PASS"
   },
   "GoogleDrive": {
     "KnowledgeLedger": {
       "DocumentID": "1fLsyyeP6LhYS5yy2dYhUbBOtL-fOwMv7ns5-uMnrKrE",
-      "RevisionID": "AIroW3410GjhSjVpEBQ3KZzVASxaLJRtGkuxx3njlETGWN8EyHLtiQrtQRZ42975tbNoG8P75yLtvqnMI5vdV71Fnq7z3uy-QYDEGSage_Y",
+      "RevisionID": "AIroW34fMzSJcknq0NcxSWm1jMqpzKQ8-jzwJs-GlB_O_JCjLqGeVCdZDGitG9A02UbdcHXPj3LMOle3X9heUR__Rxusbv-jpwnF1Z-FV3Y",
+      "CorrectionMarker": "HOURLY_30_OPENAI_GRADERS_API_1363_CORRECTION｜20260816-211000-TPE",
       "MarkerReadBack": "PASS"
     },
     "CloudWiringRegistry": {
       "DocumentID": "14j8sa6dt2mXZZO-OJN4A2Q4Ze8M9jWaRjm4J-ZH_-QA",
-      "RevisionID": "AIroW367tW0Qdqd1Oe5O0L8d12nFWfvsG27DIO11cZnqLUX_EwT7wrW3dzjoGMMKwz5DISUzhzOi48F_p_GPR2S0AYzTX6n-LL062w6uji0",
+      "RevisionID": "AIroW368f6cydJ_jj6XJaVFHlT3RViXh7AA9p_j87YQ0AhpoG3kZQCXrF9ofQnPXNITXJZjv0CHfOUPADnM7UjTXLCbLj2px-oyh65S6p9A",
+      "CorrectionMarker": "CLOUD_WIRING_OPENAI_GRADERS_API_1363_CORRECTION｜20260816-211000-TPE",
       "MarkerReadBack": "PASS"
     },
-    "BinaryFormalZIP": {
-      "exists": false,
-      "FailureType": "NO_RESOLVED_CONNECTOR_FILE_REFERENCE"
-    }
+    "BinaryFormalZIP": {"exists": false, "FailureType": "NO_RESOLVED_CONNECTOR_FILE_REFERENCE"}
   },
   "Gmail": {
-    "MessageID": "1a00aa9ffa391909",
-    "ThreadID": "1a00aa9ffa391909",
-    "SubjectReadBack": "PASS",
-    "BodySnippetReadBack": "PASS",
-    "AttachmentAttempt": {
-      "exists": false,
-      "FailureType": "BLOCKED_FILE_REFERENCE"
-    },
-    "ReceiptWithoutAttachment": {
-      "exists": true,
-      "ReadBack": "PASS"
-    }
+    "SupersededReceiptMessageID": "1a00aa9ffa391909",
+    "CorrectedReceiptMessageID": "1a00aad7c96b1276",
+    "CorrectedReceiptReadBack": "PASS",
+    "AttachmentAttempt": {"exists": false, "FailureType": "BLOCKED_FILE_REFERENCE"}
+  },
+  "Acceptance": {
+    "CapabilityPackages": "30/30 PASS",
+    "DedicatedEnginePackages": "30/30 PASS",
+    "IndependentZIP": 60,
+    "InnerCRC": "60/60 PASS",
+    "NineFolders": "60/60 PASS",
+    "SixItems": "60/60 PASS",
+    "ElevenActions": "60/60 PASS",
+    "CapsuleUIResearchLab": "60/60 PASS",
+    "ManifestHashReadBack": "60/60 PASS",
+    "RunnerStressExecutions": "30000/30000 PASS",
+    "PhantomCapsuleParser": "60/60 PASS",
+    "IdentityDuplicates": 0,
+    "PackageSHA256Duplicates": 0
   },
   "FileLibraryWrite": {"exists": false, "FailureType": "NO_FILE_LIBRARY_WRITE_ACTION_THIS_RUN"},
   "ObsidianDirectConnector": {"exists": false, "FailureType": "PLUGIN_SEARCH_NO_RESULT"},
