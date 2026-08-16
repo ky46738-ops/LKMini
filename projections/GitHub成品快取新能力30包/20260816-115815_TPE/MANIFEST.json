@@ -17,9 +17,14 @@
     "visual_chain": {"SVG":30,"WebP":30,"GIF":30,"MP4":30,"MarkdownSeed":30},
     "dedup_scope": ["GPT File Library","ky46738-ops/LKMini","Google Drive","GitHub official Docs"],
     "capability_keys": ["ArtifactDefaultNameFallbackValidator","ArtifactRetentionPolicyBoundValidator","ArtifactImmutableNameReuseGuard","ArtifactCrossRunTokenRunIdGuard","ArtifactDownloadAllDirectorySeparationValidator","ArtifactDownloadPathOverrideValidator","ArtifactSHA256DigestValidationGuard","ArtifactPublicRetentionRangeValidator","ArtifactPrivateRetentionRangeValidator","ArtifactRetentionNonRetroactiveGuard","ArtifactListReadPermissionGuard","ArtifactListPerPageBoundValidator","ArtifactIfNoFilesFoundPolicyValidator","ArtifactCompressionLevelBoundValidator","ArtifactHiddenFilesDefaultExclusionGuard","ArtifactOverwriteExistingNameGuard","ArtifactIdOutputPresenceValidator","ArtifactUrlOutputPresenceValidator","ArtifactDigestOutputPresenceValidator","CacheExactKeyHitValidator","CacheImmutableContentNewKeyGuard","CacheKeyLength512Guard","CacheRestoreKeySequentialOrderValidator","CacheRestorePartialMostRecentValidator","CacheCrossOSArchiveDefaultFalseGuard","CacheSensitiveDataExclusionGuard","CacheSuccessfulJobSaveGuard","CacheVersionPathCompressionCompatibilityValidator","CacheCurrentThenDefaultBranchSearchOrderValidator","CacheUploadRateLimitGuard"],
-    "external": {"GoogleDriveBinaryZIP":{"exists":false},"Obsidian":{"exists":false},"AppleNativeProjection":{"exists":false}},
+    "external": {
+      "GoogleDrive": {"parent_folder_id":"1Ff5JK0mMxweZMziAjJNCp8SNsLvP5vyi","batch_folder_id":"1C4Ac6M-rC5jWeetp52EVlbtNzbteEi0B","receipt_document_id":"1ydmZ7yntDvNYB-qDctMjKPfTW7r9wjZS2hPTPubyclw","folder_committed":true,"receipt_readback":"PASS","binary_zip":{"exists":false,"failure_type":"BLOCKED_FILE_REFERENCE"}},
+      "Obsidian":{"exists":false,"failure_type":"NO_CONNECTED_WRITE_TOOL"},
+      "FileLibrary":{"exists":false,"failure_type":"NO_WRITE_INTERFACE_THIS_RUN"},
+      "AppleNativeProjection":{"exists":false,"failure_type":"NO_NUMBERS_PAGES_KEYNOTE_NATIVE_OUTPUT_TOOL"}
+    },
     "ValidatedScopeAEqualsA": true,
     "WholeExternalSyncAEqualsA": false
   },
-  "ReverseChain": ["GitHubManifest","LocalDelivery","🧩LKMINI","LKMINI://","A=A"]
+  "ReverseChain": ["GitHubManifest","DriveReceipt","LocalDelivery","🧩LKMINI","LKMINI://","A=A"]
 }
