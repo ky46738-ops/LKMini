@@ -1,333 +1,142 @@
 {
-  "Schema": "LKMINI.PerPackageCurrent.v2",
-  "TimestampAsiaTaipei": "2026-08-16T10:41:00+08:00",
+  "Schema": "LKMINI.PerPackageCurrent.v3",
+  "TimestampAsiaTaipei": "2026-08-16T12:00:47+08:00",
   "State": "PACKAGE_SET_COMMITTED_CURRENT",
-  "From": "23 canonical source ZIPs + 1 root auto-renamed source; minimal projections; root duplicate projections",
-  "To": "24 preserved Identities; real format chains; 24/24 brutal acceptance; Files canonical readback",
   "System": "🥃老K系統",
   "Root": "🧩LKMINI",
   "RootSHA256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
+  "From": "24 packages with tracked Python bytecode mutation, incomplete ReverseChain terminal, mixed historical receipts in sealing workspace, stale Current hashes",
+  "To": "24 identity-preserved repaired packages, zero tracked runtime mutation, ReverseChain terminal A=A, clean sealed total, committed Files/GitHub/Gmail/PublicWeb states",
   "CapabilityCount": 13,
   "EngineCount": 11,
   "PackageCount": 24,
+  "PackageSetSHA256": "e2cdc9570358af67d33fcc2007ae8e2068ccb36456c646ec49f280dda1e4c8ac",
   "TotalPackage": {
-    "Name": "📦｜老K系統逐能力逐引擎錯誤完整修復重製交付｜LaoKPerPackageErrorCompleteRepairRebuildDelivery｜20260816-104100_TPE.zip",
-    "Bytes": 18683684,
-    "SHA256": "5dd9e224807084a65fc72c5e90d664198738cb1284101b4ad540d4cb8a325274"
+    "Name": "📦｜老K系統逐能力逐引擎錯誤完成終局交付｜LaoKPerPackageErrorCompletionTerminalDelivery｜20260816-114945_TPE.zip",
+    "Bytes": 18737757,
+    "SHA256": "76d242445a268dbd44bf20b320ca7ae1b3b74cc71287145bec4c2aa8e1f0c5d9",
+    "CRC": "PASS",
+    "NestedZIPCount": 24,
+    "NestedZIPCRC": "PASS",
+    "NestedIdentityCount": 24,
+    "NestedIdentityDuplicates": 0
   },
   "Acceptance": {
-    "ZipCRC": "24/24 PASS",
+    "ZIPCRC": "24/24 PASS",
     "Extraction": "24/24 PASS",
     "NineFolders": "24/24 PASS",
     "SixItems": "24/24 PASS",
     "ElevenActions": "24/24 PASS",
+    "ManifestHashes": "24/24 PASS",
     "RuntimeCLI": "24/24 PASS",
     "SelfTest": "24/24 PASS",
+    "RuntimeTrackedMutation": "24/24 ZERO",
+    "TrackedBytecode": "24/24 ABSENT",
+    "ProjectionParsers": "24/24 PASS",
     "SVGWebPRoundTrip": "24/24 PASS",
-    "ProjectionFormats": "24/24 PASS",
-    "ManifestHashes": "24/24 PASS",
-    "DocumentVisualRender": "72/72 PASS",
+    "ReverseChainTerminal": "24/24 PASS",
+    "DocumentVisualRender": "96/96 PASS",
     "IdentityDuplicates": 0,
+    "PackageNameDuplicates": 0,
     "PackageSHA256Duplicates": 0
   },
   "FilesLibrary": {
+    "exists": true,
     "Committed": true,
     "CanonicalPath": "/🥃老K系統/📦｜逐能力逐引擎修復交付｜PerPackageRepairedDelivery",
-    "ReadbackBytes": 18683684,
-    "ReadbackSHA256": "5dd9e224807084a65fc72c5e90d664198738cb1284101b4ad540d4cb8a325274",
+    "TotalFileId": "file_00000000d0c0820a91e2e90907ef3b89",
+    "TotalLibraryFileId": "libfile_7b710ab8ed3c81918ace925205fecc97",
+    "ReadbackBytes": 18737757,
+    "ReadbackSHA256": "76d242445a268dbd44bf20b320ca7ae1b3b74cc71287145bec4c2aa8e1f0c5d9",
     "ReadbackCRC": "PASS"
   },
   "GoogleDrive": {
-    "CanonicalFolderChain": [
-      "🥃老K系統",
-      "🧩LKMINI",
-      "🪞幻影膠囊"
-    ],
+    "RegistryDocument": {
+      "exists": true,
+      "DocumentId": "1_bjc8S1SouHGzjhFzHPu2Pq3qxPH1CjyzTCdtefVrRY"
+    },
+    "CanonicalFolderChain": ["🥃老K系統", "🧩LKMINI", "🪞幻影膠囊"],
     "CanonicalFolderId": "1Ca25TmRW0NFLQb65zR0XJ-nF83cwUJqq",
-    "RegistryDocumentId": "1_bjc8S1SouHGzjhFzHPu2Pq3qxPH1CjyzTCdtefVrRY",
-    "BinaryTotalZip": {
+    "BinaryTotalZIP": {
       "exists": false,
-      "reason": "UNREGISTERED_FILE_REFERENCE"
+      "reason": "BLOCKED_FILE_REFERENCE: Files formal file unavailable for connector egress"
     }
   },
-  "ObsidianConnector": {
-    "exists": false,
-    "reason": "No installed or installable Obsidian plugin returned"
+  "Gmail": {
+    "CurrentReceipt": {
+      "exists": true,
+      "MessageId": "1a008bab1ae05aa4",
+      "ThreadId": "1a008bab1ae05aa4",
+      "SentReadback": "PASS",
+      "HasAttachment": false
+    },
+    "Attachments": {
+      "exists": false,
+      "reason": "BLOCKED_FILE_REFERENCE"
+    },
+    "HistoricalReceipts": ["1a008872c894dafd", "1a00889efad02f90"]
   },
-  "AppleNativeIWA": {
-    "exists": false
+  "PublicWeb": {
+    "Published": true,
+    "URL": "https://ky46738-ops.github.io/LKMini/",
+    "CurrentJSONURL": "https://ky46738-ops.github.io/LKMini/current.json",
+    "PagesWorkflowRunId": 31925465273,
+    "PagesWorkflowConclusion": "success",
+    "ExternalHTTPContentReadback": {
+      "exists": false,
+      "reason": "Current execution environment cannot resolve github.io; deployment success verified through GitHub Actions and Pages API"
+    }
   },
   "RootGeneratedDuplicateCleanup": {
-    "CanonicalSetExcludedDuplicates": true,
-    "DeleteCommitted": false,
-    "Reason": "Files delete requires stable library_file_id; root generated projections expose only temporary file_id",
-    "Candidates": 27
-  },
-  "ReverseChain": "Projection → Package → Manifest → Locator → Identity → 🧩LKMINI → LKMINI:// → A=A",
-  "Packages": [
-    {
-      "Index": 1,
-      "Name": "♿｜可存取介面｜AccessibleInterface",
-      "Kind": "能力",
-      "Identity": "LKMINI://能力/AccessibleInterface",
-      "DeliveryDate": "2026-08-16",
-      "Filename": "♿｜可存取介面｜AccessibleInterface｜2026-08-16.zip",
-      "Bytes": 741885,
-      "SHA256": "c47dce529c7a75b3043568d8c6888f6a03a74b6e8221c60ebbb98a8d9edfd18b",
-      "Overall": "PASS"
-    },
-    {
-      "Index": 2,
-      "Name": "🌗｜自適應外觀｜AdaptiveAppearance",
-      "Kind": "能力",
-      "Identity": "LKMINI://能力/AdaptiveAppearance",
-      "DeliveryDate": "2026-08-16",
-      "Filename": "🌗｜自適應外觀｜AdaptiveAppearance｜2026-08-16.zip",
-      "Bytes": 747380,
-      "SHA256": "d8580cfe6294118b6bb536cd9a5a514508f8ef92a39a4230d4ebf20670a7fa94",
-      "Overall": "PASS"
-    },
-    {
-      "Index": 3,
-      "Name": "🎨｜介面樣式引擎｜InterfaceStyleEngine",
-      "Kind": "引擎",
-      "Identity": "LKMINI://引擎/InterfaceStyleEngine",
-      "DeliveryDate": "2026-08-16",
-      "Filename": "🎨｜介面樣式引擎｜InterfaceStyleEngine｜2026-08-16.zip",
-      "Bytes": 739860,
-      "SHA256": "383643ab2d48a7a9d6e6808e2f407151741e469bc6bd8d85620275b67db8a8a8",
-      "Overall": "PASS"
-    },
-    {
-      "Index": 4,
-      "Name": "🎨｜介面樣式治理｜InterfaceStyleGovernance",
-      "Kind": "能力",
-      "Identity": "LKMINI://能力/InterfaceStyleGovernance",
-      "DeliveryDate": "2026-08-16",
-      "Filename": "🎨｜介面樣式治理｜InterfaceStyleGovernance｜2026-08-16.zip",
-      "Bytes": 755415,
-      "SHA256": "1b305e084f2e8999a8c1b73d59478bf566371c90808b969b5bce9a17432323ea",
-      "Overall": "PASS"
-    },
-    {
-      "Index": 5,
-      "Name": "🎭｜角色掛載引擎｜RoleMountEngine",
-      "Kind": "引擎",
-      "Identity": "LKMINI://引擎/RoleMountEngine",
-      "DeliveryDate": "2026-08-16",
-      "Filename": "🎭｜角色掛載引擎｜RoleMountEngine｜2026-08-16.zip",
-      "Bytes": 714150,
-      "SHA256": "c7938c8498b83c4022afa160d428497fc494777444f442aab0d02ba097243813",
-      "Overall": "PASS"
-    },
-    {
-      "Index": 6,
-      "Name": "🎭｜角色視覺掛載｜RoleVisualMounting",
-      "Kind": "能力",
-      "Identity": "LKMINI://能力/RoleVisualMounting",
-      "DeliveryDate": "2026-08-16",
-      "Filename": "🎭｜角色視覺掛載｜RoleVisualMounting｜2026-08-16.zip",
-      "Bytes": 749502,
-      "SHA256": "33ebd14d034ba9d3d09d013dfa1419b0e15c967dee1240ebc18bf86ea5d97d05",
-      "Overall": "PASS"
-    },
-    {
-      "Index": 7,
-      "Name": "📦｜交付封裝引擎｜DeliveryPackageEngine",
-      "Kind": "引擎",
-      "Identity": "LKMINI://引擎/DeliveryPackageEngine",
-      "DeliveryDate": "2026-08-16",
-      "Filename": "📦｜交付封裝引擎｜DeliveryPackageEngine｜2026-08-16.zip",
-      "Bytes": 737565,
-      "SHA256": "b6ab1c0f31d5c06dad9e3b127f397092ca7831369ad524cca48ae527f858d9ad",
-      "Overall": "PASS"
-    },
-    {
-      "Index": 8,
-      "Name": "📦｜交付封裝｜DeliveryPackaging",
-      "Kind": "能力",
-      "Identity": "LKMINI://能力/DeliveryPackaging",
-      "DeliveryDate": "2026-08-16",
-      "Filename": "📦｜交付封裝｜DeliveryPackaging｜2026-08-16.zip",
-      "Bytes": 731828,
-      "SHA256": "0c23bc6bf4258aa65228fa1105daa56d5b1185935c2369f523da5c0ca7dab6bc",
-      "Overall": "PASS"
-    },
-    {
-      "Index": 9,
-      "Name": "📱｜手機互動顯影｜MobileInteractiveProjection",
-      "Kind": "能力",
-      "Identity": "LKMINI://能力/MobileInteractiveProjection",
-      "DeliveryDate": "2026-08-16",
-      "Filename": "📱｜手機互動顯影｜MobileInteractiveProjection｜2026-08-16.zip",
-      "Bytes": 772632,
-      "SHA256": "5c674d0055a0a3bed77e00032ab084ec9cda17d89842a6d1b122773b2fccede4",
-      "Overall": "PASS"
-    },
-    {
-      "Index": 10,
-      "Name": "📱｜手機介面引擎｜MobileUIEngine",
-      "Kind": "引擎",
-      "Identity": "LKMINI://引擎/MobileUIEngine",
-      "DeliveryDate": "2026-08-16",
-      "Filename": "📱｜手機介面引擎｜MobileUIEngine｜2026-08-16.zip",
-      "Bytes": 724815,
-      "SHA256": "0a6776d124b07cb42f626214c5cf6def70c5d4c1d343d97acd507fb8c7d28ebe",
-      "Overall": "PASS"
-    },
-    {
-      "Index": 11,
-      "Name": "🔎｜素材搜尋篩選｜AssetSearchFiltering",
-      "Kind": "能力",
-      "Identity": "LKMINI://能力/AssetSearchFiltering",
-      "DeliveryDate": "2026-08-16",
-      "Filename": "🔎｜素材搜尋篩選｜AssetSearchFiltering｜2026-08-16.zip",
-      "Bytes": 762840,
-      "SHA256": "4c2150c521c25b5691341e188be0a7c8be4e4f9881dafbc19a2c468e7d04e8f3",
-      "Overall": "PASS"
-    },
-    {
-      "Index": 12,
-      "Name": "🔬｜介面驗收引擎｜UIAcceptanceEngine",
-      "Kind": "引擎",
-      "Identity": "LKMINI://引擎/UIAcceptanceEngine",
-      "DeliveryDate": "2026-08-16",
-      "Filename": "🔬｜介面驗收引擎｜UIAcceptanceEngine｜2026-08-16.zip",
-      "Bytes": 731047,
-      "SHA256": "51062adb51be08362165792d23080b56599941096b185bc57690c777029b9ada",
-      "Overall": "PASS"
-    },
-    {
-      "Index": 13,
-      "Name": "🔬｜暴力驗收｜BrutalAcceptance",
-      "Kind": "能力",
-      "Identity": "LKMINI://能力/BrutalAcceptance",
-      "DeliveryDate": "2026-08-16",
-      "Filename": "🔬｜暴力驗收｜BrutalAcceptance｜2026-08-16.zip",
-      "Bytes": 719968,
-      "SHA256": "278b43d70588679e2fc2f4c13c03222410c6915017ccef4c79e7a6e8db3fdec7",
-      "Overall": "PASS"
-    },
-    {
-      "Index": 14,
-      "Name": "🧬｜圖文可逆轉換｜ReversibleMediaConversion",
-      "Kind": "能力",
-      "Identity": "LKMINI://能力/ReversibleMediaConversion",
-      "DeliveryDate": "2026-08-16",
-      "Filename": "🧬｜圖文可逆轉換｜ReversibleMediaConversion｜2026-08-16.zip",
-      "Bytes": 799993,
-      "SHA256": "62f7b3e951aeed32eeb7d54298a022cada4f5d96a88293564ab3d02b8bc23533",
-      "Overall": "PASS"
-    },
-    {
-      "Index": 15,
-      "Name": "🧬｜圖文閘門引擎｜MediaGatewayEngine",
-      "Kind": "引擎",
-      "Identity": "LKMINI://引擎/MediaGatewayEngine",
-      "DeliveryDate": "2026-08-16",
-      "Filename": "🧬｜圖文閘門引擎｜MediaGatewayEngine｜2026-08-16.zip",
-      "Bytes": 751127,
-      "SHA256": "9261927cb0f7c82d2306b9392f672d21fdd4e80a20802fea1291e49cfaa360b7",
-      "Overall": "PASS"
-    },
-    {
-      "Index": 16,
-      "Name": "🧭｜可逆回推引擎｜ReverseTraceEngine",
-      "Kind": "引擎",
-      "Identity": "LKMINI://引擎/ReverseTraceEngine",
-      "DeliveryDate": "2026-08-16",
-      "Filename": "🧭｜可逆回推引擎｜ReverseTraceEngine｜2026-08-16.zip",
-      "Bytes": 746474,
-      "SHA256": "11214dd02f8d289f8725ddb62068c8d79c5993a8d094ba59c994219e9ecbb9a4",
-      "Overall": "PASS"
-    },
-    {
-      "Index": 17,
-      "Name": "🧭｜定位與回推｜LocatorReverseTrace",
-      "Kind": "能力",
-      "Identity": "LKMINI://能力/LocatorReverseTrace",
-      "DeliveryDate": "2026-08-16",
-      "Filename": "🧭｜定位與回推｜LocatorReverseTrace｜2026-08-16.zip",
-      "Bytes": 751379,
-      "SHA256": "6921dfe507a0738a6d1ceb3724adb27a91aa9de9388905603c7aeb7c0ca87376",
-      "Overall": "PASS"
-    },
-    {
-      "Index": 18,
-      "Name": "🧲｜相量鎖｜VectorLockback",
-      "Kind": "能力",
-      "Identity": "LKMINI://能力/VectorLockback",
-      "DeliveryDate": "2026-08-16",
-      "Filename": "🧲｜相量鎖｜VectorLockback｜2026-08-16.zip",
-      "Bytes": 710920,
-      "SHA256": "0da607c304344d5b2938e63eae6873a2e42bd7f09fa00d0e8155add18f4c4d7f",
-      "Overall": "PASS"
-    },
-    {
-      "Index": 19,
-      "Name": "🧹｜內容去重引擎｜ContentDedupEngine",
-      "Kind": "引擎",
-      "Identity": "LKMINI://引擎/ContentDedupEngine",
-      "DeliveryDate": "2026-08-16",
-      "Filename": "🧹｜內容去重引擎｜ContentDedupEngine｜2026-08-16.zip",
-      "Bytes": 765982,
-      "SHA256": "d1cf9977daf3747c52a0761268e073cf827645508342337ae756b9a6c8e56763",
-      "Overall": "PASS"
-    },
-    {
-      "Index": 20,
-      "Name": "🧹｜素材去重吸回｜AssetDedupAbsorption",
-      "Kind": "能力",
-      "Identity": "LKMINI://能力/AssetDedupAbsorption",
-      "DeliveryDate": "2026-08-16",
-      "Filename": "🧹｜素材去重吸回｜AssetDedupAbsorption｜2026-08-16.zip",
-      "Bytes": 781841,
-      "SHA256": "ed01101425715b13487ac0ab55b03fe6f4eaa70c6e9595124323f0b26339ce6c",
-      "Overall": "PASS"
-    },
-    {
-      "Index": 21,
-      "Name": "🧺｜素材清冊引擎｜AssetInventoryEngine",
-      "Kind": "引擎",
-      "Identity": "LKMINI://引擎/AssetInventoryEngine",
-      "DeliveryDate": "2026-08-16",
-      "Filename": "🧺｜素材清冊引擎｜AssetInventoryEngine｜2026-08-16.zip",
-      "Bytes": 763942,
-      "SHA256": "4f945a9289da569bf313a709e5df20a578c3a66b63ffd163f214929308fadffa",
-      "Overall": "PASS"
-    },
-    {
-      "Index": 22,
-      "Name": "🪝｜未掛載抓走引擎｜UnmountedGrabEngine",
-      "Kind": "引擎",
-      "Identity": "LKMINI://引擎/UnmountedGrabEngine",
-      "DeliveryDate": "2026-08-16",
-      "Filename": "🪝｜未掛載抓走引擎｜UnmountedGrabEngine｜2026-08-16.zip",
-      "Bytes": 774821,
-      "SHA256": "2216987ae5ff7c15b11496cec76cafc108e07343b44be1d589324646e92fbd3d",
-      "Overall": "PASS"
-    },
-    {
-      "Index": 23,
-      "Name": "🪪｜身份同步引擎｜IdentitySyncEngine",
-      "Kind": "引擎",
-      "Identity": "LKMINI://引擎/IdentitySyncEngine",
-      "DeliveryDate": "2026-08-16",
-      "Filename": "🪪｜身份同步引擎｜IdentitySyncEngine｜2026-08-16.zip",
-      "Bytes": 750487,
-      "SHA256": "dcf883ab709fb68c487a1f622b11ae2fc6ff984856373f1aa8e960b461cfa1d9",
-      "Overall": "PASS"
-    },
-    {
-      "Index": 24,
-      "Name": "🪪｜身份同步｜IdentitySynchronization",
-      "Kind": "能力",
-      "Identity": "LKMINI://能力/IdentitySynchronization",
-      "DeliveryDate": "2026-08-16",
-      "Filename": "🪪｜身份同步｜IdentitySynchronization｜2026-08-16.zip",
-      "Bytes": 735160,
-      "SHA256": "d031c7212b0c4ae47f43d444ed454dd2fc001dbc4834eef35cf6bc9f779077d3",
-      "Overall": "PASS"
+    "Candidates": 27,
+    "CanonicalCurrentExcludesDuplicates": true,
+    "PhysicalDelete": {
+      "exists": false,
+      "reason": "Files backend does not expose stable library_file_id for these root generated projections; delete/move rejected"
     }
+  },
+  "Obsidian": {
+    "ConnectorWrite": {
+      "exists": false,
+      "reason": "No installed or installable Obsidian connector returned"
+    },
+    "VaultReadyBundle": {"exists": true}
+  },
+  "AppleNativeIWA": {
+    "Numbers": {"exists": false},
+    "Pages": {"exists": false},
+    "Keynote": {"exists": false}
+  },
+  "AEqualsA": {
+    "PackageSet": true,
+    "CommittedPackageSet": true,
+    "WholeExternalWorld": false
+  },
+  "ReverseChain": "24獨立包 → 暴力驗收 → Files Current → GitHub Current → Drive 登記 → Gmail Current 正文 → PublicWeb 發布 → 🧩LKMINI → LKMINI:// → A=A",
+  "Packages": [
+    {"Index":1,"Name":"♿｜可存取介面｜AccessibleInterface","EnglishKey":"AccessibleInterface","Kind":"能力","Identity":"LKMINI://能力/AccessibleInterface","DeliveryDate":"2026-08-16","Filename":"♿｜可存取介面｜AccessibleInterface｜2026-08-16.zip","Bytes":656138,"SHA256":"803be493b905cdb54c34fbf204997fa6b2f281b3d5c690df26b469868ccb6d3a"},
+    {"Index":2,"Name":"🌗｜自適應外觀｜AdaptiveAppearance","EnglishKey":"AdaptiveAppearance","Kind":"能力","Identity":"LKMINI://能力/AdaptiveAppearance","DeliveryDate":"2026-08-16","Filename":"🌗｜自適應外觀｜AdaptiveAppearance｜2026-08-16.zip","Bytes":660402,"SHA256":"6af3a1b22f06de0d63a4e515aad1209d1b984b69425d1b23efdb3fece68e2230"},
+    {"Index":3,"Name":"🎨｜介面樣式引擎｜InterfaceStyleEngine","EnglishKey":"InterfaceStyleEngine","Kind":"引擎","Identity":"LKMINI://引擎/InterfaceStyleEngine","DeliveryDate":"2026-08-16","Filename":"🎨｜介面樣式引擎｜InterfaceStyleEngine｜2026-08-16.zip","Bytes":652506,"SHA256":"51c943227c5705d17ec04bba3e04d9dc8523da2e717e97301250bc7ea54bec14"},
+    {"Index":4,"Name":"🎨｜介面樣式治理｜InterfaceStyleGovernance","EnglishKey":"InterfaceStyleGovernance","Kind":"能力","Identity":"LKMINI://能力/InterfaceStyleGovernance","DeliveryDate":"2026-08-16","Filename":"🎨｜介面樣式治理｜InterfaceStyleGovernance｜2026-08-16.zip","Bytes":665054,"SHA256":"27ce54f4845824de651cef31b86f06586d491b20e53e9a4066e5c008820bad92"},
+    {"Index":5,"Name":"🎭｜角色掛載引擎｜RoleMountEngine","EnglishKey":"RoleMountEngine","Kind":"引擎","Identity":"LKMINI://引擎/RoleMountEngine","DeliveryDate":"2026-08-16","Filename":"🎭｜角色掛載引擎｜RoleMountEngine｜2026-08-16.zip","Bytes":630247,"SHA256":"41245e57447153ecb33b93ba4bc7ffec63b47dd82c7b5b631e9e53936cfd3128"},
+    {"Index":6,"Name":"🎭｜角色視覺掛載｜RoleVisualMounting","EnglishKey":"RoleVisualMounting","Kind":"能力","Identity":"LKMINI://能力/RoleVisualMounting","DeliveryDate":"2026-08-16","Filename":"🎭｜角色視覺掛載｜RoleVisualMounting｜2026-08-16.zip","Bytes":662384,"SHA256":"2d396d35817f6a8780b11007f4267c8a9ca4fd823d7ad7c89b486a93971337ae"},
+    {"Index":7,"Name":"📦｜交付封裝引擎｜DeliveryPackageEngine","EnglishKey":"DeliveryPackageEngine","Kind":"引擎","Identity":"LKMINI://引擎/DeliveryPackageEngine","DeliveryDate":"2026-08-16","Filename":"📦｜交付封裝引擎｜DeliveryPackageEngine｜2026-08-16.zip","Bytes":650643,"SHA256":"9b5fb987b7c4ffb24bb3a1d3b786e1b102ba9665bb5c94f310f60fb6f47d829e"},
+    {"Index":8,"Name":"📦｜交付封裝｜DeliveryPackaging","EnglishKey":"DeliveryPackaging","Kind":"能力","Identity":"LKMINI://能力/DeliveryPackaging","DeliveryDate":"2026-08-16","Filename":"📦｜交付封裝｜DeliveryPackaging｜2026-08-16.zip","Bytes":647359,"SHA256":"2bb727d52067847c080256b024a3b2d0e62276fb8dbb55eb754fff5b08cd832a"},
+    {"Index":9,"Name":"📱｜手機互動顯影｜MobileInteractiveProjection","EnglishKey":"MobileInteractiveProjection","Kind":"能力","Identity":"LKMINI://能力/MobileInteractiveProjection","DeliveryDate":"2026-08-16","Filename":"📱｜手機互動顯影｜MobileInteractiveProjection｜2026-08-16.zip","Bytes":679491,"SHA256":"eb4695a61d125cd89ed5923263ca48c888a4f43dc4a3f574661692489b04a9a9"},
+    {"Index":10,"Name":"📱｜手機介面引擎｜MobileUIEngine","EnglishKey":"MobileUIEngine","Kind":"引擎","Identity":"LKMINI://引擎/MobileUIEngine","DeliveryDate":"2026-08-16","Filename":"📱｜手機介面引擎｜MobileUIEngine｜2026-08-16.zip","Bytes":641235,"SHA256":"04f66bac7467777de75dbbb855884897915957e1769f4074fcf84c1cd921358c"},
+    {"Index":11,"Name":"🔎｜素材搜尋篩選｜AssetSearchFiltering","EnglishKey":"AssetSearchFiltering","Kind":"能力","Identity":"LKMINI://能力/AssetSearchFiltering","DeliveryDate":"2026-08-16","Filename":"🔎｜素材搜尋篩選｜AssetSearchFiltering｜2026-08-16.zip","Bytes":672597,"SHA256":"758c72b150ec7325bb6b0555d8ddb2015b28311c2865bdcd44ec56b6af62a24d"},
+    {"Index":12,"Name":"🔬｜介面驗收引擎｜UIAcceptanceEngine","EnglishKey":"UIAcceptanceEngine","Kind":"引擎","Identity":"LKMINI://引擎/UIAcceptanceEngine","DeliveryDate":"2026-08-16","Filename":"🔬｜介面驗收引擎｜UIAcceptanceEngine｜2026-08-16.zip","Bytes":645183,"SHA256":"b141efcb27c140127252f19a04b9b47a94d55959d5d7831f543fdc90dbb2d474"},
+    {"Index":13,"Name":"🔬｜暴力驗收｜BrutalAcceptance","EnglishKey":"BrutalAcceptance","Kind":"能力","Identity":"LKMINI://能力/BrutalAcceptance","DeliveryDate":"2026-08-16","Filename":"🔬｜暴力驗收｜BrutalAcceptance｜2026-08-16.zip","Bytes":636333,"SHA256":"2220d5d622d9aa59235e8ad73642d006d000bd2ea80e51b5ae094c5beb3fa64a"},
+    {"Index":14,"Name":"🧬｜圖文可逆轉換｜ReversibleMediaConversion","EnglishKey":"ReversibleMediaConversion","Kind":"能力","Identity":"LKMINI://能力/ReversibleMediaConversion","DeliveryDate":"2026-08-16","Filename":"🧬｜圖文可逆轉換｜ReversibleMediaConversion｜2026-08-16.zip","Bytes":707585,"SHA256":"f0486af39b3876117cbd00b8089671a64a216a9b26b803a027709275c520b058"},
+    {"Index":15,"Name":"🧬｜圖文閘門引擎｜MediaGatewayEngine","EnglishKey":"MediaGatewayEngine","Kind":"引擎","Identity":"LKMINI://引擎/MediaGatewayEngine","DeliveryDate":"2026-08-16","Filename":"🧬｜圖文閘門引擎｜MediaGatewayEngine｜2026-08-16.zip","Bytes":665350,"SHA256":"6702ac8601cedd3adca3958d85d375d8cf412962af295018f1756b94da6e6779"},
+    {"Index":16,"Name":"🧭｜可逆回推引擎｜ReverseTraceEngine","EnglishKey":"ReverseTraceEngine","Kind":"引擎","Identity":"LKMINI://引擎/ReverseTraceEngine","DeliveryDate":"2026-08-16","Filename":"🧭｜可逆回推引擎｜ReverseTraceEngine｜2026-08-16.zip","Bytes":660316,"SHA256":"63c4677ded4964a3c22c724f239f21b3be961361b890ddfb76156869bcc48062"},
+    {"Index":17,"Name":"🧭｜定位與回推｜LocatorReverseTrace","EnglishKey":"LocatorReverseTrace","Kind":"能力","Identity":"LKMINI://能力/LocatorReverseTrace","DeliveryDate":"2026-08-16","Filename":"🧭｜定位與回推｜LocatorReverseTrace｜2026-08-16.zip","Bytes":664913,"SHA256":"59ed99fa9d0936369045c41d7e12262a8dabc9b95a97f54b9d3d2c98510a5878"},
+    {"Index":18,"Name":"🧲｜相量鎖｜VectorLockback","EnglishKey":"VectorLockback","Kind":"能力","Identity":"LKMINI://能力/VectorLockback","DeliveryDate":"2026-08-16","Filename":"🧲｜相量鎖｜VectorLockback｜2026-08-16.zip","Bytes":631545,"SHA256":"d0329844827c18105c22fa6967c778c3e28642b923041d17a56fcbeb1eb1d54c"},
+    {"Index":19,"Name":"🧹｜內容去重引擎｜ContentDedupEngine","EnglishKey":"ContentDedupEngine","Kind":"引擎","Identity":"LKMINI://引擎/ContentDedupEngine","DeliveryDate":"2026-08-16","Filename":"🧹｜內容去重引擎｜ContentDedupEngine｜2026-08-16.zip","Bytes":679636,"SHA256":"2ea4249466c62adcf8d5dbb174031792bd419c4e63035744cbdd77e3f6704ff4"},
+    {"Index":20,"Name":"🧹｜素材去重吸回｜AssetDedupAbsorption","EnglishKey":"AssetDedupAbsorption","Kind":"能力","Identity":"LKMINI://能力/AssetDedupAbsorption","DeliveryDate":"2026-08-16","Filename":"🧹｜素材去重吸回｜AssetDedupAbsorption｜2026-08-16.zip","Bytes":690511,"SHA256":"38176cd4d4c995ca4788057f1e491d1299bb2c13289344a007a9f2bb9682c7d4"},
+    {"Index":21,"Name":"🧺｜素材清冊引擎｜AssetInventoryEngine","EnglishKey":"AssetInventoryEngine","Kind":"引擎","Identity":"LKMINI://引擎/AssetInventoryEngine","DeliveryDate":"2026-08-16","Filename":"🧺｜素材清冊引擎｜AssetInventoryEngine｜2026-08-16.zip","Bytes":676844,"SHA256":"04e43b174d047c4c82b559d0e38c09b39c04bc793ac7df08e3b25db57f88adc6"},
+    {"Index":22,"Name":"🪝｜未掛載抓走引擎｜UnmountedGrabEngine","EnglishKey":"UnmountedGrabEngine","Kind":"引擎","Identity":"LKMINI://引擎/UnmountedGrabEngine","DeliveryDate":"2026-08-16","Filename":"🪝｜未掛載抓走引擎｜UnmountedGrabEngine｜2026-08-16.zip","Bytes":683300,"SHA256":"c454656c8d9c127ac051d4e88780717026a7efcbc336a33e0a747765b1977dc1"},
+    {"Index":23,"Name":"🪪｜身份同步引擎｜IdentitySyncEngine","EnglishKey":"IdentitySyncEngine","Kind":"引擎","Identity":"LKMINI://引擎/IdentitySyncEngine","DeliveryDate":"2026-08-16","Filename":"🪪｜身份同步引擎｜IdentitySyncEngine｜2026-08-16.zip","Bytes":664017,"SHA256":"fa6d630ac351d8198b3f10c9bb1cda38690b4985b0df90903e6c25d92ef8abf6"},
+    {"Index":24,"Name":"🪪｜身份同步｜IdentitySynchronization","EnglishKey":"IdentitySynchronization","Kind":"能力","Identity":"LKMINI://能力/IdentitySynchronization","DeliveryDate":"2026-08-16","Filename":"🪪｜身份同步｜IdentitySynchronization｜2026-08-16.zip","Bytes":650129,"SHA256":"93fd1e182da4fbfb6de27932f6ceb5e5353ee75ef003d11e14ac2fbda7ec0f53"}
   ]
 }
