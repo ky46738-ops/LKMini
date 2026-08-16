@@ -1,0 +1,13 @@
+{
+  "schema":"CapsuleUIResearchLab200Status/1.0",
+  "Identity":"LKMINI://capability/CapsuleUIResearchLab",
+  "LocalBuild":"PASS",
+  "CandidateCurrent":200,
+  "FormalCurrent":194,
+  "PromotionCommitted":false,
+  "Reason":"Files formal library did not index/read back the Current200 control object, so tri-source Current agreement is not established.",
+  "Decision":"BUILT_AND_VERIFIED_PENDING_FILES_PROMOTION",
+  "ExistingInteractiveEntryRebuilt":false,
+  "NewRootIdentity":0,
+  "ReverseChain":["UI-195-200","CapsuleUIResearchLab","LaoKSystemMobileInterface","🧩LKMINI","LKMINI://"]
+}
