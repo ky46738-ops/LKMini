@@ -1,65 +1,40 @@
 {
-  "schema": "CapsuleUIResearchLabCurrentControl/4.1",
+  "schema": "CapsuleUIResearchLabCurrentControl/5.0",
   "Identity": "LKMINI://capability/CapsuleUIResearchLab",
-  "Current": 203,
+  "Current": 206,
   "State": "CURRENT",
-  "TimestampTPE": "2026-08-16T23:13:07+08:00",
+  "TimestampTPE": "2026-08-16T23:49:42+08:00",
   "DeliveryDate": "2026-08-16",
+  "PreviousCommittedTransition": {"from":203,"to":203,"committed":true,"type":"REPAIR_SUBJECT_CONNECTOR_SEMANTICS"},
+  "Transition": {"from":203,"to":206,"committed":true,"type":"PROMOTE_DEDUP_VALIDATED_UI204_206"},
   "NewRootIdentity": 0,
-  "NewFeatures": ["UI-201", "UI-202", "UI-203"],
+  "NewFeatures": ["UI-204","UI-205","UI-206"],
   "NewCapabilities": 3,
   "NewEngines": 3,
   "SeparatePackages": 6,
-  "FormalLogicalCounts": {"Engines": 119, "Capabilities": 278, "Packages": 397},
-  "Dedup": {
-    "CandidatesReviewed": 6,
-    "Promoted": 3,
-    "ReferenceOnly": 2,
-    "Absorbed": 1,
-    "ReferenceTargets": {
-      "UnifiedOpenStateStyling": "UI-179",
-      "ResponsiveAnchorPopoverPlacement": "UI-190",
-      "NamedContainerStyleScope": "UI-175"
-    }
-  },
+  "FormalLogicalCounts": {"Engines":122,"Capabilities":281,"Packages":403},
   "Packages": [
-    {"name":"🧩｜切換觸發來源追蹤｜ToggleInvokerSourceTrace｜20260816-220115_TPE.zip","sha256":"a137a6b8b0a3548fe0ef291d357fcea60d412055ed66481e941e02c49bca8198","bytes":1528455,"kind":"CAPABILITY","ui":"UI-201"},
-    {"name":"⚙️｜切換觸發追蹤引擎｜ToggleInvokerTraceEngine｜20260816-220115_TPE.zip","sha256":"1d25a36785a7d3474041cd23ba05e1cbe125e85e12fc5f56ce04a0cf834924f3","bytes":1514010,"kind":"ENGINE","ui":"UI-201"},
-    {"name":"🧩｜捲動驅動漸進回饋｜ScrollDrivenProgressiveFeedback｜20260816-220115_TPE.zip","sha256":"b279726f391309477890f60951be1c14cb4f01abd15a12a1b8e0a67524d2d376","bytes":1536870,"kind":"CAPABILITY","ui":"UI-202"},
-    {"name":"⚙️｜捲動回饋引擎｜ScrollDrivenFeedbackEngine｜20260816-220115_TPE.zip","sha256":"8006d832bd596c41ec48672d81b8001cce23e21634ffb32665259d327b142bf2","bytes":1527598,"kind":"ENGINE","ui":"UI-202"},
-    {"name":"🧩｜SVG線性光色漸層保真｜SVGLinearRGBGradientFidelity｜20260816-220115_TPE.zip","sha256":"5638eb691c7e46d88c92b9f8ea5e6ea1d7036f79737fcf01be39fd97d64924da","bytes":1551442,"kind":"CAPABILITY","ui":"UI-203"},
-    {"name":"⚙️｜SVG線性光色引擎｜SVGLinearRGBGradientEngine｜20260816-220115_TPE.zip","sha256":"d1178c5ca7154d2ca54567f2ff893be7ed1e21797d640ddc4dab26fd6b6d266d","bytes":1530989,"kind":"ENGINE","ui":"UI-203"}
+    {"ui":"UI-204","kind":"CAPABILITY","name":"🧩｜內容層品牌表現｜ContentLayerBrandExpression｜20260816-234942_TPE.zip","sha256":"44b1235c5ad50950654482a51267d889b1f74b3cc234cf44a96d5d939a40777a","bytes":272397,"identity":"LKMINI://capability/ContentLayerBrandExpression","stress":10000,"crc":"PASS","svg_webp_exact":true},
+    {"ui":"UI-204","kind":"ENGINE","name":"⚙️｜介面層秩序引擎｜InterfaceLayerOrderEngine｜20260816-234942_TPE.zip","sha256":"f25fed55f950e4138ec3a1b3128d266edd7e272fdc09fb57599c47c5d1e05e82","bytes":267344,"identity":"LKMINI://engine/InterfaceLayerOrderEngine","stress":10000,"crc":"PASS","svg_webp_exact":true},
+    {"ui":"UI-205","kind":"CAPABILITY","name":"🧩｜底部可及搜尋｜ReachableBottomSearch｜20260816-234942_TPE.zip","sha256":"ebf31bb3c7720145db0ad3c863630e72854c5f0487d61689429ecd7f638607c7","bytes":273336,"identity":"LKMINI://capability/ReachableBottomSearch","stress":10000,"crc":"PASS","svg_webp_exact":true},
+    {"ui":"UI-205","kind":"ENGINE","name":"⚙️｜搜尋位置編排引擎｜SearchPlacementOrchestrationEngine｜20260816-234942_TPE.zip","sha256":"d63f856ea6304b2489f8da375ddcf85608600a4f88430ac74e95f2caa2c9ebb5","bytes":276149,"identity":"LKMINI://engine/SearchPlacementOrchestrationEngine","stress":10000,"crc":"PASS","svg_webp_exact":true},
+    {"ui":"UI-206","kind":"CAPABILITY","name":"🧩｜可調尺寸介面韌性｜ResizableInterfaceResilience｜20260816-234942_TPE.zip","sha256":"63b5273b8ff84524f344ab03c6e4875560ac512902be696d44b72ac4ee270a74","bytes":276325,"identity":"LKMINI://capability/ResizableInterfaceResilience","stress":10000,"crc":"PASS","svg_webp_exact":true},
+    {"ui":"UI-206","kind":"ENGINE","name":"⚙️｜尺寸適應驗收引擎｜ResizableAcceptanceEngine｜20260816-234942_TPE.zip","sha256":"c72b224150aa19d077690dd7a14ffd6d5999597aea925a46c0c08b7760e1c1e1","bytes":273631,"identity":"LKMINI://engine/ResizableAcceptanceEngine","stress":10000,"crc":"PASS","svg_webp_exact":true}
   ],
-  "Stress": {"TotalIterations": 30000, "Packages": "6/6 PASS"},
+  "Stress": {"TotalIterations":60000,"Packages":"6/6 PASS"},
   "SVGWebPExactRecovery": "6/6 PASS",
   "ZIPCRC": "6/6 PASS",
-  "InteractiveEntry": {
-    "name": "🥽｜介面研究室｜UIResearchLab.html",
-    "sha256": "da9420b927e9429c776193a8c7c1b021d4e40d8d54e04844d4c9d966e168d11c",
-    "bytes": 103460,
-    "decision": "REPAIR_IN_PLACE_NO_NEW_IDENTITY"
-  },
-  "ExternalCommitReadback": {
-    "Files": {"TerminalBundleFileID":"file_00000000159c81f4bdcd114fdedf1e0a","readback":true},
-    "GoogleDrive": {"FileID":"1ymsXtkI-UA1q8ZwwJxX7Quni4o0pSmii","bytes":10612608,"readback":true},
-    "GitHub": {"Commit":"8a0890ea6ca3ebb23e5ca083fbd1b9f1b430898e","Blob":"91cff3a05a78b24f28390d1f1b13bbb01a8a6272","readback":true},
-    "Gmail": {"MessageID":"1a00af5a6c8e8f45","has_attachment":true,"attachment_bytes":10612608,"readback":true},
-    "ThisRepairReceipt": "SEPARATE_POST_COMMIT_RECEIPT"
-  },
-  "ReverseChain": ["UI-201-203","CapsuleUIResearchLab","LaoKSystemMobileInterface","🪞幻影膠囊","🧩MINI","🥃老K系統","LKMINI://","A=A"],
+  "BrowserAcceptance": {"cases":12,"pass":12,"fail":0,"allPass":true,"viewports":["320x700","375x812","390x844","430x932","768x1024","1024x768"],"font200Percent":true,"minControlPx":52,"interaction":true,"method":"Chromium Playwright page.set_content"},
+  "InteractiveEntry": {"name":"🥽｜介面研究室｜UIResearchLab.html","decision":"REPAIR_IN_PLACE_NO_NEW_IDENTITY","sha256":"d685e4c1ed616903869bb0f56ded54c0c248376e95caae1635baa16a6b826962","bytes":104240},
+  "Dedup": {"searched_at":"2026-08-16T23:49:42+08:00","file_library_exact_identity_matches":0,"drive_exact_name_matches":0,"decision":"PROMOTE_3_NET_NEW_PATTERNS_AS_3_CAPABILITIES_PLUS_3_ENGINES","new_root_identity":0,"existing_reused_identity":"LKMINI://capability/CapsuleUIResearchLab"},
+  "Sources": ["https://developer.apple.com/videos/play/wwdc2026/251/","https://developer.apple.com/videos/play/wwdc2026/292/","https://developer.apple.com/videos/play/wwdc2026/269/"],
+  "SubjectConnectorSemantics": {"Subject":"🥃老K系統","Connector":"🧩MINI","SystemFormat":"🪞幻影膠囊","RootProtocol":"LKMINI://","ProjectionIsIdentity":false},
+  "ReverseChain": ["UI-204-206","CapsuleUIResearchLab","LaoKSystemMobileInterface","🪞幻影膠囊","🧩MINI","🥃老K系統","LKMINI://","A=A"],
   "AnchorSHA256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
   "A_equals_A": true,
-  "PreviousCommittedTransition": {"from":200,"to":203,"committed":true,"type":"PROMOTE_DEDUP_VALIDATED_CANDIDATES"},
-  "Transition": {"from":203,"to":203,"committed":true,"type":"REPAIR_SUBJECT_CONNECTOR_SEMANTICS"},
-  "NewCapabilitiesThisRepair": 0,
-  "NewEnginesThisRepair": 0,
-  "NewPackagesThisRepair": 0,
-  "SubjectConnectorSemantics": {
-    "Subject": "🥃老K系統",
-    "Connector": "🧩MINI",
-    "SystemFormat": "🪞幻影膠囊",
-    "RootProtocol": "LKMINI://",
-    "ProjectionIsIdentity": false,
-    "SupersedesConnectorToken": "🧩LKMINI"
-  }
+  "RepairLog": [
+    {"step":"S6","error":"FIRST_BUILD_PROJECTION_DIR_FILE_EXISTS","repair":"mkdir exist_ok / local rebuild","status":"PASS"},
+    {"step":"S10","error":"LOCAL_NAVIGATION_BLOCKED_BY_ADMINISTRATOR","repair":"Chromium page.set_content in-memory local HTML acceptance","status":"PASS"},
+    {"step":"S10","error":"STANDALONE_LONG_IDENTITY_HORIZONTAL_OVERFLOW","repair":"overflow-wrap:anywhere + word-break:break-word; repack 6 packages","status":"PASS"}
+  ]
 }
