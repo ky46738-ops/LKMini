@@ -22,9 +22,9 @@
   "NewCapabilities": 6,
   "SeparatePackages": 12,
   "FormalLogicalCounts": {
-    "Engines": 104,
-    "Capabilities": 263,
-    "Packages": 367
+    "Engines": 116,
+    "Capabilities": 275,
+    "Packages": 391
   },
   "Files": {
     "CurrentControlFileID": "file_0000000060f881f491d2d4bec3a1942c",
@@ -36,7 +36,7 @@
   },
   "GoogleDrive": {
     "CanonicalLedgerDocumentID": "1rezhQukLAd57MQOSK2DITVlC4ox2VhxWFcWyCt6Vc6Y",
-    "RevisionID": "AIroW35HCuhPK57D0WwM96UyvsxYe91qFds8DTQe1PBetLqFkoNxPL4mf5jKtFyV76D2c2e-xVb6e1rPYEq__QCWD2iETWO5aFTVfx5jhPQ",
+    "RevisionID": "AIroW37Fqi_DecpprZeGi5lYHjj0ZlARAJf9RRrEZhiTjyjtJjtz0ajJPnfnN_lSFFPE2jwG2ZZepIJgSPSS6nAjVd4XTbDSBoHZMKPZyUM",
     "Current200Readback": true
   },
   "ExistingInteractiveEntryRebuilt": false,
@@ -49,5 +49,5 @@
     "LKMINI://"
   ],
   "AnchorSHA256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
-  "A_equals_A": "Files、Drive、GitHub同一Current控制物讀回成立後生效"
+  "A_equals_A": "Files、Drive、GitHub同一Current控制物讀回成立"
 }
