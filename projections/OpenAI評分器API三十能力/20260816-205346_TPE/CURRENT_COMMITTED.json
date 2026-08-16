@@ -1,0 +1,77 @@
+{
+  "State": "CURRENT_COMMITTED",
+  "TimestampAsiaTaipei": "2026-08-16T20:53:46+08:00",
+  "Identity": "LKMINI://",
+  "RootProtocol": "LKMINI://",
+  "from": "CapabilityExclusionLedger1333",
+  "to": "CapabilityExclusionLedger1363",
+  "Prefix": "OpenAIGradersAPI2026",
+  "CapabilityPackages": 30,
+  "DedicatedEnginePackages": 30,
+  "IndependentZIP": 60,
+  "FormalPackage": {
+    "Name": "📦｜OpenAI評分器API三十能力完整交付｜OpenAIGradersAPIThirtyCapabilityCompleteDelivery｜20260816-205346_TPE.zip",
+    "SHA256": "c64a50dc5bf35a11d964fc631ddd29d303cee889baffddc1f9fea3500de6eaae",
+    "ByteSize": 11165738,
+    "Members": 84,
+    "InnerZIP": 60,
+    "CRC50": "PASS"
+  },
+  "Acceptance": {
+    "NineFolders": "60/60 PASS",
+    "SixItems": "60/60 PASS",
+    "ElevenActions": "60/60 PASS",
+    "CapsuleUIResearchLab": "60/60 PASS",
+    "ColdReverse": "60/60 PASS",
+    "RunnerStressExecutions": 30000,
+    "IdentityDuplicates": 0,
+    "PackageSHA256Duplicates": 0
+  },
+  "GoogleDrive": {
+    "KnowledgeLedger": {
+      "DocumentID": "1fLsyyeP6LhYS5yy2dYhUbBOtL-fOwMv7ns5-uMnrKrE",
+      "RevisionID": "AIroW3410GjhSjVpEBQ3KZzVASxaLJRtGkuxx3njlETGWN8EyHLtiQrtQRZ42975tbNoG8P75yLtvqnMI5vdV71Fnq7z3uy-QYDEGSage_Y",
+      "Marker": "HOURLY_30_OPENAI_GRADERS_API_1363_END｜20260816-205346-TPE",
+      "MarkerReadBack": "PASS"
+    },
+    "CloudWiringRegistry": {
+      "DocumentID": "14j8sa6dt2mXZZO-OJN4A2Q4Ze8M9jWaRjm4J-ZH_-QA",
+      "RevisionID": "AIroW367tW0Qdqd1Oe5O0L8d12nFWfvsG27DIO11cZnqLUX_EwT7wrW3dzjoGMMKwz5DISUzhzOi48F_p_GPR2S0AYzTX6n-LL062w6uji0",
+      "Marker": "CLOUD_WIRING_OPENAI_GRADERS_API_1363_END｜20260816-205346-TPE",
+      "MarkerReadBack": "PASS"
+    }
+  },
+  "SelectedKeys": [
+    "OpenAIGradersAPI2026RunEndpoint",
+    "OpenAIGradersAPI2026ValidateEndpoint",
+    "OpenAIGradersAPI2026StringCheckEqualOperation",
+    "OpenAIGradersAPI2026StringCheckNotEqualOperation",
+    "OpenAIGradersAPI2026StringCheckLikeOperation",
+    "OpenAIGradersAPI2026StringCheckILikeOperation",
+    "OpenAIGradersAPI2026TextSimilarityCosineMetric",
+    "OpenAIGradersAPI2026TextSimilarityFuzzyMatchMetric",
+    "OpenAIGradersAPI2026TextSimilarityBLEUMetric",
+    "OpenAIGradersAPI2026TextSimilarityGLEUMetric",
+    "OpenAIGradersAPI2026TextSimilarityMETEORMetric",
+    "OpenAIGradersAPI2026TextSimilarityROUGE1Metric",
+    "OpenAIGradersAPI2026TextSimilarityROUGE2Metric",
+    "OpenAIGradersAPI2026TextSimilarityROUGE3Metric",
+    "OpenAIGradersAPI2026TextSimilarityROUGE4Metric",
+    "OpenAIGradersAPI2026TextSimilarityROUGE5Metric",
+    "OpenAIGradersAPI2026TextSimilarityROUGELMetric",
+    "OpenAIGradersAPI2026PythonSourceContract",
+    "OpenAIGradersAPI2026PythonImageTagContract",
+    "OpenAIGradersAPI2026ScoreModelMaxCompletionTokens",
+    "OpenAIGradersAPI2026ScoreModelSeed",
+    "OpenAIGradersAPI2026ScoreModelTemperature",
+    "OpenAIGradersAPI2026ScoreModelTopP",
+    "OpenAIGradersAPI2026InputImageDetail",
+    "OpenAIGradersAPI2026InputAudioFormat",
+    "OpenAIGradersAPI2026PromptCacheBreakpointExplicit",
+    "OpenAIGradersAPI2026MultiCalculateOutput",
+    "OpenAIGradersAPI2026MultiNestedGraders",
+    "OpenAIGradersAPI2026RunRewardResult",
+    "OpenAIGradersAPI2026RunErrorMetadata"
+  ],
+  "committed_state": true
+}
