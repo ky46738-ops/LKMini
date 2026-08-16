@@ -125,6 +125,10 @@ ALLOWED_PRIVATE_MARKERS_BY_FILE = {
     "tools/verify_lkmini.py": set(PRIVATE_MARKERS),
 }
 
+CANONICAL_PUBLIC_NAME = "🥃｜老K系統｜LaoKSystem"
+CANONICAL_ROOT_NODE = "🧩LKMINI"
+CANONICAL_ROOT_PROTOCOL = "LKMINI://"
+
 
 def iter_repo_files():
     for path in sorted(REPO_ROOT.rglob("*")):
@@ -197,6 +201,25 @@ def check_a_equals_a():
     return True
 
 
+def check_canonical_public_naming():
+    required = {
+        "README.md": [CANONICAL_PUBLIC_NAME, CANONICAL_ROOT_NODE, CANONICAL_ROOT_PROTOCOL, "Projection ≠ Identity"],
+        "NOTICE.md": [CANONICAL_PUBLIC_NAME, CANONICAL_ROOT_NODE, CANONICAL_ROOT_PROTOCOL, "PROJECTION_IS_IDENTITY=false"],
+        "PUBLIC_PRIVATE_BOUNDARY.md": [CANONICAL_PUBLIC_NAME, CANONICAL_ROOT_NODE, CANONICAL_ROOT_PROTOCOL, "PROJECTION_IS_IDENTITY=false"],
+        "LKMini.svg": [CANONICAL_PUBLIC_NAME, CANONICAL_ROOT_NODE],
+    }
+    ok = True
+    for rel, markers in required.items():
+        content = Path(rel).read_text(encoding="utf-8", errors="ignore")
+        for marker in markers:
+            if marker not in content:
+                print(f"FAIL: canonical marker '{marker}' missing in {rel}")
+                ok = False
+    if ok:
+        print("PASS: Canonical public naming synchronized")
+    return ok
+
+
 def check_sha256sums():
     if not Path("SHA256SUMS").exists():
         print("FAIL: SHA256SUMS missing")
@@ -262,6 +285,7 @@ if __name__ == "__main__":
         check_required_files(),
         check_public_mirror_whitelist(),
         check_a_equals_a(),
+        check_canonical_public_naming(),
         check_sha256sums(),
         check_no_private_leak(),
     ]
