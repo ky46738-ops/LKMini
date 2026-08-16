@@ -1,35 +1,38 @@
 {
-  "schema": "CapsuleUIResearchLabCurrentControl/3.1",
+  "schema": "CapsuleUIResearchLabCurrentControl/3.2",
   "Identity": "LKMINI://capability/CapsuleUIResearchLab",
   "Current": 200,
   "State": "CURRENT",
-  "TimestampTPE": "2026-08-16T19:46:45+08:00",
+  "TimestampTPE": "2026-08-16T20:51:31+08:00",
   "Transition": {
     "from": 194,
     "to": 200,
     "committed": true
   },
+  "LastRepairTransition": {
+    "from": 200,
+    "to": 200,
+    "type": "REPAIR_WITHOUT_CURRENT_INCREMENT",
+    "committed": true
+  },
   "NewRootIdentity": 0,
-  "NewFeatures": [
-    "UI-195",
-    "UI-196",
-    "UI-197",
-    "UI-198",
-    "UI-199",
-    "UI-200"
-  ],
+  "NewFeatures": ["UI-195","UI-196","UI-197","UI-198","UI-199","UI-200"],
+  "NewFeaturesThisRun": 0,
   "NewEngines": 6,
   "NewCapabilities": 6,
   "SeparatePackages": 12,
+  "NewEnginesThisRun": 0,
+  "NewCapabilitiesThisRun": 0,
+  "NewPackagesThisRun": 0,
   "FormalLogicalCounts": {
     "Engines": 116,
     "Capabilities": 275,
     "Packages": 391
   },
   "Files": {
-    "FormalCurrentControlFileID": "file_00000000ce7881f4a0371c2cea0acb3b",
-    "FormalCurrentControlSHA256": "5412a51aeb6a7650bc59eaf781c4982413b717fbdf64e873896c93d1e53541cb",
-    "CandidateConstructionControlFileID": "file_0000000060f881f491d2d4bec3a1942c",
+    "FormalCurrentControlFileID": "file_00000000bbe881f498ff99125e79f030",
+    "FormalCurrentControlLibraryFileID": "libfile_d871589010ec8191b1179adae5cfb693",
+    "FormalCurrentControlSHA256": "a77f0061e250420871a79ffad350ce88b98a21445b118de00776c0c051f735e6",
     "FinalZIPFileID": "file_00000000a384820a848e71fe249ba0d8",
     "FinalZIP_SHA256": "9d2a82989f756a58e1fe7174e7a1df858edb73e2a47537fee5e8478cd86d787d",
     "FinalZIP_ByteSize": 6749515,
@@ -38,18 +41,40 @@
   },
   "GoogleDrive": {
     "CanonicalLedgerDocumentID": "1rezhQukLAd57MQOSK2DITVlC4ox2VhxWFcWyCt6Vc6Y",
-    "RevisionID": "AIroW36O4GIC1SzO8rSU-s9ehDqIIL6oJu6pfgGJci2ZxPgkYIgBoLQXkpPayAlGEtM5z-bldEcroipJQV_TdJE38uqGIclCjn8s79_WbTk",
-    "Current200Readback": true
+    "RevisionID": "AIroW36B0r_liqRyZyHFRWuq_WgLVg4CQyyZWz8Awyq9VnmyQNh9jbIkL9Ea5ImDv0ggjBqdlD4ZU163M5bnNmtJl42QZ69CTA5lBVQspl8",
+    "Current200Readback": true,
+    "RepairCoreSHA256": "0a48a6324c3ccf1f5362cb22fabf19b46f9f0cef335074c294857f3757c61114"
   },
   "ExistingInteractiveEntryRebuilt": false,
-  "ExistingInteractiveEntryDecision": "ALREADY_SOLVED_REFERENCE_ONLY",
+  "ExistingInteractiveEntryDecision": "REPAIR_IN_PLACE_NO_NEW_ENTRY",
+  "ExistingInteractiveEntry": {
+    "file_id": "file_00000000ed7081f4b69c618f41f6dadd",
+    "library_file_id": "libfile_d648f0c38e048191a7d76677903a73ec",
+    "sha256": "e7fe510094b6b8c7fdf1889f59c43e052e33b0475a1c526cf65cc1b5d84646cf",
+    "bytes": 102553,
+    "current": 200,
+    "official_recent": 42,
+    "browser_runtime": "3/3 PASS",
+    "horizontal_overflow": 0,
+    "console_errors": 0,
+    "page_errors": 0,
+    "minimum_visible_control_px": 52,
+    "new_entry_created": false
+  },
+  "CandidateQueue": {
+    "UI-201": "CANDIDATE_REFERENCE_ONLY",
+    "UI-202": "CANDIDATE_REFERENCE_ONLY",
+    "UI-203": "CANDIDATE_REFERENCE_ONLY",
+    "FormalPromotion": false
+  },
+  "LastRepairCoreSHA256": "0a48a6324c3ccf1f5362cb22fabf19b46f9f0cef335074c294857f3757c61114",
   "ReverseChain": [
-    "UI-195-200",
+    "UIResearchLabControlStrongLink",
     "CapsuleUIResearchLab",
     "LaoKSystemMobileInterface",
     "🧩LKMINI",
     "LKMINI://"
   ],
   "AnchorSHA256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
-  "A_equals_A": "Files、Drive、GitHub同一Current控制物读回成立"
+  "A_equals_A": "Current200、同一入口原位修復、Files／Drive／GitHub同目標讀回成立"
 }
