@@ -1,16 +1,53 @@
 {
-  "schema":"CapsuleUIResearchLabCurrentControl/1.0",
-  "Identity":"LKMINI://capability/CapsuleUIResearchLab",
-  "Current":194,
-  "State":"CURRENT",
-  "TimestampTPE":"2026-08-16T19:12:00+08:00",
-  "Transition":{"from":194,"to":194,"committed":false,"type":"CANDIDATE_200_NOT_PROMOTED"},
-  "CandidateCurrent":200,
-  "CandidateStatus":"BUILT_AND_VERIFIED_PENDING_FILES_PROMOTION",
-  "CandidateStatusPath":"ui200/20260816-185303_TPE/STATUS.json",
-  "NewRootIdentity":0,
-  "ExistingInteractiveEntryRebuilt":false,
-  "HistoricalProjectionPolicy":"176/188 legacy projections remain REFERENCE_ONLY; conversation rendering is ALREADY_SOLVED",
-  "ReverseChain":["CapsuleUIResearchLab","LaoKSystemMobileInterface","🧩LKMINI","LKMINI://"],
-  "AnchorSHA256":"6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34"
+  "schema": "CapsuleUIResearchLabCurrentControl/3.0",
+  "Identity": "LKMINI://capability/CapsuleUIResearchLab",
+  "Current": 200,
+  "State": "CURRENT",
+  "TimestampTPE": "2026-08-16T19:46:45+08:00",
+  "Transition": {
+    "from": 194,
+    "to": 200,
+    "committed": true
+  },
+  "NewRootIdentity": 0,
+  "NewFeatures": [
+    "UI-195",
+    "UI-196",
+    "UI-197",
+    "UI-198",
+    "UI-199",
+    "UI-200"
+  ],
+  "NewEngines": 6,
+  "NewCapabilities": 6,
+  "SeparatePackages": 12,
+  "FormalLogicalCounts": {
+    "Engines": 104,
+    "Capabilities": 263,
+    "Packages": 367
+  },
+  "Files": {
+    "CurrentControlFileID": "file_0000000060f881f491d2d4bec3a1942c",
+    "FinalZIPFileID": "file_00000000a384820a848e71fe249ba0d8",
+    "FinalZIP_SHA256": "9d2a82989f756a58e1fe7174e7a1df858edb73e2a47537fee5e8478cd86d787d",
+    "FinalZIP_ByteSize": 6749515,
+    "SourceReadbackSHA256": "14/14 exact",
+    "PackageZIPCRC": "12/12 PASS"
+  },
+  "GoogleDrive": {
+    "CanonicalLedgerDocumentID": "1rezhQukLAd57MQOSK2DITVlC4ox2VhxWFcWyCt6Vc6Y",
+    "RevisionID": "AIroW35HCuhPK57D0WwM96UyvsxYe91qFds8DTQe1PBetLqFkoNxPL4mf5jKtFyV76D2c2e-xVb6e1rPYEq__QCWD2iETWO5aFTVfx5jhPQ",
+    "Current200Readback": true
+  },
+  "ExistingInteractiveEntryRebuilt": false,
+  "ExistingInteractiveEntryDecision": "ALREADY_SOLVED_REFERENCE_ONLY",
+  "ReverseChain": [
+    "UI-195-200",
+    "CapsuleUIResearchLab",
+    "LaoKSystemMobileInterface",
+    "🧩LKMINI",
+    "LKMINI://"
+  ],
+  "AnchorSHA256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
+  "A_equals_A": "Files、Drive、GitHub同一Current控制物讀回成立後生效"
 }
