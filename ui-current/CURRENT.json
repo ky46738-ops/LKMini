@@ -1,0 +1,12 @@
+{
+  "schema": "CapsuleUIResearchLabCurrentControl/1.0",
+  "Identity": "LKMINI://capability/CapsuleUIResearchLab",
+  "Current": 194,
+  "State": "CURRENT",
+  "TimestampTPE": "2026-08-16T18:44:09+08:00",
+  "Authority": ["DriveCanonicalLedger", "GitHubCurrentControl", "FilesCurrentControl"],
+  "HistoricalProjectionPolicy": "176/188 legacy projections are REFERENCE_ONLY; conversation rendering is ALREADY_SOLVED",
+  "ReverseChain": ["CapsuleUIResearchLab", "LaoKSystemMobileInterface", "🧩LKMINI", "LKMINI://"],
+  "AnchorSHA256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
+  "A_equals_A": "Only the tri-source Current control readback scope"
+}
