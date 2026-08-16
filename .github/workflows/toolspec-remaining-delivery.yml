@@ -13,7 +13,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build delivery
-        run: python Delivery/ToolSpecificationsRemaining/build.py
+        run: |
+          python Delivery/ToolSpecificationsRemaining/build.py
+          cp Delivery/ToolSpecificationsRemaining/final_state.json Delivery/ToolSpecificationsRemaining/out/✅終局狀態｜FinalState.json
       - name: Upload delivery artifact
         uses: actions/upload-artifact@v4
         with:
