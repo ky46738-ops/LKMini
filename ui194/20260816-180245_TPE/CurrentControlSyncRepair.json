@@ -1,0 +1,22 @@
+{
+  "schema":"Current194ControlSyncRepair/1.0",
+  "SessionID":"CapsuleUIResearchLab-Current194-Repair-20260816-180245_TPE",
+  "TimestampTPE":"2026-08-16T18:02:45+08:00",
+  "Identity":"LKMINI://capability/CapsuleUIResearchLab",
+  "Current":194,
+  "Transition":"194→194",
+  "TransitionType":"REPAIR_WITHOUT_CURRENT_INCREMENT",
+  "NewAbilityPackages":0,
+  "NewEnginePackages":0,
+  "ExistingInteractiveEntryRebuilt":false,
+  "PatchedFileObjects":6,
+  "UniquePatchedBitstreams":5,
+  "StaticValidation":"6/6 PASS",
+  "BrowserRuntime":"54/54 PASS",
+  "StressValidation":"150000 PASS",
+  "SVGWebPExactRecovery":true,
+  "NineFolders":"9/9",
+  "ElevenActions":"11/11",
+  "ReverseChain":["Current194ControlDataSyncRepair","UIResearchLabControlStrongLink","CapsuleUIResearchLab","LaoKSystemMobileInterface","🧩LKMINI","LKMINI://"],
+  "A_equals_A":"本檔只登記194控制資料原位同步修復，不建立新入口、能力、引擎或Identity"
+}
