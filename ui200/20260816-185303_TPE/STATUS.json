@@ -1,5 +1,5 @@
 {
-  "schema": "CapsuleUIResearchLab200PromotionStatus/2.0",
+  "schema": "CapsuleUIResearchLab200PromotionStatus/2.1",
   "Identity": "LKMINI://capability/CapsuleUIResearchLab",
   "Current": 200,
   "State": "CURRENT_PROMOTED",
@@ -11,21 +11,27 @@
   },
   "PromotionEvidence": {
     "Files": {
-      "CurrentControlFileID": "file_0000000060f881f491d2d4bec3a1942c",
+      "FormalCurrentControlFileID": "file_00000000ce7881f4a0371c2cea0acb3b",
+      "FormalCurrentControlSHA256": "5412a51aeb6a7650bc59eaf781c4982413b717fbdf64e873896c93d1e53541cb",
       "FinalZIPFileID": "file_00000000a384820a848e71fe249ba0d8",
       "SourceReadbackSHA256": "14/14 exact",
       "PackageZIPCRC": "12/12 PASS"
     },
     "GoogleDrive": {
       "DocumentID": "1rezhQukLAd57MQOSK2DITVlC4ox2VhxWFcWyCt6Vc6Y",
-      "RevisionID": "AIroW35HCuhPK57D0WwM96UyvsxYe91qFds8DTQe1PBetLqFkoNxPL4mf5jKtFyV76D2c2e-xVb6e1rPYEq__QCWD2iETWO5aFTVfx5jhPQ",
+      "RevisionID": "AIroW36O4GIC1SzO8rSU-s9ehDqIIL6oJu6pfgGJci2ZxPgkYIgBoLQXkpPayAlGEtM5z-bldEcroipJQV_TdJE38uqGIclCjn8s79_WbTk",
       "Current200Readback": true
     },
     "GitHub": {
-      "CurrentCommit": "000daef5bdfbbc744d7690a4ffdd4741e88cf354",
-      "CurrentBlob": "c5c0088ccfa5108e57c8b9ff4ffb72a1d1c7d013",
+      "CurrentCommit": "6034b396066c2ac3f81e3d292f32d9953ae4a41d",
+      "CurrentBlob": "72503adc47162472e3cd22bca4cb16b080a7ad62",
       "Current200Readback": true
     }
+  },
+  "FormalLogicalCounts": {
+    "Engines": 116,
+    "Capabilities": 275,
+    "Packages": 391
   },
   "NewRootIdentity": 0,
   "NewFeatures": 6,
