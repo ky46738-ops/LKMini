@@ -1,0 +1,17 @@
+{
+  "schema":"CapsuleUIResearchLab200Acceptance/1.0",
+  "Identity":"LKMINI://capability/CapsuleUIResearchLab",
+  "from":194,
+  "to":200,
+  "PackageRuntime":"12/12 PASS",
+  "PackageZIPCRC":"12/12 PASS",
+  "StressIterationsTotal":60000,
+  "RootNineFolders":"9/9 PASS",
+  "ReversibleMedia":"SVG⇄WebP exact recovery PASS; GIF 8 frames; H.264 MP4; MarkdownSeed PASS",
+  "Documents":"XLSX formula errors 0; DOCX/PDF 2 pages; PPTX 7 slides slides_test PASS; EPUB/WebArchive/WACZ PASS",
+  "ExistingInteractiveEntryRebuilt":false,
+  "SafariNativeRuntime":false,
+  "ActualIPhoneHardware":false,
+  "AppleNative":{"Numbers":false,"Pages":false,"Keynote":false},
+  "A_equals_A":"local verified scope plus provider commits/readbacks only"
+}
