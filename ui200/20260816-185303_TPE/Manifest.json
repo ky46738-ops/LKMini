@@ -1,0 +1,23 @@
+{
+  "schema": "CapsuleUIResearchLab200Manifest/1.0",
+  "DeliveryDate": "2026-08-16",
+  "TimestampTPE": "2026-08-16T18:56:42+08:00",
+  "Identity": "LKMINI://capability/CapsuleUIResearchLab",
+  "from": 194,
+  "to": 200,
+  "NewRootIdentity": 0,
+  "NewEngines": 6,
+  "NewCapabilities": 6,
+  "SeparatePackages": 12,
+  "ExistingInteractiveEntryRebuilt": false,
+  "Features": [
+    {"UI":195,"ChineseName":"自適應瀑布流版面","EnglishKey":"AdaptiveGridLanesLayout"},
+    {"UI":196,"ChineseName":"停用控制焦點連續性","EnglishKey":"DisabledControlFocusContinuity"},
+    {"UI":197,"ChineseName":"數字欄位貼上相容","EnglishKey":"NumericInputPasteCompatibility"},
+    {"UI":198,"ChineseName":"建議清單深色與輸入穩定","EnglishKey":"DatalistSuggestionRobustness"},
+    {"UI":199,"ChineseName":"表單複製狀態保留","EnglishKey":"UserModifiedFormStatePreservation"},
+    {"UI":200,"ChineseName":"自適應欄位提示完整","EnglishKey":"FieldSizingPlaceholderIntegrity"}
+  ],
+  "ReverseChain": ["UI-195-200","CapsuleUIResearchLab","LaoKSystemMobileInterface","🧩LKMINI","LKMINI://"],
+  "AnchorSHA256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34"
+}
