@@ -1,0 +1,25 @@
+{
+  "Identity": "LKMINI://projection/GitHubArtifactCacheNewCapabilities30/20260816-115815_TPE",
+  "Type": "ProjectionManifest",
+  "Locator": "github://ky46738-ops/LKMini/seed_v0/projections/GitHub成品快取新能力30包/20260816-115815_TPE/MANIFEST.json",
+  "WorldEntry": "LKMINI://",
+  "Manifest": {
+    "formal_name": "📦｜GitHub成品快取新能力30包｜GitHubArtifactCacheNewCapabilities30",
+    "delivery_date": "2026-08-16",
+    "capability_count": 30,
+    "engine_count": 30,
+    "stress_assertions": 120000,
+    "reverse_sha256_file_checks": 1290,
+    "individual_zip_crc_pass": 60,
+    "master_zip_crc": "PASS",
+    "master_members": 67,
+    "master_sha256": "1a493d17ffc554f2fe7ee8b249b5e6d1daa954a25439c6e9f966dd3eb8dba467",
+    "visual_chain": {"SVG":30,"WebP":30,"GIF":30,"MP4":30,"MarkdownSeed":30},
+    "dedup_scope": ["GPT File Library","ky46738-ops/LKMini","Google Drive","GitHub official Docs"],
+    "capability_keys": ["ArtifactDefaultNameFallbackValidator","ArtifactRetentionPolicyBoundValidator","ArtifactImmutableNameReuseGuard","ArtifactCrossRunTokenRunIdGuard","ArtifactDownloadAllDirectorySeparationValidator","ArtifactDownloadPathOverrideValidator","ArtifactSHA256DigestValidationGuard","ArtifactPublicRetentionRangeValidator","ArtifactPrivateRetentionRangeValidator","ArtifactRetentionNonRetroactiveGuard","ArtifactListReadPermissionGuard","ArtifactListPerPageBoundValidator","ArtifactIfNoFilesFoundPolicyValidator","ArtifactCompressionLevelBoundValidator","ArtifactHiddenFilesDefaultExclusionGuard","ArtifactOverwriteExistingNameGuard","ArtifactIdOutputPresenceValidator","ArtifactUrlOutputPresenceValidator","ArtifactDigestOutputPresenceValidator","CacheExactKeyHitValidator","CacheImmutableContentNewKeyGuard","CacheKeyLength512Guard","CacheRestoreKeySequentialOrderValidator","CacheRestorePartialMostRecentValidator","CacheCrossOSArchiveDefaultFalseGuard","CacheSensitiveDataExclusionGuard","CacheSuccessfulJobSaveGuard","CacheVersionPathCompressionCompatibilityValidator","CacheCurrentThenDefaultBranchSearchOrderValidator","CacheUploadRateLimitGuard"],
+    "external": {"GoogleDriveBinaryZIP":{"exists":false},"Obsidian":{"exists":false},"AppleNativeProjection":{"exists":false}},
+    "ValidatedScopeAEqualsA": true,
+    "WholeExternalSyncAEqualsA": false
+  },
+  "ReverseChain": ["GitHubManifest","LocalDelivery","🧩LKMINI","LKMINI://","A=A"]
+}
