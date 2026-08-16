@@ -1,0 +1,57 @@
+{
+  "exists": true,
+  "round": 24,
+  "timestamped_transition": "2026-08-17 02:15:25 +08:00",
+  "from": "第23輪已交付",
+  "to": "第24輪新增 LCUI-421～480",
+  "zip": "/workspace/scratch/ab86438c3709/🧙🧚｜素材鑑別祭司精靈第24輪UI60研究交付｜MaterialCurationPriestSpriteUI60Round24Delivery｜20260817_021525_TPE.zip",
+  "zip_sha256": "6c1156adce5184063fd507e1d5a838027d174d9194fcc5f630097085b7fbbd0e",
+  "zip_bytes": 385788,
+  "zip_members": 153,
+  "zip_crc": "PASS",
+  "acceptance": {
+    "status": "PASS",
+    "research_count_60": true,
+    "dedupe_unique_60": true,
+    "ability_zip_count_60": true,
+    "engine_zip_count_60": true,
+    "inner_self_tests": {
+      "tested": 120,
+      "failures": []
+    },
+    "svg_webp_recovery": true,
+    "gif_exists": true,
+    "mp4_exists": true,
+    "markdown_seed_exists": true,
+    "mobile_html_interactive": true,
+    "apple_native_exists": false,
+    "apple_projection_exists": true
+  },
+  "sources": {
+    "MUI": "https://mui.com/material-ui/all-components/",
+    "Carbon": "https://carbondesignsystem.com/components/overview/components/",
+    "Fluent": "https://fluent2.microsoft.design/components/web/react",
+    "Shoelace": "https://shoelace.style/components/"
+  },
+  "library": {
+    "zip": {
+      "file_id": "file_0000000099ec81fb835618165da94075",
+      "library_file_id": "libfile_b5ebbc8231e08191b56dcb62752d926b",
+      "version": 0
+    },
+    "local_receipt": {
+      "file_id": "file_000000009dd881f6854ce3c9195d544d",
+      "library_file_id": "libfile_b3e4d2df67e48191bcb43e16ea78a114",
+      "version": 0
+    }
+  },
+  "google_drive": {
+    "exists": true,
+    "id": "1NlYiKIcLKxzj0NqRj6Dtdidw0oGRKqH6",
+    "url": "https://drive.google.com/file/d/1NlYiKIcLKxzj0NqRj6Dtdidw0oGRKqH6/view?usp=drivesdk"
+  },
+  "obsidian": {
+    "exists": false,
+    "reason": "本回合沒有可用 Obsidian 寫入端點；未宣稱已寫入 vault。"
+  }
+}
