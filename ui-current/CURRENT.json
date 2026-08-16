@@ -1,80 +1,61 @@
 {
-  "schema": "CapsuleUIResearchLabCurrentControl/3.2",
+  "schema": "CapsuleUIResearchLabCurrentControl/4.0",
   "Identity": "LKMINI://capability/CapsuleUIResearchLab",
-  "Current": 200,
+  "Current": 203,
   "State": "CURRENT",
-  "TimestampTPE": "2026-08-16T20:51:31+08:00",
+  "TimestampTPE": "2026-08-16T22:01:15+08:00",
+  "DeliveryDate": "2026-08-16",
   "Transition": {
-    "from": 194,
-    "to": 200,
-    "committed": true
-  },
-  "LastRepairTransition": {
     "from": 200,
-    "to": 200,
-    "type": "REPAIR_WITHOUT_CURRENT_INCREMENT",
-    "committed": true
+    "to": 203,
+    "committed": true,
+    "type": "PROMOTE_DEDUP_VALIDATED_CANDIDATES"
   },
   "NewRootIdentity": 0,
-  "NewFeatures": ["UI-195","UI-196","UI-197","UI-198","UI-199","UI-200"],
-  "NewFeaturesThisRun": 0,
-  "NewEngines": 6,
-  "NewCapabilities": 6,
-  "SeparatePackages": 12,
-  "NewEnginesThisRun": 0,
-  "NewCapabilitiesThisRun": 0,
-  "NewPackagesThisRun": 0,
+  "NewFeatures": ["UI-201", "UI-202", "UI-203"],
+  "NewCapabilities": 3,
+  "NewEngines": 3,
+  "SeparatePackages": 6,
   "FormalLogicalCounts": {
-    "Engines": 116,
-    "Capabilities": 275,
-    "Packages": 391
+    "Engines": 119,
+    "Capabilities": 278,
+    "Packages": 397
+  },
+  "Dedup": {
+    "CandidatesReviewed": 6,
+    "Promoted": 3,
+    "ReferenceOnly": 2,
+    "Absorbed": 1,
+    "ReferenceTargets": {
+      "UnifiedOpenStateStyling": "UI-179",
+      "ResponsiveAnchorPopoverPlacement": "UI-190",
+      "NamedContainerStyleScope": "UI-175"
+    }
+  },
+  "Packages": [
+    {"name":"🧩｜切換觸發來源追蹤｜ToggleInvokerSourceTrace｜20260816-220115_TPE.zip","sha256":"a137a6b8b0a3548fe0ef291d357fcea60d412055ed66481e941e02c49bca8198","bytes":1528455,"kind":"CAPABILITY","ui":"UI-201"},
+    {"name":"⚙️｜切換觸發追蹤引擎｜ToggleInvokerTraceEngine｜20260816-220115_TPE.zip","sha256":"1d25a36785a7d3474041cd23ba05e1cbe125e85e12fc5f56ce04a0cf834924f3","bytes":1514010,"kind":"ENGINE","ui":"UI-201"},
+    {"name":"🧩｜捲動驅動漸進回饋｜ScrollDrivenProgressiveFeedback｜20260816-220115_TPE.zip","sha256":"b279726f391309477890f60951be1c14cb4f01abd15a12a1b8e0a67524d2d376","bytes":1536870,"kind":"CAPABILITY","ui":"UI-202"},
+    {"name":"⚙️｜捲動回饋引擎｜ScrollDrivenFeedbackEngine｜20260816-220115_TPE.zip","sha256":"8006d832bd596c41ec48672d81b8001cce23e21634ffb32665259d327b142bf2","bytes":1527598,"kind":"ENGINE","ui":"UI-202"},
+    {"name":"🧩｜SVG線性光色漸層保真｜SVGLinearRGBGradientFidelity｜20260816-220115_TPE.zip","sha256":"5638eb691c7e46d88c92b9f8ea5e6ea1d7036f79737fcf01be39fd97d64924da","bytes":1551442,"kind":"CAPABILITY","ui":"UI-203"},
+    {"name":"⚙️｜SVG線性光色引擎｜SVGLinearRGBGradientEngine｜20260816-220115_TPE.zip","sha256":"d1178c5ca7154d2ca54567f2ff893be7ed1e21797d640ddc4dab26fd6b6d266d","bytes":1530989,"kind":"ENGINE","ui":"UI-203"}
+  ],
+  "Stress": {"TotalIterations": 30000, "Packages": "6/6 PASS"},
+  "SVGWebPExactRecovery": "6/6 PASS",
+  "ZIPCRC": "6/6 PASS",
+  "InteractiveEntry": {
+    "name": "🥽｜介面研究室｜UIResearchLab.html",
+    "sha256": "da9420b927e9429c776193a8c7c1b021d4e40d8d54e04844d4c9d966e168d11c",
+    "bytes": 103460,
+    "decision": "REPAIR_IN_PLACE_NO_NEW_IDENTITY"
   },
   "Files": {
-    "FormalCurrentControlFileID": "file_00000000bbe881f498ff99125e79f030",
-    "FormalCurrentControlLibraryFileID": "libfile_d871589010ec8191b1179adae5cfb693",
-    "FormalCurrentControlSHA256": "a77f0061e250420871a79ffad350ce88b98a21445b118de00776c0c051f735e6",
-    "FinalZIPFileID": "file_00000000a384820a848e71fe249ba0d8",
-    "FinalZIP_SHA256": "9d2a82989f756a58e1fe7174e7a1df858edb73e2a47537fee5e8478cd86d787d",
-    "FinalZIP_ByteSize": 6749515,
-    "SourceReadbackSHA256": "14/14 exact",
-    "PackageZIPCRC": "12/12 PASS"
+    "Current203ControlFileID": "file_00000000753081f4a3804aff71341fff",
+    "Current203ControlLibraryFileID": "libfile_a720e4debbc481918b38424f42b2173a",
+    "InteractiveEntryFileID": "file_000000006bec81f4baff4de8f0630cda",
+    "Readback": true
   },
-  "GoogleDrive": {
-    "CanonicalLedgerDocumentID": "1rezhQukLAd57MQOSK2DITVlC4ox2VhxWFcWyCt6Vc6Y",
-    "RevisionID": "AIroW34T54lU-j7tdKQl2rQLxT_rcN5F6gLRM7qB6noMyNult2_2_a5sccAe2xHUd0HztEGkQzhIL9zwZC3NkTXAiFRfP3Ev9VcrqDtxnJ4",
-    "Current200Readback": true,
-    "RepairCoreSHA256": "0a48a6324c3ccf1f5362cb22fabf19b46f9f0cef335074c294857f3757c61114"
-  },
-  "ExistingInteractiveEntryRebuilt": false,
-  "ExistingInteractiveEntryDecision": "REPAIR_IN_PLACE_NO_NEW_ENTRY",
-  "ExistingInteractiveEntry": {
-    "file_id": "file_00000000ed7081f4b69c618f41f6dadd",
-    "library_file_id": "libfile_d648f0c38e048191a7d76677903a73ec",
-    "sha256": "e7fe510094b6b8c7fdf1889f59c43e052e33b0475a1c526cf65cc1b5d84646cf",
-    "bytes": 102553,
-    "current": 200,
-    "official_recent": 42,
-    "browser_runtime": "3/3 PASS",
-    "horizontal_overflow": 0,
-    "console_errors": 0,
-    "page_errors": 0,
-    "minimum_visible_control_px": 52,
-    "new_entry_created": false
-  },
-  "CandidateQueue": {
-    "UI-201": "CANDIDATE_REFERENCE_ONLY",
-    "UI-202": "CANDIDATE_REFERENCE_ONLY",
-    "UI-203": "CANDIDATE_REFERENCE_ONLY",
-    "FormalPromotion": false
-  },
-  "LastRepairCoreSHA256": "0a48a6324c3ccf1f5362cb22fabf19b46f9f0cef335074c294857f3757c61114",
-  "ReverseChain": [
-    "UIResearchLabControlStrongLink",
-    "CapsuleUIResearchLab",
-    "LaoKSystemMobileInterface",
-    "🧩LKMINI",
-    "LKMINI://"
-  ],
+  "ReverseChain": ["UI-201-203", "CapsuleUIResearchLab", "LaoKSystemMobileInterface", "🧩LKMINI", "LKMINI://"],
   "AnchorSHA256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
-  "A_equals_A": "Current200、同一入口原位修復、Files／Drive／GitHub同目標讀回成立"
+  "A_equals_A": true
 }
