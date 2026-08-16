@@ -1,0 +1,54 @@
+{
+  "exists": true,
+  "receipt_type": "ROUND25_FINAL_SEAL_CORRECTION",
+  "identity": "LKMINI://ui-research/round-25/LCUI-481-540",
+  "identity_changed": false,
+  "timestamped_transition": "2026-08-17T03:06:11+08:00",
+  "repair": {
+    "reason": "FinalBrutalValidation manifest_entries retained pre-seal value 218",
+    "from_manifest_entries": 218,
+    "to_manifest_entries": 219,
+    "sha256sums_entries": 220,
+    "root_files": 221,
+    "zip_members": 221
+  },
+  "supersedes_zip": {
+    "sha256": "7f5a6b7aee1316c34093bbe54a552b910334084c37f7dc5f8efe4b4243806cb4",
+    "historical_commit": "2e205d0371a8e2345b5efa24ee94918f80d7abf4",
+    "historical_gmail_message_id": "1a00bf1c94113a0f"
+  },
+  "final_zip": {
+    "sha256": "3344971781913d9b028223be0d967e015a3ff560f81f7d8bd2851aee8d7490bf",
+    "bytes": 9890720,
+    "members": 221,
+    "crc": "PASS"
+  },
+  "validation": {
+    "research_cards": 60,
+    "capability_packages": 60,
+    "engine_packages": 60,
+    "package_self_tests": "120/120 PASS",
+    "svg_webp_recovery": "PASS",
+    "mobile_browser": "PASS",
+    "spreadsheet_formula_errors": 0
+  },
+  "local_git": {
+    "commit": "afed05453aa9eeb8a07da65e4696b6830ab4fc14",
+    "clean": true
+  },
+  "files_library": {
+    "zip_library_file_id": "libfile_5104619a33588191bd20b9b9c6e2c292",
+    "zip_current_file_id": "file_000000009928820ab03c4694c4937a5a"
+  },
+  "google_drive": {
+    "canonical_ledger_file_id": "1rezhQukLAd57MQOSK2DITVlC4ox2VhxWFcWyCt6Vc6Y",
+    "canonical_ledger_revision": "AIroW37o9m49sr4Ft4UB4cWSeDa2EOntNzFL_5m6sAMbuq-AyRMYfwu5NZlEWhh-9YNhNGHXZgctI3jEAC4Aj_LphqKsezQmLaoKvz7rqYI",
+    "readback": true,
+    "raw_zip_upload": {
+      "exists": false,
+      "failure_type": "UNREGISTERED_FILE_REFERENCE"
+    }
+  },
+  "projection_not_identity": true,
+  "a_equals_a": true
+}
