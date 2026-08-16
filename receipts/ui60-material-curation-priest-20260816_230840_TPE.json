@@ -1,0 +1,67 @@
+{
+  "receipt_type": "UI60 material curation priest delivery",
+  "round": 23,
+  "owner": "Kevin Yang",
+  "system": "🥃老K系統",
+  "root_protocol": "LKMINI://",
+  "anchor_sha256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
+  "delivered_at": "2026-08-16T23:08:40+08:00",
+  "state_transition": "S0 → S10",
+  "committed_state": true,
+  "package": {
+    "name": "🧙🧚｜素材鑑別祭司精靈第二十三輪60種UI研究交付｜MaterialCurationPriestSpriteUI60Delivery｜20260816_230840_TPE.zip",
+    "sha256": "7b762caf518cb0fa470430be035bc00aabe15bad1b3cb078a8bdc92a00eb6e86",
+    "bytes": 251879,
+    "members": 194,
+    "zip_crc": "PASS"
+  },
+  "counts": {
+    "research_cards": 60,
+    "ability_packages": 60,
+    "engine_packages": 60,
+    "public_sources": 8,
+    "manifest_files": 190
+  },
+  "acceptance": {
+    "status": "PASS",
+    "research_count_60": true,
+    "ability_zip_count_60": true,
+    "engine_zip_count_60": true,
+    "current_id_unique_60": true,
+    "collision_with_prior": true,
+    "svg_webp_exact_recovery": true,
+    "gate_code_exists": true,
+    "mobile_html_interactive": true,
+    "inner_zip_crc": true,
+    "xlsx_crc": true,
+    "xlsx_formula_error_tokens": true,
+    "error_audit_exists": true,
+    "svg_sha256": "01302b3d413fc72e6ade2330ae073119ed19d4dc3a4fe592e68977865503a5e1",
+    "recovered_svg_sha256": "01302b3d413fc72e6ade2330ae073119ed19d4dc3a4fe592e68977865503a5e1"
+  },
+  "library": {
+    "package_library_file_id": "libfile_12d7b169828481918954d0b1e356ca17",
+    "package_file_id": "file_00000000b3f881fb9f5b83e048c21bb2",
+    "local_receipt_library_file_id": "libfile_2b6e1dd956548191af0042ada5030f66",
+    "local_receipt_file_id": "file_000000006718820cbbc3ddf80224ade6"
+  },
+  "google_drive": {
+    "uploaded": true,
+    "file_id": "1itJKx3X1WRPLsR7jDRumRQw_UU3DwKz7",
+    "url": "https://drive.google.com/file/d/1itJKx3X1WRPLsR7jDRumRQw_UU3DwKz7/view?usp=drivesdk"
+  },
+  "obsidian": {
+    "exists": false,
+    "reason": "本回合沒有可用 Obsidian 連接器或 vault 端點；未宣稱已寫入。"
+  },
+  "sources": [
+    "https://ant.design/components/overview/",
+    "https://ant.design/components/button/",
+    "https://chakra-ui.com/docs/components/concepts/overview",
+    "https://chakra-ui.com/docs/get-started/installation",
+    "https://www.radix-ui.com/primitives/docs/overview/introduction",
+    "https://www.radix-ui.com/primitives/docs/guides/styling",
+    "https://tailwindcss.com/plus/ui-blocks/application-ui",
+    "https://tailwindcss.com/plus/ui-blocks/application-ui/elements/buttons"
+  ]
+}
