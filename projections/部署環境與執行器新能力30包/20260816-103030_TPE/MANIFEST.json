@@ -50,8 +50,17 @@
     "LayeredRunnerImageSnapshotLineageProof"
   ],
   "ExternalState": {
-    "Obsidian": {"exists": false, "reason": "No connected write plugin found"},
-    "DriveBinaryZIP": {"exists": false, "reason": "Not yet committed in this manifest step"}
+    "GoogleDrive": {
+      "CanonicalParentFolderID": "1Ff5JK0mMxweZMziAjJNCp8SNsLvP5vyi",
+      "BatchFolderID": "182THCLMy17LB2Du8pGqIgrKOSmmMmZfC",
+      "ReceiptDocumentID": "1Wl4LHrd1aMPsUfP0PJtpdE-h7ikEZm6WIlXTVtkIM4s",
+      "ReceiptCommitted": true,
+      "ReceiptReadback": "PASS",
+      "BinaryZIP": {"exists": false, "reason": "upload_file requires connector file_uri; no connector file reference exists for the locally generated ZIP"}
+    },
+    "Obsidian": {"exists": false, "reason": "No connected write plugin found; plugin search returned 0"},
+    "FileLibrary": {"exists": false, "reason": "No File Library write interface available in this run"}
   },
-  "ReverseChain": ["MANIFEST", "30 Capability Packages", "30 Engine Packages", "🧩LKMINI", "LKMINI://", "A=A"]
+  "WholeExternalSyncAEqualsA": false,
+  "ReverseChain": ["LocalDelivery", "GitHubManifest", "DriveReceipt", "🧩LKMINI", "LKMINI://", "A=A"]
 }
