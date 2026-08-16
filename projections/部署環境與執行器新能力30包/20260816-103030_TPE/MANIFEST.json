@@ -56,10 +56,10 @@
       "ReceiptDocumentID": "1Wl4LHrd1aMPsUfP0PJtpdE-h7ikEZm6WIlXTVtkIM4s",
       "ReceiptCommitted": true,
       "ReceiptReadback": "PASS",
-      "BinaryZIP": {"exists": false, "reason": "upload_file requires connector file_uri; no connector file reference exists for the locally generated ZIP"}
+      "BinaryZIP": {"exists": false, "failure_type": "BLOCKED_FILE_REFERENCE", "reason": "Connector egress rejected the locally generated ZIP file reference"}
     },
-    "Obsidian": {"exists": false, "reason": "No connected write plugin found; plugin search returned 0"},
-    "FileLibrary": {"exists": false, "reason": "No File Library write interface available in this run"}
+    "Obsidian": {"exists": false, "failure_type": "NO_CONNECTED_WRITE_TOOL", "reason": "Plugin search returned 0"},
+    "FileLibrary": {"exists": false, "failure_type": "NO_WRITE_INTERFACE_THIS_RUN", "reason": "Only File Library search/read is available"}
   },
   "WholeExternalSyncAEqualsA": false,
   "ReverseChain": ["LocalDelivery", "GitHubManifest", "DriveReceipt", "🧩LKMINI", "LKMINI://", "A=A"]
