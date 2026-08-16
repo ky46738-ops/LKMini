@@ -1,0 +1,60 @@
+{
+  "schema": "CapsuleUIResearchLabResearchAbsorption/1.0",
+  "TimestampTPE": "2026-08-16T21:36:56+08:00",
+  "Identity": "LKMINI://capability/CapsuleUIResearchLab",
+  "Current": 200,
+  "Transition": {
+    "from": 200,
+    "to": 200,
+    "type": "RESEARCH_ABSORPTION_WITHOUT_CURRENT_INCREMENT",
+    "committed": true
+  },
+  "Source": {
+    "publisher": "WebKit",
+    "title": "Release Notes for Safari Technology Preview 249",
+    "published": "2026-07-29",
+    "url": "https://webkit.org/blog/18182/release-notes-for-safari-technology-preview-249/"
+  },
+  "Dedup": {
+    "items": 14,
+    "ABSORB": 11,
+    "REFERENCE_ONLY": 2,
+    "OUT_OF_SCOPE": 1,
+    "CREATE_NEW": 0
+  },
+  "FormalPromotion": false,
+  "NewFormalCapabilities": 0,
+  "NewFormalEngines": 0,
+  "NewFormalPackages": 0,
+  "ExistingHomepageRebuilt": false,
+  "ExistingIdentityRecreated": false,
+  "ExistingInteractiveEntryRebuilt": false,
+  "LocalAcceptance": {
+    "result": "PASS",
+    "stress_iterations": 10000,
+    "final_zip_sha256": "ec127260be17f166f3a4bdb52e2e2ddd290bcbb83a7f628d2ff33a309b7cf1e1",
+    "final_zip_bytes": 785388,
+    "final_zip_members": 32,
+    "final_zip_crc": "PASS",
+    "capsule_payload_sha256": "c54ccc011c566d94f3bfa75d5183eea768030ae17d5f5774b2b0a6c76b32e0c0",
+    "svg_webp_exact_recovery": true,
+    "gif_frames": 8,
+    "mp4_codec": "h264",
+    "workbook_formula_errors": 0,
+    "pptx_slides_test": "PASS"
+  },
+  "AppleNative": {
+    "Numbers": false,
+    "Pages": false,
+    "Keynote": false
+  },
+  "ActualIPhoneHardwareAcceptance": false,
+  "ReverseChain": [
+    "STP249ResearchAbsorptionPatch",
+    "CapsuleUIResearchLab",
+    "LaoKSystemMobileInterface",
+    "🧩LKMINI",
+    "LKMINI://"
+  ],
+  "AnchorSHA256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34"
+}
