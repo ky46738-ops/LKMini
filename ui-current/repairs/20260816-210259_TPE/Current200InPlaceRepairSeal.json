@@ -1,0 +1,86 @@
+{
+  "schema": "Current200InPlaceRepairSeal/1.0",
+  "SessionID": "UIResearchLab-Current200-InPlaceRepair-20260816-210259_TPE",
+  "TimestampTPE": "2026-08-16T21:02:59+08:00",
+  "Identity": "LKMINI://capability/CapsuleUIResearchLab",
+  "Current": 200,
+  "Transition": {
+    "from": 200,
+    "to": 200,
+    "type": "REPAIR_WITHOUT_CURRENT_INCREMENT",
+    "committed": true
+  },
+  "NewFeatures": 0,
+  "NewEngines": 0,
+  "NewCapabilities": 0,
+  "NewPackages": 0,
+  "ExistingInteractiveEntry": {
+    "decision": "REPAIR_IN_PLACE_NO_NEW_ENTRY",
+    "rebuilt": false,
+    "new_entry_created": false,
+    "file_id": "file_00000000ed7081f4b69c618f41f6dadd",
+    "sha256": "e7fe510094b6b8c7fdf1889f59c43e052e33b0475a1c526cf65cc1b5d84646cf",
+    "runtime": "3/3 PASS",
+    "current": 200,
+    "official_recent": 42
+  },
+  "RepairCoreSHA256": "0a48a6324c3ccf1f5362cb22fabf19b46f9f0cef335074c294857f3757c61114",
+  "Files": {
+    "FormalCurrentControlFileID": "file_00000000bbe881f498ff99125e79f030",
+    "EvidenceZIPFileID": "file_000000006da8824697bd9e3ebbe58163",
+    "EvidenceZIP_SHA256": "468eb828bf094e66af012326e7a08aeb8e56ac4ad9b3ec461a9da73f25321842",
+    "EvidenceZIP_ByteSize": 247613,
+    "EvidenceZIP_Members": 16,
+    "EvidenceZIP_CRC": "PASS",
+    "EvidenceSHA256SUMS": "15/15 exact"
+  },
+  "GoogleDrive": {
+    "DocumentID": "1rezhQukLAd57MQOSK2DITVlC4ox2VhxWFcWyCt6Vc6Y",
+    "RevisionID": "AIroW34T54lU-j7tdKQl2rQLxT_rcN5F6gLRM7qB6noMyNult2_2_a5sccAe2xHUd0HztEGkQzhIL9zwZC3NkTXAiFRfP3Ev9VcrqDtxnJ4",
+    "RepairMarkerReadback": true
+  },
+  "Gmail": {
+    "sent": true,
+    "readback": true,
+    "message_id": "1a00aacb8352613a",
+    "thread_id": "1a00aacb8352613a",
+    "has_attachment": false,
+    "attachment_failure_type": "UNREGISTERED_FILE_REFERENCE"
+  },
+  "Workbook": {
+    "sheets": 9,
+    "formula_errors": 0,
+    "PASS": 14,
+    "HonestBoundary": 1
+  },
+  "ExistingReversibleChain": {
+    "decision": "REFERENCE_ONLY_EXISTING_CHAIN",
+    "immutable_zip_crc": "PASS",
+    "sha256sums": "270/270 exact",
+    "separate_packages_crc": "12/12 PASS",
+    "rebuilt": false
+  },
+  "CandidateQueue": {
+    "UI-201": "CANDIDATE_REFERENCE_ONLY",
+    "UI-202": "CANDIDATE_REFERENCE_ONLY",
+    "UI-203": "CANDIDATE_REFERENCE_ONLY",
+    "FormalPromotion": false
+  },
+  "PublicWeb": {
+    "exists": false,
+    "failure_type": "RAW_CACHE_MISS"
+  },
+  "Obsidian": {
+    "exists": false,
+    "plugin_search_results": 0,
+    "failure_type": "NO_OBSIDIAN_CONNECTOR"
+  },
+  "ReverseChain": [
+    "UIResearchLabControlStrongLink",
+    "CapsuleUIResearchLab",
+    "LaoKSystemMobileInterface",
+    "🧩LKMINI",
+    "LKMINI://"
+  ],
+  "A_equals_A": "Current200原位修復、三端讀回、Runtime、XLSX、Files證據與Gmail正文成立；未成立端點保持exists:false"
+}
