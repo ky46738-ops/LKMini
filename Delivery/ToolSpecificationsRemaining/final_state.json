@@ -1,0 +1,59 @@
+{
+  "Identity": "LKMINI://Specification/ToolSpecifications",
+  "Type": "FINAL_REMAINING_REPAIR_STATE",
+  "TimestampTPE": "2026-08-16T21:43:12+08:00",
+  "PublicGitHubProjection": {
+    "exists": true,
+    "commit": "dd6ecf285495b8c0a2a5c30b788cdeaede9c0d69",
+    "blob": "114cb4b977d7a48f6d128d36d97db0f8a1165dda"
+  },
+  "PublicWebIndependentReadback": {
+    "exists": false,
+    "failure_type": "CACHE_MISS",
+    "reason": "PublicWeb tool cannot fetch the newly created public GitHub URL yet. Public GitHub Projection existence does not equal independent PublicWeb readback.",
+    "repair_actions": [
+      "Retry PublicWeb open after public cache/index propagation",
+      "Publish the same Projection to a confirmed website deployment endpoint if available",
+      "Keep GitHub public Projection as source evidence without claiming PublicWeb readback"
+    ]
+  },
+  "ObsidianConnection": {
+    "exists": true,
+    "connection_state": "CONNECTED",
+    "vault": "DataCore",
+    "world_entry": "obsidian://open?vault=DataCore",
+    "observation_state": "NOT_OBSERVABLE_IN_THIS_RUNTIME",
+    "device_write_readback": {"exists": false}
+  },
+  "AppleNativeNumbersPagesKeynote": {
+    "exists": false,
+    "failure_type": "NO_APPLE_IWORK_NATIVE_WRITER",
+    "reason": "No Apple iWork native IWA writer/readback endpoint is available in this runtime, and no ToolSpecifications .numbers/.pages/.key native file was found.",
+    "repair_actions": [
+      "Attach a macOS/iOS executor with Numbers/Pages/Keynote native write capability",
+      "Open the existing MarkdownSeed/XLSX/DOCX/PPTX Projection in the native iWork app and create the native document",
+      "Read the package/IWA back and verify Identity, Manifest and ReverseChain before setting exists=true"
+    ]
+  },
+  "DriveRawZIP": {
+    "exists": true,
+    "file_id": "1MsV4CtljzZs-jBK1616EzzVxm3wh7xAF",
+    "bytes": 15718,
+    "sha256": "9832e6dd32e004892015d58cee6660eff8af342a1c3c3ae8d83a7bbc71226eb2",
+    "crc": "PASS"
+  },
+  "GmailZIPAttachment": {
+    "exists": true,
+    "message_id": "1a00acefa7d9b1f2",
+    "has_attachment": true,
+    "bytes": 15718
+  },
+  "ReverseChain": [
+    "FinalState",
+    "LKMINI://Specification/ToolSpecifications",
+    "🧩MINI",
+    "🥃老K系統",
+    "A=A"
+  ],
+  "Axiom": "A=A"
+}
