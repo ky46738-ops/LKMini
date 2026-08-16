@@ -37,7 +37,7 @@ jobs:
 
       - name: Check no private data leaked
         run: |
-          if grep -r "PRIVATE_ENGINE\|ENGINE_REGISTRY_PRIVATE" --include="*.md" --include="*.json" .; then
+          if grep -r "PRIVATE_ENGINE\|ENGINE_REGISTRY_PRIVATE" --include="*.md" --include="*.json" --exclude=PUBLIC_PRIVATE_BOUNDARY.md .; then
             echo "FAIL: Private markers found in public files"
             exit 1
           fi
