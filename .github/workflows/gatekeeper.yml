@@ -9,7 +9,7 @@ jobs:
 
       - name: Check required files exist
         run: |
-          for f in README.md LICENSE NOTICE MANIFEST SHA256SUMS PUBLIC_PRIVATE_BOUNDARY.md; do
+          for f in README.md LICENSE NOTICE.md LKMini.svg PUBLIC_PRIVATE_BOUNDARY.md SHA256SUMS .github/workflows/gatekeeper.yml tools/verify_lkmini.py; do
             if [ ! -f "$f" ]; then
               echo "FAIL: Missing $f"
               exit 1
@@ -17,7 +17,7 @@ jobs:
           done
           echo "PASS: All required files exist"
 
-      - name: Check A=A markers
+      - name: Check A=A marker
         run: |
           if ! grep -q "A_EQUALS_A=true" README.md; then
             echo "FAIL: A=A marker missing in README.md"
@@ -25,19 +25,17 @@ jobs:
           fi
           echo "PASS: A=A marker found"
 
-      - name: Verify SHA256SUMS (warning only until seed_v0 locked)
+      - name: Run public Mirror policy gate
+        run: python tools/verify_lkmini.py
+
+      - name: Verify SHA256SUMS
         run: |
-          if grep -q "SHA256SUMS_STATUS=PLACEHOLDER" SHA256SUMS; then
-            echo "WARNING: SHA256SUMS is still a placeholder. Skipping hash verification."
-            echo "ACTION REQUIRED: Run real sha256sum locally and push updated SHA256SUMS."
-          else
-            sha256sum -c SHA256SUMS
-            echo "PASS: All hashes match"
-          fi
+          sha256sum -c SHA256SUMS
+          echo "PASS: All hashes match"
 
       - name: Check no private data leaked
         run: |
-          if grep -r "PRIVATE_ENGINE\|ENGINE_REGISTRY_PRIVATE" --include="*.md" --include="*.json" --exclude=PUBLIC_PRIVATE_BOUNDARY.md .; then
+          if grep -r "PRIVATE_ENGINE\|ENGINE_REGISTRY_PRIVATE" --include="*.md" --include="*.json" .; then
             echo "FAIL: Private markers found in public files"
             exit 1
           fi

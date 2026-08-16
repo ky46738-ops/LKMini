@@ -1,9 +1,0 @@
-{
-  "Identity": "LKMINI://dedup/GitHubArtifactCache30/20260816-115815_TPE",
-  "Type": "DedupIncrement",
-  "delivery_date": "2026-08-16",
-  "keys": ["ArtifactDefaultNameFallbackValidator","ArtifactRetentionPolicyBoundValidator","ArtifactImmutableNameReuseGuard","ArtifactCrossRunTokenRunIdGuard","ArtifactDownloadAllDirectorySeparationValidator","ArtifactDownloadPathOverrideValidator","ArtifactSHA256DigestValidationGuard","ArtifactPublicRetentionRangeValidator","ArtifactPrivateRetentionRangeValidator","ArtifactRetentionNonRetroactiveGuard","ArtifactListReadPermissionGuard","ArtifactListPerPageBoundValidator","ArtifactIfNoFilesFoundPolicyValidator","ArtifactCompressionLevelBoundValidator","ArtifactHiddenFilesDefaultExclusionGuard","ArtifactOverwriteExistingNameGuard","ArtifactIdOutputPresenceValidator","ArtifactUrlOutputPresenceValidator","ArtifactDigestOutputPresenceValidator","CacheExactKeyHitValidator","CacheImmutableContentNewKeyGuard","CacheKeyLength512Guard","CacheRestoreKeySequentialOrderValidator","CacheRestorePartialMostRecentValidator","CacheCrossOSArchiveDefaultFalseGuard","CacheSensitiveDataExclusionGuard","CacheSuccessfulJobSaveGuard","CacheVersionPathCompressionCompatibilityValidator","CacheCurrentThenDefaultBranchSearchOrderValidator","CacheUploadRateLimitGuard"],
-  "count": 30,
-  "source_manifest": "projections/GitHub成品快取新能力30包/20260816-115815_TPE/MANIFEST.json",
-  "ReverseChain": ["DEDUP_INCREMENT","MANIFEST","🧩LKMINI","LKMINI://","A=A"]
-}

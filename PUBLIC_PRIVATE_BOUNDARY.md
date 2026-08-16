@@ -1,38 +1,34 @@
-# PUBLIC_PRIVATE_BOUNDARY
 
-This document defines the boundary between public (LKMini) and private (🥃老K系統 internal) components.
 
----
-
-## ✅ Public (This Repo — LKMini)
-
-- README.md — Project overview
-- LICENSE — MIT open source license
-- NOTICE — Authorship attribution
-- MANIFEST — File registry
-- PUBLIC_PRIVATE_BOUNDARY.md — This file
-- SHA256SUMS — Hash verification
-- .github/workflows/gatekeeper.yml — CI integrity check
-- Any files explicitly marked as PUBLIC
+這份文件定義公開內容（LKMini）與私人內容（🥃老K系統內部元件）之間的邊界。
 
 ---
 
-## 🔒 Private (NOT in this repo)
+## ✅公開｜Public
 
-- 🥃永恆核心 (Eternal Core) internal configuration
-- 🎩大管家 (Gatekeeper) role logic and rules
-- PRIVATE_ENGINE_FLEET — Private engine registry
-- ENGINE_ANCHOR_TEMPLATE — Internal engine templates
-- ENGINE_REGISTRY_PRIVATE — Private module registry
-- Any personal data, API keys, tokens, or credentials
-- Internal system automation (Shortcuts, URL Schemes)
+這個儲存庫包含：
+
+- README.md
+- LICENSE
+- NOTICE.md
+- LKMini.svg
+- PUBLIC_PRIVATE_BOUNDARY.md
+- SHA256SUMS
+- .github/workflows/gatekeeper.yml
+- tools/verify_lkmini.py
 
 ---
 
-## Enforcement
+## 🔒私人｜Private
 
-The Gatekeeper workflow will FAIL if any private markers  
-(`PRIVATE_ENGINE`, `ENGINE_REGISTRY_PRIVATE`) are detected in public files.
+以下內容不在這個儲存庫內：
+
+- 🥃永恆核心的內部設定
+- 🎩大管家的角色邏輯與規則
+- 私有引擎群
+- 私有引擎登錄表
+- 任何個人資料、API 金鑰、Token 或登入憑證
+- 內部系統自動化（捷徑、URL Scheme）
 
 ---
 
