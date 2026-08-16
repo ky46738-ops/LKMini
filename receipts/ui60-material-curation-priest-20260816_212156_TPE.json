@@ -1,0 +1,54 @@
+{
+  "receipt_type": "MaterialCurationPriestSpriteUI60Delivery",
+  "round": 21,
+  "owner": "Kevin Yang",
+  "system": "🥃老K系統",
+  "root": "🧩LKMINI",
+  "delivered_at": "2026-08-16T21:21:56+08:00",
+  "status": "PASS",
+  "package_name": "🧙🧚｜素材鑑別祭司精靈第二十一輪60種UI研究交付｜MaterialCurationPriestSpriteUI60Delivery｜20260816_212156_TPE.zip",
+  "package_sha256": "b31ebd099237d5d9b4c469a8f7202d340e361d6746a6409ccd890bc04556f16c",
+  "package_bytes": 266432,
+  "counts": {
+    "research_cards": 60,
+    "ability_packages": 60,
+    "engine_packages": 60,
+    "sources": 8,
+    "manifest_files": 190
+  },
+  "checks": {
+    "research_count_60": true,
+    "ability_zip_count_60": true,
+    "engine_zip_count_60": true,
+    "current_id_unique_60": true,
+    "collision_with_prior": true,
+    "svg_webp_exact_recovery": true,
+    "gate_code_exists": true,
+    "mobile_html_interactive": true,
+    "inner_zip_crc": true,
+    "xlsx_crc": true,
+    "xlsx_formula_error_tokens": true,
+    "error_audit_exists": true
+  },
+  "connectors": {
+    "library_zip_id": "libfile_7c371588c1a88191a7c0306d27d2d19e",
+    "library_local_receipt_id": "libfile_44655a34ca9081918113ada91f5476c6",
+    "google_drive_url": "https://drive.google.com/file/d/16b34C0cMBeJ1tVo9h7ryPFO6o3S52J0U/view?usp=drivesdk",
+    "gmail_self_receipt_sent": true,
+    "gmail_raw_message_id_exposed": false,
+    "obsidian": {
+      "exists": false,
+      "reason": "No Obsidian connector or accessible vault path available in this run; no write claimed."
+    }
+  },
+  "sources": [
+    "https://spectrum.adobe.com/",
+    "https://opensource.adobe.com/spectrum-design-data/",
+    "https://shopify.dev/docs/api/polaris",
+    "https://shopify.dev/docs/api/app-home/web-components",
+    "https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/components.html",
+    "https://developer.salesforce.com/docs/platform/lwc/guide/base-components-all.html",
+    "https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-card.html",
+    "https://trailhead.salesforce.com/content/learn/modules/lightning-design-system-basics/explore-slds-resources"
+  ]
+}
