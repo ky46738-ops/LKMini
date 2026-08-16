@@ -1,5 +1,5 @@
 {
-  "schema": "CapsuleUIResearchLabCurrentControl/3.0",
+  "schema": "CapsuleUIResearchLabCurrentControl/3.1",
   "Identity": "LKMINI://capability/CapsuleUIResearchLab",
   "Current": 200,
   "State": "CURRENT",
@@ -27,7 +27,9 @@
     "Packages": 391
   },
   "Files": {
-    "CurrentControlFileID": "file_0000000060f881f491d2d4bec3a1942c",
+    "FormalCurrentControlFileID": "file_00000000ce7881f4a0371c2cea0acb3b",
+    "FormalCurrentControlSHA256": "5412a51aeb6a7650bc59eaf781c4982413b717fbdf64e873896c93d1e53541cb",
+    "CandidateConstructionControlFileID": "file_0000000060f881f491d2d4bec3a1942c",
     "FinalZIPFileID": "file_00000000a384820a848e71fe249ba0d8",
     "FinalZIP_SHA256": "9d2a82989f756a58e1fe7174e7a1df858edb73e2a47537fee5e8478cd86d787d",
     "FinalZIP_ByteSize": 6749515,
@@ -36,7 +38,7 @@
   },
   "GoogleDrive": {
     "CanonicalLedgerDocumentID": "1rezhQukLAd57MQOSK2DITVlC4ox2VhxWFcWyCt6Vc6Y",
-    "RevisionID": "AIroW37Fqi_DecpprZeGi5lYHjj0ZlARAJf9RRrEZhiTjyjtJjtz0ajJPnfnN_lSFFPE2jwG2ZZepIJgSPSS6nAjVd4XTbDSBoHZMKPZyUM",
+    "RevisionID": "AIroW36O4GIC1SzO8rSU-s9ehDqIIL6oJu6pfgGJci2ZxPgkYIgBoLQXkpPayAlGEtM5z-bldEcroipJQV_TdJE38uqGIclCjn8s79_WbTk",
     "Current200Readback": true
   },
   "ExistingInteractiveEntryRebuilt": false,
@@ -49,5 +51,5 @@
     "LKMINI://"
   ],
   "AnchorSHA256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
-  "A_equals_A": "Files、Drive、GitHub同一Current控制物讀回成立"
+  "A_equals_A": "Files、Drive、GitHub同一Current控制物读回成立"
 }
