@@ -1,0 +1,17 @@
+{
+  "DeliveryDate": "2026-08-16",
+  "TimestampTPE": "2026-08-16T16:57:25+08:00",
+  "Identity": "LKMINI://capability/CapsuleUIResearchLab",
+  "from": 188,
+  "to": 194,
+  "features": [
+    {"UI":189,"ChineseName":"原生可客製選單增強","EnglishKey":"NativeCustomizableSelectEnhancement"},
+    {"UI":190,"ChineseName":"變形感知錨點定位","EnglishKey":"TransformAwareAnchorPositioning"},
+    {"UI":191,"ChineseName":"動態內容捲動穩定","EnglishKey":"DynamicContentScrollAnchoring"},
+    {"UI":192,"ChineseName":"SVG語言感知語意","EnglishKey":"SVGLanguageAwareSemantics"},
+    {"UI":193,"ChineseName":"iPhone優雅文字換行","EnglishKey":"IPhonePrettyTextWrapping"},
+    {"UI":194,"ChineseName":"元件樣式精準回退","EnglishKey":"ComponentRulePreciseRollback"}
+  ],
+  "AnchorSHA256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
+  "new_root_identity": 0
+}
