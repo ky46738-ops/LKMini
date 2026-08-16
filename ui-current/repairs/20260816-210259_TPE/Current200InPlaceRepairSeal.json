@@ -1,5 +1,5 @@
 {
-  "schema": "Current200InPlaceRepairSeal/1.0",
+  "schema": "Current200InPlaceRepairSeal/1.1",
   "SessionID": "UIResearchLab-Current200-InPlaceRepair-20260816-210259_TPE",
   "TimestampTPE": "2026-08-16T21:02:59+08:00",
   "Identity": "LKMINI://capability/CapsuleUIResearchLab",
@@ -27,12 +27,18 @@
   "RepairCoreSHA256": "0a48a6324c3ccf1f5362cb22fabf19b46f9f0cef335074c294857f3757c61114",
   "Files": {
     "FormalCurrentControlFileID": "file_00000000bbe881f498ff99125e79f030",
-    "EvidenceZIPFileID": "file_000000006da8824697bd9e3ebbe58163",
-    "EvidenceZIP_SHA256": "468eb828bf094e66af012326e7a08aeb8e56ac4ad9b3ec461a9da73f25321842",
-    "EvidenceZIP_ByteSize": 247613,
-    "EvidenceZIP_Members": 16,
-    "EvidenceZIP_CRC": "PASS",
-    "EvidenceSHA256SUMS": "15/15 exact"
+    "ImmutableEvidenceZIPFileID": "file_000000006da8824697bd9e3ebbe58163",
+    "ImmutableEvidenceZIP_SHA256": "468eb828bf094e66af012326e7a08aeb8e56ac4ad9b3ec461a9da73f25321842",
+    "TerminalZIPFileID": "file_000000006efc820ab89b4029c7273a63",
+    "TerminalZIP_SHA256": "892c2a6d42a7837d263ae599d41dc9de71df416a1b31baafa135e2e78e3d5f5a",
+    "TerminalZIP_ByteSize": 488227,
+    "TerminalZIP_Members": 11,
+    "TerminalZIP_CRC": "PASS",
+    "TerminalZIP_SourceReadbackExact": true,
+    "WorkbookFileID": "file_000000009bb881f48418d1b144c9c921",
+    "Workbook_SourceReadbackExact": true,
+    "Workbook_FormulaErrors": 0,
+    "FilesReadbackAcceptanceFileID": "file_000000003da481f4b1b03986f7c0466c"
   },
   "GoogleDrive": {
     "DocumentID": "1rezhQukLAd57MQOSK2DITVlC4ox2VhxWFcWyCt6Vc6Y",
@@ -82,5 +88,5 @@
     "🧩LKMINI",
     "LKMINI://"
   ],
-  "A_equals_A": "Current200原位修復、三端讀回、Runtime、XLSX、Files證據與Gmail正文成立；未成立端點保持exists:false"
+  "A_equals_A": "Current200原位修復、三端讀回、Runtime、XLSX、Files終局ZIP與工作簿抽回、Gmail正文成立；未成立端點保持exists:false"
 }
