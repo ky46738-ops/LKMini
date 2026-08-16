@@ -1,0 +1,48 @@
+{
+  "State": "COMMITTED_AND_READ_BACK_VERIFIED",
+  "TimestampAsiaTaipei": "2026-08-16T21:01:48+08:00",
+  "Identity": "LKMINI://",
+  "from": "CapabilityExclusionLedger1333",
+  "to": "CapabilityExclusionLedger1363",
+  "FormalSHA256": "c64a50dc5bf35a11d964fc631ddd29d303cee889baffddc1f9fea3500de6eaae",
+  "GitHub": {
+    "CurrentCommit": "08cabc7bab922641516ccb07049cca5dd0682130",
+    "CurrentBlob": "29276bda381f76930bb2d0388310dbf41678dbe7",
+    "CurrentReadBack": "PASS"
+  },
+  "GoogleDrive": {
+    "KnowledgeLedger": {
+      "DocumentID": "1fLsyyeP6LhYS5yy2dYhUbBOtL-fOwMv7ns5-uMnrKrE",
+      "RevisionID": "AIroW3410GjhSjVpEBQ3KZzVASxaLJRtGkuxx3njlETGWN8EyHLtiQrtQRZ42975tbNoG8P75yLtvqnMI5vdV71Fnq7z3uy-QYDEGSage_Y",
+      "MarkerReadBack": "PASS"
+    },
+    "CloudWiringRegistry": {
+      "DocumentID": "14j8sa6dt2mXZZO-OJN4A2Q4Ze8M9jWaRjm4J-ZH_-QA",
+      "RevisionID": "AIroW367tW0Qdqd1Oe5O0L8d12nFWfvsG27DIO11cZnqLUX_EwT7wrW3dzjoGMMKwz5DISUzhzOi48F_p_GPR2S0AYzTX6n-LL062w6uji0",
+      "MarkerReadBack": "PASS"
+    },
+    "BinaryFormalZIP": {
+      "exists": false,
+      "FailureType": "NO_RESOLVED_CONNECTOR_FILE_REFERENCE"
+    }
+  },
+  "Gmail": {
+    "MessageID": "1a00aa9ffa391909",
+    "ThreadID": "1a00aa9ffa391909",
+    "SubjectReadBack": "PASS",
+    "BodySnippetReadBack": "PASS",
+    "AttachmentAttempt": {
+      "exists": false,
+      "FailureType": "BLOCKED_FILE_REFERENCE"
+    },
+    "ReceiptWithoutAttachment": {
+      "exists": true,
+      "ReadBack": "PASS"
+    }
+  },
+  "FileLibraryWrite": {"exists": false, "FailureType": "NO_FILE_LIBRARY_WRITE_ACTION_THIS_RUN"},
+  "ObsidianDirectConnector": {"exists": false, "FailureType": "PLUGIN_SEARCH_NO_RESULT"},
+  "AppleNativeIWA": {"exists": false, "FailureType": "APPLE_NATIVE_RUNTIME_NOT_AVAILABLE"},
+  "BatchScopeAEqualsA": true,
+  "committed_state": true
+}
