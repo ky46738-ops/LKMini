@@ -1,0 +1,77 @@
+{
+  "receipt_type": "UI60 material curation priest repair delivery",
+  "round": 23,
+  "repair_run": true,
+  "owner": "Kevin Yang",
+  "system": "🥃老K系統",
+  "root_protocol": "LKMINI://",
+  "anchor_sha256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
+  "identity": "LKMINI://capability/MaterialCurationPriestSprite/UI60",
+  "delivered_at": "2026-08-17T00:25:57+08:00",
+  "state_transition": "S0 → S10",
+  "committed_state": true,
+  "package": {
+    "name": "🧙🧚｜素材鑑別祭司精靈第23輪UI60錯誤修復交付｜MaterialCurationPriestSpriteUI60RepairDelivery｜20260817_002557_TPE.zip",
+    "sha256": "60a41d3fbc0f5db3f6fddc285314287c7a4eb10fdae0859caae0b195cbdd53ad",
+    "bytes": 671609,
+    "members": 203,
+    "zip_crc": "PASS"
+  },
+  "repair_scope": [
+    "補齊 60 個能力包 run.py/self_test.py/interface.html/manifest.json",
+    "補齊 60 個引擎包 run.py/self_test.py/interface.html/manifest.json",
+    "補齊 SVG → GIF → MP4 支線",
+    "補齊 WebP → MarkdownSeed 支線",
+    "補齊 Apple Numbers/Pages/Keynote Projection 映射，不宣稱原生檔存在",
+    "60 張研究卡補差異化用途與重用契約"
+  ],
+  "acceptance": {
+    "status": "PASS",
+    "research_cards": 60,
+    "ability_packages": 60,
+    "engine_packages": 60,
+    "inner_self_test_failure_count": 0,
+    "svg_webp_exact_recovery": true,
+    "gif_exists": true,
+    "mp4_exists": true,
+    "markdown_seed_exists": true,
+    "mobile_html_interactive": true,
+    "author_layer_xlsx_exists": true,
+    "csv_tsv_json_exists": true,
+    "mp4_ffprobe": true,
+    "svg_sha256": "4eccb5dc022f60170be177dcdc2f80fc22bc7361d29634f420fbb6d272a0661d",
+    "recovered_svg_sha256": "4eccb5dc022f60170be177dcdc2f80fc22bc7361d29634f420fbb6d272a0661d",
+    "gif_sha256": "afb24b67a566b9f3c31b3ff3cb1f5a37ea0e2a4b84bb209c38fd63ec7d9204f8",
+    "mp4_sha256": "67cebd1e89cb75c7cb5dc9fc4416ee5a1967206bf3bf8114ac46aa0dd35ea6bc"
+  },
+  "library": {
+    "package_file_id": "file_00000000c090822f969fb93fa68808d9",
+    "package_library_file_id": "libfile_8b2344d4c3e881918623a7511c72739e",
+    "local_receipt_file_id": "file_000000003e1081fba1417c1ffc26f43a",
+    "local_receipt_library_file_id": "libfile_89ba5ce21a808191bf2b5b87331ca40b"
+  },
+  "google_drive": {
+    "uploaded": true,
+    "file_id": "1IU7SUHyLHoCXVWxBHC2KOgf_yFzNxAy4",
+    "url": "https://drive.google.com/file/d/1IU7SUHyLHoCXVWxBHC2KOgf_yFzNxAy4/view?usp=drivesdk"
+  },
+  "apple_native": {
+    "Numbers": {"exists": false},
+    "Pages": {"exists": false},
+    "Keynote": {"exists": false}
+  },
+  "obsidian": {
+    "exists": false,
+    "reason": "本回合沒有可用 Obsidian 寫入端點；未宣稱已寫入 vault。"
+  },
+  "sources": [
+    "https://ant.design/components/overview/",
+    "https://ant.design/components/button/",
+    "https://chakra-ui.com/docs/components/concepts/overview",
+    "https://chakra-ui.com/docs/get-started/installation",
+    "https://www.radix-ui.com/primitives/docs/overview/introduction",
+    "https://www.radix-ui.com/primitives/docs/guides/styling",
+    "https://tailwindcss.com/plus/ui-blocks/application-ui",
+    "https://tailwindcss.com/plus/ui-blocks/application-ui/elements/buttons"
+  ]
+}
