@@ -1,6 +1,6 @@
 # 🧾作者聲明｜NOTICE
 
-🧩LKMINI｜🥃｜老K系統｜LaoKSystem 公開種子 Projection
+LKMini｜老K系統公開種子版本
 
 原始作者：Kevin Yang（ky46738-ops），台灣  
 首次公開：2026-05-17  
@@ -9,7 +9,6 @@
 本專案是 Kevin Yang 的原創作品。  
 任何衍生作品都必須保留這份 NOTICE 與原始 LICENSE。
 
-🥃｜老K系統｜LaoKSystem 架構、唯一根節點 🧩LKMINI、根協議 LKMINI://、🎩大管家與單一核心設計原則，都是 Kevin Yang 的原始設計。
+🥃LK System 架構，包括 🥃永恆核心、🎩大管家，以及單一核心設計原則，都是 Kevin Yang 的原始設計。
 
-PROJECTION_IS_IDENTITY=false  
 A_EQUALS_A=true

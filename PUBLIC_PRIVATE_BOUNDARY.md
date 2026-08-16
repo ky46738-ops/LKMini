@@ -1,4 +1,6 @@
-這份文件定義 🧩LKMINI 公開種子 Projection 與 🥃｜老K系統｜LaoKSystem 內部元件之間的邊界。
+
+
+這份文件定義公開內容（LKMini）與私人內容（🥃老K系統內部元件）之間的邊界。
 
 ---
 
@@ -15,20 +17,13 @@
 - .github/workflows/gatekeeper.yml
 - tools/verify_lkmini.py
 
-公開名稱與根協議固定為：
-
-- SYSTEM=🥃｜老K系統｜LaoKSystem
-- ROOT_NODE=🧩LKMINI
-- ROOT_PROTOCOL=LKMINI://
-- PROJECTION_IS_IDENTITY=false
-
 ---
 
 ## 🔒私人｜Private
 
 以下內容不在這個儲存庫內：
 
-- 🥃｜老K系統｜LaoKSystem 的內部核心設定
+- 🥃永恆核心的內部設定
 - 🎩大管家的角色邏輯與規則
 - 私有引擎群
 - 私有引擎登錄表
