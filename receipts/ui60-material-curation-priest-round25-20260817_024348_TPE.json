@@ -1,0 +1,69 @@
+{
+  "exists": true,
+  "round": 25,
+  "identity": "LKMINI://ui-research/round-25/LCUI-481-540",
+  "timestamped_transition": "2026-08-17T02:57:39+08:00",
+  "from": "LKMINI://ui-research/round-24/LCUI-421-480",
+  "to": "LKMINI://ui-research/round-25/LCUI-481-540",
+  "owner": "Kevin Yang",
+  "system": "🥃老K系統",
+  "root_protocol": "LKMINI://",
+  "anchor_sha256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
+  "delivery": {
+    "research_cards": 60,
+    "capability_packages": 60,
+    "engine_packages": 60,
+    "inner_self_tests": "120/120 PASS",
+    "mobile_browser": "PASS",
+    "spreadsheet_artifact_tool": "PASS",
+    "svg_webp_exact_recovery": true,
+    "gif_frames": 18,
+    "mp4_h264": true,
+    "markdown_seed": true
+  },
+  "zip": {
+    "sha256": "7f5a6b7aee1316c34093bbe54a552b910334084c37f7dc5f8efe4b4243806cb4",
+    "bytes": 9889774,
+    "members": 221,
+    "crc": "PASS"
+  },
+  "local_git": {
+    "committed": true,
+    "commit": "bd41b19899ea6550d06b7c43dc14e4285fb831e4",
+    "clean": true
+  },
+  "files_library": {
+    "zip_file_id": "file_00000000ae9482438fe1dd7251f100fc",
+    "zip_library_file_id": "libfile_5104619a33588191bd20b9b9c6e2c292",
+    "receipt_file_id": "file_000000001ad881f49fcfc32a9c825803",
+    "reverse_receipt_file_id": "file_000000009be481f48f069b67769d8364",
+    "xlsx_file_id": "file_00000000579c81f4af3407b543191ef6",
+    "mobile_html_file_id": "file_00000000260881f481cc0f83f0d8b833"
+  },
+  "google_drive": {
+    "canonical_ledger_exists": true,
+    "canonical_ledger_file_id": "1rezhQukLAd57MQOSK2DITVlC4ox2VhxWFcWyCt6Vc6Y",
+    "canonical_ledger_revision": "AIroW354nI7y868m1xJ_49qTqDJLompuIK2ygfRI3Rr6F46jFW_F_zGgPvYUm4nuUVPOhHvEXhlL52rxquVuwKHGz5TG1M9I8sV4yXr7IlA",
+    "readback": true,
+    "raw_zip_upload": {
+      "exists": false,
+      "failure_type": "UNREGISTERED_FILE_REFERENCE"
+    }
+  },
+  "apple_native": {
+    "numbers": false,
+    "pages": false,
+    "keynote": false,
+    "projection_mapping": true
+  },
+  "sources": [
+    "PatternFly",
+    "Primer",
+    "Spectrum Web Components",
+    "Atlassian Design System",
+    "USWDS",
+    "GOV.UK Design System"
+  ],
+  "projection_not_identity": true,
+  "a_equals_a": true
+}
