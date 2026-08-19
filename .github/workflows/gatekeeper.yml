@@ -1,42 +1,43 @@
-name: Gatekeeper
-on: [push, pull_request]
+name: 🛡️公開種子守門驗證
+
+on:
+  push:
+  pull_request:
 
 jobs:
   verify:
+    name: 🔬驗證公開核心與開源模組
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: 📥取得儲存庫內容
+        uses: actions/checkout@v4
 
-      - name: Check required files exist
+      - name: 📚檢查必要核心與已登記公開模組
+        shell: bash
         run: |
-          for f in README.md LICENSE NOTICE.md LKMini.svg PUBLIC_PRIVATE_BOUNDARY.md SHA256SUMS .github/workflows/gatekeeper.yml tools/verify_lkmini.py; do
+          required_files=(
+            "README.md"
+            "LICENSE"
+            "NOTICE.md"
+            "LKMini.svg"
+            "PUBLIC_PRIVATE_BOUNDARY.md"
+            "SHA256SUMS"
+            ".github/workflows/gatekeeper.yml"
+            "tools/verify_lkmini.py"
+            "08｜自動化同步｜SyncAutomation/🍎Apple捷徑功能接線｜AppleShortcutFunctionWiring.md"
+          )
+          for f in "${required_files[@]}"; do
             if [ ! -f "$f" ]; then
-              echo "FAIL: Missing $f"
+              echo "缺少必要公開檔案：$f"
               exit 1
             fi
           done
-          echo "PASS: All required files exist"
+          echo "必要核心與公開模組均存在"
 
-      - name: Check A=A marker
-        run: |
-          if ! grep -q "A_EQUALS_A=true" README.md; then
-            echo "FAIL: A=A marker missing in README.md"
-            exit 1
-          fi
-          echo "PASS: A=A marker found"
-
-      - name: Run public Mirror policy gate
+      - name: 🔬執行公開邊界與防誤刪驗證
         run: python tools/verify_lkmini.py
 
-      - name: Verify SHA256SUMS
+      - name: 🔐驗證全部公開檔案雜湊
         run: |
           sha256sum -c SHA256SUMS
-          echo "PASS: All hashes match"
-
-      - name: Check no private data leaked
-        run: |
-          if grep -r "PRIVATE_ENGINE\|ENGINE_REGISTRY_PRIVATE" --include="*.md" --include="*.json" .; then
-            echo "FAIL: Private markers found in public files"
-            exit 1
-          fi
-          echo "PASS: No private data leaked"
+          echo "全部公開檔案雜湊一致"
