@@ -7,6 +7,7 @@ A_EQUALS_A=true
 公開 Mirror 規則：
 - 只允許 8 個公開最小種子檔。
 - 不接收膠囊、正式任務鏈、內部定位器、Manifest、ReverseChain、Snapshot、Package、回執、私有引擎。
+- 不接收 Drive/FileID/MessageID/ObjectID/捷徑 URL Scheme 等私域接線資料。
 - Gate 只保護公開邊界；私有本體留在正式私有容器。
 """
 from pathlib import Path
@@ -42,6 +43,7 @@ PRIVATE_MARKERS = [
     "🪞幻影膠囊",
     "幻影膠囊",
     "膠囊",
+    "Current",
     "Locator",
     "LOCATOR",
     "定位器",
@@ -57,9 +59,25 @@ PRIVATE_MARKERS = [
     "Package",
     "PACKAGE",
     "AICORE",
+    "Google Drive",
+    "GoogleDrive",
+    "Drive FileID",
+    "drive.google.com",
+    "docs.google.com",
     "Library StableID",
+    "Library ZIP",
+    "Library HTML",
     "library_file_id",
     "libfile_",
+    "FileID",
+    "ObjectID",
+    "MessageID",
+    "ThreadID",
+    "Revision",
+    "shortcuts://",
+    "obsidian://",
+    "Apple Shortcuts",
+    "URL Scheme",
     "file_00000000",
     "正式任務鏈",
     "任務筆記本",
@@ -77,6 +95,7 @@ FORBIDDEN_PATH_PARTS = [
     "🪞幻影膠囊",
     "幻影膠囊",
     "膠囊",
+    "Current",
     "Locator",
     "LOCATOR",
     "Manifest",
@@ -121,6 +140,7 @@ MAX_PUBLIC_FILE_BYTES = 500_000
 # 政策與驗證檔必須描述禁用標記；這些位置只允許明確列出的字串。
 ALLOWED_PRIVATE_MARKERS_BY_FILE = {
     "README.md": {"私人引擎"},
+    "PUBLIC_PRIVATE_BOUNDARY.md": set(PRIVATE_MARKERS),
     ".github/workflows/gatekeeper.yml": {"PRIVATE_ENGINE", "ENGINE_REGISTRY_PRIVATE"},
     "tools/verify_lkmini.py": set(PRIVATE_MARKERS),
 }
@@ -266,7 +286,7 @@ if __name__ == "__main__":
         check_no_private_leak(),
     ]
     if all(results):
-        print("\n✅ A=A — Public Mirror gate locked.")
+        print("\nA=A — Public Mirror gate locked.")
         sys.exit(0)
-    print("\n❌ FAIL — Public Mirror gate is NOT locked.")
+    print("\nFAIL — Public Mirror gate is NOT locked.")
     sys.exit(1)
