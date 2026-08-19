@@ -1,0 +1,79 @@
+{
+  "📚格式": "LKMINI.PublicLocator/2.0",
+  "🧭根協議": "LKMINI://",
+  "🔐邊界": "只保存公開儲存庫相對路徑；不保存私人雲端、郵件、修訂、裝置或帳號實際座標。",
+  "📍公開位置": [
+    {
+      "名稱": "🔧工具規範｜ToolSpecifications",
+      "網址": "LKMINI://工具規範/查看",
+      "相對路徑": "07｜公開顯影｜PublicProjection/🔧工具規範｜ToolSpecifications.html"
+    },
+    {
+      "名稱": "🎨介面研究互動範例｜UIResearchInteractiveExamples",
+      "網址": "LKMINI://介面研究/操作",
+      "相對路徑": "07｜公開顯影｜PublicProjection/🎨介面研究互動範例｜UIResearchInteractiveExamples.html"
+    },
+    {
+      "名稱": "🖥️動作容器互動範例｜ActionContainerInteractiveExample",
+      "網址": "LKMINI://動作容器/操作",
+      "相對路徑": "07｜公開顯影｜PublicProjection/🖥️動作容器互動範例｜ActionContainerInteractiveExample.html"
+    },
+    {
+      "名稱": "🎴本體顯影關係圖｜IdentityProjectionDiagram",
+      "網址": "LKMINI://本體顯影關係圖/查看",
+      "相對路徑": "07｜公開顯影｜PublicProjection/🎴本體顯影關係圖｜IdentityProjectionDiagram.svg"
+    },
+    {
+      "名稱": "🍎蘋果捷徑功能接線｜AppleShortcutFunctionWiring",
+      "網址": "LKMINI://蘋果捷徑/查看",
+      "相對路徑": "08｜自動化同步｜SyncAutomation/🍎蘋果捷徑功能接線｜AppleShortcutFunctionWiring.md"
+    },
+    {
+      "名稱": "🔧工具規範公開建置器｜ToolSpecificationsPublicBuilder",
+      "網址": "LKMINI://工具規範建置器/執行",
+      "相對路徑": "08｜自動化同步｜SyncAutomation/🔧工具規範公開建置器｜ToolSpecificationsPublicBuilder.py"
+    },
+    {
+      "名稱": "🔧工具規範公開建置流程｜ToolSpecificationsPublicBuildWorkflow",
+      "網址": "LKMINI://工具規範建置流程/執行",
+      "相對路徑": ".github/workflows/🔧工具規範公開建置流程｜ToolSpecificationsPublicBuildWorkflow.yml"
+    },
+    {
+      "名稱": "🌱唯一真相源｜MarkdownSeed",
+      "網址": "LKMINI://唯一真相源/查看",
+      "相對路徑": "09｜公開協議｜PublicProtocol/🌱唯一真相源｜MarkdownSeed.md"
+    },
+    {
+      "名稱": "🧭動作鏈｜S0-S10",
+      "網址": "LKMINI://動作鏈/查看",
+      "相對路徑": "09｜公開協議｜PublicProtocol/🧭動作鏈｜S0-S10.md"
+    },
+    {
+      "名稱": "📘全副檔名可逆轉換完整手冊｜ReversibleFormatManual",
+      "網址": "LKMINI://全副檔名可逆轉換手冊/查看",
+      "相對路徑": "09｜公開協議｜PublicProtocol/📘全副檔名可逆轉換完整手冊｜ReversibleFormatManual.md"
+    },
+    {
+      "名稱": "♾️公開回推鏈｜PublicReverseChain",
+      "網址": "LKMINI://公開回推鏈/查看",
+      "相對路徑": "09｜公開協議｜PublicProtocol/♾️公開回推鏈｜PublicReverseChain.json"
+    },
+    {
+      "名稱": "🧭公開定位器｜PublicLocator",
+      "網址": "LKMINI://公開定位器/查看",
+      "相對路徑": "09｜公開協議｜PublicProtocol/🧭公開定位器｜PublicLocator.json"
+    },
+    {
+      "名稱": "🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics",
+      "網址": "LKMINI://開源刪除鑑識清冊/查看",
+      "相對路徑": "09｜公開協議｜PublicProtocol/🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics.json"
+    }
+  ],
+  "♻️回推": [
+    "公開相對路徑",
+    "🧾公開模組登記",
+    "🧩LKMINI",
+    "LKMINI://",
+    "A=A"
+  ]
+}

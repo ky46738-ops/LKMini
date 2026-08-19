@@ -1,0 +1,182 @@
+{
+  "📚格式": "LKMINI.PublicModuleRegistry/3.0",
+  "👤持有人": "Kevin Yang",
+  "🥃系統": "老K系統",
+  "🧭根協議": "LKMINI://",
+  "🔐根錨點雜湊": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
+  "🏷️命名規則": "Emoji＋中文主名稱｜EnglishKey",
+  "🪞顯影不等於本體": true,
+  "📚必要核心": [
+    "README.md",
+    "LICENSE",
+    "NOTICE.md",
+    "LKMini.svg",
+    "PUBLIC_PRIVATE_BOUNDARY.md",
+    "SHA256SUMS",
+    ".github/workflows/gatekeeper.yml",
+    "tools/verify_lkmini.py",
+    "🧾公開模組登記｜PublicModuleRegistry.json"
+  ],
+  "📂公開模組根": [
+    "07｜公開顯影｜PublicProjection",
+    "08｜自動化同步｜SyncAutomation",
+    "09｜公開協議｜PublicProtocol"
+  ],
+  "🧩公開模組": [
+    {
+      "名稱": "🔧工具規範｜ToolSpecifications",
+      "網址": "LKMINI://工具規範/查看",
+      "路徑": "07｜公開顯影｜PublicProjection/🔧工具規範｜ToolSpecifications.html",
+      "類型": "🌐公開顯影（Public Projection）",
+      "狀態": "啟用（ACTIVE）",
+      "歷史來源": {
+        "刪除提交": "eb426724521a8b0abcc2dac5652003500e65a8f9",
+        "原始雜湊": "114cb4b977d7a48f6d128d36d97db0f8a1165dda"
+      }
+    },
+    {
+      "名稱": "🎨介面研究互動範例｜UIResearchInteractiveExamples",
+      "網址": "LKMINI://介面研究/操作",
+      "路徑": "07｜公開顯影｜PublicProjection/🎨介面研究互動範例｜UIResearchInteractiveExamples.html",
+      "類型": "🌐公開互動顯影（Interactive Projection）",
+      "狀態": "啟用（ACTIVE）",
+      "歷史來源": {
+        "刪除提交": "eb426724521a8b0abcc2dac5652003500e65a8f9",
+        "原始雜湊": [
+          "9861826c1fc65a397d632abb17167252315d7dd4",
+          "18fe2b32eeeba6a42475e22244f5d5341ea5ef5d"
+        ]
+      }
+    },
+    {
+      "名稱": "🖥️動作容器互動範例｜ActionContainerInteractiveExample",
+      "網址": "LKMINI://動作容器/操作",
+      "路徑": "07｜公開顯影｜PublicProjection/🖥️動作容器互動範例｜ActionContainerInteractiveExample.html",
+      "類型": "🌐公開互動顯影（Interactive Projection）",
+      "狀態": "啟用（ACTIVE）",
+      "歷史來源": {
+        "刪除提交": "eb426724521a8b0abcc2dac5652003500e65a8f9",
+        "原始雜湊": "4feb5bbc6ee3c503cbe55ae8464f2102ef03c960"
+      }
+    },
+    {
+      "名稱": "🎴本體顯影關係圖｜IdentityProjectionDiagram",
+      "網址": "LKMINI://本體顯影關係圖/查看",
+      "路徑": "07｜公開顯影｜PublicProjection/🎴本體顯影關係圖｜IdentityProjectionDiagram.svg",
+      "類型": "🎨向量顯影（SVG Projection）",
+      "狀態": "啟用（ACTIVE）",
+      "歷史來源": {
+        "刪除提交": "eb426724521a8b0abcc2dac5652003500e65a8f9",
+        "原始雜湊": "a91e85836cea2cdcc4e000b17c76e652e44d5c2b"
+      }
+    },
+    {
+      "名稱": "🍎蘋果捷徑功能接線｜AppleShortcutFunctionWiring",
+      "網址": "LKMINI://蘋果捷徑/查看",
+      "路徑": "08｜自動化同步｜SyncAutomation/🍎蘋果捷徑功能接線｜AppleShortcutFunctionWiring.md",
+      "類型": "🍎公開接線規格（Public Wiring Specification）",
+      "狀態": "啟用（ACTIVE）",
+      "歷史來源": {
+        "刪除提交": "32e6a02d75b3fc82ffbfdba3b54922c33f8f774b",
+        "原始雜湊": "b1976f3ea36527ed0e41ed1c94e570f77c096240"
+      }
+    },
+    {
+      "名稱": "🔧工具規範公開建置器｜ToolSpecificationsPublicBuilder",
+      "網址": "LKMINI://工具規範建置器/執行",
+      "路徑": "08｜自動化同步｜SyncAutomation/🔧工具規範公開建置器｜ToolSpecificationsPublicBuilder.py",
+      "類型": "⚙️公開建置程式（Public Builder）",
+      "狀態": "啟用（ACTIVE）",
+      "歷史來源": {
+        "刪除提交": "eb426724521a8b0abcc2dac5652003500e65a8f9",
+        "原始雜湊": "2a3853fc07db61c3ea51bdbd877dcfb705be002b",
+        "裁決": "移除私人座標與舊狀態後重寫"
+      }
+    },
+    {
+      "名稱": "🔧工具規範公開建置流程｜ToolSpecificationsPublicBuildWorkflow",
+      "網址": "LKMINI://工具規範建置流程/執行",
+      "路徑": ".github/workflows/🔧工具規範公開建置流程｜ToolSpecificationsPublicBuildWorkflow.yml",
+      "類型": "🛡️持續整合流程（CI Workflow）",
+      "狀態": "啟用（ACTIVE）",
+      "歷史來源": {
+        "刪除提交": "eb426724521a8b0abcc2dac5652003500e65a8f9",
+        "原始雜湊": "3fcf7db7ac5e74bd1bac98139e0ea220a98cdf8c"
+      }
+    },
+    {
+      "名稱": "🌱唯一真相源｜MarkdownSeed",
+      "網址": "LKMINI://唯一真相源/查看",
+      "路徑": "09｜公開協議｜PublicProtocol/🌱唯一真相源｜MarkdownSeed.md",
+      "類型": "📖公開協議（Public Protocol）",
+      "狀態": "啟用（ACTIVE）",
+      "歷史來源": {
+        "刪除提交": "eb426724521a8b0abcc2dac5652003500e65a8f9",
+        "原始雜湊": "12d81f77311f88593110a53a57861db2479eda62"
+      }
+    },
+    {
+      "名稱": "🧭動作鏈｜S0-S10",
+      "網址": "LKMINI://動作鏈/查看",
+      "路徑": "09｜公開協議｜PublicProtocol/🧭動作鏈｜S0-S10.md",
+      "類型": "📖公開協議（Public Protocol）",
+      "狀態": "啟用（ACTIVE）",
+      "歷史來源": {
+        "刪除提交": "eb426724521a8b0abcc2dac5652003500e65a8f9",
+        "原始雜湊": "4f79c34a64b9374f1e5849560dda27d71ccee55c"
+      }
+    },
+    {
+      "名稱": "📘全副檔名可逆轉換完整手冊｜ReversibleFormatManual",
+      "網址": "LKMINI://全副檔名可逆轉換手冊/查看",
+      "路徑": "09｜公開協議｜PublicProtocol/📘全副檔名可逆轉換完整手冊｜ReversibleFormatManual.md",
+      "類型": "📖公開協議（Public Protocol）",
+      "狀態": "啟用（ACTIVE）",
+      "歷史來源": {
+        "刪除提交": "eb426724521a8b0abcc2dac5652003500e65a8f9",
+        "原始雜湊": "c9dbe0fca20e497af7a72d1cd39fdedebf8c3bed"
+      }
+    },
+    {
+      "名稱": "♾️公開回推鏈｜PublicReverseChain",
+      "網址": "LKMINI://公開回推鏈/查看",
+      "路徑": "09｜公開協議｜PublicProtocol/♾️公開回推鏈｜PublicReverseChain.json",
+      "類型": "♻️可逆資料（Reversible Data）",
+      "狀態": "啟用（ACTIVE）",
+      "歷史來源": {
+        "刪除提交": "eb426724521a8b0abcc2dac5652003500e65a8f9",
+        "原始雜湊": "1435b26b39897b0889d952cb5e31058fe7b5045d"
+      }
+    },
+    {
+      "名稱": "🧭公開定位器｜PublicLocator",
+      "網址": "LKMINI://公開定位器/查看",
+      "路徑": "09｜公開協議｜PublicProtocol/🧭公開定位器｜PublicLocator.json",
+      "類型": "🧭公開定位資料（Public Locator）",
+      "狀態": "啟用（ACTIVE）",
+      "歷史來源": {
+        "刪除提交": "eb426724521a8b0abcc2dac5652003500e65a8f9",
+        "裁決": "只保存公開相對路徑，不保存私人實際座標"
+      }
+    },
+    {
+      "名稱": "🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics",
+      "網址": "LKMINI://開源刪除鑑識清冊/查看",
+      "路徑": "09｜公開協議｜PublicProtocol/🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics.json",
+      "類型": "🔬鑑識證據（Forensic Evidence）",
+      "狀態": "啟用（ACTIVE）",
+      "歷史來源": {
+        "來源分支": "seed_v0"
+      }
+    }
+  ],
+  "🚫刪除保護": {
+    "已登記公開模組不可因通用技術詞整份刪除": true,
+    "發現私人值時先局部去除再保留公開部分": true,
+    "模組退役必須保留鑑識清冊與回推鏈": true,
+    "不允許把八個核心檔案誤當公開內容上限": true,
+    "登記檔與驗證器必須同時保護固定模組集合": true
+  },
+  "⚖️公理": "A=A",
+  "📚必要核心說明": "九個必要核心是最低保護集合，不是公開內容上限。"
+}

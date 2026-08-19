@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>🖥️動作容器互動範例｜ActionContainerInteractiveExample</title>
+<style>
+:root{color-scheme:light dark;--bg:#f4f6fb;--panel:#fff;--ink:#151824;--muted:#545d70;--line:#737f9b;--accent:#2847a8;--focus:#0a84ff}
+@media(prefers-color-scheme:dark){:root{--bg:#0b1020;--panel:#151c31;--ink:#f7f8fc;--muted:#c6ccdc;--line:#7783a1;--accent:#90a9ff}}
+*{box-sizing:border-box}html{overflow-x:hidden}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang TC",sans-serif;padding:calc(14px + env(safe-area-inset-top)) calc(14px + env(safe-area-inset-right)) calc(26px + env(safe-area-inset-bottom)) calc(14px + env(safe-area-inset-left));overflow-x:hidden}main{width:min(900px,100%);margin:auto;min-width:0;overflow-x:hidden}.panel{background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:18px}.flow{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:10px}.flow button{min-height:48px;max-width:100%;white-space:normal;overflow-wrap:anywhere;border:1px solid var(--line);border-radius:14px;background:var(--panel);color:var(--ink);font:inherit;font-weight:800;padding:10px;text-align:left}.flow button:focus-visible{outline:4px solid var(--focus);outline-offset:3px}.flow button[aria-pressed="true"]{border-color:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 34%,transparent)}.result{margin-top:14px;border-left:5px solid var(--accent);padding:12px;background:color-mix(in srgb,var(--panel) 75%,var(--bg));border-radius:10px;white-space:pre-wrap;line-height:1.55}h1,h2,p,code,.result{overflow-wrap:anywhere}code{word-break:break-all}.muted{color:var(--muted);line-height:1.6}
+</style>
+</head>
+<body><main><section class="panel">
+<h1>🖥️動作容器互動範例｜ActionContainerInteractiveExample</h1>
+<p class="muted">公開顯影只示範動作鏈，不內嵌私人提示、私人雲端座標、個人資料或不可逆控制。點按任一步驟即可查看它在公開流程中的責任。</p>
+<div id="flow" class="flow" aria-label="公開動作鏈"></div>
+<output id="result" class="result" aria-live="polite">尚未操作。</output>
+<p>🪪本體身分（Identity）：<code>LKMINI://動作容器/操作</code><br>🪞顯影不等於本體（Projection ≠ Identity）<br>♻️回推：本頁 → 🧾公開模組登記 → 🧩LKMINI → A=A</p>
+</section></main>
+<script>
+(()=>{const steps=[
+['S0','🔍搜尋與去重','確認來源、同一身分與重複物件。'],
+['S1','📖完整讀取','內容未讀完整前不分類、不改名、不交付。'],
+['S2','⚡啟動與掛載','沿用既有正式身分與座標。'],
+['S3','🔬驗證','檢查結構、雜湊、權限與回推鏈。'],
+['S4','🧩修復','只修復已實讀且可證明的漂移。'],
+['S5','🪞顯影','產生合法公開外觀，不取代本體。'],
+['S6','🧬融合','所有公開輸出收束到唯一出口。'],
+['S7','📸快照','保存修改前後與回滾證據。'],
+['S8','🔁同步','寫入後必須同路徑讀回。'],
+['S9','♾️可逆回推','由顯影回到來源與本體。'],
+['S10','🚫禁令查核','第二根、平行本體與未裁決刪除必須為零。']];
+const flow=document.querySelector('#flow'),result=document.querySelector('#result');
+steps.forEach(([id,name,desc])=>{const b=document.createElement('button');b.type='button';b.dataset.step=id;b.setAttribute('aria-pressed','false');b.innerHTML=`<b>${id}｜${name}</b>`;b.addEventListener('click',()=>{flow.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed','false'));b.setAttribute('aria-pressed','true');result.textContent=`${id}｜${name}\n${desc}\n狀態：公開範例已選取。\n回推：🧩LKMINI → A=A`;});flow.appendChild(b);});})();
+</script></body></html>

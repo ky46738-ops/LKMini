@@ -6,36 +6,15 @@ on:
 
 jobs:
   verify:
-    name: 🔬驗證公開核心與開源模組
+    name: 🔬驗證公開核心、公開模組與防誤刪規則
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - name: 📥取得儲存庫內容
         uses: actions/checkout@v4
 
-      - name: 📚檢查必要核心與已登記公開模組
-        shell: bash
-        run: |
-          required_files=(
-            "README.md"
-            "LICENSE"
-            "NOTICE.md"
-            "LKMini.svg"
-            "PUBLIC_PRIVATE_BOUNDARY.md"
-            "SHA256SUMS"
-            ".github/workflows/gatekeeper.yml"
-            "tools/verify_lkmini.py"
-            "07｜公開顯影｜PublicProjection/🔧工具規範｜ToolSpecifications.html"
-            "08｜自動化同步｜SyncAutomation/🍎蘋果捷徑功能接線｜AppleShortcutFunctionWiring.md"
-          )
-          for f in "${required_files[@]}"; do
-            if [ ! -f "$f" ]; then
-              echo "缺少必要公開檔案：$f"
-              exit 1
-            fi
-          done
-          echo "必要核心與公開模組均存在"
-
-      - name: 🔬執行公開邊界與防誤刪驗證
+      - name: 🔬執行公開邊界、命名與防誤刪驗證
         run: python tools/verify_lkmini.py
 
       - name: 🔐驗證全部公開檔案雜湊
