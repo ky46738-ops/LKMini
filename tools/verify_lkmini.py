@@ -30,11 +30,30 @@ REQUIRED_CORE_FILES = {
 }
 
 REQUIRED_PUBLIC_MODULES = {
+    "07｜公開顯影｜PublicProjection/🔧工具規範｜ToolSpecifications.html",
     "08｜自動化同步｜SyncAutomation/🍎蘋果捷徑功能接線｜AppleShortcutFunctionWiring.md",
 }
 
 PUBLIC_MODULE_ROOTS = {
+    "07｜公開顯影｜PublicProjection",
     "08｜自動化同步｜SyncAutomation",
+}
+
+RESTORED_MODULE_REQUIREMENTS = {
+    "07｜公開顯影｜PublicProjection/🔧工具規範｜ToolSpecifications.html": {
+        "🔧工具規範｜ToolSpecifications",
+        "LKMINI://Specification/ToolSpecifications",
+        "公開用途與結構復原",
+        "私人雲端座標、私人識別碼與舊時效狀態不回填",
+        "A=A",
+    },
+    "08｜自動化同步｜SyncAutomation/🍎蘋果捷徑功能接線｜AppleShortcutFunctionWiring.md": {
+        "🍎蘋果捷徑功能接線｜AppleShortcutFunctionWiring",
+        "LKMINI://AppleShortcuts",
+        "不得因出現通用技術詞而被整份刪除",
+        "私人實例值不回填",
+        "A=A",
+    },
 }
 
 CORE_DIRS = {
@@ -185,22 +204,17 @@ def check_a_equals_a() -> bool:
     return True
 
 
-def check_restored_open_source_module() -> bool:
-    rel = next(iter(REQUIRED_PUBLIC_MODULES))
-    content = Path(rel).read_text(encoding="utf-8", errors="strict")
-    required_phrases = {
-        "🍎蘋果捷徑功能接線｜AppleShortcutFunctionWiring",
-        "LKMINI://AppleShortcuts",
-        "不得因出現通用技術詞而被整份刪除",
-        "私人實例值不回填",
-        "A=A",
-    }
-    missing = sorted(phrase for phrase in required_phrases if phrase not in content)
-    if missing:
-        print(f"失敗：復原開源模組缺少必要內容：{missing}")
-        return False
-    print("通過：蘋果捷徑公開接線已復原並具備防誤刪聲明")
-    return True
+def check_restored_open_source_modules() -> bool:
+    ok = True
+    for rel, required_phrases in RESTORED_MODULE_REQUIREMENTS.items():
+        content = Path(rel).read_text(encoding="utf-8", errors="strict")
+        missing = sorted(phrase for phrase in required_phrases if phrase not in content)
+        if missing:
+            print(f"失敗：復原開源模組缺少必要內容：{rel}：{missing}")
+            ok = False
+        else:
+            print(f"通過：復原開源模組內容完整：{rel}")
+    return ok
 
 
 def check_sha256sums() -> bool:
@@ -269,7 +283,7 @@ def main() -> int:
         check_required_files(),
         check_public_tree(),
         check_a_equals_a(),
-        check_restored_open_source_module(),
+        check_restored_open_source_modules(),
         check_no_private_values(),
         check_sha256sums(),
     ]

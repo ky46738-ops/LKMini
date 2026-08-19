@@ -31,6 +31,8 @@
 
 目前正式登記：
 
+- 🔧工具規範公開顯影（ToolSpecifications）  
+  `07｜公開顯影｜PublicProjection/🔧工具規範｜ToolSpecifications.html`
 - 🍎蘋果捷徑功能接線（AppleShortcutFunctionWiring）  
   `08｜自動化同步｜SyncAutomation/🍎蘋果捷徑功能接線｜AppleShortcutFunctionWiring.md`
 
