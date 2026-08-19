@@ -117,6 +117,13 @@ POLICY_FILES = {
     "tools/verify_lkmini.py",
 }
 
+MIT_LICENSE_REQUIRED_PHRASES = {
+    "MIT License",
+    "Copyright (c) 2026 ky46738-ops",
+    "Permission is hereby granted, free of charge",
+    "THE SOFTWARE IS PROVIDED \"AS IS\"",
+}
+
 
 def iter_repo_files() -> list[tuple[str, Path]]:
     result: list[tuple[str, Path]] = []
@@ -193,6 +200,19 @@ def check_public_tree() -> bool:
     if ok:
         print("通過：公開樹允許核心檔案與已登記開源模組")
     return ok
+
+
+def check_mit_license() -> bool:
+    content = Path("LICENSE").read_text(encoding="utf-8", errors="strict")
+    missing = sorted(phrase for phrase in MIT_LICENSE_REQUIRED_PHRASES if phrase not in content)
+    if missing:
+        print(f"失敗：正式麻省理工開源授權原文缺失：{missing}")
+        return False
+    if not content.startswith("MIT License\n\n"):
+        print("失敗：授權檔不是標準麻省理工開源授權開頭")
+        return False
+    print("通過：正式麻省理工開源授權原文存在")
+    return True
 
 
 def check_a_equals_a() -> bool:
@@ -282,6 +302,7 @@ def main() -> int:
     results = [
         check_required_files(),
         check_public_tree(),
+        check_mit_license(),
         check_a_equals_a(),
         check_restored_open_source_modules(),
         check_no_private_values(),
