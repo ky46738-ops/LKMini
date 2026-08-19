@@ -34,7 +34,7 @@
 ## 🧩已登記公開模組
 
 - 🍎蘋果捷徑功能接線（AppleShortcutFunctionWiring）  
-  `08｜自動化同步｜SyncAutomation/🍎Apple捷徑功能接線｜AppleShortcutFunctionWiring.md`
+  `08｜自動化同步｜SyncAutomation/🍎蘋果捷徑功能接線｜AppleShortcutFunctionWiring.md`
 
 ## 🚫不可用「保護」當理由刪掉開源
 

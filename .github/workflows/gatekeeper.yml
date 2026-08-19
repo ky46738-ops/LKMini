@@ -24,7 +24,7 @@ jobs:
             "SHA256SUMS"
             ".github/workflows/gatekeeper.yml"
             "tools/verify_lkmini.py"
-            "08｜自動化同步｜SyncAutomation/🍎Apple捷徑功能接線｜AppleShortcutFunctionWiring.md"
+            "08｜自動化同步｜SyncAutomation/🍎蘋果捷徑功能接線｜AppleShortcutFunctionWiring.md"
           )
           for f in "${required_files[@]}"; do
             if [ ! -f "$f" ]; then

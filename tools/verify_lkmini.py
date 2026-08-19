@@ -30,7 +30,7 @@ REQUIRED_CORE_FILES = {
 }
 
 REQUIRED_PUBLIC_MODULES = {
-    "08｜自動化同步｜SyncAutomation/🍎Apple捷徑功能接線｜AppleShortcutFunctionWiring.md",
+    "08｜自動化同步｜SyncAutomation/🍎蘋果捷徑功能接線｜AppleShortcutFunctionWiring.md",
 }
 
 PUBLIC_MODULE_ROOTS = {

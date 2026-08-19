@@ -32,7 +32,7 @@
 目前正式登記：
 
 - 🍎蘋果捷徑功能接線（AppleShortcutFunctionWiring）  
-  `08｜自動化同步｜SyncAutomation/🍎Apple捷徑功能接線｜AppleShortcutFunctionWiring.md`
+  `08｜自動化同步｜SyncAutomation/🍎蘋果捷徑功能接線｜AppleShortcutFunctionWiring.md`
 
 公開模組可以描述：
 
