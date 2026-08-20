@@ -1,0 +1,97 @@
+{
+  "📚格式": "LKMINI.OpenSourceRestorationState/2.0",
+  "Identity": "LKMINI://開源內容復原狀態/查看",
+  "Owner": "Kevin Yang",
+  "RootProtocol": "LKMINI://",
+  "RootReference": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
+  "State": "COMMITTED",
+  "Committed": true,
+  "TimestampAsiaTaipei": "2026-08-21T00:51:55+08:00",
+  "Transition": {
+    "from": "PREPARED｜九十一個刪除路徑已裁決，待遠端提交與讀回",
+    "to": "COMMITTED｜安全公開內容已提交、遠端驗證、同路徑讀回"
+  },
+  "PreparedFromCommit": "69edc0e8cc0179b9c8206aa5554d7cc5bb6af16f",
+  "ContentCommit": "2a6441d6028ea074407be46465d74484c80dd9b5",
+  "ContentTree": "53e03770b8c8b2eda520ed2a1c32fffe50033030",
+  "ParentCommit": "deeef87ccf34ad9d063a6014e3696cd38b2eda35",
+  "FinalBranch": "seed_v0",
+  "StateCommitRule": "本檔所在 seed_v0 最新非強制快進提交為狀態提交，避免檔案自我引用提交雜湊。",
+  "Counts": {
+    "deleted_paths_reviewed": 91,
+    "unresolved_decisions": 0,
+    "protected_public_modules": 28,
+    "new_or_rewritten_modules": 19,
+    "renamed_for_current_rule": 2,
+    "net_new_public_modules": 15,
+    "content_files_created_or_updated": 24,
+    "files_removed_by_rename": 2,
+    "public_files_sha256_verified": 36
+  },
+  "NamingRepairs": [
+    {
+      "from": "07｜公開顯影｜PublicProjection/🖥️動作容器互動範例｜ActionContainerInteractiveExample.html",
+      "to": "07｜公開顯影｜PublicProjection/🖥️系統流程互動範例｜SystemFlowInteractiveExample.html"
+    },
+    {
+      "from": "09｜公開協議｜PublicProtocol/🧭動作鏈｜S0-S10.md",
+      "to": "09｜公開協議｜PublicProtocol/🧭系統流程｜SystemFlowS0S10.md"
+    }
+  ],
+  "Verification": {
+    "source_review": "PASS",
+    "private_value_redaction": "PASS",
+    "json_html_svg_parse": "PASS",
+    "mit_license": "PASS",
+    "deletion_decisions_91": "PASS",
+    "protected_modules_28": "PASS",
+    "sha256_files_36": "PASS",
+    "same_path_remote_readback": "PASS",
+    "github_repair_workflow": "PASS"
+  },
+  "GitHubEvidence": {
+    "Repository": "ky46738-ops/LKMini",
+    "Branch": "seed_v0",
+    "RepairWorkflowRunID": 32393998669,
+    "RepairWorkflowJobID": 96506479966,
+    "RepairWorkflowConclusion": "SUCCESS",
+    "ValidationSummary": "公開核心、二十八個公開模組與九十一項刪除裁決全部通過",
+    "PushTransition": "deeef87ccf34ad9d063a6014e3696cd38b2eda35 → 2a6441d6028ea074407be46465d74484c80dd9b5"
+  },
+  "SafetyBoundary": {
+    "PublicRestored": [
+      "公開程式",
+      "公開協議",
+      "研究清冊",
+      "互動顯影",
+      "公開驗證器",
+      "公開定位器",
+      "公開回推鏈"
+    ],
+    "PrivateNotRepublished": [
+      "密鑰",
+      "權杖",
+      "私人檔案識別碼",
+      "私人郵件識別碼",
+      "私人雲端網址",
+      "個人裝置座標",
+      "未授權私人內容"
+    ]
+  },
+  "ReverseChain": [
+    "刪除提交",
+    "逐檔裁決",
+    "安全公開內容",
+    "公開模組登記",
+    "公開定位器",
+    "公開回推鏈",
+    "遠端驗證",
+    "同路徑讀回",
+    "🧩LKMINI",
+    "LKMINI://",
+    "A=A"
+  ],
+  "ProjectionIsIdentity": false,
+  "TaskScopeAEqualsA": true,
+  "WholeSystemAssessment": "OUT_OF_SCOPE"
+}

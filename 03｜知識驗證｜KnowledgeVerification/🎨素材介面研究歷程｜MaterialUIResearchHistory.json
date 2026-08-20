@@ -1,0 +1,120 @@
+{
+  "📚格式": "LKMINI.MaterialUIResearchHistory/1.0",
+  "名稱": "🎨素材介面研究歷程｜MaterialUIResearchHistory",
+  "Identity": "LKMINI://素材介面研究歷程/查看",
+  "Owner": "Kevin Yang",
+  "RootProtocol": "LKMINI://",
+  "RootReference": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
+  "Type": "KnowledgeVerification",
+  "Rounds": [
+    {
+      "round": 21,
+      "timestamp": "2026-08-16T21:21:56+08:00",
+      "research_cards": 60,
+      "ability_packages": 60,
+      "engine_packages": 60,
+      "package_sha256": "b31ebd099237d5d9b4c469a8f7202d340e361d6746a6409ccd890bc04556f16c",
+      "package_bytes": 266432,
+      "historical_status": "PASS",
+      "sources": [
+        "Adobe Spectrum",
+        "Shopify Polaris",
+        "Salesforce Lightning Design System"
+      ],
+      "source_blob": "e4c0884ab43bfc7a80d70a90a5911bde901aa33f"
+    },
+    {
+      "round": 22,
+      "timestamp": "2026-08-16T22:11:33+08:00",
+      "research_cards": 60,
+      "ability_packages": 60,
+      "engine_packages": 60,
+      "package_sha256": "a26a1f976f1a25302f9960eff3434d912be4c3db532f7aee1b93b138e64ab96d",
+      "package_bytes": 258335,
+      "historical_status": "PASS",
+      "sources": [
+        "Android Material",
+        "MUI",
+        "Fluent",
+        "Carbon",
+        "Elastic UI"
+      ],
+      "source_blob": "e10ea8aa4f61f83b7f46f4d4418a67a98d70f52e"
+    },
+    {
+      "round": 23,
+      "timestamp": "2026-08-16T23:08:40+08:00",
+      "research_cards": 60,
+      "ability_packages": 60,
+      "engine_packages": 60,
+      "package_sha256": "7b762caf518cb0fa470430be035bc00aabe15bad1b3cb078a8bdc92a00eb6e86",
+      "package_bytes": 251879,
+      "package_members": 194,
+      "historical_status": "PASS",
+      "sources": [
+        "Ant Design",
+        "Chakra UI",
+        "Radix UI",
+        "Tailwind UI"
+      ],
+      "source_blob": "02b9c79a82636257cf0d118d7495443f64e04d38"
+    },
+    {
+      "round": 23,
+      "repair": true,
+      "timestamp": "2026-08-17T00:25:57+08:00",
+      "research_cards": 60,
+      "ability_packages": 60,
+      "engine_packages": 60,
+      "package_sha256": "60a41d3fbc0f5db3f6fddc285314287c7a4eb10fdae0859caae0b195cbdd53ad",
+      "package_bytes": 671609,
+      "package_members": 203,
+      "historical_status": "PASS",
+      "repair_scope": [
+        "補齊執行程式與自我測試",
+        "補齊向量圖、圖片、動畫、影片與種子文件支線",
+        "補齊資料交換顯影；Apple 原生檔未宣稱存在"
+      ],
+      "source_blob": "642e425b15a393debc18ec836c7a18e309d02476"
+    },
+    {
+      "round": 24,
+      "timestamp": "2026-08-17T02:15:25+08:00",
+      "research_cards": 60,
+      "ability_packages": 60,
+      "engine_packages": 60,
+      "package_sha256": "6c1156adce5184063fd507e1d5a838027d174d9194fcc5f630097085b7fbbd0e",
+      "package_bytes": 385788,
+      "package_members": 153,
+      "historical_status": "PASS",
+      "sources": [
+        "MUI",
+        "Carbon",
+        "Fluent",
+        "Shoelace"
+      ],
+      "source_blob": "297459f9ee59f2dd2314c532c6796590e0979567"
+    }
+  ],
+  "HistoricalChecks": [
+    "研究卡數量",
+    "能力與引擎封包數量",
+    "向量圖與圖片精確回復",
+    "動畫與影片存在",
+    "手機網頁互動",
+    "壓縮檔循環冗餘檢查",
+    "試算表公式錯誤掃描"
+  ],
+  "PublicBoundary": "所有檔案庫識別碼、雲端網址與文件識別碼已移除；來源名稱與歷史驗收摘要保留。",
+  "HistoricalEvidenceOnly": true,
+  "ProjectionIsIdentity": false,
+  "ReverseChain": [
+    "歷史素材介面研究",
+    "🎨素材介面研究歷程",
+    "🧾公開模組登記",
+    "🧩LKMINI",
+    "LKMINI://",
+    "A=A"
+  ],
+  "TimestampAsiaTaipei": "2026-08-20T23:10:00+08:00"
+}

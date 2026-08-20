@@ -1,0 +1,253 @@
+{
+  "📚格式": "LKMINI.UIResearchHistory/2.0",
+  "名稱": "🎨介面研究歷程｜UIResearchHistory",
+  "Identity": "LKMINI://介面研究歷程/查看",
+  "Owner": "Kevin Yang",
+  "RootProtocol": "LKMINI://",
+  "RootReference": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
+  "Type": "KnowledgeVerification",
+  "CurrentHistoricalState": {
+    "identity": "LKMINI://capability/CapsuleUIResearchLab",
+    "historical_current": 212,
+    "historical_state": "CURRENT",
+    "historical_timestamp": "2026-08-17T01:41:35+08:00",
+    "transition": {
+      "from": 209,
+      "to": 212,
+      "committed": true
+    },
+    "important": "這是歷史提交證據，不冒充本回合重新執行結果。"
+  },
+  "FeatureHistory": [
+    {
+      "ui": 171,
+      "name": "🎯焦點外觀可辨識",
+      "english_key": "FocusAppearanceVisibility",
+      "source": "ui176/20260816-122403_TPE/index.html"
+    },
+    {
+      "ui": 172,
+      "name": "👁️焦點完整可見",
+      "english_key": "FocusFullyVisible",
+      "source": "ui176/20260816-122403_TPE/index.html"
+    },
+    {
+      "ui": 173,
+      "name": "🔑低認知負擔登入",
+      "english_key": "LowCognitiveLoadAuthentication",
+      "source": "ui176/20260816-122403_TPE/index.html"
+    },
+    {
+      "ui": 174,
+      "name": "🎨強制色彩相容",
+      "english_key": "ForcedColorsCompatibility",
+      "source": "ui176/20260816-122403_TPE/index.html"
+    },
+    {
+      "ui": 175,
+      "name": "🧱元件容器自適應",
+      "english_key": "ComponentContainerAdaptation",
+      "source": "ui176/20260816-122403_TPE/index.html"
+    },
+    {
+      "ui": 176,
+      "name": "📐動態視窗安全高度",
+      "english_key": "DynamicViewportSafeHeight",
+      "source": "ui176/20260816-122403_TPE/index.html"
+    },
+    {
+      "ui": 189,
+      "name": "原生可客製選單增強",
+      "english_key": "NativeCustomizableSelectEnhancement",
+      "source": "ui194/20260816-165725_TPE/Manifest.json"
+    },
+    {
+      "ui": 190,
+      "name": "變形感知錨點定位",
+      "english_key": "TransformAwareAnchorPositioning",
+      "source": "ui194/20260816-165725_TPE/Manifest.json"
+    },
+    {
+      "ui": 191,
+      "name": "動態內容捲動穩定",
+      "english_key": "DynamicContentScrollAnchoring",
+      "source": "ui194/20260816-165725_TPE/Manifest.json"
+    },
+    {
+      "ui": 192,
+      "name": "向量圖語言感知語意",
+      "english_key": "SVGLanguageAwareSemantics",
+      "source": "ui194/20260816-165725_TPE/Manifest.json"
+    },
+    {
+      "ui": 193,
+      "name": "手機優雅文字換行",
+      "english_key": "IPhonePrettyTextWrapping",
+      "source": "ui194/20260816-165725_TPE/Manifest.json"
+    },
+    {
+      "ui": 194,
+      "name": "元件樣式精準回退",
+      "english_key": "ComponentRulePreciseRollback",
+      "source": "ui194/20260816-165725_TPE/Manifest.json"
+    },
+    {
+      "ui": 195,
+      "name": "自適應瀑布流版面",
+      "english_key": "AdaptiveGridLanesLayout",
+      "source": "ui200/20260816-185303_TPE/Manifest.json"
+    },
+    {
+      "ui": 196,
+      "name": "停用控制焦點連續性",
+      "english_key": "DisabledControlFocusContinuity",
+      "source": "ui200/20260816-185303_TPE/Manifest.json"
+    },
+    {
+      "ui": 197,
+      "name": "數字欄位貼上相容",
+      "english_key": "NumericInputPasteCompatibility",
+      "source": "ui200/20260816-185303_TPE/Manifest.json"
+    },
+    {
+      "ui": 198,
+      "name": "建議清單深色與輸入穩定",
+      "english_key": "DatalistSuggestionRobustness",
+      "source": "ui200/20260816-185303_TPE/Manifest.json"
+    },
+    {
+      "ui": 199,
+      "name": "表單複製狀態保留",
+      "english_key": "UserModifiedFormStatePreservation",
+      "source": "ui200/20260816-185303_TPE/Manifest.json"
+    },
+    {
+      "ui": 200,
+      "name": "自適應欄位提示完整",
+      "english_key": "FieldSizingPlaceholderIntegrity",
+      "source": "ui200/20260816-185303_TPE/Manifest.json"
+    },
+    {
+      "ui": 210,
+      "name": "搜尋範圍預期對齊",
+      "english_key": "SearchScopeExpectationAlignment",
+      "source": "ui-current/CURRENT.json"
+    },
+    {
+      "ui": 211,
+      "name": "搜尋啟動鍵盤轉場完整",
+      "english_key": "SearchActivationKeyboardTransitionIntegrity",
+      "source": "ui-current/CURRENT.json"
+    },
+    {
+      "ui": 212,
+      "name": "搜尋意圖模式選擇",
+      "english_key": "SearchIntentModeSelection",
+      "source": "ui-current/CURRENT.json"
+    }
+  ],
+  "MissingSourceBoundary": {
+    "ui_177_188": "本次刪除來源集合沒有提供功能名稱，不補造。",
+    "ui_201_209": "本次刪除來源集合只顯示 209→212 轉換，未提供九項功能名稱，不補造。"
+  },
+  "ResearchRounds": [
+    {
+      "round": "UI-ROUND33",
+      "name": "🚪一體雙門顯影",
+      "technical_key": "OneBodyTwoDoors",
+      "public_principle": "接收是入口、輸出是出口；方向切換不得分裂本體身分。",
+      "historical_validation": {
+        "cross_device": "10/10 PASS",
+        "overflow": 0,
+        "minimum_control_px": 48,
+        "external_requests": 0
+      },
+      "source_paths": [
+        "🥃老K系統/🧩LKMINI/🪞幻影膠囊/09｜幻想實驗/🎨膠囊UI研究室/UI-ROUND33/README.md",
+        "🥃老K系統/🧩LKMINI/🪞幻影膠囊/09｜幻想實驗/🎨膠囊UI研究室/UI-ROUND33/STATE.json"
+      ],
+      "private_instance_values_removed": true
+    },
+    {
+      "round": "UI-ROUND34",
+      "name": "🧭十步驟單手流程",
+      "technical_key": "TenStepOneHandFlow",
+      "public_principle": "正式能力與施工驗收層分離；本體、顯影與回推關係保持固定。",
+      "historical_validation": {
+        "cross_device": "10/10 PASS",
+        "overflow": 0,
+        "minimum_control_px": 48
+      },
+      "source_paths": [
+        "🥃老K系統/🧩LKMINI/🪞幻影膠囊/09｜幻想實驗/🎨膠囊UI研究室/UI-ROUND34/README.md",
+        "🥃老K系統/🧩LKMINI/🪞幻影膠囊/09｜幻想實驗/🎨膠囊UI研究室/UI-ROUND34/STATE.json"
+      ],
+      "private_instance_values_removed": true
+    }
+  ],
+  "HistoricalAcceptance": {
+    "ui_189_194": {
+      "packages": 12,
+      "stress_total": 300000,
+      "browser_cases": 9,
+      "horizontal_overflow": 0,
+      "a_equals_a_local": true
+    },
+    "ui_195_200": {
+      "packages": 12,
+      "stress_total": 60000,
+      "package_runtime": "12/12 PASS",
+      "package_zip_crc": "12/12 PASS"
+    },
+    "ui_210_212": {
+      "packages": 6,
+      "stress_total": 60000,
+      "package_crc": "6/6 PASS",
+      "svg_webp_exact_recovery": "6/6 PASS"
+    },
+    "warning": "全部是歷史提交紀錄；本回合沒有重跑舊二進位封包。"
+  },
+  "SourceReference": [
+    {
+      "commit": "6841d1f361a703bcb74f76acda18781d122ca739",
+      "path": "ui176/20260816-122403_TPE/index.html",
+      "blob_sha": "9861826c1fc65a397d632abb17167252315d7dd4"
+    },
+    {
+      "commit": "6841d1f361a703bcb74f76acda18781d122ca739",
+      "path": "ui194/20260816-165725_TPE/Manifest.json",
+      "blob_sha": "6749fd5fd77d8cd3d2aa9006a69f777954af2c88"
+    },
+    {
+      "commit": "6841d1f361a703bcb74f76acda18781d122ca739",
+      "path": "ui194/20260816-165725_TPE/acceptance.json",
+      "blob_sha": "385cda3be8db896e9defd9a4fe20eedb044c6b8e"
+    },
+    {
+      "commit": "6841d1f361a703bcb74f76acda18781d122ca739",
+      "path": "ui200/20260816-185303_TPE/Manifest.json",
+      "blob_sha": "e3c9f0447df80d5f240c15da4e4486386f516c5a"
+    },
+    {
+      "commit": "6841d1f361a703bcb74f76acda18781d122ca739",
+      "path": "ui200/20260816-185303_TPE/acceptance.json",
+      "blob_sha": "c8a4881fe3bc9d2e9cc4ce8eef12f915bcd8ffb1"
+    },
+    {
+      "commit": "6841d1f361a703bcb74f76acda18781d122ca739",
+      "path": "ui-current/CURRENT.json",
+      "blob_sha": "45b3925104dfbff52bbb2bbeb67a566e64c906be"
+    }
+  ],
+  "PublicBoundary": "私人檔案識別碼、雲端文件識別碼、郵件識別碼、修訂識別碼與裝置座標已移除。",
+  "ProjectionIsIdentity": false,
+  "ReverseChain": [
+    "歷史介面研究",
+    "🎨介面研究歷程",
+    "🧾公開模組登記",
+    "🧩LKMINI",
+    "LKMINI://",
+    "A=A"
+  ],
+  "TimestampAsiaTaipei": "2026-08-20T23:10:00+08:00"
+}

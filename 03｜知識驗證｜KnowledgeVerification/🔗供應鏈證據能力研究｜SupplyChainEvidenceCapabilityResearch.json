@@ -1,0 +1,42 @@
+{
+  "📚格式": "LKMINI.SupplyChainEvidenceCapabilityResearch/1.0",
+  "名稱": "🔗供應鏈證據能力研究｜SupplyChainEvidenceCapabilityResearch",
+  "Identity": "LKMINI://供應鏈證據能力研究/查看",
+  "Owner": "Kevin Yang",
+  "RootProtocol": "LKMINI://",
+  "RootReference": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
+  "Type": "KnowledgeVerification",
+  "SourceReference": {
+    "repository": "ky46738-ops/LKMini",
+    "commit": "6841d1f361a703bcb74f76acda18781d122ca739",
+    "path": "projections/供應鏈證據新能力30包/20260816-062634_TPE/MANIFEST.json",
+    "blob_sha": "a8d4905bef9988b00ac6231036ffa803834de0c5"
+  },
+  "HistoricalState": {
+    "delivery_date": "2026-08-16",
+    "capability_packages": 30,
+    "engine_packages": 30,
+    "independent_packages": 60,
+    "stress_assertions": 60000,
+    "package_sha256": "3b6222c3a0cd989f27e246f4630c123729ef9c35b391575b5407313513ff332e",
+    "package_bytes": 2944422,
+    "package_members": 67,
+    "zip_crc": "PASS",
+    "dedup_gate": "PASS_WITHIN_CURRENTLY_ACCESSIBLE_LIBRARY_SCOPE",
+    "visual_chain": "SVG⇄WebP→GIF→MP4＋MarkdownSeed",
+    "validated_local_package_scope_a_equals_a": true,
+    "whole_external_sync_a_equals_a": false
+  },
+  "SourceLimitation": "歷史來源只保存批次摘要，未列出三十個能力名稱；本檔不補造。",
+  "PublicBoundary": "已移除歷史雲端資料夾與文件識別碼。",
+  "ProjectionIsIdentity": false,
+  "ReverseChain": [
+    "歷史公開清冊",
+    "🔗供應鏈證據能力研究",
+    "🧾公開模組登記",
+    "🧩LKMINI",
+    "LKMINI://",
+    "A=A"
+  ],
+  "TimestampAsiaTaipei": "2026-08-20T23:10:00+08:00"
+}

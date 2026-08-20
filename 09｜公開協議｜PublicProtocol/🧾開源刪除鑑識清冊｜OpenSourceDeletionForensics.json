@@ -1,68 +1,885 @@
 {
-  "📚格式": "LKMINI.OpenSourceDeletionForensics/2.0",
+  "📚格式": "LKMINI.OpenSourceDeletionForensics/3.0",
   "👤持有人": "Kevin Yang",
   "🐙公開儲存庫": "ky46738-ops/LKMini",
   "🌱正式分支": "seed_v0",
-  "🔬已確認破壞": [
+  "🔐根錨點雜湊": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
+  "🗑️已確認破壞": [
     {
-      "🗑️刪除提交": "32e6a02d75b3fc82ffbfdba3b54922c33f8f774b",
-      "說明": "整份刪除蘋果捷徑公開接線檔；原檔混有私人實例值，故以公開安全版本復原。",
-      "已復原": [
-        "08｜自動化同步｜SyncAutomation/🍎蘋果捷徑功能接線｜AppleShortcutFunctionWiring.md"
-      ]
+      "刪除提交": "32e6a02d75b3fc82ffbfdba3b54922c33f8f774b",
+      "說明": "整份刪除蘋果捷徑公開接線；公開技術已安全復原，私人實例值不回填。"
     },
     {
-      "🗑️刪除提交": "eb426724521a8b0abcc2dac5652003500e65a8f9",
-      "說明": "把公開分支收縮為八檔基線，刪除公開程式、規格、互動顯影與大量混合狀態證據。",
+      "刪除提交": "eb426724521a8b0abcc2dac5652003500e65a8f9",
       "歷史來源提交": "6841d1f361a703bcb74f76acda18781d122ca739",
-      "已安全復原類別": [
-        "工具規範公開顯影",
-        "公開建置程式與流程",
-        "唯一真相源",
-        "動作鏈",
-        "全格式可逆手冊",
-        "回推鏈",
-        "公開定位器",
-        "介面研究互動範例",
-        "動作容器互動範例",
-        "本體顯影關係圖"
-      ]
+      "說明": "將公開分支收縮為必要核心，刪除公開程式、協議、研究清冊、互動顯影與混合狀態證據。"
     }
   ],
-  "♻️修復提交鏈": [
-    "b77bd4b0915fa32c184301df3f93e393942c7e02",
-    "7a2a28fdca38c7fa71952ad44b8d9e2d77177253",
-    "652f8be9e141f9b57c4f377f88838e68a6410342",
-    "3801b97b2287cfe4fa78fb76a20112b549d226b6",
-    "6eb9fe9190cf60fa90c245cd7af6c683f01d0bb2"
-  ],
-  "🚫未原封不動復原": [
-    "含私人檔案、郵件、雲端、修訂或裝置實際識別值的歷史回執",
-    "過期的目前狀態（Current）與未重新驗證的成功宣告",
-    "私人控制指示、個人自動化與內部任務紀錄",
-    "不透明的二進位或編碼封包",
-    "供應商端回執與私人執行座標"
-  ],
-  "⚖️裁決": "公開技術與程式要復原；私人實例值不回填；舊狀態不得冒充目前狀態。",
-  "🛡️歷史保護": "所有修復均採非強制快進提交，不改寫原始歷史；刪除證據仍可回查。",
-  "⚖️公理": "A=A",
-  "🧭目前修復範圍": {
-    "📚必要核心": 9,
-    "🧩固定公開模組": 13,
-    "🔐雜湊目標": 21,
-    "🛡️修復方式": "只使用非強制快進提交，不改寫歷史。"
+  "📊逐檔裁決": {
+    "來源刪除路徑數": 91,
+    "唯一來源路徑數": 91,
+    "未裁決數": 0,
+    "裁決分布": {
+      "不透明封包不回填": 1,
+      "介面研究吸收復原": 16,
+      "介面研究摘要安全吸回": 8,
+      "依最新命名規則改名吸回": 1,
+      "公開協議吸收": 8,
+      "公開定位摘要吸收": 4,
+      "公開摘要吸收": 1,
+      "公開清冊摘要吸收": 5,
+      "公開狀態摘要吸收": 3,
+      "公開研究摘要吸收": 1,
+      "公開邊界取代": 1,
+      "公開顯影安全改寫": 2,
+      "安全改寫復原": 14,
+      "實驗摘要安全吸回": 1,
+      "歷史研究摘要吸收": 5,
+      "由中文優先作者聲明取代": 1,
+      "由中文優先公開流程取代": 1,
+      "由正式公開清冊取代": 1,
+      "私人同步實例不公開": 3,
+      "私人封裝實例不公開": 3,
+      "私人控制規則不公開": 4,
+      "私域本體隔離": 4,
+      "雜湊證據吸收": 3
+    },
+    "項目": [
+      {
+        "source_path": ".github/workflows/toolspec-remaining-delivery.yml",
+        "decision": "由中文優先公開流程取代",
+        "public_targets": [
+          ".github/workflows/🔧工具規範公開建置流程｜ToolSpecificationsPublicBuildWorkflow.yml"
+        ],
+        "reason": "保留公開建置能力，移除舊工程命名與私人狀態依賴。"
+      },
+      {
+        "source_path": "Delivery/ToolSpecificationsRemaining/build.py",
+        "decision": "安全改寫復原",
+        "public_targets": [
+          "08｜自動化同步｜SyncAutomation/🔧工具規範公開建置器｜ToolSpecificationsPublicBuilder.py"
+        ],
+        "reason": "公開建置程式已重寫為只讀公開登記，不讀取私人端點。"
+      },
+      {
+        "source_path": "Delivery/ToolSpecificationsRemaining/final_state.json",
+        "decision": "公開摘要吸收",
+        "public_targets": [
+          "07｜公開顯影｜PublicProjection/🔧工具規範｜ToolSpecifications.html",
+          "09｜公開協議｜PublicProtocol/🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics.json"
+        ],
+        "reason": "舊檔混有雲端、郵件與修訂識別碼；公開狀態摘要保留，私人實例值不回填。"
+      },
+      {
+        "source_path": "LKMINI/🪞幻影膠囊/09｜⭕️唯一真相／Package／Rollback/🥃老K系統｜動作容器.json",
+        "decision": "公開邊界取代",
+        "public_targets": [
+          "PUBLIC_PRIVATE_BOUNDARY.md",
+          "09｜公開協議｜PublicProtocol/🔗本體顯影互換協議｜IdentityProjectionInterchangeProtocol.md"
+        ],
+        "reason": "舊檔是公開遮罩占位，不是獨立功能本體。"
+      },
+      {
+        "source_path": "MANIFEST",
+        "decision": "由正式公開清冊取代",
+        "public_targets": [
+          "🧾公開模組登記｜PublicModuleRegistry.json"
+        ],
+        "reason": "舊清單格式已由可機讀公開模組登記取代。"
+      },
+      {
+        "source_path": "NOTICE",
+        "decision": "由中文優先作者聲明取代",
+        "public_targets": [
+          "NOTICE.md"
+        ],
+        "reason": "保留作者與授權資訊。"
+      },
+      {
+        "source_path": "Projection/Current/ToolSpecifications.html",
+        "decision": "安全改寫復原",
+        "public_targets": [
+          "07｜公開顯影｜PublicProjection/🔧工具規範｜ToolSpecifications.html"
+        ],
+        "reason": "原用途原位吸回中文優先公開顯影，私人座標與舊時效狀態不回填。"
+      },
+      {
+        "source_path": "delivery/current/per-package-terminal-rebuild.json",
+        "decision": "公開研究摘要吸收",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🐙章魚貓介面能力研究｜GitHubRestCapabilityResearch.json",
+          "03｜知識驗證｜KnowledgeVerification/🐙章魚貓事件能力研究｜GitHubEventCapabilityResearch.json",
+          "03｜知識驗證｜KnowledgeVerification/🐙章魚貓執行證據能力研究｜GitHubExecutionEvidenceCapabilityResearch.json",
+          "03｜知識驗證｜KnowledgeVerification/🐙章魚貓安全能力研究｜GitHubSecurityCapabilityResearch.json",
+          "03｜知識驗證｜KnowledgeVerification/🐙章魚貓流程能力研究｜GitHubWorkflowCapabilityResearch.json",
+          "03｜知識驗證｜KnowledgeVerification/🐙章魚貓成品快取能力研究｜GitHubArtifactCacheCapabilityResearch.json",
+          "03｜知識驗證｜KnowledgeVerification/🧪評分器介面能力研究｜OpenAIGradersCapabilityResearch.json",
+          "03｜知識驗證｜KnowledgeVerification/🔗供應鏈證據能力研究｜SupplyChainEvidenceCapabilityResearch.json",
+          "03｜知識驗證｜KnowledgeVerification/🖥️執行環境能力研究｜DeploymentRunnerCapabilityResearch.json",
+          "09｜公開協議｜PublicProtocol/🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics.json"
+        ],
+        "reason": "舊檔含檔案庫、雲端與郵件識別碼；公開能力與驗收摘要分流復原。"
+      },
+      {
+        "source_path": "projections/GitHubREST新能力30包/20260816-080337_TPE/MANIFEST.json",
+        "decision": "安全改寫復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🐙章魚貓介面能力研究｜GitHubRestCapabilityResearch.json"
+        ],
+        "reason": "三十個公開能力鍵與歷史驗收摘要完整吸回。"
+      },
+      {
+        "source_path": "projections/GitHub事件觸發新能力30包/20260816-105657_TPE/MANIFEST.json",
+        "decision": "安全改寫復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🐙章魚貓事件能力研究｜GitHubEventCapabilityResearch.json"
+        ],
+        "reason": "來源只列計數，保留已知內容，不補造能力名稱。"
+      },
+      {
+        "source_path": "projections/GitHub執行證據新能力30包/20260816-101350_TPE/MANIFEST.json",
+        "decision": "安全改寫復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🐙章魚貓執行證據能力研究｜GitHubExecutionEvidenceCapabilityResearch.json"
+        ],
+        "reason": "三十組能力與引擎身分完整吸回。"
+      },
+      {
+        "source_path": "projections/GitHub安全政策新能力30包/20260816-070115_TPE/MANIFEST.json",
+        "decision": "安全改寫復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🐙章魚貓安全能力研究｜GitHubSecurityCapabilityResearch.json"
+        ],
+        "reason": "三十項安全能力名稱與身分完整吸回。"
+      },
+      {
+        "source_path": "projections/GitHub工作流程新能力30包/20260816-085927_TPE/MANIFEST.json",
+        "decision": "安全改寫復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🐙章魚貓流程能力研究｜GitHubWorkflowCapabilityResearch.json"
+        ],
+        "reason": "三十項流程能力與引擎身分完整吸回。"
+      },
+      {
+        "source_path": "projections/GitHub成品快取新能力30包/20260816-115815_TPE/DEDUP_INCREMENT.json",
+        "decision": "安全改寫復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🐙章魚貓成品快取能力研究｜GitHubArtifactCacheCapabilityResearch.json"
+        ],
+        "reason": "能力鍵、去重增量與修復證據合併吸回；雲端識別碼移除。"
+      },
+      {
+        "source_path": "projections/GitHub成品快取新能力30包/20260816-115815_TPE/MANIFEST.json",
+        "decision": "安全改寫復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🐙章魚貓成品快取能力研究｜GitHubArtifactCacheCapabilityResearch.json"
+        ],
+        "reason": "能力鍵、去重增量與修復證據合併吸回；雲端識別碼移除。"
+      },
+      {
+        "source_path": "projections/GitHub成品快取新能力30包/20260816-115815_TPE/REPAIR_EVIDENCE.json",
+        "decision": "安全改寫復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🐙章魚貓成品快取能力研究｜GitHubArtifactCacheCapabilityResearch.json"
+        ],
+        "reason": "能力鍵、去重增量與修復證據合併吸回；雲端識別碼移除。"
+      },
+      {
+        "source_path": "projections/OpenAI評分器API三十能力/20260816-205346_TPE/CURRENT_COMMITTED.json",
+        "decision": "安全改寫復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🧪評分器介面能力研究｜OpenAIGradersCapabilityResearch.json"
+        ],
+        "reason": "封包修正與驗收摘要吸回；雲端修訂與郵件識別碼移除。"
+      },
+      {
+        "source_path": "projections/OpenAI評分器API三十能力/20260816-205346_TPE/REMOTE_COMMITTED.json",
+        "decision": "安全改寫復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🧪評分器介面能力研究｜OpenAIGradersCapabilityResearch.json"
+        ],
+        "reason": "封包修正與驗收摘要吸回；雲端修訂與郵件識別碼移除。"
+      },
+      {
+        "source_path": "projections/供應鏈證據新能力30包/20260816-062634_TPE/MANIFEST.json",
+        "decision": "安全改寫復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🔗供應鏈證據能力研究｜SupplyChainEvidenceCapabilityResearch.json"
+        ],
+        "reason": "公開批次摘要吸回；雲端實例值移除。"
+      },
+      {
+        "source_path": "projections/部署環境與執行器新能力30包/20260816-103030_TPE/MANIFEST.json",
+        "decision": "安全改寫復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🖥️執行環境能力研究｜DeploymentRunnerCapabilityResearch.json"
+        ],
+        "reason": "三十項能力鍵吸回；雲端實例值移除。"
+      },
+      {
+        "source_path": "projections/🪞幻影膠囊｜正式投影.md",
+        "decision": "公開協議吸收",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/🔗本體顯影互換協議｜IdentityProjectionInterchangeProtocol.md",
+          "09｜公開協議｜PublicProtocol/🌱唯一真相源｜MarkdownSeed.md",
+          "PUBLIC_PRIVATE_BOUNDARY.md"
+        ],
+        "reason": "技術結構保留；正式檔案、修訂與郵件實例值不回填。"
+      },
+      {
+        "source_path": "receipts/ui60-material-curation-priest-20260816_212156_TPE.json",
+        "decision": "歷史研究摘要吸收",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨素材介面研究歷程｜MaterialUIResearchHistory.json"
+        ],
+        "reason": "研究數量、來源與公開驗收摘要保留；檔案庫與雲端識別碼移除。"
+      },
+      {
+        "source_path": "receipts/ui60-material-curation-priest-20260816_221133_TPE.json",
+        "decision": "歷史研究摘要吸收",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨素材介面研究歷程｜MaterialUIResearchHistory.json"
+        ],
+        "reason": "研究數量、來源與公開驗收摘要保留；檔案庫與雲端識別碼移除。"
+      },
+      {
+        "source_path": "receipts/ui60-material-curation-priest-20260816_230840_TPE.json",
+        "decision": "歷史研究摘要吸收",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨素材介面研究歷程｜MaterialUIResearchHistory.json"
+        ],
+        "reason": "研究數量、來源與公開驗收摘要保留；檔案庫與雲端識別碼移除。"
+      },
+      {
+        "source_path": "receipts/ui60-material-curation-priest-repair-20260817_002557_TPE.json",
+        "decision": "歷史研究摘要吸收",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨素材介面研究歷程｜MaterialUIResearchHistory.json"
+        ],
+        "reason": "研究數量、來源與公開驗收摘要保留；檔案庫與雲端識別碼移除。"
+      },
+      {
+        "source_path": "receipts/ui60-material-curation-priest-round24-20260817_021525_TPE.json",
+        "decision": "歷史研究摘要吸收",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨素材介面研究歷程｜MaterialUIResearchHistory.json"
+        ],
+        "reason": "研究數量、來源與公開驗收摘要保留；檔案庫與雲端識別碼移除。"
+      },
+      {
+        "source_path": "ui-current/CURRENT.json",
+        "decision": "介面研究吸收復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨介面研究歷程｜UIResearchHistory.json",
+          "07｜公開顯影｜PublicProjection/🎨介面研究互動範例｜UIResearchInteractiveExamples.html",
+          "07｜公開顯影｜PublicProjection/🎨介面研究延伸範例｜UIResearchExtendedExamples.html"
+        ],
+        "reason": "功能名稱、來源、研究結果與可操作範例保留；供應商識別碼及過期目前狀態不回填。"
+      },
+      {
+        "source_path": "ui-current/evidence/🔐｜Current212終局交付封口｜UIResearchLabCurrent212FinalDeliverySeal｜20260817-013336_TPE.json",
+        "decision": "介面研究吸收復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨介面研究歷程｜UIResearchHistory.json",
+          "07｜公開顯影｜PublicProjection/🎨介面研究互動範例｜UIResearchInteractiveExamples.html",
+          "07｜公開顯影｜PublicProjection/🎨介面研究延伸範例｜UIResearchExtendedExamples.html"
+        ],
+        "reason": "功能名稱、來源、研究結果與可操作範例保留；供應商識別碼及過期目前狀態不回填。"
+      },
+      {
+        "source_path": "ui-current/evidence/🔬｜Current212外部終局回執｜UIResearchLabCurrent212ExternalFinalReceipt｜20260817-013336_TPE.json",
+        "decision": "介面研究吸收復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨介面研究歷程｜UIResearchHistory.json",
+          "07｜公開顯影｜PublicProjection/🎨介面研究互動範例｜UIResearchInteractiveExamples.html",
+          "07｜公開顯影｜PublicProjection/🎨介面研究延伸範例｜UIResearchExtendedExamples.html"
+        ],
+        "reason": "功能名稱、來源、研究結果與可操作範例保留；供應商識別碼及過期目前狀態不回填。"
+      },
+      {
+        "source_path": "ui-current/repairs/20260816-210259_TPE/Current200InPlaceRepairSeal.json",
+        "decision": "介面研究吸收復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨介面研究歷程｜UIResearchHistory.json",
+          "07｜公開顯影｜PublicProjection/🎨介面研究互動範例｜UIResearchInteractiveExamples.html",
+          "07｜公開顯影｜PublicProjection/🎨介面研究延伸範例｜UIResearchExtendedExamples.html"
+        ],
+        "reason": "功能名稱、來源、研究結果與可操作範例保留；供應商識別碼及過期目前狀態不回填。"
+      },
+      {
+        "source_path": "ui176/20260816-122403_TPE/index.html",
+        "decision": "介面研究吸收復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨介面研究歷程｜UIResearchHistory.json",
+          "07｜公開顯影｜PublicProjection/🎨介面研究互動範例｜UIResearchInteractiveExamples.html",
+          "07｜公開顯影｜PublicProjection/🎨介面研究延伸範例｜UIResearchExtendedExamples.html"
+        ],
+        "reason": "功能名稱、來源、研究結果與可操作範例保留；供應商識別碼及過期目前狀態不回填。"
+      },
+      {
+        "source_path": "ui194/20260816-165725_TPE/Manifest.json",
+        "decision": "介面研究吸收復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨介面研究歷程｜UIResearchHistory.json",
+          "07｜公開顯影｜PublicProjection/🎨介面研究互動範例｜UIResearchInteractiveExamples.html",
+          "07｜公開顯影｜PublicProjection/🎨介面研究延伸範例｜UIResearchExtendedExamples.html"
+        ],
+        "reason": "功能名稱、來源、研究結果與可操作範例保留；供應商識別碼及過期目前狀態不回填。"
+      },
+      {
+        "source_path": "ui194/20260816-165725_TPE/acceptance.json",
+        "decision": "介面研究吸收復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨介面研究歷程｜UIResearchHistory.json",
+          "07｜公開顯影｜PublicProjection/🎨介面研究互動範例｜UIResearchInteractiveExamples.html",
+          "07｜公開顯影｜PublicProjection/🎨介面研究延伸範例｜UIResearchExtendedExamples.html"
+        ],
+        "reason": "功能名稱、來源、研究結果與可操作範例保留；供應商識別碼及過期目前狀態不回填。"
+      },
+      {
+        "source_path": "ui194/20260816-165725_TPE/index.html",
+        "decision": "介面研究吸收復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨介面研究歷程｜UIResearchHistory.json",
+          "07｜公開顯影｜PublicProjection/🎨介面研究互動範例｜UIResearchInteractiveExamples.html",
+          "07｜公開顯影｜PublicProjection/🎨介面研究延伸範例｜UIResearchExtendedExamples.html"
+        ],
+        "reason": "功能名稱、來源、研究結果與可操作範例保留；供應商識別碼及過期目前狀態不回填。"
+      },
+      {
+        "source_path": "ui194/20260816-180245_TPE/CurrentControlSyncRepair.json",
+        "decision": "介面研究吸收復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨介面研究歷程｜UIResearchHistory.json",
+          "07｜公開顯影｜PublicProjection/🎨介面研究互動範例｜UIResearchInteractiveExamples.html",
+          "07｜公開顯影｜PublicProjection/🎨介面研究延伸範例｜UIResearchExtendedExamples.html"
+        ],
+        "reason": "功能名稱、來源、研究結果與可操作範例保留；供應商識別碼及過期目前狀態不回填。"
+      },
+      {
+        "source_path": "ui194/20260816-180245_TPE/acceptance.json",
+        "decision": "介面研究吸收復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨介面研究歷程｜UIResearchHistory.json",
+          "07｜公開顯影｜PublicProjection/🎨介面研究互動範例｜UIResearchInteractiveExamples.html",
+          "07｜公開顯影｜PublicProjection/🎨介面研究延伸範例｜UIResearchExtendedExamples.html"
+        ],
+        "reason": "功能名稱、來源、研究結果與可操作範例保留；供應商識別碼及過期目前狀態不回填。"
+      },
+      {
+        "source_path": "ui200/20260816-185303_TPE/FINAL_PROMOTION_SEAL.json",
+        "decision": "介面研究吸收復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨介面研究歷程｜UIResearchHistory.json",
+          "07｜公開顯影｜PublicProjection/🎨介面研究互動範例｜UIResearchInteractiveExamples.html",
+          "07｜公開顯影｜PublicProjection/🎨介面研究延伸範例｜UIResearchExtendedExamples.html"
+        ],
+        "reason": "功能名稱、來源、研究結果與可操作範例保留；供應商識別碼及過期目前狀態不回填。"
+      },
+      {
+        "source_path": "ui200/20260816-185303_TPE/Manifest.json",
+        "decision": "介面研究吸收復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨介面研究歷程｜UIResearchHistory.json",
+          "07｜公開顯影｜PublicProjection/🎨介面研究互動範例｜UIResearchInteractiveExamples.html",
+          "07｜公開顯影｜PublicProjection/🎨介面研究延伸範例｜UIResearchExtendedExamples.html"
+        ],
+        "reason": "功能名稱、來源、研究結果與可操作範例保留；供應商識別碼及過期目前狀態不回填。"
+      },
+      {
+        "source_path": "ui200/20260816-185303_TPE/STATUS.json",
+        "decision": "介面研究吸收復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨介面研究歷程｜UIResearchHistory.json",
+          "07｜公開顯影｜PublicProjection/🎨介面研究互動範例｜UIResearchInteractiveExamples.html",
+          "07｜公開顯影｜PublicProjection/🎨介面研究延伸範例｜UIResearchExtendedExamples.html"
+        ],
+        "reason": "功能名稱、來源、研究結果與可操作範例保留；供應商識別碼及過期目前狀態不回填。"
+      },
+      {
+        "source_path": "ui200/20260816-185303_TPE/acceptance.json",
+        "decision": "介面研究吸收復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨介面研究歷程｜UIResearchHistory.json",
+          "07｜公開顯影｜PublicProjection/🎨介面研究互動範例｜UIResearchInteractiveExamples.html",
+          "07｜公開顯影｜PublicProjection/🎨介面研究延伸範例｜UIResearchExtendedExamples.html"
+        ],
+        "reason": "功能名稱、來源、研究結果與可操作範例保留；供應商識別碼及過期目前狀態不回填。"
+      },
+      {
+        "source_path": "ui200/20260816-185303_TPE/research.json",
+        "decision": "介面研究吸收復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨介面研究歷程｜UIResearchHistory.json",
+          "07｜公開顯影｜PublicProjection/🎨介面研究互動範例｜UIResearchInteractiveExamples.html",
+          "07｜公開顯影｜PublicProjection/🎨介面研究延伸範例｜UIResearchExtendedExamples.html"
+        ],
+        "reason": "功能名稱、來源、研究結果與可操作範例保留；供應商識別碼及過期目前狀態不回填。"
+      },
+      {
+        "source_path": "ui200/research-absorption/20260816-213656_TPE/STP249_ABSORPTION.json",
+        "decision": "介面研究吸收復原",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨介面研究歷程｜UIResearchHistory.json",
+          "07｜公開顯影｜PublicProjection/🎨介面研究互動範例｜UIResearchInteractiveExamples.html",
+          "07｜公開顯影｜PublicProjection/🎨介面研究延伸範例｜UIResearchExtendedExamples.html"
+        ],
+        "reason": "功能名稱、來源、研究結果與可操作範例保留；供應商識別碼及過期目前狀態不回填。"
+      },
+      {
+        "source_path": "鏡像/🪞幻影膠囊/🌱唯一真相源｜MarkdownSeed.md",
+        "decision": "公開協議吸收",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/🌱唯一真相源｜MarkdownSeed.md",
+          "🧾公開模組登記｜PublicModuleRegistry.json",
+          "09｜公開協議｜PublicProtocol/♾️公開回推鏈｜PublicReverseChain.json"
+        ],
+        "reason": "重複鏡像內容吸收至唯一公開協議與清冊，不建立第二本體。"
+      },
+      {
+        "source_path": "鏡像/🪞幻影膠囊/📖狀態清單｜Manifest.json",
+        "decision": "公開協議吸收",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/🌱唯一真相源｜MarkdownSeed.md",
+          "🧾公開模組登記｜PublicModuleRegistry.json",
+          "09｜公開協議｜PublicProtocol/♾️公開回推鏈｜PublicReverseChain.json"
+        ],
+        "reason": "重複鏡像內容吸收至唯一公開協議與清冊，不建立第二本體。"
+      },
+      {
+        "source_path": "鏡像/🪞幻影膠囊/📦內容封裝｜Payload.zip.base64.txt",
+        "decision": "不透明封包不回填",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics.json"
+        ],
+        "reason": "編碼封包可能攜帶未裁決內容；公開協議與清單已另行吸回。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/06_🧬融合｜Fusion/↩️膠囊回推鏈｜CapsuleReverseChain.json",
+        "decision": "公開協議吸收",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/♾️公開回推鏈｜PublicReverseChain.json"
+        ],
+        "reason": "回推概念吸收至唯一公開回推鏈；私人實例路徑不回填。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/06_🧬融合｜Fusion/🌱膠囊唯一真相源｜CapsuleSST.json",
+        "decision": "私域本體隔離",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics.json"
+        ],
+        "reason": "位於私人本體路徑；公開技術已由安全模組吸回，實例資料不公開。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/06_🧬融合｜Fusion/🐙GitHub同步狀態｜GitHubSyncState.json",
+        "decision": "私人同步實例不公開",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics.json"
+        ],
+        "reason": "同步概念可公開；實際帳號、修訂、郵件或雲端座標不回填。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/06_🧬融合｜Fusion/📜膠囊關係清單｜CapsuleManifest.json",
+        "decision": "公開清冊摘要吸收",
+        "public_targets": [
+          "🧾公開模組登記｜PublicModuleRegistry.json"
+        ],
+        "reason": "合法公開成員吸收至唯一登記；私人實例清冊不回填。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/06_🧬融合｜Fusion/📦膠囊封裝索引｜CapsulePackage.json",
+        "decision": "私人封裝實例不公開",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/📘全副檔名可逆轉換完整手冊｜ReversibleFormatManual.md",
+          "09｜公開協議｜PublicProtocol/🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics.json"
+        ],
+        "reason": "公開封裝規格保留；私人封包索引與實例資料不回填。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/06_🧬融合｜Fusion/📸膠囊快照｜CapsuleSnapshot.json",
+        "decision": "公開狀態摘要吸收",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics.json"
+        ],
+        "reason": "歷史狀態只作鑑識；私人快照資料不回填。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/06_🧬融合｜Fusion/🔐最終封裝雜湊｜FinalPackageSHA256.txt",
+        "decision": "雜湊證據吸收",
+        "public_targets": [
+          "SHA256SUMS",
+          "09｜公開協議｜PublicProtocol/🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics.json"
+        ],
+        "reason": "公開檔案雜湊重算；私人封包雜湊只保留於鑑識摘要。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/06_🧬融合｜Fusion/🧩功能命名映射｜FunctionalNamingMap.json",
+        "decision": "私域本體隔離",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics.json"
+        ],
+        "reason": "位於私人本體路徑；公開技術已由安全模組吸回，實例資料不公開。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/06_🧬融合｜Fusion/🧭膠囊定位器｜CapsuleLocator.json",
+        "decision": "公開定位摘要吸收",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/🧭公開定位器｜PublicLocator.json"
+        ],
+        "reason": "只保存公開相對路徑；私人座標不回填。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/08｜自動化小精靈/GPT每回合執行鎖.md",
+        "decision": "私人控制規則不公開",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics.json"
+        ],
+        "reason": "屬私人控制指示與執行規則，不是開源技術模組。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/09｜⭕️唯一真相／Package／Rollback/幻想實驗/PCLAB-20260810-173403-TPE-H7CYC/實驗回執.md",
+        "decision": "實驗摘要安全吸回",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🧪可逆結構實驗歷程｜ReversibleStructureExperimentHistory.json"
+        ],
+        "reason": "演算法與驗收摘要保留；正式檔案及修訂識別碼移除。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/09｜幻想實驗/🎨膠囊UI研究室/UI-ROUND33/PACKAGE_SHA256.txt",
+        "decision": "介面研究摘要安全吸回",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨介面研究歷程｜UIResearchHistory.json",
+          "07｜公開顯影｜PublicProjection/🖥️系統流程互動範例｜SystemFlowInteractiveExample.html",
+          "09｜公開協議｜PublicProtocol/🔗本體顯影互換協議｜IdentityProjectionInterchangeProtocol.md"
+        ],
+        "reason": "研究原則與公開驗收摘要保留；雲端、郵件與檔案識別碼移除。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/09｜幻想實驗/🎨膠囊UI研究室/UI-ROUND33/PROVIDER_RECEIPT.json",
+        "decision": "介面研究摘要安全吸回",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨介面研究歷程｜UIResearchHistory.json",
+          "07｜公開顯影｜PublicProjection/🖥️系統流程互動範例｜SystemFlowInteractiveExample.html",
+          "09｜公開協議｜PublicProtocol/🔗本體顯影互換協議｜IdentityProjectionInterchangeProtocol.md"
+        ],
+        "reason": "研究原則與公開驗收摘要保留；雲端、郵件與檔案識別碼移除。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/09｜幻想實驗/🎨膠囊UI研究室/UI-ROUND33/README.md",
+        "decision": "介面研究摘要安全吸回",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨介面研究歷程｜UIResearchHistory.json",
+          "07｜公開顯影｜PublicProjection/🖥️系統流程互動範例｜SystemFlowInteractiveExample.html",
+          "09｜公開協議｜PublicProtocol/🔗本體顯影互換協議｜IdentityProjectionInterchangeProtocol.md"
+        ],
+        "reason": "研究原則與公開驗收摘要保留；雲端、郵件與檔案識別碼移除。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/09｜幻想實驗/🎨膠囊UI研究室/UI-ROUND33/STATE.json",
+        "decision": "介面研究摘要安全吸回",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨介面研究歷程｜UIResearchHistory.json",
+          "07｜公開顯影｜PublicProjection/🖥️系統流程互動範例｜SystemFlowInteractiveExample.html",
+          "09｜公開協議｜PublicProtocol/🔗本體顯影互換協議｜IdentityProjectionInterchangeProtocol.md"
+        ],
+        "reason": "研究原則與公開驗收摘要保留；雲端、郵件與檔案識別碼移除。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/09｜幻想實驗/🎨膠囊UI研究室/UI-ROUND34/PACKAGE_SHA256.txt",
+        "decision": "介面研究摘要安全吸回",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨介面研究歷程｜UIResearchHistory.json",
+          "07｜公開顯影｜PublicProjection/🖥️系統流程互動範例｜SystemFlowInteractiveExample.html",
+          "09｜公開協議｜PublicProtocol/🔗本體顯影互換協議｜IdentityProjectionInterchangeProtocol.md"
+        ],
+        "reason": "研究原則與公開驗收摘要保留；雲端、郵件與檔案識別碼移除。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/09｜幻想實驗/🎨膠囊UI研究室/UI-ROUND34/PROVIDER_RECEIPT.json",
+        "decision": "介面研究摘要安全吸回",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨介面研究歷程｜UIResearchHistory.json",
+          "07｜公開顯影｜PublicProjection/🖥️系統流程互動範例｜SystemFlowInteractiveExample.html",
+          "09｜公開協議｜PublicProtocol/🔗本體顯影互換協議｜IdentityProjectionInterchangeProtocol.md"
+        ],
+        "reason": "研究原則與公開驗收摘要保留；雲端、郵件與檔案識別碼移除。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/09｜幻想實驗/🎨膠囊UI研究室/UI-ROUND34/README.md",
+        "decision": "介面研究摘要安全吸回",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨介面研究歷程｜UIResearchHistory.json",
+          "07｜公開顯影｜PublicProjection/🖥️系統流程互動範例｜SystemFlowInteractiveExample.html",
+          "09｜公開協議｜PublicProtocol/🔗本體顯影互換協議｜IdentityProjectionInterchangeProtocol.md"
+        ],
+        "reason": "研究原則與公開驗收摘要保留；雲端、郵件與檔案識別碼移除。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/09｜幻想實驗/🎨膠囊UI研究室/UI-ROUND34/STATE.json",
+        "decision": "介面研究摘要安全吸回",
+        "public_targets": [
+          "03｜知識驗證｜KnowledgeVerification/🎨介面研究歷程｜UIResearchHistory.json",
+          "07｜公開顯影｜PublicProjection/🖥️系統流程互動範例｜SystemFlowInteractiveExample.html",
+          "09｜公開協議｜PublicProtocol/🔗本體顯影互換協議｜IdentityProjectionInterchangeProtocol.md"
+        ],
+        "reason": "研究原則與公開驗收摘要保留；雲端、郵件與檔案識別碼移除。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/README.md",
+        "decision": "私域本體隔離",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics.json"
+        ],
+        "reason": "位於私人本體路徑；公開技術已由安全模組吸回，實例資料不公開。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/SHA256SUMS.json",
+        "decision": "雜湊證據吸收",
+        "public_targets": [
+          "SHA256SUMS",
+          "09｜公開協議｜PublicProtocol/🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics.json"
+        ],
+        "reason": "公開檔案雜湊重算；私人封包雜湊只保留於鑑識摘要。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/♾️可逆回推鏈｜ReverseChain.json",
+        "decision": "公開協議吸收",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/♾️公開回推鏈｜PublicReverseChain.json"
+        ],
+        "reason": "回推概念吸收至唯一公開回推鏈；私人實例路徑不回填。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/README.md",
+        "decision": "私域本體隔離",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics.json"
+        ],
+        "reason": "位於私人本體路徑；公開技術已由安全模組吸回，實例資料不公開。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/⛓️ReverseChain.json",
+        "decision": "公開協議吸收",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/♾️公開回推鏈｜PublicReverseChain.json"
+        ],
+        "reason": "回推概念吸收至唯一公開回推鏈；私人實例路徑不回填。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/回推鏈.json",
+        "decision": "公開協議吸收",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/♾️公開回推鏈｜PublicReverseChain.json"
+        ],
+        "reason": "回推概念吸收至唯一公開回推鏈；私人實例路徑不回填。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/定位資料.json",
+        "decision": "公開定位摘要吸收",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/🧭公開定位器｜PublicLocator.json"
+        ],
+        "reason": "只保存公開相對路徑；私人座標不回填。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/封裝資料.json",
+        "decision": "私人封裝實例不公開",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/📘全副檔名可逆轉換完整手冊｜ReversibleFormatManual.md",
+          "09｜公開協議｜PublicProtocol/🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics.json"
+        ],
+        "reason": "公開封裝規格保留；私人封包索引與實例資料不回填。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/快照資料.json",
+        "decision": "公開狀態摘要吸收",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics.json"
+        ],
+        "reason": "歷史狀態只作鑑識；私人快照資料不回填。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/成果清冊.json",
+        "decision": "公開清冊摘要吸收",
+        "public_targets": [
+          "🧾公開模組登記｜PublicModuleRegistry.json"
+        ],
+        "reason": "合法公開成員吸收至唯一登記；私人實例清冊不回填。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/雜湊身分.json",
+        "decision": "雜湊證據吸收",
+        "public_targets": [
+          "SHA256SUMS",
+          "09｜公開協議｜PublicProtocol/🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics.json"
+        ],
+        "reason": "公開檔案雜湊重算；私人封包雜湊只保留於鑑識摘要。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🎴EmbeddedVisual.svg",
+        "decision": "公開顯影安全改寫",
+        "public_targets": [
+          "07｜公開顯影｜PublicProjection/🖥️系統流程互動範例｜SystemFlowInteractiveExample.html",
+          "07｜公開顯影｜PublicProjection/🎴本體顯影關係圖｜IdentityProjectionDiagram.svg"
+        ],
+        "reason": "私人提示與座標移除；互動流程及本體顯影關係保留。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/📄Manifest.csv",
+        "decision": "公開清冊摘要吸收",
+        "public_targets": [
+          "🧾公開模組登記｜PublicModuleRegistry.json"
+        ],
+        "reason": "合法公開成員吸收至唯一登記；私人實例清冊不回填。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/📄Manifest.tsv",
+        "decision": "公開清冊摘要吸收",
+        "public_targets": [
+          "🧾公開模組登記｜PublicModuleRegistry.json"
+        ],
+        "reason": "合法公開成員吸收至唯一登記；私人實例清冊不回填。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/📍Locator.json",
+        "decision": "公開定位摘要吸收",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/🧭公開定位器｜PublicLocator.json"
+        ],
+        "reason": "只保存公開相對路徑；私人座標不回填。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/📜GPT專屬指示永久凍結.md",
+        "decision": "私人控制規則不公開",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics.json"
+        ],
+        "reason": "屬私人控制指示與執行規則，不是開源技術模組。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/📦Package.json",
+        "decision": "私人封裝實例不公開",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/📘全副檔名可逆轉換完整手冊｜ReversibleFormatManual.md",
+          "09｜公開協議｜PublicProtocol/🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics.json"
+        ],
+        "reason": "公開封裝規格保留；私人封包索引與實例資料不回填。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/📸Snapshot.json",
+        "decision": "公開狀態摘要吸收",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics.json"
+        ],
+        "reason": "歷史狀態只作鑑識；私人快照資料不回填。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🔁ExternalSync.json",
+        "decision": "私人同步實例不公開",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics.json"
+        ],
+        "reason": "同步概念可公開；實際帳號、修訂、郵件或雲端座標不回填。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🔁GitHubSync.json",
+        "decision": "私人同步實例不公開",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics.json"
+        ],
+        "reason": "同步概念可公開；實際帳號、修訂、郵件或雲端座標不回填。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🖥️CapsuleAction.html",
+        "decision": "公開顯影安全改寫",
+        "public_targets": [
+          "07｜公開顯影｜PublicProjection/🖥️系統流程互動範例｜SystemFlowInteractiveExample.html",
+          "07｜公開顯影｜PublicProjection/🎴本體顯影關係圖｜IdentityProjectionDiagram.svg"
+        ],
+        "reason": "私人提示與座標移除；互動流程及本體顯影關係保留。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🧊FrozenInstruction.json",
+        "decision": "私人控制規則不公開",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics.json"
+        ],
+        "reason": "屬私人控制指示與執行規則，不是開源技術模組。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🧚全域中文接線精靈｜正式動作容器.json",
+        "decision": "私人控制規則不公開",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/🧾開源刪除鑑識清冊｜OpenSourceDeletionForensics.json"
+        ],
+        "reason": "屬私人控制指示與執行規則，不是開源技術模組。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/動作容器/🧾Canonical.json",
+        "decision": "公開清冊摘要吸收",
+        "public_targets": [
+          "🧾公開模組登記｜PublicModuleRegistry.json"
+        ],
+        "reason": "合法公開成員吸收至唯一登記；私人實例清冊不回填。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/📍定位器｜LOCATOR.json",
+        "decision": "公開定位摘要吸收",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/🧭公開定位器｜PublicLocator.json"
+        ],
+        "reason": "只保存公開相對路徑；私人座標不回填。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/📘全副檔名可逆轉換完整手冊.md",
+        "decision": "公開協議吸收",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/📘全副檔名可逆轉換完整手冊｜ReversibleFormatManual.md"
+        ],
+        "reason": "公開格式知識已吸回中文優先手冊。"
+      },
+      {
+        "source_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/🧭動作鏈｜S0-S10.md",
+        "decision": "依最新命名規則改名吸回",
+        "public_targets": [
+          "09｜公開協議｜PublicProtocol/🧭系統流程｜SystemFlowS0S10.md"
+        ],
+        "reason": "不再用動作命名物件；內容改以系統流程保存。"
+      }
+    ]
   },
-  "🔬本輪安全驗收": {
-    "公開驗證器": "10/10 通過（PASS）",
-    "雜湊清單": "21/21 通過（PASS）",
-    "故障注入": "12/12 正確拒絕（PASS）",
-    "手機寬度頁面": "3/3 通過（PASS）",
-    "互動按鈕": "20/20 通過（PASS）",
-    "可重現建置": "2/2 雜湊一致（PASS）",
-    "危險輸出防護": "2/2 正確拒絕（PASS）",
-    "建置封包成員": 15,
-    "建置封包重複成員": 0,
-    "建置封包循環冗餘檢查": "通過（PASS）"
+  "🧩目前固定公開模組數": 28,
+  "🏷️命名修復": [
+    "動作容器互動範例 → 系統流程互動範例",
+    "動作鏈 → 系統流程"
+  ],
+  "🔒不原封不動回填": [
+    "檔案庫識別碼與私人穩定識別碼",
+    "雲端硬碟檔案、資料夾、文件與修訂識別碼",
+    "郵件與討論串識別碼",
+    "私人控制指示與個人自動化內容",
+    "不透明的編碼封包與私人本體內部資料",
+    "沒有重新驗證的過期目前狀態"
+  ],
+  "⚖️裁決": "公開技術、程式、協議、研究與互動顯影要吸回；私人實例值不回填；舊狀態只作歷史證據。",
+  "🛡️歷史保護": "採非強制快進提交，不改寫刪除證據；原始提交仍可回查。",
+  "🏵️狀態": {
+    "State": "PREPARED",
+    "Committed": false,
+    "PreparedFromCommit": "69edc0e8cc0179b9c8206aa5554d7cc5bb6af16f",
+    "ContentCommit": null,
+    "TimestampAsiaTaipei": "2026-08-20T23:10:00+08:00"
   },
-  "🧾終局封口定位": "以本檔所在 seed_v0 分支最新提交為準；不得把較舊提交冒充最新。"
+  "♻️回推": [
+    "eb426724521a8b0abcc2dac5652003500e65a8f9",
+    "6841d1f361a703bcb74f76acda18781d122ca739",
+    "逐檔裁決九十一項",
+    "安全公開模組二十八項",
+    "🧾公開模組登記",
+    "🧭公開定位器",
+    "♾️公開回推鏈",
+    "🧩LKMINI",
+    "LKMINI://",
+    "A=A"
+  ]
 }

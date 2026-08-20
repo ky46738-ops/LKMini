@@ -1,0 +1,44 @@
+{
+  "📚格式": "LKMINI.ReversibleStructureExperimentHistory/1.0",
+  "名稱": "🧪可逆結構實驗歷程｜ReversibleStructureExperimentHistory",
+  "Identity": "LKMINI://可逆結構實驗歷程/查看",
+  "Owner": "Kevin Yang",
+  "RootProtocol": "LKMINI://",
+  "RootReference": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
+  "Type": "KnowledgeVerification",
+  "Experiments": [
+    {
+      "experiment_id": "PCLAB-20260810-173403-TPE-H7CYC",
+      "name": "🌸H7雙環同構置換群與循環正規形式",
+      "historical_state": {
+        "source_members": 587,
+        "cycle_count": 3,
+        "unique_edges": "587/587",
+        "reverse_function": "完成",
+        "projection_reverse_trace": "完成",
+        "brute_force_tests": "16/16",
+        "fixed_conversion_chain": "19/19",
+        "svg_webp_svg": "完成"
+      },
+      "source_reference": {
+        "repository": "ky46738-ops/LKMini",
+        "commit": "6841d1f361a703bcb74f76acda18781d122ca739",
+        "path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊/09｜⭕️唯一真相／Package／Rollback/幻想實驗/PCLAB-20260810-173403-TPE-H7CYC/實驗回執.md",
+        "blob_sha": "b24fd583a13ca407858e8ce2b2fce6f1a8d8bfa9"
+      },
+      "historical_boundary": "供應商端位元替換當時失敗；本檔只保存公開演算法與驗收摘要。"
+    }
+  ],
+  "PublicBoundary": "正式檔案識別碼、修訂識別碼、位元大小與私人雲端座標已移除。",
+  "HistoricalEvidenceOnly": true,
+  "ProjectionIsIdentity": false,
+  "ReverseChain": [
+    "歷史實驗",
+    "🧪可逆結構實驗歷程",
+    "🧾公開模組登記",
+    "🧩LKMINI",
+    "LKMINI://",
+    "A=A"
+  ],
+  "TimestampAsiaTaipei": "2026-08-20T23:10:00+08:00"
+}
