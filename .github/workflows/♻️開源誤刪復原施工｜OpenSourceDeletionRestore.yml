@@ -47,7 +47,7 @@ jobs:
           base64 -d /tmp/open-source-restore.b64 > /tmp/open-source-restore.tar.gz
           echo '81d5850bdb934aee5d6c5ab7e89aa20f73f4b399107010239dc8c8c700a2f858  /tmp/open-source-restore.tar.gz' | sha256sum -c -
           tar -tzf /tmp/open-source-restore.tar.gz >/tmp/open-source-restore-members.txt
-          test "$(wc -l </tmp/open-source-restore-members.txt)" -eq 25
+          test "$(grep -vc '/$' /tmp/open-source-restore-members.txt)" -eq 25
 
       - name: 🧩展開安全復原增量
         shell: bash
