@@ -53,6 +53,8 @@ jobs:
         shell: bash
         run: |
           tar -xzf /tmp/open-source-restore.tar.gz -C .
+          rm -f '07｜公開顯影｜PublicProjection/🖥️動作容器互動範例｜ActionContainerInteractiveExample.html'
+          rm -f '09｜公開協議｜PublicProtocol/🧭動作鏈｜S0-S10.md'
           rm -rf .restore
           rm -f '.github/workflows/♻️開源誤刪復原施工｜OpenSourceDeletionRestore.yml'
 
