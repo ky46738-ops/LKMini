@@ -64,11 +64,22 @@ jobs:
       - name: 🔐驗證全部公開檔案雜湊
         run: sha256sum -c SHA256SUMS
 
-      - name: 🧾提交復原結果
+      - name: 🧾以最新正式分支為父提交復原結果
         shell: bash
         run: |
           git config user.name 'Kevin'
           git config user.email '242197477+ky46738-ops@users.noreply.github.com'
+          git reset --hard
+          git clean -fdx
+          git fetch origin seed_v0
+          git checkout -B restore-final origin/seed_v0
+          tar -xzf /tmp/open-source-restore.tar.gz -C .
+          rm -f '07｜公開顯影｜PublicProjection/🖥️動作容器互動範例｜ActionContainerInteractiveExample.html'
+          rm -f '09｜公開協議｜PublicProtocol/🧭動作鏈｜S0-S10.md'
+          rm -rf .restore
+          rm -f '.github/workflows/♻️開源誤刪復原施工｜OpenSourceDeletionRestore.yml'
+          python tools/verify_lkmini.py
+          sha256sum -c SHA256SUMS
           git add -A
           git commit -m '♻️完成九十一項開源刪除裁決與二十八模組復原'
           git push origin HEAD:seed_v0
