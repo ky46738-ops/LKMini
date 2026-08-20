@@ -1,0 +1,44 @@
+name: ♻️開源誤刪復原施工
+
+on:
+  push:
+    branches:
+      - seed_v0
+    paths:
+      - '.restore/READY'
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    name: 🔬復原公開模組並完成驗證
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥取得公開儲存庫
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: ♻️展開安全復原增量
+        shell: bash
+        run: |
+          cat .restore/part00.txt .restore/part01.txt .restore/part02.txt .restore/part03.txt | base64 -d > /tmp/open-source-restore.tar.gz
+          tar -xzf /tmp/open-source-restore.tar.gz -C .
+          rm -rf .restore
+          rm -f '.github/workflows/♻️開源誤刪復原施工｜OpenSourceDeletionRestore.yml'
+
+      - name: 🔬執行公開邊界與防誤刪驗證
+        run: python tools/verify_lkmini.py
+
+      - name: 🔐驗證公開檔案雜湊
+        run: sha256sum -c SHA256SUMS
+
+      - name: 🧾提交復原結果
+        shell: bash
+        run: |
+          git config user.name 'Kevin'
+          git config user.email '242197477+ky46738-ops@users.noreply.github.com'
+          git add -A
+          git commit -m '♻️完成九十一項開源刪除裁決與二十八模組復原'
+          git push origin HEAD:seed_v0
