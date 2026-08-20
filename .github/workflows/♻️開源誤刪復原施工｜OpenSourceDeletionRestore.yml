@@ -23,7 +23,7 @@ jobs:
       - name: ♻️展開安全復原增量
         shell: bash
         run: |
-          cat .restore/part00.txt .restore/part01.txt .restore/part02.txt .restore/part03.txt | base64 -d > /tmp/open-source-restore.tar.gz
+          cat .restore/part00.txt .restore/part01a.txt .restore/part01b.txt .restore/part02.txt .restore/part03.txt | base64 -d > /tmp/open-source-restore.tar.gz
           tar -xzf /tmp/open-source-restore.tar.gz -C .
           rm -rf .restore
           rm -f '.github/workflows/♻️開源誤刪復原施工｜OpenSourceDeletionRestore.yml'
