@@ -1,5 +1,5 @@
 # 🔐雜湊驗證清單｜SHA256SUMS — LKMini seed_v0
-# 🕒更新時間＝2026-08-20T23:10:00+08:00
+# 🕒更新時間＝2026-08-21T00:51:55+08:00
 # 👤作者＝Kevin Yang／ky46738-ops
 # ⚖️A_EQUALS_A=true
 # 🔬SHA256SUMS_STATUS=REAL
@@ -32,7 +32,7 @@ f9534c3982290350120a0f5df284eb76a2bd71e3a827a20ad2fb82696d88127b  07｜公開顯
 3391758cac61527af99f4bf52190bc833ff45858b2f239589209d702ff0a2cf7  09｜公開協議｜PublicProtocol/♾️公開回推鏈｜PublicReverseChain.json
 ebd1d924c40fa50645f7c09f1e005e85703df565e428c42bfbfc868207d55079  09｜公開協議｜PublicProtocol/🌱唯一真相源｜MarkdownSeed.md
 948e2d0a44f85b58379c75adf9869055aba36f9f578cd63f939090b33eb870e9  09｜公開協議｜PublicProtocol/📘全副檔名可逆轉換完整手冊｜ReversibleFormatManual.md
-ff0bd9dce918877199223d2801d36c13c828132049356d2ca40eced09a72c470  09｜公開協議｜PublicProtocol/📸開源內容復原狀態｜OpenSourceRestorationState.json
+75eb5eb95aae2ac7c19aa59c92549d4367e0c7842a7949b4cdcc7cce16c3e18e  09｜公開協議｜PublicProtocol/📸開源內容復原狀態｜OpenSourceRestorationState.json
 fd85383dda64541f2ec9dca67c59a5fac38ef0dc405d2a6d1e103bfdb6c5f1db  09｜公開協議｜PublicProtocol/🔗本體顯影互換協議｜IdentityProjectionInterchangeProtocol.md
 a0ec42856389fa76b9e123fc7627f1c5d230e7279d1ba5e575a8c3827d9a9b12  09｜公開協議｜PublicProtocol/🧭公開定位器｜PublicLocator.json
 95bb555023835967e294ab0a8b7916d3eb710b07ffd5d2fc708a884863c5f0fa  09｜公開協議｜PublicProtocol/🧭系統流程｜SystemFlowS0S10.md
