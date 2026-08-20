@@ -6,19 +6,26 @@ on:
       - seed_v0
     paths:
       - '.restore/READY'
+  pull_request_target:
+    branches:
+      - seed_v0
+    paths:
+      - '.restore/TRIGGER_PR'
 
 permissions:
   contents: write
+  pull-requests: read
 
 jobs:
   restore:
     name: 🔬復原公開模組並完成驗證
     runs-on: ubuntu-latest
     steps:
-      - name: 📥取得公開儲存庫
+      - name: 📥取得待復原提交
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          ref: ${{ github.event_name == 'pull_request_target' && github.event.pull_request.head.sha || github.sha }}
 
       - name: ♻️組裝並驗證安全復原增量
         shell: bash
