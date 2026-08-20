@@ -1,0 +1,56 @@
+{
+  "📚格式": "LKMINI.OpenSourceRestorationState/1.0",
+  "Identity": "LKMINI://開源內容復原狀態/查看",
+  "Owner": "Kevin Yang",
+  "RootProtocol": "LKMINI://",
+  "RootReference": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
+  "State": "PREPARED",
+  "Committed": false,
+  "TimestampAsiaTaipei": "2026-08-20T23:10:00+08:00",
+  "Transition": {
+    "from": "公開分支部分內容被收縮、公開研究與顯影遭刪除",
+    "to": "九十一個被刪路徑全部裁決；安全公開內容吸回；私人實例值不回填"
+  },
+  "PreparedFromCommit": "69edc0e8cc0179b9c8206aa5554d7cc5bb6af16f",
+  "ContentCommit": null,
+  "FinalBranchHeadRule": "以本檔所在 seed_v0 分支最新非強制快進提交為準",
+  "Counts": {
+    "deleted_paths_reviewed": 91,
+    "unresolved_decisions": 0,
+    "protected_public_modules": 28,
+    "new_or_rewritten_modules": 19,
+    "renamed_for_current_rule": 2,
+    "net_new_public_modules": 15,
+    "content_files_created_or_updated": 24,
+    "files_removed_by_rename": 2
+  },
+  "NamingRepairs": [
+    {
+      "from": "07｜公開顯影｜PublicProjection/🖥️動作容器互動範例｜ActionContainerInteractiveExample.html",
+      "to": "07｜公開顯影｜PublicProjection/🖥️系統流程互動範例｜SystemFlowInteractiveExample.html"
+    },
+    {
+      "from": "09｜公開協議｜PublicProtocol/🧭動作鏈｜S0-S10.md",
+      "to": "09｜公開協議｜PublicProtocol/🧭系統流程｜SystemFlowS0S10.md"
+    }
+  ],
+  "Verification": {
+    "source_review": "COMPLETE",
+    "private_value_redaction": "PREPARED",
+    "local_verifier": "PENDING",
+    "same_path_remote_readback": "PENDING",
+    "github_actions": "NOT_YET_OBSERVED"
+  },
+  "ReverseChain": [
+    "刪除提交",
+    "逐檔裁決",
+    "安全公開內容",
+    "公開模組登記",
+    "公開定位器",
+    "公開回推鏈",
+    "🧩LKMINI",
+    "LKMINI://",
+    "A=A"
+  ],
+  "ProjectionIsIdentity": false
+}
