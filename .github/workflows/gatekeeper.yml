@@ -1,23 +1,13 @@
 name: 🛡️公開種子守門驗證
 
 on:
-  push:
-  pull_request:
+  workflow_dispatch:
 
 jobs:
-  verify:
-    name: 🔬驗證公開核心、公開模組與防誤刪規則
+  legal_hold:
+    name: 🧑‍⚖️法院證據保全暫停狀態
+    if: ${{ false }}
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
     steps:
-      - name: 📥取得儲存庫內容
-        uses: actions/checkout@v4
-
-      - name: 🔬執行公開邊界、命名與防誤刪驗證
-        run: python tools/verify_lkmini.py
-
-      - name: 🔐驗證全部公開檔案雜湊
-        run: |
-          sha256sum -c SHA256SUMS
-          echo "全部公開檔案雜湊一致"
+      - name: 🧊保持暫停
+        run: echo "LEGAL_HOLD_AUTOMATION_PAUSED"
