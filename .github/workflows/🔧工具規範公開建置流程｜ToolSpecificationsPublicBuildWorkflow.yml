@@ -1,36 +1,13 @@
 name: 🔧工具規範公開建置
 
 on:
-  push:
-    branches: [seed_v0]
-    paths:
-      - '07｜公開顯影｜PublicProjection/**'
-      - '08｜自動化同步｜SyncAutomation/**'
-      - '09｜公開協議｜PublicProtocol/**'
-      - '🧾公開模組登記｜PublicModuleRegistry.json'
-      - '.github/workflows/🔧工具規範公開建置流程｜ToolSpecificationsPublicBuildWorkflow.yml'
-  pull_request:
+  workflow_dispatch:
 
 jobs:
-  build:
-    name: 📦建立可重現公開封包
+  legal_hold:
+    name: 🧑‍⚖️法院證據保全暫停狀態
+    if: ${{ false }}
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
     steps:
-      - name: 📥取得公開儲存庫內容
-        uses: actions/checkout@v4
-
-      - name: 🔧執行公開建置器
-        shell: bash
-        run: |
-          python '08｜自動化同步｜SyncAutomation/🔧工具規範公開建置器｜ToolSpecificationsPublicBuilder.py' \
-            --out-dir "$RUNNER_TEMP/lkmini-public-build"
-
-      - name: 📤上傳公開建置成品
-        uses: actions/upload-artifact@v4
-        with:
-          name: 工具規範公開建置
-          path: ${{ runner.temp }}/lkmini-public-build/
-          if-no-files-found: error
-          retention-days: 30
+      - name: 🧊保持暫停
+        run: echo "LEGAL_HOLD_AUTOMATION_PAUSED"
