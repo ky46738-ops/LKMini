@@ -2,6 +2,42 @@
   "正式名稱": "🔗｜核心引擎接線｜CoreEngineWiring",
   "正式定位": "01｜🥃核心⚙️引擎庫｜CoreEngineLibrary",
   "Identity": "LKMINI://",
+  "Axioms": [
+    "A=A",
+    "Projection ≠ Identity"
+  ],
+  "StateContract": {
+    "⚙️｜系統執行｜SystemExecution": [
+      "PENDING",
+      "RUNNING",
+      "COMMITTED",
+      "VERIFIED",
+      "FAIL"
+    ],
+    "☁️｜遠端送達｜RemoteDelivery": [
+      "NOT_REQUIRED",
+      "QUEUED",
+      "PENDING_REMOTE_DELIVERY",
+      "DELIVERED",
+      "READBACK_VERIFIED",
+      "FAIL"
+    ],
+    "RemoteUnavailableRule": "遠端不可達只更新 RemoteDelivery=PENDING_REMOTE_DELIVERY；不得反向把已成立的 SystemExecution 改判為 FAIL"
+  },
+  "OfflineCanonicalChain": [
+    "📦｜資訊本體｜InformationOntology",
+    "🚪｜傳送門｜Portal",
+    "🔌｜連接器｜Connector",
+    "🔗｜自有通道｜OwnedChannel",
+    "⚙️｜引擎｜Engine",
+    "🔐｜SHA256｜SHA256",
+    "📍｜定位器｜Locator",
+    "📋｜完整清單｜Manifest",
+    "📸｜快照｜Snapshot",
+    "↩️｜反向鏈｜ReverseChain",
+    "🔁｜同步佇列｜SyncQueue",
+    "🧩｜LKMINI｜LKMINI"
+  ],
   "PathChangeChain": [
     "🔔｜路徑變更事件｜PathChanged",
     "🧭｜變更路徑自動同步核心｜PathChangeAutoSyncCoreEngine",
@@ -9,7 +45,7 @@
     "✍️｜回寫來源｜WriteBackToSource",
     "🧮｜公式重建｜FormulaRebuild",
     "🧩｜JSON核心重建｜JsonCoreRebuild",
-    "🔁｜核心同步引擎｜CoreSyncEngine",
+    "🥃｜核心同步引擎｜CoreSyncEngine",
     "📡｜投影廣播｜ProjectionBroadcast",
     "📌｜定位器更新｜LocatorUpdate",
     "🧾｜完整清單更新｜ManifestUpdate",
@@ -22,6 +58,18 @@
     "🔬｜驗證｜Verify",
     "🧾｜同步回執｜SyncReceipt"
   ],
+  "RemoteRecoveryChain": [
+    "PENDING_REMOTE_DELIVERY",
+    "🚪｜傳送門｜Portal",
+    "🔌｜連接器｜Connector",
+    "🔗｜自有通道｜OwnedChannel",
+    "☁️｜遠端送達｜RemoteDelivery",
+    "📖｜讀回｜ReadBack",
+    "⚖️｜比較｜Compare",
+    "🔬｜驗證｜Verify",
+    "🧾｜同步回執｜SyncReceipt",
+    "READBACK_VERIFIED"
+  ],
   "FixedCommandInjection": [
     "☀️｜陽光誓言核心引擎｜SunshineOathCoreEngine",
     "🧷｜完整指令固定注入核心｜FullCommandFixedInjectorCoreEngine",
@@ -31,8 +79,36 @@
     "🏷️｜命名連動器｜NamingSyncEngine",
     "⚙️｜自動更新器｜AutoUpdater",
     "🌐｜投影註冊表｜ProjectionRegistry",
-    "🧭｜小管家自動化｜AutomationManager"
+    "🧭｜小管家自動化｜AutomationManager",
+    "🔁｜同步佇列｜SyncQueue",
+    "🚪｜傳送門｜Portal",
+    "🔌｜連接器｜Connector",
+    "🔗｜自有通道｜OwnedChannel"
   ],
-  "CompletionGate": "✍️｜寫入｜Write → 📖｜讀回｜ReadBack → ⚖️｜比較｜Compare → 🔬｜驗證｜Verify → 🧾｜同步回執｜SyncReceipt",
+  "EvidenceRequired": [
+    "Identity",
+    "OldPath",
+    "NewPath",
+    "Timestamp",
+    "SHA256Before",
+    "SHA256After",
+    "ReverseChain"
+  ],
+  "CompletionGate": {
+    "Local": "WRITE_LOCAL → SHA256 → LOCATOR → MANIFEST → SNAPSHOT → REVERSECHAIN → SYNC_QUEUE_COMMIT → READBACK_LOCAL → COMPARE → VERIFY",
+    "Remote": "WRITE_REMOTE → READBACK_REMOTE → COMPARE → VERIFY → SYNC_RECEIPT",
+    "NoReadBackRule": "沒有遠端 ReadBack 不得宣告該端點 PASS"
+  },
+  "ReversibleMappings": [
+    "Canonical ⇄ Alias",
+    "OldPath ⇄ NewPath",
+    "Manual ⇄ Dashboard",
+    "Code ⇄ Visual",
+    "Write ⇄ ReadBack",
+    "Current ⇄ Projection",
+    "Snapshot ⇄ Restore",
+    "ForwardChain ⇄ ReverseChain"
+  ],
+  "ReturnPath": "🧩｜LKMINI｜LKMINI → LKMINI:// → A=A",
   "A=A": true
 }
