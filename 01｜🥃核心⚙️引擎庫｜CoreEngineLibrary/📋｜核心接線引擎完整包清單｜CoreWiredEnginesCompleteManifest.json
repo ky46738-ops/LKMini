@@ -1,0 +1,20 @@
+{
+  "正式名稱": "📋｜核心接線引擎完整包清單｜CoreWiredEnginesCompleteManifest",
+  "Identity": "LKMINI://",
+  "generated_at": "2026-08-27T09:34:35.418782+00:00",
+  "count": 8,
+  "files": [
+    {"name":"☀️｜陽光誓言核心引擎｜SunshineOathCoreEngine.py","bytes":991,"sha256":"b69435223a321fbcd470b89d6c9e28fdef8a0c05cb5fc3567790da0fde219a25"},
+    {"name":"☠️｜死亡憲法核心引擎｜DeathConstitutionCoreEngine.py","bytes":840,"sha256":"5e7e265c4a17df3d83d5346ab17727880510e77740463619ebd2f9678e775e21"},
+    {"name":"🔗｜核心引擎接線｜CoreEngineWiring.json","bytes":1480,"sha256":"f8d306f549c1a7151ecce9031c21323f2ba8b4a41d35cf96840bbf0a9ca331ae"},
+    {"name":"🔬｜驗證引擎｜ValidationEngine.md","bytes":1349,"sha256":"869119f9b7510ec1f59efdca7f981670c88e3aea9cb49d8349334e87f6107fcc"},
+    {"name":"🥃｜核心同步引擎｜CoreSyncEngine.js","bytes":1515,"sha256":"51c06a7bb9384c142e08ce0fb21fb8a8f8f53e257d61f3be10babef525cbd0ef"},
+    {"name":"🧭｜變更路徑自動同步核心｜PathChangeAutoSyncCoreEngine.py","bytes":2899,"sha256":"5449553339a4079b59e6d9ae19d00f3e73e75fdd36aa32a2387712447d085384"},
+    {"name":"🧷｜完整指令固定注入核心｜FullCommandFixedInjectorCoreEngine.py","bytes":903,"sha256":"b7bfc93b9e4dd3221c8bd4c2d3cf1cb965a4c7fd0a88e1caabc1ec1a0aa6ff5b"},
+    {"name":"🧾｜變更路徑自動同步驗收回執｜PathChangeAutoSyncAcceptance.json","bytes":1433,"sha256":"abac8264be610b7e9f2b7929a1578569491ea5764144823e4afc03b7b78e0a01"}
+  ],
+  "Acceptance": {
+    "PathChangeAutoSyncLocalExecution": "PASS",
+    "RemoteEndpoints": "需逐端工具 ReadBack 才能 PASS"
+  }
+}
