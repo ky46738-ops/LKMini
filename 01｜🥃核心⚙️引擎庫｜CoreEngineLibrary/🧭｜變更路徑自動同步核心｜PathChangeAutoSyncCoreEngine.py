@@ -36,11 +36,14 @@ PIPELINE = (
     "📡｜投影廣播｜ProjectionBroadcast",
     "📋｜完整清單更新｜ManifestUpdate",
     "📍｜定位器更新｜LocatorUpdate",
+    "🔐｜SHA256更新｜SHA256Update",
     "📸｜快照更新｜SnapshotUpdate",
     "↩️｜反向鏈更新｜ReverseChainUpdate",
+    "👀｜顯影更新｜VisualProjectionUpdate",
     "📖｜讀回｜ReadBack",
     "⚖️｜比對｜Compare",
     "🔬｜驗證｜Verify",
+    "🧾｜同步回執｜SyncReceipt",
 )
 
 class PathChangeAutoSyncCoreEngine:
