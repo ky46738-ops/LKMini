@@ -1,0 +1,15 @@
+{
+  "🌐｜工具｜Tool": "🌐｜全系統程式碼翻譯器｜SystemWideCodeTranslator",
+  "🧩｜身份｜Identity": "LKMINI://UnderstandingEngine/SystemWideCodeTranslator",
+  "📍｜正式路徑｜CanonicalPath": "/🥃老K系統/02｜🧰共用工具箱｜SharedToolbox/🌐｜翻譯器｜Translator",
+  "🔐｜執行本體SHA256｜ExecutableSHA256": "8f5613caf1e390064f0679bf193918c9a036ecd003e671a050459fe5b1615b04",
+  "🔗｜接線｜Wiring": [
+    "02｜🧰共用工具箱｜SharedToolbox",
+    "🌐｜翻譯器｜Translator",
+    "▶️｜翻譯器啟動器｜TranslatorLauncher",
+    "🧩LKMINI",
+    "LKMINI://"
+  ],
+  "🟢｜啟用狀態｜ActivationState": "ACTIVE",
+  "🔁｜讀回條件｜ReadBackRequired": true
+}
