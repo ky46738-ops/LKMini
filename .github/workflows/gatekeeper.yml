@@ -6,6 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
       - name: Check required files exist
         run: |
@@ -34,6 +36,36 @@ jobs:
             sha256sum -c SHA256SUMS
             echo "PASS: All hashes match"
           fi
+
+      - name: Evidence quarantine is non-executable
+        run: |
+          if find evidence-quarantine -type f \( -name '*.sh' -o -name '*.py' -o -name '*.js' -o -name '*.ts' -o -name '*.exe' -o -name '*.bin' \) -print -quit 2>/dev/null | grep -q .; then
+            echo "FAIL: executable/script content detected in evidence-quarantine"
+            exit 1
+          fi
+          echo "PASS: evidence-quarantine contains no executable/script file types"
+
+      - name: Owner-only evidence quarantine changes
+        env:
+          OWNER: ky46738-ops
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            ACTOR="${{ github.event.pull_request.user.login }}"
+          else
+            ACTOR="${{ github.actor }}"
+          fi
+          BASE="${{ github.event.before }}"
+          HEAD="${{ github.sha }}"
+          if [ "$BASE" = "0000000000000000000000000000000000000000" ]; then
+            CHANGED=$(git show --pretty='' --name-only "$HEAD")
+          else
+            CHANGED=$(git diff --name-only "$BASE" "$HEAD" || true)
+          fi
+          if echo "$CHANGED" | grep -q '^evidence-quarantine/' && [ "$ACTOR" != "$OWNER" ]; then
+            echo "FAIL: evidence-quarantine changed by non-owner actor: $ACTOR"
+            exit 1
+          fi
+          echo "PASS: evidence quarantine owner check"
 
       - name: Check no private data leaked
         run: |
