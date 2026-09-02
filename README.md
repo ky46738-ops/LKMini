@@ -5,6 +5,14 @@
 
 ---
 
+## Root
+
+- **Node:** 🧩LKMINI
+- **Protocol:** `LKMINI://`
+- **Capsule:** action container only — not used in naming
+
+---
+
 ## Attribution
 
 - **Original Author:** ky46738-ops
@@ -19,18 +27,19 @@
 
 LKMini is the minimal public seed of the LK System architecture.  
 It defines the boundary between public-facing components and private engine internals.  
-All modules, roles, engines, and UI must mount to the single 🥃永恆核心 (Eternal Core).  
-No parallel cores. No bypassing the core. No overwriting protected settings.
+All modules, roles, engines, and UI must mount to the single node 🧩LKMINI under protocol `LKMINI://`.  
+No parallel cores. No bypassing the node. No overwriting protected settings.
 
 ---
 
 ## Core Principles
 
-- Single core architecture (🥃永恆核心)
+- Single node architecture (🧩LKMINI / `LKMINI://`)
 - Gatekeeper role (🎩大管家) protects all settings
 - Public/Private boundary enforced at repo level
 - All claims must be verifiable and traceable
 - A_EQUALS_A=true
+- Projection ≠ Identity
 
 ---
 
