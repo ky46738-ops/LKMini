@@ -1,0 +1,37 @@
+# MANIFEST — LKMini Public Seed File Registry
+
+Generated: 2026-05-17
+Updated: 2026-09-02
+Author: ky46738-ops
+Status: SEED_V0.1
+
+## Root
+
+- Node: 🧩LKMINI
+- Protocol: LKMINI://
+- Capsule: action container only — not used in naming
+
+## Required Files
+
+| File | Description | Status |
+|------|-------------|--------|
+| README.md | Project overview and attribution | ✅ |
+| LICENSE | MIT License | ✅ |
+| NOTICE | Original authorship notice | ✅ |
+| MANIFEST | This file — registry of all public seed files | ✅ |
+| PUBLIC_PRIVATE_BOUNDARY.md | Defines what is public vs private | ✅ |
+| SHA256SUMS | Hash verification of all core files | ⏳ pending |
+| .github/workflows/gatekeeper.yml | Automated integrity check | ✅ |
+
+## Integrity
+
+A_EQUALS_A=true  
+PUBLIC_SEED_VERSION=seed_v0.1  
+GATEKEEPER_DEPLOYED=true  
+ROOT_PROTOCOL=LKMINI://
+
+## Wiring Note (2026-09-02)
+
+Upper locator changed once → lower projections follow.
+PriestSprite / automation sprites are projections; they do not create a second Identity.
+All return to LKMINI://
