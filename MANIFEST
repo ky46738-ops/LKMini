@@ -1,8 +1,15 @@
 # MANIFEST — LKMini Public Seed File Registry
 
 Generated: 2026-05-17
+Updated: 2026-09-02
 Author: ky46738-ops
 Status: SEED_V0.1
+
+## Root
+
+- Node: 🧩LKMINI
+- Protocol: LKMINI://
+- Capsule: action container only — not used in naming
 
 ## Required Files
 
@@ -20,4 +27,5 @@ Status: SEED_V0.1
 
 A_EQUALS_A=true  
 PUBLIC_SEED_VERSION=seed_v0.1  
-GATEKEEPER_DEPLOYED=true
+GATEKEEPER_DEPLOYED=true  
+ROOT_PROTOCOL=LKMINI://
