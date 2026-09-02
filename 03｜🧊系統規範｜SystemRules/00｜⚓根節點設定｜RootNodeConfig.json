@@ -1,0 +1,16 @@
+{
+  "schema": "LKMINI.RootNodeConfig/v1",
+  "IdentityBadge": "08fcdd7e01f05ae840e96e917345d6c0f8df2b455f2932554a73a5655fd70bfb",
+  "IdentityLocator": "LKMINI://identity/08fcdd7e01f05ae840e96e917345d6c0f8df2b455f2932554a73a5655fd70bfb",
+  "系統Identity顯示名稱": "🥃老K系統",
+  "根節點顯示名稱": "🧩LKMINI 節點",
+  "根節點名稱來源": "目前系統根資料夾 basename（自動偵測，不寫死絕對路徑）",
+  "正式根相對定位": ".",
+  "根協議": "LKMINI://",
+  "路徑策略": "系統內部一律使用相對路徑；根資料夾改名不改變內部定位",
+  "改名不變量": "Rename ≠ New Identity；Projection ≠ Identity；A=A",
+  "自動同步器": "04｜🪞幻影世界｜PhantomWorld/08｜🧭小管家🔁自動化｜AutomationManager/00｜🔄根節點名稱自動連動｜RootNameAutoSync.py",
+  "前次根節點顯示名稱": "🧩LKMINI",
+  "建立時間_TPE": "2026-08-30 10:10:33 Asia/Taipei",
+  "最後同步時間_TPE": "2026-09-02 11:40:00 Asia/Taipei"
+}
