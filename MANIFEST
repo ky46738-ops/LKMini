@@ -2,7 +2,7 @@
 
 Generated: 2026-05-17
 Author: ky46738-ops
-Status: SEED_V0
+Status: SEED_V0.1
 
 ## Required Files
 
@@ -19,5 +19,5 @@ Status: SEED_V0
 ## Integrity
 
 A_EQUALS_A=true  
-PUBLIC_SEED_VERSION=seed_v0  
+PUBLIC_SEED_VERSION=seed_v0.1  
 GATEKEEPER_DEPLOYED=true

@@ -37,4 +37,4 @@ The Gatekeeper workflow will FAIL if any private markers
 ---
 
 A_EQUALS_A=true  
-BOUNDARY_VERSION=seed_v0
+BOUNDARY_VERSION=seed_v0.1

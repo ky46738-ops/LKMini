@@ -27,7 +27,7 @@ jobs:
           fi
           echo "PASS: A=A marker found"
 
-      - name: Verify SHA256SUMS (warning only until seed_v0 locked)
+      - name: Verify SHA256SUMS (warning only until seed_v0.1 locked)
         run: |
           if grep -q "SHA256SUMS_STATUS=PLACEHOLDER" SHA256SUMS; then
             echo "WARNING: SHA256SUMS is still a placeholder. Skipping hash verification."
