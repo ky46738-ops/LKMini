@@ -1,0 +1,10 @@
+# SHA256SUMS — Pending refresh for seed_v0.1
+# These hashes must be regenerated locally after all files are finalized.
+# Run: find . -type f -not -path './.git/*' -exec sha256sum {} \; > SHA256SUMS
+#
+# STATUS: PENDING_REFRESH
+# Author: ky46738-ops
+# Version: seed_v0.1
+#
+# A_EQUALS_A=true
+# SHA256SUMS_STATUS=PENDING_REFRESH
