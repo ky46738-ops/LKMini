@@ -1,7 +1,7 @@
 # MANIFEST — LKMini Public Seed File Registry
 
 Generated: 2026-05-17
-Updated: 2026-09-02
+Updated: 2026-09-05
 Author: ky46738-ops
 Status: SEED_V0.1
 
@@ -23,9 +23,16 @@ Status: SEED_V0.1
 | SHA256SUMS | Hash verification of all core files | ⏳ pending |
 | .github/workflows/gatekeeper.yml | Automated integrity check | ✅ |
 
+## Public formula (2026-09-05)
+
+| File | Description | Status |
+|------|-------------|--------|
+| public/FORMULA.md | Correct capsule formula: identity vs projection | ✅ |
+| public/PhantomCapsuleMaker.py | One-file maker, no nested previous zip | ✅ |
+
 ## Integrity
 
-A_EQUALS_A=true  
-PUBLIC_SEED_VERSION=seed_v0.1  
-GATEKEEPER_DEPLOYED=true  
+A_EQUALS_A=true
+PUBLIC_SEED_VERSION=seed_v0.1
+GATEKEEPER_DEPLOYED=true
 ROOT_PROTOCOL=LKMINI://
