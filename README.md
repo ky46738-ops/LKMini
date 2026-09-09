@@ -39,7 +39,7 @@ No parallel cores. No bypassing the node. No overwriting protected settings.
 - Public/Private boundary enforced at repo level
 - All claims must be verifiable and traceable
 - A_EQUALS_A=true
-- 🥃Identity ⇔ Projection
+- 🥃Identity ⇋ Projection
 
 ---
 
