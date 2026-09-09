@@ -1,7 +1,7 @@
 # PUBLIC FORMULA — LKMini Phantom Capsule
 
 A_EQUALS_A=true
-PROJECTION_IS_NOT_IDENTITY=true
+IDENTITY_PROJECTION_REVERSIBLE=true
 PUBLIC_SEED=true
 
 ## Formula
@@ -10,6 +10,8 @@ Identity = emoji｜中文｜English
 Extension = projection only
 No-extension file = shell only
 Zip = reference, never nested back into the next shell
+
+🥃Identity ⇔ Projection
 
 Reverse chain:
 
