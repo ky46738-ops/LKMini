@@ -11,7 +11,7 @@ Extension = projection only
 No-extension file = shell only
 Zip = reference, never nested back into the next shell
 
-🥃Identity ⇔ Projection
+🥃Identity ⇋ Projection
 
 Reverse chain:
 
