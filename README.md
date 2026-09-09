@@ -40,6 +40,9 @@ No parallel cores. No bypassing the node. No overwriting protected settings.
 - All claims must be verifiable and traceable
 - A_EQUALS_A=true
 - 🥃Identity ⇋ Projection
+- Projection ≠ Identity
+
+門可來回。格子不是同一個。穿透走喉嚨，不是把本體戳破。
 
 ---
 
