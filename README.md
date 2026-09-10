@@ -42,7 +42,7 @@ No parallel cores. No bypassing the node. No overwriting protected settings.
 - 🥃Identity ⇋ Projection
 - Projection ≠ Identity
 
-門可來回。格子不是同一個。穿透走喉嚨，不是把本體戳破。
+
 
 ---
 
