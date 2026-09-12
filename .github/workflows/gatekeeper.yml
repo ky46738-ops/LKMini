@@ -1,4 +1,4 @@
-name: Gatekeeper
+name: 🐙章魚貓開源守门人
 on: [push, pull_request]
 
 jobs:
@@ -9,68 +9,68 @@ jobs:
         with:
           fetch-depth: 2
 
-      - name: Check required files exist
+      - name: 检查必要文件是否存在
         run: |
           for f in README.md LICENSE NOTICE MANIFEST SHA256SUMS PUBLIC_PRIVATE_BOUNDARY.md; do
-            if [ ! -f "$f" ]; then
-              echo "FAIL: Missing $f"
+            if [ ! -f “$f” ]; then
+              echo “失败: 缺少 $f”
               exit 1
             fi
           done
-          echo "PASS: All required files exist"
+          echo “成功: 所有必要文件都存在”
 
-      - name: Check A=A markers
+      - name: 检查 A=A 标记
         run: |
-          if ! grep -q "A_EQUALS_A=true" README.md; then
-            echo "FAIL: A=A marker missing in README.md"
+          if ! grep -q “A_EQUALS_A=true” README.md; then
+            echo “失败: README.md 中缺少 A=A 标记”
             exit 1
           fi
-          echo "PASS: A=A marker found"
+          echo “成功: 找到 A=A 标记”
 
-      - name: Verify SHA256SUMS (warning only until seed_v0.1 locked)
+      - name: 验证 SHA256SUMS（仅在 seed_v0.1 锁定之前为警告）
         run: |
-          if grep -q "SHA256SUMS_STATUS=PLACEHOLDER" SHA256SUMS; then
-            echo "WARNING: SHA256SUMS is still a placeholder. Skipping hash verification."
-            echo "ACTION REQUIRED: Run real sha256sum locally and push updated SHA256SUMS."
+          if grep -q “SHA256SUMS_STATUS=PLACEHOLDER” SHA256SUMS; then
+            echo “警告: SHA256SUMS 仍然是占位符。跳过哈希验证。”
+            echo “需要采取行动: 本地运行真实的 sha256sum 并推送更新后的 SHA256SUMS。”
           else
             sha256sum -c SHA256SUMS
-            echo "PASS: All hashes match"
+            echo “成功: 所有哈希值都匹配”
           fi
 
-      - name: Evidence quarantine is non-executable
+      - name: 证据隔离区不可执行
         run: |
-          if find evidence-quarantine -type f \( -name '*.sh' -o -name '*.py' -o -name '*.js' -o -name '*.ts' -o -name '*.exe' -o -name '*.bin' \) -print -quit 2>/dev/null | grep -q .; then
-            echo "FAIL: executable/script content detected in evidence-quarantine"
+          if find evidence-quarantine -type f \( -name ‘*.sh’ -o -name ‘*.py’ -o -name ‘*.js’ -o -name ‘*.ts’ -o -name ‘*.exe’ -o -name ‘*.bin’ \) -print -quit 2>/dev/null | grep -q .; then
+            echo “失败: 在 evidence-quarantine 中检测到可执行/脚本内容”
             exit 1
           fi
-          echo "PASS: evidence-quarantine contains no executable/script file types"
+          echo “成功: evidence-quarantine 中不包含可执行/脚本文件类型”
 
-      - name: Owner-only evidence quarantine changes
+      - name: 仅限所有者更改证据隔离区
         env:
           OWNER: ky46738-ops
         run: |
-          if [ "${{ github.event_name }}" = "pull_request" ]; then
-            ACTOR="${{ github.event.pull_request.user.login }}"
+          if [ “${{ github.event_name }}” = “pull_request” ]; then
+            ACTOR=“${{ github.event.pull_request.user.login }}”
           else
-            ACTOR="${{ github.actor }}"
+            ACTOR=“${{ github.actor }}”
           fi
-          BASE="${{ github.event.before }}"
-          HEAD="${{ github.sha }}"
-          if [ "$BASE" = "0000000000000000000000000000000000000000" ]; then
-            CHANGED=$(git show --pretty='' --name-only "$HEAD")
+          BASE=“${{ github.event.before }}”
+          HEAD=“${{ github.sha }}”
+          if [ “$BASE” = “0000000000000000000000000000000000000000” ]; then
+            CHANGED=$(git show —pretty=‘’ —name-only “$HEAD”)
           else
-            CHANGED=$(git diff --name-only "$BASE" "$HEAD" || true)
+            CHANGED=$(git diff —name-only “$BASE” “$HEAD” || true)
           fi
-          if echo "$CHANGED" | grep -q '^evidence-quarantine/' && [ "$ACTOR" != "$OWNER" ]; then
-            echo "FAIL: evidence-quarantine changed by non-owner actor: $ACTOR"
+          if echo “$CHANGED” | grep -q ‘^evidence-quarantine/‘ && [ “$ACTOR” != “$OWNER” ]; then
+            echo “失败: 证据隔离区被非所有者演员 $ACTOR 更改”
             exit 1
           fi
-          echo "PASS: evidence quarantine owner check"
+          echo “成功: 证据隔离区所有者检查”
 
-      - name: Check no private data leaked
+      - name: 检查是否泄露了私有数据
         run: |
-          if grep -r "PRIVATE_ENGINE\|ENGINE_REGISTRY_PRIVATE" --include="*.md" --include="*.json" .; then
-            echo "FAIL: Private markers found in public files"
+          if grep -r “PRIVATE_ENGINE\|ENGINE_REGISTRY_PRIVATE” —include=“*.md” —include=“*.json” .; then
+            echo “失败: 在公共文件中发现私有标记”
             exit 1
           fi
-          echo "PASS: No private data leaked"
+          echo “成功: 没有泄露私有数据”
