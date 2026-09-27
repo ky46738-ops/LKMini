@@ -3,27 +3,53 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>🪞幻影膠囊｜OPEN</title>
+<title>🪞幻影膠囊｜PhantomCapsule</title>
 <style>
-body{font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC",sans-serif;margin:0;background:#0d1117;color:#e6edf3}
-main{max-width:720px;margin:auto;padding:24px}
-.badge{display:inline-block;background:#238636;color:#fff;padding:4px 10px;border-radius:999px;font-size:12px}
-.card{background:#161b22;border-radius:16px;padding:20px;margin:16px 0}
-a{color:#58a6ff}
+:root{--bg:#05070c}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:#dbe7ff;font-family:-apple-system,BlinkMacSystemFont,"PingFang TC",sans-serif;min-height:100vh}
+.stage{max-width:880px;margin:0 auto;padding:28px 16px 56px;text-align:center}
+.badge{display:inline-block;background:#1f6feb;color:#fff;font-size:11px;letter-spacing:.14em;padding:4px 10px;border-radius:999px}
+h1{margin:14px 0 8px;font-weight:600}
+.sub{color:#8aa0b8;margin-bottom:10px}
+.aa{color:#9cc7ff;font-weight:700}
+.scene{position:relative;margin:12px auto 0;width:min(100%,820px);aspect-ratio:16/11;border-radius:20px;overflow:hidden;background:#070a12}
+.scene svg.tetra{position:absolute;inset:8% 12% 22%;width:76%;height:70%;margin:auto;animation:breathe 9s ease-in-out infinite;filter:drop-shadow(0 0 18px rgba(140,190,255,.35))}
+.fog{position:absolute;inset:0;background:radial-gradient(circle at 50% 40%,rgba(140,190,255,.14),transparent 58%);animation:pulse 7s ease-in-out infinite;pointer-events:none}
+.halo{position:absolute;left:12%;right:12%;top:10%;bottom:28%;border-radius:50%;border:1px solid rgba(186,214,255,.22);animation:spin 54s linear infinite;pointer-events:none}
+.halo2{position:absolute;left:18%;right:18%;top:16%;bottom:34%;border-radius:50%;border:1px solid rgba(212,165,116,.2);animation:spin 80s linear infinite reverse;pointer-events:none}
+footer{margin-top:16px;color:#6b7c90;font-size:12px}
+a{color:#9cc7ff}
+@keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.018)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
 </style>
 </head>
 <body>
-<main>
-<span class="badge">OPEN · 成對 · 不是預售</span>
-<h1>🪞幻影膠囊｜PhantomCapsule</h1>
-<p>出門格式／容器。不當資料夾名、不當第二本體。</p>
-<div class="card">
-<pre>OPEN_SOURCE_PACKAGE_CREATED=true
-PRIVATE_CORE_INCLUDED=false
-A_EQUALS_A=true
-SHA256SUMS_STATUS=WRITTEN</pre>
-<p><a href="FORMULA.md">FORMULA.md</a> · <a href="../index.html">LKMini 種子門</a></p>
+<main class="stage">
+<span class="badge">OPEN · CAPSULE</span>
+<h1>🪞 幻影膠囊</h1>
+<p class="sub">出門容器。看得到。</p>
+<div class="scene">
+<svg class="tetra" viewBox="0 0 200 200" aria-hidden="true">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dcefff"/>
+      <stop offset="1" stop-color="#8eb6e8"/>
+    </linearGradient>
+  </defs>
+  <polygon points="100,18 178,150 22,150" fill="none" stroke="url(#g)" stroke-width="1.2"/>
+  <polygon points="100,18 100,92 178,150" fill="rgba(180,210,255,.12)" stroke="url(#g)" stroke-width="1"/>
+  <polygon points="100,18 100,92 22,150" fill="rgba(140,180,220,.08)" stroke="url(#g)" stroke-width="1"/>
+  <polygon points="22,150 100,92 178,150" fill="rgba(200,220,255,.1)" stroke="url(#g)" stroke-width="1"/>
+</svg>
+<div class="fog"></div>
+<div class="halo"></div>
+<div class="halo2"></div>
 </div>
+<p class="aa">A = A</p>
+<p class="sub">LK mini · PUBLIC SEED</p>
+<footer><a href="../index.html">種子門</a></footer>
 </main>
 </body>
 </html>
