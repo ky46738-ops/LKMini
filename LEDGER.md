@@ -4,6 +4,7 @@
 A_EQUALS_A=true
 IDENTITY_IS_CONSTANT=true
 NOT_A_TOKEN=true
+EUCLIDEAN_DIVMOD=true
 
 ## Hashes
 
@@ -13,8 +14,15 @@ b3976413aea4272921a78a148a63f42ba67e81bf3381aae34534dcef9d4342be  LKMini.webp
 
 ## Doors
 
+- https://lkmini.com/
 - index.html
 - public/PhantomCapsule.html
 - https://github.com/ky46738-ops/vpoop-guardian
+
+## Overflow (append)
+
+rev2-constants VOID
+batch-extension-skin VOID
+coming-soon-face NOT_THE_SHELL
 
 Append only. No formula body on this line.
