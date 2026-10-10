@@ -1,0 +1,14 @@
+{
+  "name": "ReverseChain",
+  "purpose": "Lineage and restore reference chain for LKMini public seed",
+  "author": "Kevin Yang (ky46738-ops)",
+  "chain": [
+    {
+      "version": "seed_v0",
+      "date": "2026-05-17",
+      "repo": "ky46738-ops/LKMini",
+      "note": "First public seed. Gatekeeper deployed. Core files committed.",
+      "A_EQUALS_A": true
+    }
+  ]
+}
