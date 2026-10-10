@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" fill="none" aria-label="LKMini — 老K系統公開種子">
+  <g stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 14 L10 58 H42 L34 14 Z" fill="none"/>
+    <path d="M13.5 38 L10 58 H42 L38.5 38 Z" fill="#D4870A" fill-opacity="0.55" stroke="none"/>
+    <rect x="19" y="41" width="12" height="10" rx="2" fill="white" fill-opacity="0.5" stroke="currentColor" stroke-width="1.5"/>
+    <line x1="6" y1="62" x2="46" y2="62" stroke-width="2.5"/>
+  </g>
+  <g fill="currentColor" font-family="'Georgia', serif">
+    <text x="62" y="55" font-size="42" font-weight="700" letter-spacing="-1">LK</text>
+  </g>
+  <text x="148" y="56" font-size="13" font-family="'Georgia', serif" fill="currentColor" font-style="italic" opacity="0.65">mini</text>
+  <text x="62" y="70" font-size="9" font-family="'Arial', sans-serif" fill="currentColor" opacity="0.45" letter-spacing="2">PUBLIC SEED · A=A</text>
+</svg>
