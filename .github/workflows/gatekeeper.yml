@@ -1,0 +1,39 @@
+name: Gatekeeper
+on: [push, pull_request]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check required files exist
+        run: |
+          for f in README.md LICENSE NOTICE.md LKMini.svg PUBLIC_PRIVATE_BOUNDARY.md SHA256SUMS .github/workflows/gatekeeper.yml tools/verify_lkmini.py; do
+            if [ ! -f "$f" ]; then
+              echo "FAIL: Missing $f"
+              exit 1
+            fi
+          done
+          echo "PASS: All required files exist"
+
+      - name: Check A=A marker
+        run: |
+          if ! grep -q "A_EQUALS_A=true" README.md; then
+            echo "FAIL: A=A marker missing in README.md"
+            exit 1
+          fi
+          echo "PASS: A=A marker found"
+
+      - name: Verify SHA256SUMS
+        run: |
+          sha256sum -c SHA256SUMS
+          echo "PASS: All hashes match"
+
+      - name: Check no private data leaked
+        run: |
+          if grep -r "PRIVATE_ENGINE\|ENGINE_REGISTRY_PRIVATE" --include="*.md" --include="*.json" .; then
+            echo "FAIL: Private markers found in public files"
+            exit 1
+          fi
+          echo "PASS: No private data leaked"
