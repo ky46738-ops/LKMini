@@ -71,19 +71,37 @@ def check_sha256sums():
         print("PASS: All hashes match")
     return ok
 
+# 這些是公開安全政策中對禁止詞的「文字說明」，不是引擎資料本體。
+# 僅放行完全相同的原句；其餘包含私有標記的內容仍拒絕。
+DOCUMENTED_MARKER_LINES = {
+    "PUBLIC_PRIVATE_BOUNDARY.md": {
+        "- PRIVATE_ENGINE_FLEET",
+        "- ENGINE_REGISTRY_PRIVATE",
+    },
+    "GOVERNANCE.md": {
+        "- 私有引擎設定（PRIVATE_ENGINE_FLEET 內容）",
+    },
+    "SECURITY.md": {
+        "- `PRIVATE_ENGINE`",
+        "- `ENGINE_REGISTRY_PRIVATE`",
+    },
+}
+
 def check_no_private_leak():
     for root, dirs, files in os.walk("."):
         dirs[:] = [d for d in dirs if d != ".git"]
         for fname in files:
             if fname.endswith((".md", ".json", ".txt")):
                 fpath = os.path.join(root, fname)
+                relpath = os.path.relpath(fpath, ".").replace(os.sep, "/")
                 with open(fpath, "r", errors="ignore") as f:
-                    content = f.read()
-                for marker in PRIVATE_MARKERS:
-                    if marker in content:
-                        print(f"FAIL: Private marker '{marker}' in {fpath}")
-                        return False
-    print("PASS: No private data leaked")
+                    for lineno, line in enumerate(f, 1):
+                        if any(marker in line for marker in PRIVATE_MARKERS):
+                            if line.strip() in DOCUMENTED_MARKER_LINES.get(relpath, set()):
+                                continue
+                            print(f"FAIL: Private marker in {relpath}:{lineno}")
+                            return False
+    print("PASS: No undocumented private markers found")
     return True
 
 if __name__ == "__main__":
