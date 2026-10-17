@@ -1,7 +1,7 @@
 # 🥃 LKMini — 老K系統公開種子版本
 
 > LKMini is the open-source public seed of the 🥃LK System (老K系統),  
-> designed and authored by **ky46738-ops** (Taiwan).
+> 原創設計與作者：**Kevin Yang（ky46738-ops）**，台灣。
 
 ---
 
