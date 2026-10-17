@@ -32,8 +32,4 @@ jobs:
 
       - name: Check no private data leaked
         run: |
-          if grep -r "PRIVATE_ENGINE\|ENGINE_REGISTRY_PRIVATE" --include="*.md" --include="*.json" .; then
-            echo "FAIL: Private markers found in public files"
-            exit 1
-          fi
-          echo "PASS: No private data leaked"
+          python3 tools/verify_lkmini.py
