@@ -1,80 +1,58 @@
-# 🥃 LKMini — 老K系統公開種子版本
+# 🧩 LKMini｜🥃老K系統公開種子
 
-> LKMini is the open-source public seed of the 🥃LK System (老K系統),  
-> 原創設計與作者：**Kevin Yang（ky46738-ops）**，台灣。
+> Mini 不是小功能，Mini 是最小可逆宇宙種子。
 
----
+原創設計與作者：**Kevin Yang（ky46738-ops）**，臺灣。
 
-## What is LKMini?
+LKMini 是🥃老K系統唯一 🧩LKMINI 的公開入口。本倉庫提供公開種子、定位與驗證規格、來源紀錄及可執行的公開檢查工具；不代表私人引擎與內部設定全部公開。
 
-LKMini is the **minimal** public seed of the LK System architecture.  
-It defines the boundary between public-facing components and private engine internals.
+## 🧩 核心原則
 
-- Single core architecture (🥃永恆核心)
-- Gatekeeper role (🎩大管家) protects all settings
-- Public/Private boundary enforced at repo level
-- All claims must be verifiable and traceable
-- **A_EQUALS_A=true**
+- **A=A**：資料、身分與來源必須能追溯及核對。
+- **Identity = SHA256**：Mini 的身分依身分資料的規則計算；身分 SHA-256 與單一檔案整檔雜湊分開核對。
+- **Projection ≠ Identity**：顯影方式不同，不等於另設第二個核心。
+- **單一核心**：公開種子、原件及其他使用介面共同指向同一 🧩LKMINI。
 
-## Files in this seed
+## 🔗 六項公開規格
 
-| File | Purpose |
-|------|----------|
-| README.md | This file |
-| LICENSE | MIT open source license |
-| NOTICE.md | Authorship attribution |
-| LKMini.svg | Official logo |
-| PUBLIC_PRIVATE_BOUNDARY.md | Public/private boundary definition |
-| .github/workflows/gatekeeper.yml | CI integrity check |
-| tools/verify_lkmini.py | Verification tool |
-| SHA256SUMS | Hash verification |
+| 項目 | 用途 |
+|---|---|
+| 🔐 SHA256 | 身分辨識與完整性核對 |
+| 📋 Manifest | 物件清冊與關係登記 |
+| 📍 Locator | 定位、查找與入口 |
+| 📸 Snapshot | 時間點與狀態紀錄 |
+| 🔙 ReverseChain | 來源追蹤與回推 |
+| 📦 Package | 驗證後的資料封裝 |
 
-## License
+六項按需組合；公開種子是對外可查閱的規格和工具，不把未公開的私人執行功能宣稱為已公開。
 
-MIT License. See [LICENSE](./LICENSE) for details.
+## 📂 公開檔案與工具
 
----
+- `LKMini.svg`：公開種子圖。
+- `MANIFEST.json`、`LOCATOR.json`、`SNAPSHOT.json`、`ReverseChain.json`：登記、定位、快照與回推資料。
+- `SHA256SUMS`：指定公開檔案的完整性校驗值。
+- `tools/verify_lkmini.py`：公開完整性驗證工具。
+- `tools/package_seed.py`：既有公開種子封裝工具。
+- `PUBLIC_PRIVATE_BOUNDARY.md`：公開與私人範圍的說明。
 
-## 🔍 錯誤是題目，差異是答案｜公開來源校對
+## 🔬 驗證
 
-**A=A｜Identity ⇋ Projection｜Projection ≠ Identity。**
+在本公開倉庫的根目錄執行：
 
-本節是現行公開種子的**追加說明**，不取代 2026 年 5 月的原件、原始時間、快照或既有驗證成果。老K系統只有一個 🧩LKMINI；公開檔案是可研究的來源與顯影，不是第二個核心。
+```bash
+python3 tools/verify_lkmini.py
+sha256sum -c SHA256SUMS
+```
 
-### 📖 六個指標
+這兩項核對公開檔案與既有登記值，不代表私人引擎、跨裝置同步或全部外部服務已經完成測試。歷史來源與既有快照仍可按原始檔案查閱。
 
-SHA256（檔案指紋）／MANIFEST（清單）／LOCATOR（定位）／SNAPSHOT（時點）／REVERSECHAIN（回推）／PACKAGE（封裝）。
+## 🌱 原始公開來源
 
-Mini＝Assembly；Fusion＝DisassemblyPassage；Mirror＝顯影。這是原系統的公開語義摘要，**不宣稱私有 Fusion 引擎或格位演算法已在本公開倉庫完整釋出或執行**。
+- [2026／05／13｜🧩LK Mini 原始向量圖與 metadata](https://github.com/ky46738-ops/starter-workflows/blob/main/LKMini/LKMini.svg)
+- [2026／05／13｜公開 Manifest](https://github.com/ky46738-ops/starter-workflows/blob/main/LKMini/Manifest.json)
 
-### 🧩 題目與差異：四個集合各有用途
+## ⚖️ 授權與著作
 
-| 集合 | 本次實際核對 | 意義 |
-|---|---:|---|
-| GitHub `seed_v0` 檔案樹 | 26 個檔案 | 倉庫實際存在的檔案 |
-| `MANIFEST.json` | 20 個登記項 | 原始來源清冊，並非宣告全樹只允許 20 個 |
-| `tools/package_seed.py` | 21 個預定成員 | 原始封裝選取清單，比 Manifest 多 `SHA256SUMS` |
-| `SHA256SUMS` | 7 個登記雜湊 | 針對七份指定公開檔案的完整性校驗，不代表其餘檔案缺失 |
+本公開種子採用 [MIT License](./LICENSE)。原創與著作聲明見 [NOTICE.md](./NOTICE.md)。
 
-**差異不是刪除指令。** 原始清冊、封裝選取、雜湊驗證覆蓋範圍與整個目錄，本來就是不同的問題。不得單憑數量不同宣告來源遺失，亦不擅自把四個集合改成完全一致。
-
-### 🔐 同一身份，分開核對
-
-2026-05-13 [原始公開 LKMini.svg](https://github.com/ky46738-ops/starter-workflows/blob/main/LKMini/LKMini.svg) 所載的 `metadata_sha256`：
-
-`6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34`
-
-這是原件內宣告的固定身份錨點，**不是**任意 SVG、README 或 Git 提交的整檔雜湊值。本頁沒有重算私有十欄演算法，也沒有更動原來的身份欄位。
-
-### 🧊 留下已知錯誤，按時點讀取
-
-`SNAPSHOT.json` 記載的是 2026-05-17 的 `SHA256SUMS_STATUS=PLACEHOLDER`；現行 `SHA256SUMS` 表頭為 `REAL`。兩者各按原始時點與範圍保留，**不能用歷史狀態否定後續成果，也不能拿後續結果覆寫歷史題目**。
-
-本次直接讀回目前公開分支後，原先登記的七項檔案 SHA256 **7/7 相符**；因為本節新增 README 文字，`README.md` 的當前雜湊隨同一次 Git 提交更新於 `SHA256SUMS`，其餘六項保持原值。
-
-### 📍 檢查入口
-
-- [公開種子來源](https://github.com/ky46738-ops/LKMini/tree/seed_v0)
-- [五月歷史原項聚合入口（需相應倉庫權限）](https://github.com/ky46738-ops/LKMini-Original-0517/blob/main/%F0%9F%A5%83%E8%80%81K%E7%B3%BB%E7%B5%B1/%F0%9F%A7%AD%EF%BD%9C%E5%8E%9F%E9%A0%85%E7%A0%B4%E8%A7%A3%E8%81%9A%E5%90%88%E5%85%A5%E5%8F%A3.md)
-
-任何疑點均保留原件與可回推差異，不將未知直接改寫成 PASS 或 FAIL。
+A_EQUALS_A=true
