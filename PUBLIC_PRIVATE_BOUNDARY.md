@@ -12,7 +12,7 @@ This document defines the boundary between public (LKMini) and private (🥃老K
 - LKMini.svg
 - PUBLIC_PRIVATE_BOUNDARY.md
 - SHA256SUMS
-- .github/workflows/gatekeeper.yml
+- .github/workflows/🎩大管家.yml
 - tools/verify_lkmini.py
 
 ---

@@ -20,12 +20,12 @@
     "CONTRIBUTING.md",
     "VERSION.md",
     "PUBLIC_PRIVATE_BOUNDARY.md",
-    "ETERNAL_CORE_POLICY.md",
+    "🥃永恆核心政策.md",
     "GOVERNANCE.md",
     "THREAT_MODEL.md",
     "CITATION.cff",
     ".github/CODEOWNERS",
-    ".github/workflows/gatekeeper.yml",
+    ".github/workflows/🎩大管家.yml",
     "tools/verify_lkmini.py",
     "tools/package_seed.py"
   ]

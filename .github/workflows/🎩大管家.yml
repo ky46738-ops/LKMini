@@ -9,7 +9,7 @@ jobs:
 
       - name: Check required files exist
         run: |
-          for f in README.md LICENSE NOTICE.md LKMini.svg PUBLIC_PRIVATE_BOUNDARY.md SHA256SUMS .github/workflows/gatekeeper.yml tools/verify_lkmini.py; do
+          for f in README.md LICENSE NOTICE.md LKMini.svg PUBLIC_PRIVATE_BOUNDARY.md SHA256SUMS .github/workflows/🎩大管家.yml tools/verify_lkmini.py; do
             if [ ! -f "$f" ]; then
               echo "FAIL: Missing $f"
               exit 1

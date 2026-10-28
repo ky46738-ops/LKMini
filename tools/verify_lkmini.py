@@ -15,7 +15,7 @@ REQUIRED_FILES = [
     "LKMini.svg",
     "PUBLIC_PRIVATE_BOUNDARY.md",
     "SHA256SUMS",
-    ".github/workflows/gatekeeper.yml",
+    ".github/workflows/🎩大管家.yml",
     "tools/verify_lkmini.py",
 ]
 

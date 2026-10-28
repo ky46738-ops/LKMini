@@ -95,7 +95,7 @@ LKMini 是老K系統架構的最小公開種子。
 | 🛡️ 語境守護｜CONTEXT_GUARDIAN.md | 語境保護 |
 | 🧭 解讀邊界｜INTERPRETATION_BOUNDARY.md | 可接受的解讀邊界 |
 | 🔏 語意完整性｜SEMANTIC_INTEGRITY.md | 強制確保轉化可追溯 |
-| 🎩 大管家檢查｜.github/workflows/gatekeeper.yml | 持續整合（CI）完整性檢查 |
+| 🎩 大管家檢查｜.github/workflows/🎩大管家.yml | 持續整合（CI）完整性檢查 |
 | 🔍 驗證工具｜tools/verify_lkmini.py | 系統驗證工具 |
 | 🧾 雜湊校驗清單｜SHA256SUMS | 雜湊值驗證 |
 

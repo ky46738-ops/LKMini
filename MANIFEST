@@ -14,7 +14,7 @@ Status: SEED_V0
 | MANIFEST | This file — registry of all public seed files | ✅ |
 | PUBLIC_PRIVATE_BOUNDARY.md | Defines what is public vs private | ✅ |
 | SHA256SUMS | Hash verification of all core files | ⏳ pending |
-| .github/workflows/gatekeeper.yml | Automated integrity check | ✅ |
+| .github/workflows/🎩大管家.yml | Automated integrity check | ✅ |
 
 ## Integrity
 
