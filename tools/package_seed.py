@@ -9,9 +9,9 @@ import os
 import datetime
 
 SEED_FILES = [
-    "📖入口宣告｜README.md",
-    "⚖️授權條款｜LICENSE",
-    "✍️作者歸屬｜NOTICE.md",
+    "README.md",
+    "LICENSE",
+    "NOTICE.md",
     "MANIFEST.json",
     "LOCATOR.json",
     "SNAPSHOT.json",
@@ -20,15 +20,15 @@ SEED_FILES = [
     "SECURITY.md",
     "CONTRIBUTING.md",
     "VERSION.md",
-    "🚧公私邊界｜PUBLIC_PRIVATE_BOUNDARY.md",
-    "🥃永恆核心政策｜ETERNAL_CORE_POLICY.md",
+    "PUBLIC_PRIVATE_BOUNDARY.md",
+    "ETERNAL_CORE_POLICY.md",
     "GOVERNANCE.md",
     "THREAT_MODEL.md",
     "CITATION.cff",
-    "🧾雜湊校驗清單｜SHA256SUMS",
+    "SHA256SUMS",
     ".github/CODEOWNERS",
-    ".github/workflows/🎩大管家｜Gatekeeper.yml",
-    "tools/🔍驗證工具｜verify_lkmini.py",
+    ".github/workflows/gatekeeper.yml",
+    "tools/verify_lkmini.py",
     "tools/package_seed.py",
 ]
 

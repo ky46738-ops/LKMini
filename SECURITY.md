@@ -18,6 +18,6 @@ Gatekeeper workflow 會自動檢查以下私有標記是否意外出現在公開
 
 ## 完整性驗證
 
-所有核心檔案透過 🧾雜湊校驗清單｜SHA256SUMS 驗證。
+所有核心檔案透過 SHA256SUMS 驗證。
 
 A_EQUALS_A=true

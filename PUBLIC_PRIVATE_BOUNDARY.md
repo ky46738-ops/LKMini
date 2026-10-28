@@ -6,14 +6,14 @@ This document defines the boundary between public (LKMini) and private (🥃老K
 
 ## ✅ Public (This Repo — LKMini)
 
-- 📖入口宣告｜README.md
-- ⚖️授權條款｜LICENSE
-- ✍️作者歸屬｜NOTICE.md
-- 🥃官方標誌｜LKMini.svg
-- 🚧公私邊界｜PUBLIC_PRIVATE_BOUNDARY.md
-- 🧾雜湊校驗清單｜SHA256SUMS
-- .github/workflows/🎩大管家｜Gatekeeper.yml
-- tools/🔍驗證工具｜verify_lkmini.py
+- README.md
+- LICENSE
+- NOTICE.md
+- LKMini.svg
+- PUBLIC_PRIVATE_BOUNDARY.md
+- SHA256SUMS
+- .github/workflows/gatekeeper.yml
+- tools/verify_lkmini.py
 
 ---
 
