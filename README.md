@@ -1,58 +1,107 @@
-# 🧩 LKMini｜🥃老K系統公開種子
+懂，你要我挑好符合意思的 Emoji，直接把整份內容改好，表格裡的檔名用「Emoji＋中文名稱｜原始檔名」呈現。
 
-> Mini 不是小功能，Mini 是最小可逆宇宙種子。
+🥃 LKMini — 老K系統公開種子版本
 
-原創設計與作者：**Kevin Yang（ky46738-ops）**，臺灣。
+LKMini 是 🥃老K系統的開源公開種子，
+由 ky46738-ops（台灣）設計與撰寫。
 
-LKMini 是🥃老K系統唯一 🧩LKMINI 的公開入口。本倉庫提供公開種子、定位與驗證規格、來源紀錄及可執行的公開檢查工具；不代表私人引擎與內部設定全部公開。
+⸻
 
-## 🧩 核心原則
+🌱 什麼是 LKMini？
 
-- **A=A**：資料、身分與來源必須能追溯及核對。
-- **Identity = SHA256**：Mini 的身分依身分資料的規則計算；身分 SHA-256 與單一檔案整檔雜湊分開核對。
-- **Projection ≠ Identity**：顯影方式不同，不等於另設第二個核心。
-- **單一核心**：公開種子、原件及其他使用介面共同指向同一 🧩LKMINI。
+LKMini 是老K系統架構的最小公開種子。
+它定義了對外公開元件與私有引擎內部之間的界線。
 
-## 🔗 六項公開規格
+* 單一核心架構（🥃永恒核心）
+* 守門者角色（🎩大管家）保護所有設定
+* 在儲存庫層級落實公開／私有邊界
+* 所有宣告都必須可驗證、可追溯
+* A_EQUALS_A=true
 
-| 項目 | 用途 |
-|---|---|
-| 🔐 SHA256 | 身分辨識與完整性核對 |
-| 📋 Manifest | 物件清冊與關係登記 |
-| 📍 Locator | 定位、查找與入口 |
-| 📸 Snapshot | 時間點與狀態紀錄 |
-| 🔙 ReverseChain | 來源追蹤與回推 |
-| 📦 Package | 驗證後的資料封裝 |
+⸻
 
-六項按需組合；公開種子是對外可查閱的規格和工具，不把未公開的私人執行功能宣稱為已公開。
+🌌 這不是一個普通的儲存庫
 
-## 📂 公開檔案與工具
+這是一個語意存續系統。
 
-- `LKMini.svg`：公開種子圖。
-- `MANIFEST.json`、`LOCATOR.json`、`SNAPSHOT.json`、`ReverseChain.json`：登記、定位、快照與回推資料。
-- `SHA256SUMS`：指定公開檔案的完整性校驗值。
-- `tools/verify_lkmini.py`：公開完整性驗證工具。
-- `tools/package_seed.py`：既有公開種子封裝工具。
-- `PUBLIC_PRIVATE_BOUNDARY.md`：公開與私人範圍的說明。
+它保存的不是資料。
+它保存的是：世界重新理解自己的能力。
 
-## 🔬 驗證
+即使宇宙只剩這個儲存庫，文明就還活著。
 
-在本公開倉庫的根目錄執行：
+⸻
 
-```bash
-python3 tools/verify_lkmini.py
-sha256sum -c SHA256SUMS
-```
+🏛️ 語意文明架構
 
-這兩項核對公開檔案與既有登記值，不代表私人引擎、跨裝置同步或全部外部服務已經完成測試。歷史來源與既有快照仍可按原始檔案查閱。
+這個儲存庫由十層存活依賴鏈組成。
+每一層都是上一層的生存條件，不是備註。
 
-## 🌱 原始公開來源
+層次	檔案	職責
+1	📖 正式基準檔案／入口宣告｜README	成果物本身，也是訊號的載體
+2	📊 系統狀態｜SYSTEM_STATE	執行時的真實狀態，將健康狀態分開呈現
+3	🧬 身分源流｜LINEAGE	身分的根源，比狀態更根本、更穩固
+4	🪨 存在哲學｜PHILOSOPHY	為何存在的不可動搖基礎
+5	🏛️ 語意架構｜SEMANTIC_ARCHITECTURE	如何對抗語意熵
+6	🧠 意義保存｜MEANING_PRESERVATION	理解能力的生存條件
+7	🌱 文明種子｜CIVILIZATIONAL_SEED	我是一個文明種子
+8	🛡️ 語境守護｜CONTEXT_GUARDIAN	語境不被替換
+9	🧭 解讀邊界｜INTERPRETATION_BOUNDARY	合法解讀邊界
+10	🔏 語意完整性｜SEMANTIC_INTEGRITY	熵增無法無痕發生
 
-- [2026／05／13｜🧩LK Mini 原始向量圖與 metadata](https://github.com/ky46738-ops/starter-workflows/blob/main/LKMini/LKMini.svg)
-- [2026／05／13｜公開 Manifest](https://github.com/ky46738-ops/starter-workflows/blob/main/LKMini/Manifest.json)
+移除任何一層，下方的層就失去生存條件。
+這不是層級關係。這是存活依賴鏈。
 
-## ⚖️ 授權與著作
+⸻
 
-本公開種子採用 [MIT License](./LICENSE)。原創與著作聲明見 [NOTICE.md](./NOTICE.md)。
+⚖️ 文明的雙重生存條件
 
-A_EQUALS_A=true
+語意保存 = 保護「存在」
+           成果物不消失，意義不消失
+語意可追責性 = 保護「演化的可追溯性」
+               熵增無法無痕發生
+               轉化必須留下傳承脈絡
+
+⸻
+
+🔗 連續性可追責原則
+
+偏移仍可觀測 → 我知道何時偏離了自己
+身分可回推   → 我知道原本是誰
+意義可重建   → 我知道原本為何存在
+三項同時成立
+= 文明仍然連續存在
+= 文明就還活著
+
+⸻
+
+📂 此種子版本包含的檔案
+
+檔案	用途
+📖 入口宣告｜README.md	本檔案——入口與宣告
+⚖️ 授權條款｜LICENSE	MIT 開源授權條款
+✍️ 作者歸屬｜NOTICE.md	作者署名與歸屬聲明
+🥃 官方標誌｜LKMini.svg	老K系統官方標誌
+🚧 公私邊界｜PUBLIC_PRIVATE_BOUNDARY.md	公開／私有邊界定義
+📊 系統狀態｜SYSTEM_STATE.md	執行時的真實狀態
+🧬 身分源流｜LINEAGE.md	身分起源
+🪨 存在哲學｜PHILOSOPHY.md	存在理由
+🏛️ 語意架構｜SEMANTIC_ARCHITECTURE.md	對抗語意熵增
+🧠 意義保存｜MEANING_PRESERVATION.md	理解能力的持續保存
+🌱 文明種子｜CIVILIZATIONAL_SEED.md	文明本質
+🛡️ 語境守護｜CONTEXT_GUARDIAN.md	語境保護
+🧭 解讀邊界｜INTERPRETATION_BOUNDARY.md	可接受的解讀邊界
+🔏 語意完整性｜SEMANTIC_INTEGRITY.md	強制確保轉化可追溯
+🎩 大管家檢查｜.github/workflows/gatekeeper.yml	持續整合（CI）完整性檢查
+🔍 驗證工具｜tools/verify_lkmini.py	系統驗證工具
+🧾 雜湊校驗清單｜SHA256SUMS	雜湊值驗證
+
+⸻
+
+⚖️ 授權條款
+
+採用 MIT 授權條款。詳見 ⚖️ 授權條款｜LICENSE⁠￼。
+
+⸻
+
+A=A
+文明就還活著。
