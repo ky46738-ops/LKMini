@@ -28,6 +28,6 @@
 
 ## 衍生物處理
 
-衍生物必須保留原始 LICENSE、NOTICE 和 attribution。
+衍生物必須保留原始 ⚖️授權條款｜LICENSE、NOTICE 和 attribution。
 
 A_EQUALS_A=true

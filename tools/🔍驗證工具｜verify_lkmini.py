@@ -9,14 +9,14 @@ import sys
 import os
 
 REQUIRED_FILES = [
-    "README.md",
-    "LICENSE",
-    "NOTICE.md",
-    "LKMini.svg",
-    "PUBLIC_PRIVATE_BOUNDARY.md",
-    "SHA256SUMS",
-    ".github/workflows/🎩大管家.yml",
-    "tools/verify_lkmini.py",
+    "📖入口宣告｜README.md",
+    "⚖️授權條款｜LICENSE",
+    "✍️作者歸屬｜NOTICE.md",
+    "🥃官方標誌｜LKMini.svg",
+    "🚧公私邊界｜PUBLIC_PRIVATE_BOUNDARY.md",
+    "🧾雜湊校驗清單｜SHA256SUMS",
+    ".github/workflows/🎩大管家｜Gatekeeper.yml",
+    "tools/🔍驗證工具｜verify_lkmini.py",
 ]
 
 PRIVATE_MARKERS = ["PRIVATE_ENGINE", "ENGINE_REGISTRY_PRIVATE"]
@@ -36,7 +36,7 @@ def check_required_files():
     return True
 
 def check_a_equals_a():
-    with open("README.md", "r") as f:
+    with open("📖入口宣告｜README.md", "r") as f:
         if "A_EQUALS_A=true" not in f.read():
             print("FAIL: A=A marker missing")
             return False
@@ -44,11 +44,11 @@ def check_a_equals_a():
     return True
 
 def check_sha256sums():
-    if not os.path.exists("SHA256SUMS"):
-        print("FAIL: SHA256SUMS missing")
+    if not os.path.exists("🧾雜湊校驗清單｜SHA256SUMS"):
+        print("FAIL: 🧾雜湊校驗清單｜SHA256SUMS missing")
         return False
     ok = True
-    with open("SHA256SUMS", "r") as f:
+    with open("🧾雜湊校驗清單｜SHA256SUMS", "r") as f:
         for line in f:
             line = line.strip()
             if not line or line.startswith("#"):
@@ -74,7 +74,7 @@ def check_sha256sums():
 # 這些是公開安全政策中對禁止詞的「文字說明」，不是引擎資料本體。
 # 僅放行完全相同的原句；其餘包含私有標記的內容仍拒絕。
 DOCUMENTED_MARKER_LINES = {
-    "PUBLIC_PRIVATE_BOUNDARY.md": {
+    "🚧公私邊界｜PUBLIC_PRIVATE_BOUNDARY.md": {
         "- PRIVATE_ENGINE_FLEET",
         "- ENGINE_REGISTRY_PRIVATE",
     },

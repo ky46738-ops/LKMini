@@ -1,0 +1,13 @@
+# 🧾雜湊校驗清單｜SHA256SUMS — LKMini seed_v0
+# Generated: 2026-05-17
+# Author: ky46738-ops
+# A_EQUALS_A=true
+# SHA256SUMS_STATUS=REAL
+
+19ea3177dc84ede73f88bc62c75dc89cf346f2312fced1db16f0e33632ec8681  📖入口宣告｜README.md
+42ddbbcc14f603f03892df27893e3c57656e717936e5043dab1d38c37d83afb2  ⚖️授權條款｜LICENSE
+be2a7664b5e11bdfc22bf2c63def65127ce61dbaf288ddabe9e0291d242e6de5  ✍️作者歸屬｜NOTICE.md
+062c6cf688fd2ed5ded52cae1460d1fb44a39e0d546354abd016ae0ee815e436  🥃官方標誌｜LKMini.svg
+58208f6019cfb605bc98663f0effd4f7d59dcaa59f10836c35c76d597b867b38  🚧公私邊界｜PUBLIC_PRIVATE_BOUNDARY.md
+156ef30d18935afc74224d1d509218310ae6c1d650520bb4b06bdcfe700d2d0f  .github/workflows/🎩大管家｜Gatekeeper.yml
+2942d9d3695652cc2961ad9c7e1c660d2339a48ed0294d961344ca1742f68007  tools/🔍驗證工具｜verify_lkmini.py

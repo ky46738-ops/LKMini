@@ -8,13 +8,13 @@ Status: SEED_V0
 
 | File | Description | Status |
 |------|-------------|--------|
-| README.md | Project overview and attribution | ✅ |
-| LICENSE | MIT License | ✅ |
+| 📖入口宣告｜README.md | Project overview and attribution | ✅ |
+| ⚖️授權條款｜LICENSE | MIT License | ✅ |
 | NOTICE | Original authorship notice | ✅ |
 | MANIFEST | This file — registry of all public seed files | ✅ |
-| PUBLIC_PRIVATE_BOUNDARY.md | Defines what is public vs private | ✅ |
-| SHA256SUMS | Hash verification of all core files | ⏳ pending |
-| .github/workflows/🎩大管家.yml | Automated integrity check | ✅ |
+| 🚧公私邊界｜PUBLIC_PRIVATE_BOUNDARY.md | Defines what is public vs private | ✅ |
+| 🧾雜湊校驗清單｜SHA256SUMS | Hash verification of all core files | ⏳ pending |
+| .github/workflows/🎩大管家｜Gatekeeper.yml | Automated integrity check | ✅ |
 
 ## Integrity
 
