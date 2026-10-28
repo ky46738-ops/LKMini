@@ -1,4 +1,4 @@
-name: Gatekeeper
+name: "🎩 大管家"
 on: [push, pull_request]
 
 jobs:
