@@ -1,0 +1,29 @@
+{
+  "System": "🥃老K系統",
+  "RootAnchorSHA256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
+  "Mini256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
+  "Identity": "🧩LKMINI",
+  "IdentityURI": "LKMINI://",
+  "IdentityCount": 1,
+  "Repository": "ky46738-ops/LKMini",
+  "CanonicalRepository": "ky46738-ops/LKMini-Original-0517",
+  "CanonicalBranch": "main",
+  "CanonicalDirectory": "🥃老K系統",
+  "CanonicalDirectoryURL": "https://github.com/ky46738-ops/LKMini-Original-0517/tree/main/%F0%9F%A5%83%E8%80%81K%E7%B3%BB%E7%B5%B1",
+  "CanonicalWelcomePath": "🥃老K系統/🥳歡迎光臨｜README.md",
+  "CanonicalWelcomeURL": "https://github.com/ky46738-ops/LKMini-Original-0517/blob/main/%F0%9F%A5%83%E8%80%81K%E7%B3%BB%E7%B5%B1/%F0%9F%A5%B3%E6%AD%A1%E8%BF%8E%E5%85%89%E8%87%A8%EF%BD%9CREADME.md",
+  "CanonicalRegistryPath": "🥃老K系統/🧭全域統一回指.json",
+  "Route": [
+    "本倉庫",
+    "🧭回到老K系統.json",
+    "🥃老K系統/🥳歡迎光臨｜README.md",
+    "🧩LKMINI",
+    "LKMINI://",
+    "A=A"
+  ],
+  "OriginalPathsPreserved": true,
+  "HistoricalCommitsPreserved": true,
+  "PrivateDataBoundary": "維持原倉庫存取權限",
+  "Rule": "所有 GitHub 倉庫回指同一🥃老K系統；不建立第二本體；保留既有功能入口。",
+  "Status": "GitHub locator committed; external runtime verification independent"
+}
