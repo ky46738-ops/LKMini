@@ -3,7 +3,7 @@
   "RootAnchorSHA256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
   "Mini256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
   "Identity": "🧩LKMINI",
-  "IdentityURI": "LKMINI://",
+  "IdentityURI": "https://lkmini.com/",
   "IdentityCount": 1,
   "Repository": "ky46738-ops/LKMini",
   "CanonicalRepository": "ky46738-ops/LKMini-Original-0517",
@@ -18,12 +18,18 @@
     "🧭回到老K系統.json",
     "🥃老K系統/🥳歡迎光臨｜README.md",
     "🧩LKMINI",
-    "LKMINI://",
+    "https://lkmini.com/",
     "A=A"
   ],
   "OriginalPathsPreserved": true,
   "HistoricalCommitsPreserved": true,
   "PrivateDataBoundary": "維持原倉庫存取權限",
   "Rule": "所有 GitHub 倉庫回指同一🥃老K系統；不建立第二本體；保留既有功能入口。",
-  "Status": "GitHub locator committed; external runtime verification independent"
+  "Status": "GitHub locator committed; external runtime verification independent",
+  "LegacyIdentityURI": "LKMINI://",
+  "NamespaceAliases": [
+    "LKMINI://"
+  ],
+  "CanonicalNamespace": "https://lkmini.com/",
+  "NamespaceMigrationRule": "主權身份與Mini256維持不變；舊LKMINI://依相同路徑對映到https://lkmini.com/底下，保留舊式別名供歷史定位；網域路由實際可達性另行驗證。"
 }
