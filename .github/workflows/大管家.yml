@@ -1,5 +1,7 @@
-name: Gatekeeper
+name: 🎩大管家
 on: [push, pull_request]
+permissions:
+  contents: read
 
 jobs:
   verify:
@@ -7,9 +9,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Check required files exist
+      - name: 核對八檔公開白名單及完整性
         run: |
-          for f in README.md LICENSE NOTICE.md LKMini.svg PUBLIC_PRIVATE_BOUNDARY.md SHA256SUMS .github/workflows/gatekeeper.yml tools/verify_lkmini.py; do
+          for f in README.md LICENSE NOTICE.md LKMini.svg PUBLIC_PRIVATE_BOUNDARY.md SHA256SUMS .github/workflows/大管家.yml tools/verify_lkmini.py; do
             if [ ! -f "$f" ]; then
               echo "FAIL: Missing $f"
               exit 1

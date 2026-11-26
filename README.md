@@ -1,4 +1,4 @@
- 🥃 LKMini — 老K系統公開種子版本
+# 🥃 LKMini — 老K系統公開種子版本
 
 > LKMini is the open-source public seed of the 🥃LK System (老K系統),  
 > designed and authored by **ky46738-ops** (Taiwan).
@@ -10,7 +10,7 @@
 LKMini is the **minimal** public seed of the LK System architecture.  
 It defines the boundary between public-facing components and private engine internals.
 
-- Single core architecture (🥃永恒核心)
+- Single root identity architecture (🥃永恆核心) — multiple independently identified engines may belong to the same root.
 - Gatekeeper role (🎩大管家) protects all settings
 - Public/Private boundary enforced at repo level
 - All claims must be verifiable and traceable
@@ -31,10 +31,10 @@ It defines the boundary between public-facing components and private engine inte
 
 ## Semantic Civilization Architecture
 
-這個 repo 由十層存活依賴鏈組成。  
+原始設計由十層存活依賴鏈組成；公開八檔保留其語意說明，完整原件與實作依公私邊界保全。  
 每一層都是上一層的生存條件，不是備註。
 
-| Layer | 檔案 | 職責 |
+| Layer | 語意層 | 職責 |
 |-------|------|------|
 | 1 | canonical files / README | artifact 本身，signal 的載體 |
 | 2 | SYSTEM_STATE | runtime truth，分離健康狀態 |
@@ -88,20 +88,18 @@ meaning 可重建   →  我知道原本為何存在
 | NOTICE.md | Authorship attribution |
 | LKMini.svg | Official logo |
 | PUBLIC_PRIVATE_BOUNDARY.md | Public/private boundary definition |
-| SYSTEM_STATE.md | Runtime truth |
-| LINEAGE.md | Identity origin |
-| PHILOSOPHY.md | Existence reason |
-| SEMANTIC_ARCHITECTURE.md | Entropy resistance |
-| MEANING_PRESERVATION.md | Understanding persistence |
-| CIVILIZATIONAL_SEED.md | Civilizational nature |
-| CONTEXT_GUARDIAN.md | Context protection |
-| INTERPRETATION_BOUNDARY.md | Admissible interpretation boundary |
-| SEMANTIC_INTEGRITY.md | Traceable transformation enforcement |
-| .github/workflows/gatekeeper.yml | CI integrity check |
+| .github/workflows/大管家.yml | CI integrity check |
 | tools/verify_lkmini.py | Verification tool |
 | SHA256SUMS | Hash verification |
 
 ---
+
+## 原始過關條件
+
+- 公開追蹤檔案恰為上述八份；其餘原件依公私邊界保全。
+- 七份內容檔逐一以 SHA256SUMS 核對；清單自身由 Git 物件身分及提交歷史追溯。
+- A=A 標記與公私邊界檢查必須通過；實際結果以當次大管家執行回執為準。
+- 十層語意鏈的完整實作另依既有原件逐項驗收；公開八檔通過並不等於全部引擎或謎題通過。
 
 ## License
 

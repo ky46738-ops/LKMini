@@ -7,6 +7,8 @@ A_EQUALS_A=true
 import hashlib
 import sys
 import os
+import re
+import subprocess
 
 REQUIRED_FILES = [
     "README.md",
@@ -15,7 +17,7 @@ REQUIRED_FILES = [
     "LKMini.svg",
     "PUBLIC_PRIVATE_BOUNDARY.md",
     "SHA256SUMS",
-    ".github/workflows/gatekeeper.yml",
+    ".github/workflows/大管家.yml",
     "tools/verify_lkmini.py",
 ]
 
@@ -28,11 +30,15 @@ def sha256_file(path):
     return h.hexdigest()
 
 def check_required_files():
-    missing = [f for f in REQUIRED_FILES if not os.path.exists(f)]
-    if missing:
-        print(f"FAIL: Missing files: {missing}")
+    expected = set(REQUIRED_FILES)
+    tracked = set(subprocess.check_output(["git", "ls-files", "-z"]).decode("utf-8").rstrip("\0").split("\0"))
+    missing = sorted(expected - tracked)
+    extra = sorted(tracked - expected)
+    invalid = sorted(p for p in expected if not os.path.isfile(p) or os.path.islink(p))
+    if missing or extra or invalid:
+        print(f"FAIL: missing={missing}; extra={extra}; invalid={invalid}")
         return False
-    print("PASS: All required files exist")
+    print("PASS: Exactly eight tracked public files")
     return True
 
 def check_a_equals_a():
@@ -44,31 +50,36 @@ def check_a_equals_a():
     return True
 
 def check_sha256sums():
-    if not os.path.exists("SHA256SUMS"):
-        print("FAIL: SHA256SUMS missing")
-        return False
+    expected_paths = set(REQUIRED_FILES) - {"SHA256SUMS"}
+    seen = set()
     ok = True
-    with open("SHA256SUMS", "r") as f:
+    with open("SHA256SUMS", encoding="utf-8") as f:
         for line in f:
-            line = line.strip()
-            if not line or line.startswith("#"):
+            line = line.rstrip("\r\n")
+            if not line.strip() or line.startswith("#"):
                 continue
             parts = line.split("  ", 1)
             if len(parts) != 2:
-                continue
-            expected, path = parts
-            if not os.path.exists(path):
-                print(f"FAIL: {path} not found")
+                print("FAIL: Invalid SHA256 record")
                 ok = False
                 continue
-            actual = sha256_file(path)
-            if actual != expected:
-                print(f"FAIL: {path} hash mismatch")
+            expected, path = parts
+            if (not re.fullmatch(r"[0-9a-f]{64}", expected) or
+                    path not in expected_paths or path in seen):
+                print(f"FAIL: Invalid or duplicate SHA256 path: {path}")
+                ok = False
+                continue
+            seen.add(path)
+            if not os.path.isfile(path) or os.path.islink(path) or sha256_file(path) != expected:
+                print(f"FAIL: {path} hash mismatch or invalid file")
                 ok = False
             else:
                 print(f"OK: {path}")
+    if seen != expected_paths:
+        print("FAIL: SHA256 coverage incomplete")
+        ok = False
     if ok:
-        print("PASS: All hashes match")
+        print("PASS: All seven content hashes match")
     return ok
 
 # 這些是公開安全政策中對禁止詞的「文字說明」，不是引擎資料本體。

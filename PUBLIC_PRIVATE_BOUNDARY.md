@@ -12,10 +12,12 @@ This document defines the boundary between public (LKMini) and private (🥃老K
 - LKMini.svg
 - PUBLIC_PRIVATE_BOUNDARY.md
 - SHA256SUMS
-- .github/workflows/gatekeeper.yml
+- .github/workflows/大管家.yml
 - tools/verify_lkmini.py
 
 ---
+
+公開追蹤檔案固定為上述八份。每次發布以八檔白名單及實際內容驗證為準；歷史與私人資料另行保全。
 
 ## 🔒 Private (NOT in this repo)
 
